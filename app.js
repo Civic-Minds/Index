@@ -362,17 +362,3 @@ closeBtn.addEventListener('click', () => {
 openBtn.addEventListener('click', () => {
     showSidebar();
 });
-ame', '']]);
-    }
-});
-
-closeBtn.addEventListener('click', () => {
-    hideSidebar();
-    if (map) {
-        map.setFilter('transit-lines-hover', ['all', ['in', '$type', 'LineString', 'MultiLineString'], ['==', 'name', '']]);
-    }
-});
-
-openBtn.addEventListener('click', () => {
-    showSidebar();
-});
