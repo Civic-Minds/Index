@@ -73,8 +73,18 @@ function initializeMap(token) {
         container: 'map',
         style: 'mapbox://styles/mapbox/light-v11',
         center: [-98.5, 39.5], // North America
-        zoom: 3
+        zoom: 3,
+        attributionControl: false
     });
+
+    // Disable all navigation interactions for a "static graphic" feel
+    map.scrollZoom.disable();
+    map.boxZoom.disable();
+    map.dragPan.disable();
+    map.dragRotate.disable();
+    map.keyboard.disable();
+    map.doubleClickZoom.disable();
+    map.touchZoomRotate.disable();
 
     map.on('load', () => {
         simplifyBaseMap();

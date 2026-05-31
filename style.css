@@ -42,6 +42,7 @@ html {
     bottom: 0;
     width: 100%;
     background: var(--frame-bg);
+    cursor: default;
 }
 
 .frame {
