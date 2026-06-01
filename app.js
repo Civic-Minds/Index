@@ -13,6 +13,7 @@ const openBtn = document.getElementById('open-sidebar');
 const backBtn = document.getElementById('back-to-list');
 
 const statusFilter = document.getElementById('status-filter');
+const filterContainer = document.getElementById('filter-container');
 
 const tokenPrompt = document.getElementById('token-prompt');
 const tokenInput = document.getElementById('token-input');
@@ -260,7 +261,7 @@ function showProjectDetails(props) {
     projectStatus.textContent = (props.statusText || props.status).toUpperCase();
     projectStatus.className = `status-badge status-${props.status}`;
     projectDescription.textContent = props.description;
-    projectTimeline.innerHTML = `<strong style="font-family: 'Space Mono', monospace;">TIMELINE:</strong> ${props.timeline}`;
+    projectTimeline.innerHTML = `<strong>TIMELINE:</strong> ${props.timeline}`;
 
     // Handle milestones
     projectMilestones.innerHTML = '';
@@ -290,6 +291,7 @@ function showProjectDetails(props) {
     }
 
     projectList.classList.add('hidden');
+    filterContainer.classList.add('hidden');
     detailsView.classList.remove('hidden');
     showSidebar();
 
@@ -356,6 +358,7 @@ statusFilter.addEventListener('change', applyFilters);
 backBtn.addEventListener('click', () => {
     projectName.textContent = DEFAULT_TITLE;
     projectList.classList.remove('hidden');
+    filterContainer.classList.remove('hidden');
     detailsView.classList.add('hidden');
     if (map) {
         map.setFilter('transit-lines-hover', ['all', ['in', '$type', 'LineString', 'MultiLineString'], ['==', 'name', '']]);
