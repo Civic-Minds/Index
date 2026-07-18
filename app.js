@@ -28,7 +28,6 @@ const MAP_BACKGROUND_COLOR = '#ffffff';
 
 let map;
 let allProjects = [];
-let markers = [];
 const hiddenStatuses = new Set();
 
 function isProjectFeature(feature) {
@@ -144,6 +143,19 @@ function initializeMap(token) {
             'filter': ['==', 'name', '']
         });
 
+        map.addLayer({
+            'id': 'transit-stations',
+            'type': 'circle',
+            'source': 'transit-projects',
+            'filter': ['==', 'feature_type', 'station'],
+            'paint': {
+                'circle-radius': 5,
+                'circle-color': ['coalesce', ['get', 'color'], '#f28c28'],
+                'circle-stroke-color': '#ffffff',
+                'circle-stroke-width': 2
+            }
+        });
+
         map.on('click', 'transit-lines', (e) => {
             const props = e.features[0].properties;
             showProjectDetails(props);
@@ -154,6 +166,20 @@ function initializeMap(token) {
         });
 
         map.on('mouseleave', 'transit-lines', () => {
+            map.getCanvas().style.cursor = '';
+        });
+
+        map.on('click', 'transit-stations', (e) => {
+            const station = e.features[0].properties;
+            const project = allProjects.find(item => item.properties.name === station.project_name);
+            if (project) showProjectDetails(project.properties);
+        });
+
+        map.on('mouseenter', 'transit-stations', () => {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+
+        map.on('mouseleave', 'transit-stations', () => {
             map.getCanvas().style.cursor = '';
         });
 
@@ -180,33 +206,6 @@ function updateMapData(data) {
     if (!map) return;
     map.getSource('transit-projects').setData(data);
     fitMapToData(data);
-
-    // Clear existing markers
-    markers.forEach(m => m.remove());
-    markers = [];
-
-    // Add point markers
-    data.features.forEach(feature => {
-        if (feature.geometry.type === 'Point') {
-            const el = document.createElement('div');
-            el.className = 'pulsing-dot';
-            el.style.borderColor = feature.properties.color || '#0072bc';
-
-            const marker = new mapboxgl.Marker(el)
-                .setLngLat(feature.geometry.coordinates)
-                .addTo(map);
-
-            el.addEventListener('click', () => {
-                const project = feature.properties.project_name
-                    ? allProjects.find(item => item.properties.name === feature.properties.project_name)
-                    : null;
-                showProjectDetails(project ? project.properties : feature.properties);
-            });
-
-            marker.status = feature.properties.status;
-            markers.push(marker);
-        }
-    });
 }
 
 function fitMapToData(data) {
@@ -341,14 +340,10 @@ function applyFilters() {
         if (hiddenStatuses.size) lineFilters.push(['!', ['in', 'status', ...hiddenStatuses]]);
         map.setFilter('transit-lines', lineFilters.length ? ['all', ...lineFilters] : null);
 
-        // Filter markers
-        markers.forEach((marker, index) => {
-            if (marker.status) {
-                const selectedStatusMatch = status === 'all' || marker.status === status;
-                const hiddenStatusMatch = hiddenStatuses.has(marker.status);
-                marker.getElement().style.display = selectedStatusMatch && !hiddenStatusMatch ? 'block' : 'none';
-            }
-        });
+        const stationFilters = [];
+        if (status !== 'all') stationFilters.push(['==', 'status', status]);
+        if (hiddenStatuses.size) stationFilters.push(['!', ['in', 'status', ...hiddenStatuses]]);
+        map.setFilter('transit-stations', stationFilters.length ? ['all', ['==', 'feature_type', 'station'], ...stationFilters] : ['==', 'feature_type', 'station']);
     }
 }
 
