@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - **Status Filtering**: The map legend now toggles project statuses on and off directly.
 - **Data Labeling**: Replaced the misleading live-update masthead with source-date labeling.
 - **Masthead**: Replaced decorative Roman numerals with the plain publication year.
+- **Sidebar**: Replaced the repeated product name with a direct `PROJECTS` heading.
 - **Project Copy**: Removed internal verification notes from public project details.
 - **Project Scope**: Limited the visible index to projects with corridor geometry until point-only records have mapped shapes.
 

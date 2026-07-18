@@ -20,7 +20,7 @@ const tokenPrompt = document.getElementById('token-prompt');
 const tokenInput = document.getElementById('token-input');
 const tokenSubmit = document.getElementById('token-submit');
 
-const DEFAULT_TITLE = 'TRANSIT INDEX';
+const DEFAULT_TITLE = 'PROJECTS';
 const PUBLIC_MAPBOX_TOKEN = 'pk.eyJ1Ijoicnlhbmhhbm5hIiwiYSI6ImNtbXk3MTkyYTM5ZHQyb3EzOWZnczV2NWUifQ.1ipGd2Oc07tCfLY7I_Fb1w';
 const STATUS_ORDER = ['planning', 'approved', 'construction', 'opened', 'delayed'];
 const MAP_BACKGROUND_COLOR = '#ffffff';
