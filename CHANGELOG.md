@@ -31,6 +31,8 @@ All notable changes to this project will be documented in this file.
 - **Eglinton Crosstown West Extension**: Added the Mount Dennis-to-Pearson corridor and its 11 mapped stations.
 - **ION Stage 2**: Added the Fairway-to-Cambridge corridor while leaving unfinalized station locations unmapped.
 - **Regional Corridors**: Added eight additional Metrolinx corridors, including Eglinton East, Hamilton A-Line, and Waterfront routes.
+- **Corridor Focus**: Clicking a route now zooms to the project and reveals its mapped stations.
+- **Bailey Avenue BRT**: Added NFTA’s Bailey corridor from University Station to South Buffalo.
 - **Project Copy**: Removed internal verification notes from public project details.
 - **Project Scope**: Limited the visible index to projects with corridor geometry until point-only records have mapped shapes.
 
