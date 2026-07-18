@@ -36,6 +36,7 @@ All notable changes to this project will be documented in this file.
 - **Project Copy**: Removed internal verification notes from public project details.
 - **Project Scope**: Limited the visible index to projects with corridor geometry until point-only records have mapped shapes.
 - **Station Visibility**: Hide station markers on the overview until a corridor or project is selected.
+- **London Rapid Transit**: Added the East London Link and Wellington Gateway construction corridors.
 
 ## [1.3.0] - 2026-05-31
 
