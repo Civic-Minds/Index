@@ -28,6 +28,9 @@ All notable changes to this project will be documented in this file.
 - **Durham-Scarborough BRT**: Added the corridor while clearly marking its station layer as unmapped.
 - **Status Filtering**: Synced legend toggles across the project list, route lines, stations, and active-project highlight.
 - **Project Focus**: Keep station layers hidden until a visitor selects a project or corridor.
+- **Eglinton Crosstown West Extension**: Added the Mount Dennis-to-Pearson corridor and its 11 mapped stations.
+- **ION Stage 2**: Added the Fairway-to-Cambridge corridor while leaving unfinalized station locations unmapped.
+- **Regional Corridors**: Added eight additional Metrolinx corridors, including Eglinton East, Hamilton A-Line, and Waterfront routes.
 - **Project Copy**: Removed internal verification notes from public project details.
 - **Project Scope**: Limited the visible index to projects with corridor geometry until point-only records have mapped shapes.
 

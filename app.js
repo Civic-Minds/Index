@@ -23,7 +23,7 @@ const tokenSubmit = document.getElementById('token-submit');
 const DEFAULT_TITLE = 'PROJECTS';
 const PUBLIC_MAPBOX_TOKEN = 'pk.eyJ1Ijoicnlhbmhhbm5hIiwiYSI6ImNtbXk3MTkyYTM5ZHQyb3EzOWZnczV2NWUifQ.1ipGd2Oc07tCfLY7I_Fb1w';
 const STATUS_ORDER = ['planning', 'approved', 'construction', 'opened', 'delayed'];
-const ACTIVE_PROJECT_NAMES = new Set(['Eglinton Crosstown LRT', 'Finch West LRT', 'Hazel McCallion Line', 'Hamilton B-Line LRT', 'Ontario Line', 'Scarborough Subway Extension', 'Yonge North Subway Extension', 'Durham-Scarborough BRT']);
+const ACTIVE_PROJECT_NAMES = new Set(['Eglinton Crosstown LRT', 'Finch West LRT', 'Hazel McCallion Line', 'Hamilton B-Line LRT', 'Ontario Line', 'Scarborough Subway Extension', 'Yonge North Subway Extension', 'Durham-Scarborough BRT', 'Eglinton Crosstown West Extension', 'ION Stage 2']);
 const MAP_BACKGROUND_COLOR = '#ffffff';
 
 let map;
@@ -67,12 +67,17 @@ tokenSubmit.addEventListener('click', () => {
 
 async function fetchProjects() {
     try {
-        const response = await fetch('data/projects.json');
+        const [response, supplementalResponse] = await Promise.all([
+            fetch('data/projects.json'),
+            fetch('data/regional-projects.json')
+        ]);
         const data = await response.json();
-        const projectFeatures = data.features.filter(feature =>
+        const supplemental = await supplementalResponse.json();
+        const features = [...data.features, ...supplemental.features];
+        const projectFeatures = features.filter(feature =>
             isProjectFeature(feature) && ACTIVE_PROJECT_NAMES.has(feature.properties.name)
         );
-        const stationFeatures = data.features.filter(feature =>
+        const stationFeatures = features.filter(feature =>
             isStationFeature(feature) && ACTIVE_PROJECT_NAMES.has(feature.properties.project_name)
         );
         allProjects = projectFeatures;
