@@ -231,7 +231,7 @@ function fitMapToData(data) {
     });
 
     if (hasCoords) {
-        map.fitBounds(bounds, { padding: 70, maxZoom: 6 });
+        map.fitBounds(bounds, { padding: 70, maxZoom: 11 });
     }
 }
 
