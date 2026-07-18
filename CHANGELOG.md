@@ -20,6 +20,8 @@ All notable changes to this project will be documented in this file.
 - **Corridor Rendering**: Made the active route line render independently of station point features.
 - **Map Framing**: Zoomed the map to the active corridor instead of capping the initial view at regional scale.
 - **Finch West LRT**: Added the Line 6 corridor and all 18 station locations from TTC schedule geometry.
+- **Hazel McCallion Line**: Added the Hurontario LRT corridor and its 19 construction-phase stops.
+- **Hamilton B-Line LRT**: Added the McMaster-to-Eastgate corridor and 17 planned stops.
 - **Project Copy**: Removed internal verification notes from public project details.
 - **Project Scope**: Limited the visible index to projects with corridor geometry until point-only records have mapped shapes.
 
