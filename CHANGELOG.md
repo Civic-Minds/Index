@@ -22,6 +22,9 @@ All notable changes to this project will be documented in this file.
 - **Finch West LRT**: Added the Line 6 corridor and all 18 station locations from TTC schedule geometry.
 - **Hazel McCallion Line**: Added the Hurontario LRT corridor and its 19 construction-phase stops.
 - **Hamilton B-Line LRT**: Added the McMaster-to-Eastgate corridor and 17 planned stops.
+- **Ontario Line**: Added the Metrolinx corridor and all 15 construction-phase stations.
+- **Scarborough Subway Extension**: Added the Line 2 extension and its four mapped stations.
+- **Yonge North Subway Extension**: Added the Line 1 extension to Richmond Hill Centre and its six mapped stations.
 - **Project Copy**: Removed internal verification notes from public project details.
 - **Project Scope**: Limited the visible index to projects with corridor geometry until point-only records have mapped shapes.
 

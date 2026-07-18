@@ -2614,8 +2614,7 @@
         "description": "The Finch West LRT runs between Humber College and Finch West with 18 stations and stops.",
         "color": "#8b5cf6",
         "milestones": [
-          "18 stations and stops represented",
-          "Humber College to Finch West corridor mapped from TTC GTFS"
+          "18 stations and stops represented"
         ],
         "source_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/ttc-routes-and-schedules"
       },
@@ -2732,7 +2731,7 @@
         "timeline": "18-kilometre line from Port Credit GO to Brampton Gateway Terminal.",
         "description": "The Hurontario LRT, named the Hazel McCallion Line, is being built with 19 stops along Hurontario Street.",
         "color": "#00a6a6",
-        "milestones": ["19 stops represented", "Port Credit GO to Brampton Gateway Terminal corridor mapped from Metrolinx FRTN data"],
+        "milestones": ["19 stops represented"],
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/hazel-mccallion-lrt"
       },
       "geometry": {"type":"MultiLineString","coordinates":[[[-79.64370395,43.59835781],[-79.64451782,43.59687407],[-79.64633609,43.59503634],[-79.64709726,43.59432577]],[[-79.73304917,43.66597881],[-79.71677357,43.65392677],[-79.71259073,43.65076458],[-79.69881777,43.64060401],[-79.6839779,43.62942354],[-79.67673073,43.62424269],[-79.65552045,43.60854794],[-79.64727533,43.60271583],[-79.64536073,43.60063893],[-79.64523678,43.59965861],[-79.64505813,43.59932464],[-79.64485008,43.59910094],[-79.6439901,43.59852219],[-79.64216828,43.59802072],[-79.6405381,43.59765477],[-79.62899381,43.58928533],[-79.62230392,43.5844798],[-79.61011354,43.57583569],[-79.60327699,43.5710804],[-79.59986712,43.56808827],[-79.59070066,43.56170229],[-79.58522459,43.55776667]]]}
@@ -2767,7 +2766,7 @@
         "timeline": "14-kilometre corridor from McMaster University to Eastgate Square.",
         "description": "Hamilton's B-Line LRT will run on dedicated tracks through the lower city from McMaster University to Eastgate Square.",
         "color": "#d97706",
-        "milestones": ["17 stops represented", "McMaster University to Eastgate Square corridor mapped from Metrolinx FRTN data"],
+        "milestones": ["17 stops represented"],
         "source_url": "https://www.hamilton.ca/city-council/plans-strategies/light-rail-transit-lrt"
       },
       "geometry": {"type":"LineString","coordinates":[[-79.76416893,43.22810074],[-79.78440743,43.2322913],[-79.78645507,43.2327688],[-79.7889831,43.23345298],[-79.79091771,43.23396219],[-79.79575038,43.23513849],[-79.79951562,43.23600891],[-79.80023241,43.23654779],[-79.80076556,43.23712603],[-79.80132929,43.23781421],[-79.8017481,43.23817532],[-79.80222924,43.23836608],[-79.80380763,43.23885984],[-79.80455061,43.23908296],[-79.80511637,43.23924839],[-79.8066167,43.23962802],[-79.80754856,43.23986204],[-79.80846898,43.24009393],[-79.80939429,43.24031392],[-79.81091911,43.2406346],[-79.81288679,43.2410356],[-79.81510544,43.24149562],[-79.81772531,43.24207633],[-79.81990009,43.24259788],[-79.82281786,43.2433031],[-79.82409973,43.24360975],[-79.82784093,43.24738538],[-79.83329814,43.25056975],[-79.83932089,43.25132938],[-79.84896803,43.25210101],[-79.86417258,43.25512419],[-79.87868732,43.25939829],[-79.8879793,43.26220351],[-79.8898909,43.26273905],[-79.89068577,43.26268821],[-79.89218066,43.2620515],[-79.8926679,43.26167071],[-79.89360674,43.26080528],[-79.89438514,43.2605067],[-79.8964788,43.2602688],[-79.8975666,43.2600722],[-79.9013135,43.2592781],[-79.91177925,43.25790328],[-79.9194963,43.25769591]]}
@@ -2792,6 +2791,79 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Ontario Line",
+        "agency": "Metrolinx",
+        "category": "Subway",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "15.6-kilometre subway line from Exhibition Place to the Don Mills and Eglinton area.",
+        "description": "The Ontario Line will run from Exhibition Place through downtown Toronto to the Don Mills and Eglinton area with 15 stations.",
+        "color": "#7c3aed",
+        "milestones": ["15 stations represented"],
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/ontario-line"
+      },
+      "geometry": {"type":"MultiLineString","coordinates":[[[-79.35167557,43.69643516],[-79.34146349,43.67002805]],[[-79.41819508,43.63636854],[-79.40842138,43.6389941],[-79.40508577,43.64065375],[-79.40363766,43.64195532],[-79.4005491,43.64693909],[-79.39796408,43.64833253],[-79.36788141,43.65477918],[-79.36537196,43.65392942],[-79.36390843,43.65103564],[-79.36249176,43.64990243],[-79.35928834,43.64935716],[-79.35612581,43.65003976],[-79.34898135,43.65386643],[-79.34688146,43.65575889],[-79.34594115,43.65779564],[-79.34504161,43.66311559],[-79.34390606,43.6653697],[-79.34128691,43.66866536],[-79.34147077,43.67004603]],[[-79.35167611,43.69643413],[-79.35264978,43.70191876],[-79.35203435,43.70326918],[-79.34935283,43.70609262],[-79.34927197,43.70688671],[-79.34993879,43.70874501],[-79.34958575,43.70973503],[-79.34816414,43.71053498],[-79.33843396,43.71219876],[-79.33701816,43.71320382],[-79.33684694,43.71417768],[-79.33843201,43.71792228],[-79.33865942,43.72055972]]]}
+    },
+    {"type":"Feature","properties":{"name":"Osgoode","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.38657395,43.65075456]}},
+    {"type":"Feature","properties":{"name":"Queen","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.37921775,43.65233404]}},
+    {"type":"Feature","properties":{"name":"Pape","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.3452128,43.67971718]}},
+    {"type":"Feature","properties":{"name":"Science Centre","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.33865942,43.72055972]}},
+    {"type":"Feature","properties":{"name":"Exhibition","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.41821271,43.63637639]}},
+    {"type":"Feature","properties":{"name":"East Harbour","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.34735613,43.65518241]}},
+    {"type":"Feature","properties":{"name":"King / Bathurst","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.40249706,43.64380688]}},
+    {"type":"Feature","properties":{"name":"Queen / Spadina","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.39633908,43.64866988]}},
+    {"type":"Feature","properties":{"name":"Moss Park","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.37020707,43.65426668]}},
+    {"type":"Feature","properties":{"name":"Corktown","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.36438272,43.65213926]}},
+    {"type":"Feature","properties":{"name":"Riverside/Leslieville","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.34569611,43.65984045]}},
+    {"type":"Feature","properties":{"name":"Gerrard","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.34248613,43.66741901]}},
+    {"type":"Feature","properties":{"name":"Cosburn","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.34894948,43.68939057]}},
+    {"type":"Feature","properties":{"name":"Thorncliffe Park","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.35005187,43.70521637]}},
+    {"type":"Feature","properties":{"name":"Flemingdon Park","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.3371686,43.71501412]}},
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scarborough Subway Extension",
+        "agency": "Metrolinx / TTC",
+        "category": "Subway",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "7.8-kilometre extension from Kennedy Station to McCowan Road.",
+        "description": "The Scarborough Subway Extension will extend Line 2 from Kennedy to McCowan Road with three new stations.",
+        "color": "#dc2626",
+        "milestones": ["3 new stations represented"],
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/scarborough-subway-extension"
+      },
+      "geometry": {"type":"LineString","coordinates":[[-79.26452956,43.73225651],[-79.26306123,43.73272751],[-79.26049636,43.73396283],[-79.25834128,43.73443381],[-79.25813954,43.7345463],[-79.25795077,43.73455991],[-79.25698546,43.73478448],[-79.25341373,43.7355967],[-79.25312251,43.73563785],[-79.24832139,43.73665961],[-79.24807332,43.7366885],[-79.24623152,43.73709697],[-79.24608445,43.73735022],[-79.24579421,43.73801809],[-79.24563232,43.73840294],[-79.2455911,43.73853253],[-79.24554314,43.73874659],[-79.24551603,43.73898533],[-79.24551752,43.73926796],[-79.24553431,43.73991479],[-79.2455103,43.74081662],[-79.24539253,43.74196889],[-79.24484987,43.74416313],[-79.24458833,43.74635799],[-79.24442432,43.75280369],[-79.24539602,43.75516069],[-79.24541512,43.75553219],[-79.24550562,43.75644599],[-79.24621432,43.75836929],[-79.24895342,43.76541609],[-79.25139477,43.77088047],[-79.25293408,43.77489158],[-79.25881946,43.78960121]]}
+    },
+    {"type":"Feature","properties":{"name":"Kennedy","project_name":"Scarborough Subway Extension","feature_type":"station","status":"construction","color":"#dc2626"},"geometry":{"type":"Point","coordinates":[-79.26452971,43.73225651]}},
+    {"type":"Feature","properties":{"name":"Lawrence East","project_name":"Scarborough Subway Extension","feature_type":"station","status":"construction","color":"#dc2626"},"geometry":{"type":"Point","coordinates":[-79.24545384,43.75543875]}},
+    {"type":"Feature","properties":{"name":"Scarborough Centre","project_name":"Scarborough Subway Extension","feature_type":"station","status":"construction","color":"#dc2626"},"geometry":{"type":"Point","coordinates":[-79.25342428,43.77621057]}},
+    {"type":"Feature","properties":{"name":"McCowan","project_name":"Scarborough Subway Extension","feature_type":"station","status":"construction","color":"#dc2626"},"geometry":{"type":"Point","coordinates":[-79.25877044,43.78961206]}},
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yonge North Subway Extension",
+        "agency": "Metrolinx / TTC",
+        "category": "Subway",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "7.4-kilometre extension north from Finch Station to Richmond Hill Centre.",
+        "description": "The Yonge North Subway Extension will extend Line 1 from Finch Station to Richmond Hill Centre with six new stations.",
+        "color": "#2563eb",
+        "milestones": ["6 new stations represented"],
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/yonge-north-subway-extension"
+      },
+      "geometry": {"type":"LineString","coordinates":[[-79.41556755,43.7797612],[-79.41577925,43.7807214],[-79.41599165,43.7816298],[-79.41614737,43.78227239],[-79.41648524,43.78354535],[-79.41712448,43.78620248],[-79.41760091,43.78807754],[-79.42005527,43.79802067],[-79.42118868,43.8021611],[-79.42339967,43.81141953],[-79.42424271,43.81522178],[-79.4257363,43.82351951],[-79.42574593,43.82441524],[-79.42523739,43.825326],[-79.42449571,43.82570301],[-79.41731737,43.82772597],[-79.41631315,43.8282666],[-79.41562149,43.82910967],[-79.4156728,43.83011486],[-79.4159247,43.83084042],[-79.41920837,43.83411784],[-79.42005354,43.83439052],[-79.42112458,43.83507805],[-79.42203778,43.83614526],[-79.42568578,43.84079447]]}
+    },
+    {"type":"Feature","properties":{"name":"Cummer/Drewry","project_name":"Yonge North Subway Extension","feature_type":"station","status":"construction","color":"#2563eb"},"geometry":{"type":"Point","coordinates":[-79.41734049,43.7870611]}},
+    {"type":"Feature","properties":{"name":"Steeles","project_name":"Yonge North Subway Extension","feature_type":"station","status":"construction","color":"#2563eb"},"geometry":{"type":"Point","coordinates":[-79.42004938,43.7980308]}},
+    {"type":"Feature","properties":{"name":"Clark","project_name":"Yonge North Subway Extension","feature_type":"station","status":"construction","color":"#2563eb"},"geometry":{"type":"Point","coordinates":[-79.42237178,43.8071388]}},
+    {"type":"Feature","properties":{"name":"Royal Orchard","project_name":"Yonge North Subway Extension","feature_type":"station","status":"construction","color":"#2563eb"},"geometry":{"type":"Point","coordinates":[-79.42555686,43.82339001]}},
+    {"type":"Feature","properties":{"name":"Bridge","project_name":"Yonge North Subway Extension","feature_type":"station","status":"construction","color":"#2563eb"},"geometry":{"type":"Point","coordinates":[-79.42244806,43.83734513]}},
+    {"type":"Feature","properties":{"name":"High Tech","project_name":"Yonge North Subway Extension","feature_type":"station","status":"construction","color":"#2563eb"},"geometry":{"type":"Point","coordinates":[-79.42568578,43.84079447]}},
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Eglinton Crosstown LRT",
         "agency": "Metrolinx / TTC",
         "category": "Light Rail",
@@ -2800,10 +2872,7 @@
         "timeline": "Line 5 Eglinton opened to riders in 2026.",
         "description": "The 19-kilometre Eglinton Crosstown LRT runs between Mount Dennis and Kennedy with 25 stations and stops.",
         "color": "#f28c28",
-        "milestones": [
-          "25 stations and stops represented",
-          "Mount Dennis to Kennedy corridor mapped from TTC GTFS"
-        ],
+        "milestones": ["25 stations and stops represented"],
         "source_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/ttc-routes-and-schedules"
       },
       "geometry": {
