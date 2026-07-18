@@ -2605,6 +2605,125 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Finch West LRT",
+        "agency": "Metrolinx / TTC",
+        "category": "Light Rail",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "Line 6 Finch West opened to riders in 2025.",
+        "description": "The Finch West LRT runs between Humber College and Finch West with 18 stations and stops.",
+        "color": "#8b5cf6",
+        "milestones": [
+          "18 stations and stops represented",
+          "Humber College to Finch West corridor mapped from TTC GTFS"
+        ],
+        "source_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/ttc-routes-and-schedules"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-79.601361, 43.729937], [-79.591703, 43.736772], [-79.590028, 43.737738],
+          [-79.588806, 43.742032], [-79.586257, 43.743355], [-79.583604, 43.743232],
+          [-79.578401, 43.743885], [-79.566125, 43.746868], [-79.552316, 43.749944],
+          [-79.543043, 43.751947], [-79.535571, 43.753413], [-79.522508, 43.756348],
+          [-79.516445, 43.757386], [-79.50793, 43.759283], [-79.494558, 43.762267],
+          [-79.493289, 43.762777], [-79.490716, 43.763224]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Humber College", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.601445, 43.729905]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Westmore", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.60071, 43.734701]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Martin Grove", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.591916, 43.736708]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Albion", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.589034, 43.741404]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Stevenson", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.586943, 43.743185]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Mount Olive", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.58177, 43.74327]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Rowntree Mills", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.568298, 43.746365]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Pearldale", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.562493, 43.747724]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Duncanwoods", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.557338, 43.748853]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Milvan Rumike", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.552029, 43.749999]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Emery", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.542106, 43.752088]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Signet Arrow", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.53593, 43.753302]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Norfinch Oakdale", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.524004, 43.755953]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Jane and Finch", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.517421, 43.757205]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Driftwood", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.51316, 43.758068]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Tobermory", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.507742, 43.759309]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Sentinel", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.499846, 43.761085]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Finch West", "project_name": "Finch West LRT", "feature_type": "station", "status": "opened", "color": "#8b5cf6"},
+      "geometry": {"type": "Point", "coordinates": [-79.490703, 43.763147]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Eglinton Crosstown LRT",
         "agency": "Metrolinx / TTC",
         "category": "Light Rail",

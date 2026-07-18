@@ -19,6 +19,7 @@ All notable changes to this project will be documented in this file.
 - **Active Scope**: Limited the public index to Eglinton Crosstown until each additional project has a complete corridor and station layer.
 - **Corridor Rendering**: Made the active route line render independently of station point features.
 - **Map Framing**: Zoomed the map to the active corridor instead of capping the initial view at regional scale.
+- **Finch West LRT**: Added the Line 6 corridor and all 18 station locations from TTC schedule geometry.
 - **Project Copy**: Removed internal verification notes from public project details.
 - **Project Scope**: Limited the visible index to projects with corridor geometry until point-only records have mapped shapes.
 
