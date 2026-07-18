@@ -25,6 +25,7 @@ All notable changes to this project will be documented in this file.
 - **Ontario Line**: Added the Metrolinx corridor and all 15 construction-phase stations.
 - **Scarborough Subway Extension**: Added the Line 2 extension and its four mapped stations.
 - **Yonge North Subway Extension**: Added the Line 1 extension to Richmond Hill Centre and its six mapped stations.
+- **Durham-Scarborough BRT**: Added the corridor while clearly marking its station layer as unmapped.
 - **Project Copy**: Removed internal verification notes from public project details.
 - **Project Scope**: Limited the visible index to projects with corridor geometry until point-only records have mapped shapes.
 
