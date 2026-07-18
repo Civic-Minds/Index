@@ -23,6 +23,7 @@ const tokenSubmit = document.getElementById('token-submit');
 const DEFAULT_TITLE = 'PROJECTS';
 const PUBLIC_MAPBOX_TOKEN = 'pk.eyJ1Ijoicnlhbmhhbm5hIiwiYSI6ImNtbXk3MTkyYTM5ZHQyb3EzOWZnczV2NWUifQ.1ipGd2Oc07tCfLY7I_Fb1w';
 const STATUS_ORDER = ['planning', 'approved', 'construction', 'opened', 'delayed'];
+const ACTIVE_PROJECT_NAMES = new Set(['Eglinton Crosstown LRT']);
 const MAP_BACKGROUND_COLOR = '#ffffff';
 
 let map;
@@ -68,8 +69,12 @@ async function fetchProjects() {
     try {
         const response = await fetch('data/projects.json');
         const data = await response.json();
-        const projectFeatures = data.features.filter(isProjectFeature);
-        const stationFeatures = data.features.filter(isStationFeature);
+        const projectFeatures = data.features.filter(feature =>
+            isProjectFeature(feature) && ACTIVE_PROJECT_NAMES.has(feature.properties.name)
+        );
+        const stationFeatures = data.features.filter(feature =>
+            isStationFeature(feature) && ACTIVE_PROJECT_NAMES.has(feature.properties.project_name)
+        );
         allProjects = projectFeatures;
         populateFilters(allProjects);
         renderProjectList(allProjects);
