@@ -29,6 +29,7 @@ const MAP_BACKGROUND_COLOR = '#ffffff';
 let map;
 let allProjects = [];
 const hiddenStatuses = new Set();
+let activeProjectName = '';
 
 function isProjectFeature(feature) {
     return feature.geometry && ['LineString', 'MultiLineString'].includes(feature.geometry.type);
@@ -318,7 +319,8 @@ function showProjectDetails(props) {
     showSidebar();
 
     if (map) {
-        map.setFilter('transit-lines-hover', ['==', 'name', props.name]);
+        activeProjectName = props.name;
+        applyFilters();
     }
 }
 
@@ -333,17 +335,21 @@ function applyFilters() {
 
     renderProjectList(filtered);
 
-    // Update map visibility via filter
-    if (map) {
-        const lineFilters = [];
-        if (status !== 'all') lineFilters.push(['==', 'status', status]);
-        if (hiddenStatuses.size) lineFilters.push(['!', ['in', 'status', ...hiddenStatuses]]);
-        map.setFilter('transit-lines', lineFilters.length ? ['all', ...lineFilters] : null);
+    const visibleStatuses = STATUS_ORDER.filter(item => !hiddenStatuses.has(item));
+    const statusExpression = status !== 'all'
+        ? (hiddenStatuses.has(status) ? ['==', 'status', '__hidden__'] : ['==', 'status', status])
+        : visibleStatuses.length
+            ? ['any', ...visibleStatuses.map(item => ['==', 'status', item])]
+            : ['==', 'status', '__hidden__'];
 
-        const stationFilters = [];
-        if (status !== 'all') stationFilters.push(['==', 'status', status]);
-        if (hiddenStatuses.size) stationFilters.push(['!', ['in', 'status', ...hiddenStatuses]]);
-        map.setFilter('transit-stations', stationFilters.length ? ['all', ['==', 'feature_type', 'station'], ...stationFilters] : ['==', 'feature_type', 'station']);
+    // Update map visibility via the same status state as the project list.
+    if (map) {
+        map.setFilter('transit-lines', statusExpression);
+        const stationProjectExpression = activeProjectName
+            ? ['==', 'project_name', activeProjectName]
+            : ['==', 'feature_type', '__no_project_selected__'];
+        map.setFilter('transit-stations', ['all', ['==', 'feature_type', 'station'], stationProjectExpression, statusExpression]);
+        map.setFilter('transit-lines-hover', ['all', ['==', 'name', activeProjectName], statusExpression]);
     }
 }
 
@@ -392,14 +398,16 @@ backBtn.addEventListener('click', () => {
     filterContainer.classList.remove('hidden');
     detailsView.classList.add('hidden');
     if (map) {
-        map.setFilter('transit-lines-hover', ['==', 'name', '']);
+        activeProjectName = '';
+        applyFilters();
     }
 });
 
 closeBtn.addEventListener('click', () => {
     hideSidebar();
     if (map) {
-        map.setFilter('transit-lines-hover', ['==', 'name', '']);
+        activeProjectName = '';
+        applyFilters();
     }
 });
 
