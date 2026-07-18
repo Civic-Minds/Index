@@ -66,7 +66,7 @@ tokenSubmit.addEventListener('click', () => {
 
 async function fetchProjects() {
     try {
-        const response = await fetch('data/projects.json', { cache: 'no-store' });
+        const response = await fetch('data/projects.json');
         const data = await response.json();
         const projectFeatures = data.features.filter(isProjectFeature);
         const stationFeatures = data.features.filter(isStationFeature);

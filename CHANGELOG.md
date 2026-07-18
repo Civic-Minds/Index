@@ -16,7 +16,6 @@ All notable changes to this project will be documented in this file.
 - **Masthead**: Removed the unnecessary `TECHNICAL RECORD` descriptor.
 - **Eglinton Crosstown**: Added the Line 5 corridor and all 25 station locations from TTC schedule geometry.
 - **Map Data**: Separated corridor projects from station features so stations render on the map without becoming list entries.
-- **Data Loading**: Prevented cached project data from bringing removed point placeholders back into the list.
 - **Project Copy**: Removed internal verification notes from public project details.
 - **Project Scope**: Limited the visible index to projects with corridor geometry until point-only records have mapped shapes.
 
