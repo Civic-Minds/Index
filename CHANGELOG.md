@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Changed
+- **Map Launch**: The public map now opens without asking visitors to provide their own Mapbox token.
+- **Project Corridors**: Transit construction lines now render reliably when the map launches.
+
 ## [1.3.0] - 2026-05-31
 
 ### Changed

@@ -20,6 +20,7 @@ const tokenInput = document.getElementById('token-input');
 const tokenSubmit = document.getElementById('token-submit');
 
 const DEFAULT_TITLE = 'TRANSIT INDEX';
+const PUBLIC_MAPBOX_TOKEN = 'pk.eyJ1Ijoicnlhbmhhbm5hIiwiYSI6ImNtbXk3MTkyYTM5ZHQyb3EzOWZnczV2NWUifQ.1ipGd2Oc07tCfLY7I_Fb1w';
 const STATUS_ORDER = ['planning', 'approved', 'construction', 'opened', 'delayed'];
 const MAP_BACKGROUND_COLOR = '#ffffff';
 
@@ -39,8 +40,8 @@ function hideSidebar() {
 
 // Check for saved token
 const savedToken = localStorage.getItem('mapbox_token');
-if (savedToken) {
-    initializeMap(savedToken);
+if (savedToken || PUBLIC_MAPBOX_TOKEN) {
+    initializeMap(savedToken || PUBLIC_MAPBOX_TOKEN);
 }
 
 tokenSubmit.addEventListener('click', () => {
@@ -89,7 +90,6 @@ function initializeMap(token) {
 
     map.on('load', () => {
         simplifyBaseMap();
-        fetchProjects();
 
         // Show UI elements
         sidebar.classList.remove('hidden');
@@ -108,7 +108,7 @@ function initializeMap(token) {
             'layout': { 'line-join': 'round', 'line-cap': 'round' },
             'paint': {
                 'line-color': ['get', 'color'],
-                'line-width': 2.5,
+                'line-width': 3,
                 'line-opacity': 0.85,
                 'line-dasharray': [1.2, 2.2]
             },
@@ -140,6 +140,9 @@ function initializeMap(token) {
         map.on('mouseleave', 'transit-lines', () => {
             map.getCanvas().style.cursor = '';
         });
+
+        // Load project data only after its source and layers are ready.
+        fetchProjects();
     });
 }
 
