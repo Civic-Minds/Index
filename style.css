@@ -70,24 +70,6 @@ html {
     z-index: 600;
 }
 
-.masthead-meta {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.7rem;
-    font-weight: 300;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    letter-spacing: 0.08em;
-}
-
-.record-dot {
-    width: 6px;
-    height: 6px;
-    background: var(--st-text-muted);
-    border-radius: 50%;
-    display: inline-block;
-}
-
 .masthead-main {
     display: flex;
     flex-direction: column;
