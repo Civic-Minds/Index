@@ -2605,177 +2605,159 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ontario Line",
-        "agency": "Metrolinx",
-        "category": "Subway",
-        "status": "construction",
-        "statusText": "Under Construction",
-        "timeline": "Construction and early works underway.",
-        "description": "Toronto relief subway now under construction. Point marker used until an exact alignment layer is added.",
-        "color": "#cf4b41",
-        "milestones": [
-          "Project underway",
-          "See official project page for latest updates"
-        ],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/ontario-line"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.379,
-          43.653
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Eglinton Crosstown LRT",
-        "agency": "Metrolinx",
+        "agency": "Metrolinx / TTC",
         "category": "Light Rail",
         "status": "opened",
         "statusText": "Recently Opened",
-        "timeline": "Opened to riders.",
-        "description": "Midtown Toronto LRT corridor. Point marker used until an exact alignment layer is added.",
-        "color": "#d95a4f",
+        "timeline": "Line 5 Eglinton opened to riders in 2026.",
+        "description": "The 19-kilometre Eglinton Crosstown LRT runs between Mount Dennis and Kennedy with 25 stations and stops.",
+        "color": "#f28c28",
         "milestones": [
-          "Opened to riders",
-          "See official project page for latest updates"
+          "25 stations and stops represented",
+          "Mount Dennis to Kennedy corridor mapped from TTC GTFS"
         ],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/eglinton-crosstown-lrt"
+        "source_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/ttc-routes-and-schedules"
       },
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -79.387,
-          43.704
+          [-79.486493, 43.68757], [-79.472743, 43.690684], [-79.466649, 43.691789],
+          [-79.460826, 43.693347], [-79.453497, 43.694978], [-79.445209, 43.696787],
+          [-79.437189, 43.698513], [-79.432784, 43.699455], [-79.42314, 43.701508],
+          [-79.415504, 43.703118], [-79.407405, 43.704836], [-79.400282, 43.706351],
+          [-79.388879, 43.708653], [-79.380207, 43.710418], [-79.364802, 43.713565],
+          [-79.354172, 43.715807], [-79.347746, 43.717729], [-79.336669, 43.721178],
+          [-79.326908, 43.723978], [-79.319979, 43.725786], [-79.314614, 43.726178],
+          [-79.309842, 43.725477], [-79.304939, 43.724762], [-79.299413, 43.725203],
+          [-79.284829, 43.728471], [-79.272825, 43.731086], [-79.264842, 43.732969]
         ]
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "Finch West LRT",
-        "agency": "Metrolinx",
-        "category": "Light Rail",
-        "status": "opened",
-        "statusText": "Recently Opened",
-        "timeline": "Opened to riders.",
-        "description": "Northwest Toronto LRT corridor. Point marker used until an exact alignment layer is added.",
-        "color": "#c25a4b",
-        "milestones": [
-          "Opened to riders",
-          "See official project page for latest updates"
-        ],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/finch-west-lrt"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.533,
-          43.767
-        ]
-      }
+      "properties": {"name": "Mount Dennis", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.485789, 43.688025]}
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "Scarborough Subway Extension",
-        "agency": "Metrolinx",
-        "category": "Subway",
-        "status": "planning",
-        "statusText": "Planning",
-        "timeline": "Planning and procurement.",
-        "description": "Extension of Line 2 into Scarborough. Point marker used until an exact alignment layer is added.",
-        "color": "#b64b40",
-        "milestones": [
-          "Planning and procurement ongoing",
-          "See official project page for latest updates"
-        ],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/scarborough-subway-extension"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.272,
-          43.771
-        ]
-      }
+      "properties": {"name": "Keelesdale", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.474533, 43.690413]}
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "Yonge North Subway Extension",
-        "agency": "Metrolinx",
-        "category": "Subway",
-        "status": "planning",
-        "statusText": "Planning",
-        "timeline": "Planning and procurement.",
-        "description": "North extension of the Yonge subway corridor. Point marker used until an exact alignment layer is added.",
-        "color": "#b64b40",
-        "milestones": [
-          "Planning and procurement ongoing",
-          "See official project page for latest updates"
-        ],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/yonge-north-subway-extension"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.43,
-          43.857
-        ]
-      }
+      "properties": {"name": "Caledonia", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.465079, 43.692324]}
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "Hazel McCallion Line",
-        "agency": "Metrolinx / Mississauga",
-        "category": "Light Rail",
-        "status": "construction",
-        "statusText": "Under Construction",
-        "timeline": "Construction underway.",
-        "description": "Mississauga east-west LRT line. Point marker used until an exact alignment layer is added.",
-        "color": "#cf4b41",
-        "milestones": [
-          "Project underway",
-          "See official project page for latest updates"
-        ],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/hazel-mccallion-lrt/latest-updates"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.712,
-          43.594
-        ]
-      }
+      "properties": {"name": "Fairbank", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.44926, 43.695744]}
     },
     {
       "type": "Feature",
-      "properties": {
-        "name": "Durham-Scarborough BRT",
-        "agency": "Metrolinx",
-        "category": "BRT",
-        "status": "planning",
-        "statusText": "Planning",
-        "timeline": "Project planning / corridor study.",
-        "description": "Proposed bus rapid transit corridor east of Toronto. Point marker used until an exact alignment layer is added.",
-        "color": "#f39c12",
-        "milestones": [
-          "Planning and corridor work",
-          "See official project page for latest updates"
-        ],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/durham-scarborough-brt"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.24,
-          43.761
-        ]
-      }
+      "properties": {"name": "Oakwood", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.442726, 43.697429]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Cedarvale", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.435639, 43.69893]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Forest Hill", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.425086, 43.701136]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Chaplin", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.417098, 43.702913]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Avenue", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.408728, 43.704723]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Eglinton", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.398765, 43.70638]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Mount Pleasant", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.390329, 43.708503]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Leaside", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.376475, 43.710767]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Laird", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.364733, 43.713199]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Sunnybrook Park", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.34872, 43.717392]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Don Valley", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.338946, 43.719956]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Aga Khan Park & Museum", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.332284, 43.722496]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Wynford", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.326236, 43.724139]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Sloane", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.312252, 43.725837]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "O'Connor", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.301367, 43.72482]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Pharmacy", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.296325, 43.725881]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Hakimi Lebovic", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.290298, 43.727226]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Golden Mile", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.286352, 43.7281]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Birchmount", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.276636, 43.730223]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Ionview", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.271673, 43.731366]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Kennedy", "project_name": "Eglinton Crosstown LRT", "feature_type": "station", "status": "opened", "color": "#f28c28"},
+      "geometry": {"type": "Point", "coordinates": [-79.26448, 43.732791]}
     }
   ]
 }

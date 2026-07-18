@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ontario Line",
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/ontario-line"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eglinton Crosstown LRT",
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/eglinton-crosstown-lrt"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Finch West LRT",
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/finch-west-lrt"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scarborough Subway Extension",
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/scarborough-subway-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yonge North Subway Extension",
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/yonge-north-subway-extension"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hazel McCallion Line",
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/hazel-mccallion-lrt/latest-updates"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Durham-Scarborough BRT",
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/durham-scarborough-brt"
+      }
+    }
+  ]
+}

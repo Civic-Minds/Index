@@ -30,8 +30,12 @@ let allProjects = [];
 let markers = [];
 const hiddenStatuses = new Set();
 
-function hasShapeGeometry(project) {
-    return project.geometry && ['LineString', 'MultiLineString'].includes(project.geometry.type);
+function isProjectFeature(feature) {
+    return feature.geometry && ['LineString', 'MultiLineString'].includes(feature.geometry.type);
+}
+
+function isStationFeature(feature) {
+    return feature.properties?.feature_type === 'station' && feature.geometry?.type === 'Point';
 }
 
 function showSidebar() {
@@ -64,10 +68,12 @@ async function fetchProjects() {
     try {
         const response = await fetch('data/projects.json');
         const data = await response.json();
-        allProjects = data.features.filter(hasShapeGeometry);
+        const projectFeatures = data.features.filter(isProjectFeature);
+        const stationFeatures = data.features.filter(isStationFeature);
+        allProjects = projectFeatures;
         populateFilters(allProjects);
         renderProjectList(allProjects);
-        updateMapData({ ...data, features: allProjects });
+        updateMapData({ ...data, features: [...projectFeatures, ...stationFeatures] });
     } catch (error) {
         console.error('Error fetching projects:', error);
     }
@@ -187,9 +193,13 @@ function updateMapData(data) {
                 .addTo(map);
 
             el.addEventListener('click', () => {
-                showProjectDetails(feature.properties);
+                const project = feature.properties.project_name
+                    ? allProjects.find(item => item.properties.name === feature.properties.project_name)
+                    : null;
+                showProjectDetails(project ? project.properties : feature.properties);
             });
 
+            marker.status = feature.properties.status;
             markers.push(marker);
         }
     });
@@ -329,15 +339,9 @@ function applyFilters() {
 
         // Filter markers
         markers.forEach((marker, index) => {
-            const p = allProjects.find(feat =>
-                feat.geometry.type === 'Point' &&
-                feat.geometry.coordinates[0] === marker.getLngLat().lng &&
-                feat.geometry.coordinates[1] === marker.getLngLat().lat
-            );
-
-            if (p) {
-                const selectedStatusMatch = status === 'all' || p.properties.status === status;
-                const hiddenStatusMatch = hiddenStatuses.has(p.properties.status);
+            if (marker.status) {
+                const selectedStatusMatch = status === 'all' || marker.status === status;
+                const hiddenStatusMatch = hiddenStatuses.has(marker.status);
                 marker.getElement().style.display = selectedStatusMatch && !hiddenStatusMatch ? 'block' : 'none';
             }
         });
