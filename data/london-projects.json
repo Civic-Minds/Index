@@ -28,15 +28,15 @@
         "category": "Bus Rapid Transit",
         "status": "construction",
         "statusText": "Construction",
-        "timeline": "Downtown to Highway 401 via Wellington Road.",
-        "description": "London’s Wellington Gateway is a bus rapid transit corridor along Wellington Road connecting Downtown with south London and a planned Highway 401 park-and-ride.",
+        "timeline": "Downtown to Wellington Road and Greenfield Drive.",
+        "description": "London’s Wellington Gateway is a bus rapid transit corridor along Wellington Road connecting Downtown with south London and Wellington Commons.",
         "color": "#15803d",
-        "milestones": ["Construction underway", "Downtown-to-Highway 401 corridor represented"],
-        "source_url": "https://london.ca/projects/wellington-gateway"
+        "milestones": ["Construction underway", "Downtown-to-Wellington Commons corridor represented"],
+        "source_url": "https://getinvolved.london.ca/wellingtongateway"
       },
       "geometry": {
         "type": "LineString",
-        "coordinates": [[-81.240265,42.975835],[-81.240305,42.974932],[-81.238941,42.973285],[-81.237095,42.970998],[-81.235767,42.969411],[-81.232456,42.967451],[-81.231442,42.963292],[-81.231199,42.961876],[-81.230708,42.960318],[-81.230318,42.958316],[-81.229786,42.956421],[-81.229229,42.954064],[-81.228556,42.951224],[-81.228012,42.948928],[-81.22736,42.946601],[-81.225981,42.943691],[-81.225478,42.941817],[-81.224191,42.936371],[-81.223229,42.933665],[-81.221395,42.93151],[-81.220373,42.930473],[-81.218545,42.927456],[-81.217312,42.926087],[-81.213787,42.92363],[-81.210437,42.919807],[-81.209528,42.918102],[-81.20805,42.914896],[-81.206943,42.909436],[-81.203699,42.89402],[-81.200083,42.87782],[-81.199108,42.867449],[-81.208816,42.865333],[-81.211686,42.863373],[-81.211468,42.858231],[-81.210265,42.853004]]
+        "coordinates": [[-81.240265,42.975835],[-81.240305,42.974932],[-81.238941,42.973285],[-81.237095,42.970998],[-81.235767,42.969411],[-81.232456,42.967451],[-81.231442,42.963292],[-81.231199,42.961876],[-81.230708,42.960318],[-81.230318,42.958316],[-81.229786,42.956421],[-81.229229,42.954064],[-81.228556,42.951224],[-81.228012,42.948928],[-81.22736,42.946601],[-81.225981,42.943691],[-81.225478,42.941817],[-81.224191,42.936371],[-81.223229,42.933665],[-81.221395,42.93151],[-81.220373,42.930473],[-81.220846,42.927615]]
       }
     }
   ]

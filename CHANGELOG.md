@@ -37,6 +37,7 @@ All notable changes to this project will be documented in this file.
 - **Project Scope**: Limited the visible index to projects with corridor geometry until point-only records have mapped shapes.
 - **Station Visibility**: Hide station markers on the overview until a corridor or project is selected.
 - **London Rapid Transit**: Added the East London Link and Wellington Gateway construction corridors.
+- **Wellington Gateway**: Corrected the corridor endpoint to Wellington Road at Greenfield Drive.
 
 ## [1.3.0] - 2026-05-31
 
