@@ -218,6 +218,7 @@ function updateMapData(data) {
     if (!map) return;
     map.getSource('transit-projects').setData(data);
     fitMapToData(data);
+    applyFilters();
 }
 
 function fitMapToData(data) {
