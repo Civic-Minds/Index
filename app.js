@@ -124,12 +124,11 @@ function initializeMap(token) {
             'source': 'transit-projects',
             'layout': { 'line-join': 'round', 'line-cap': 'round' },
             'paint': {
-                'line-color': ['get', 'color'],
-                'line-width': 3,
-                'line-opacity': 0.85,
+                'line-color': ['coalesce', ['get', 'color'], '#f28c28'],
+                'line-width': 4,
+                'line-opacity': 1,
                 'line-dasharray': [1.2, 2.2]
-            },
-            'filter': ['in', '$type', 'LineString', 'MultiLineString']
+            }
         });
 
         map.addLayer({
@@ -138,11 +137,11 @@ function initializeMap(token) {
             'source': 'transit-projects',
             'layout': { 'line-join': 'round', 'line-cap': 'round' },
             'paint': {
-                'line-color': ['get', 'color'],
+                'line-color': ['coalesce', ['get', 'color'], '#f28c28'],
                 'line-width': 7,
                 'line-opacity': 0.25
             },
-            'filter': ['all', ['in', '$type', 'LineString', 'MultiLineString'], ['==', 'name', '']]
+            'filter': ['==', 'name', '']
         });
 
         map.on('click', 'transit-lines', (e) => {
@@ -320,7 +319,7 @@ function showProjectDetails(props) {
     showSidebar();
 
     if (map) {
-        map.setFilter('transit-lines-hover', ['all', ['in', '$type', 'LineString', 'MultiLineString'], ['==', 'name', props.name]]);
+        map.setFilter('transit-lines-hover', ['==', 'name', props.name]);
     }
 }
 
@@ -337,10 +336,10 @@ function applyFilters() {
 
     // Update map visibility via filter
     if (map) {
-        const lineFilters = ['all', ['in', '$type', 'LineString', 'MultiLineString']];
+        const lineFilters = [];
         if (status !== 'all') lineFilters.push(['==', 'status', status]);
         if (hiddenStatuses.size) lineFilters.push(['!', ['in', 'status', ...hiddenStatuses]]);
-        map.setFilter('transit-lines', lineFilters);
+        map.setFilter('transit-lines', lineFilters.length ? ['all', ...lineFilters] : null);
 
         // Filter markers
         markers.forEach((marker, index) => {
@@ -398,14 +397,14 @@ backBtn.addEventListener('click', () => {
     filterContainer.classList.remove('hidden');
     detailsView.classList.add('hidden');
     if (map) {
-        map.setFilter('transit-lines-hover', ['all', ['in', '$type', 'LineString', 'MultiLineString'], ['==', 'name', '']]);
+        map.setFilter('transit-lines-hover', ['==', 'name', '']);
     }
 });
 
 closeBtn.addEventListener('click', () => {
     hideSidebar();
     if (map) {
-        map.setFilter('transit-lines-hover', ['all', ['in', '$type', 'LineString', 'MultiLineString'], ['==', 'name', '']]);
+        map.setFilter('transit-lines-hover', ['==', 'name', '']);
     }
 });
 

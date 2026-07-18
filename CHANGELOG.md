@@ -17,6 +17,7 @@ All notable changes to this project will be documented in this file.
 - **Eglinton Crosstown**: Added the Line 5 corridor and all 25 station locations from TTC schedule geometry.
 - **Map Data**: Separated corridor projects from station features so stations render on the map without becoming list entries.
 - **Active Scope**: Limited the public index to Eglinton Crosstown until each additional project has a complete corridor and station layer.
+- **Corridor Rendering**: Made the active route line render independently of station point features.
 - **Project Copy**: Removed internal verification notes from public project details.
 - **Project Scope**: Limited the visible index to projects with corridor geometry until point-only records have mapped shapes.
 
