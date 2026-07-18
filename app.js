@@ -14,6 +14,7 @@ const backBtn = document.getElementById('back-to-list');
 
 const statusFilter = document.getElementById('status-filter');
 const filterContainer = document.getElementById('filter-container');
+const statusToggles = document.querySelectorAll('.status-toggle');
 
 const tokenPrompt = document.getElementById('token-prompt');
 const tokenInput = document.getElementById('token-input');
@@ -27,6 +28,11 @@ const MAP_BACKGROUND_COLOR = '#ffffff';
 let map;
 let allProjects = [];
 let markers = [];
+const hiddenStatuses = new Set();
+
+function hasShapeGeometry(project) {
+    return project.geometry && ['LineString', 'MultiLineString'].includes(project.geometry.type);
+}
 
 function showSidebar() {
     sidebar.classList.add('open');
@@ -58,10 +64,10 @@ async function fetchProjects() {
     try {
         const response = await fetch('data/projects.json');
         const data = await response.json();
-        allProjects = data.features;
+        allProjects = data.features.filter(hasShapeGeometry);
         populateFilters(allProjects);
         renderProjectList(allProjects);
-        updateMapData(data);
+        updateMapData({ ...data, features: allProjects });
     } catch (error) {
         console.error('Error fetching projects:', error);
     }
@@ -307,8 +313,9 @@ function applyFilters() {
     const status = statusFilter.value;
 
     const filtered = allProjects.filter(p => {
-        const statusMatch = status === 'all' || p.properties.status === status;
-        return statusMatch;
+        const projectStatus = p.properties.status;
+        const selectedStatusMatch = status === 'all' || projectStatus === status;
+        return selectedStatusMatch && !hiddenStatuses.has(projectStatus);
     });
 
     renderProjectList(filtered);
@@ -317,6 +324,7 @@ function applyFilters() {
     if (map) {
         const lineFilters = ['all', ['in', '$type', 'LineString', 'MultiLineString']];
         if (status !== 'all') lineFilters.push(['==', 'status', status]);
+        if (hiddenStatuses.size) lineFilters.push(['!', ['in', 'status', ...hiddenStatuses]]);
         map.setFilter('transit-lines', lineFilters);
 
         // Filter markers
@@ -328,8 +336,9 @@ function applyFilters() {
             );
 
             if (p) {
-                const statusMatch = status === 'all' || p.properties.status === status;
-                marker.getElement().style.display = statusMatch ? 'block' : 'none';
+                const selectedStatusMatch = status === 'all' || p.properties.status === status;
+                const hiddenStatusMatch = hiddenStatuses.has(p.properties.status);
+                marker.getElement().style.display = selectedStatusMatch && !hiddenStatusMatch ? 'block' : 'none';
             }
         });
     }
@@ -357,6 +366,22 @@ function flyToProject(project) {
 }
 
 statusFilter.addEventListener('change', applyFilters);
+
+statusToggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+        const status = toggle.dataset.status;
+        if (hiddenStatuses.has(status)) {
+            hiddenStatuses.delete(status);
+        } else {
+            hiddenStatuses.add(status);
+        }
+
+        const isVisible = !hiddenStatuses.has(status);
+        toggle.setAttribute('aria-pressed', String(isVisible));
+        toggle.classList.toggle('is-hidden', !isVisible);
+        applyFilters();
+    });
+});
 
 backBtn.addEventListener('click', () => {
     projectName.textContent = DEFAULT_TITLE;

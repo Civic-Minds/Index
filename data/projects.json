@@ -9,12 +9,12 @@
         "category": "Regional Rail",
         "status": "planning",
         "statusText": "Planned Expansion",
-        "timeline": "Alignment from Metrolinx Frequent Rapid Transit Network open data.",
-        "description": "GO rail expansion alignment from Metrolinx open data. Verify current project status and phasing.",
+        "timeline": "Long-range network planning; no delivery schedule is represented here.",
+        "description": "Future GO rail expansion corridor identified in Metrolinx's Frequent Rapid Transit Network. Delivery scope and timing remain subject to project approvals.",
         "color": "#cf4b41",
         "milestones": [
-          "Alignment published in Metrolinx FRTN open data",
-          "Confirm project delivery status with Metrolinx"
+          "Corridor identified in Metrolinx FRTN open data",
+          "Project scope and delivery schedule to be confirmed"
         ],
         "source_url": "https://www.metrolinx.com/en/about-us/open-data"
       },
@@ -76,12 +76,12 @@
         "category": "Regional Rail",
         "status": "planning",
         "statusText": "Planned Expansion",
-        "timeline": "Alignment from Metrolinx Frequent Rapid Transit Network open data.",
-        "description": "GO rail expansion alignment from Metrolinx open data. Verify current project status and phasing.",
+        "timeline": "Long-range network planning; no delivery schedule is represented here.",
+        "description": "Future GO rail expansion corridor identified in Metrolinx's Frequent Rapid Transit Network. Delivery scope and timing remain subject to project approvals.",
         "color": "#cf4b41",
         "milestones": [
-          "Alignment published in Metrolinx FRTN open data",
-          "Confirm project delivery status with Metrolinx"
+          "Corridor identified in Metrolinx FRTN open data",
+          "Project scope and delivery schedule to be confirmed"
         ],
         "source_url": "https://www.metrolinx.com/en/about-us/open-data"
       },
@@ -123,12 +123,12 @@
         "category": "Regional Rail",
         "status": "planning",
         "statusText": "Planned Expansion",
-        "timeline": "Alignment from Metrolinx Frequent Rapid Transit Network open data.",
-        "description": "GO rail expansion alignment from Metrolinx open data. Verify current project status and phasing.",
+        "timeline": "Long-range network planning; no delivery schedule is represented here.",
+        "description": "Future GO rail expansion corridor identified in Metrolinx's Frequent Rapid Transit Network. Delivery scope and timing remain subject to project approvals.",
         "color": "#cf4b41",
         "milestones": [
-          "Alignment published in Metrolinx FRTN open data",
-          "Confirm project delivery status with Metrolinx"
+          "Corridor identified in Metrolinx FRTN open data",
+          "Project scope and delivery schedule to be confirmed"
         ],
         "source_url": "https://www.metrolinx.com/en/about-us/open-data"
       },
@@ -158,12 +158,12 @@
         "category": "Regional Rail",
         "status": "planning",
         "statusText": "Planned Expansion",
-        "timeline": "Alignment from Metrolinx Frequent Rapid Transit Network open data.",
-        "description": "GO rail expansion alignment from Metrolinx open data. Verify current project status and phasing.",
+        "timeline": "Long-range network planning; no delivery schedule is represented here.",
+        "description": "Future GO rail expansion corridor identified in Metrolinx's Frequent Rapid Transit Network. Delivery scope and timing remain subject to project approvals.",
         "color": "#cf4b41",
         "milestones": [
-          "Alignment published in Metrolinx FRTN open data",
-          "Confirm project delivery status with Metrolinx"
+          "Corridor identified in Metrolinx FRTN open data",
+          "Project scope and delivery schedule to be confirmed"
         ],
         "source_url": "https://www.metrolinx.com/en/about-us/open-data"
       },
@@ -257,12 +257,12 @@
         "category": "Regional Rail",
         "status": "planning",
         "statusText": "Planned Expansion",
-        "timeline": "Alignment from Metrolinx Frequent Rapid Transit Network open data.",
-        "description": "GO rail expansion alignment from Metrolinx open data. Verify current project status and phasing.",
+        "timeline": "Long-range network planning; no delivery schedule is represented here.",
+        "description": "Future GO rail expansion corridor identified in Metrolinx's Frequent Rapid Transit Network. Delivery scope and timing remain subject to project approvals.",
         "color": "#cf4b41",
         "milestones": [
-          "Alignment published in Metrolinx FRTN open data",
-          "Confirm project delivery status with Metrolinx"
+          "Corridor identified in Metrolinx FRTN open data",
+          "Project scope and delivery schedule to be confirmed"
         ],
         "source_url": "https://www.metrolinx.com/en/about-us/open-data"
       },
@@ -320,12 +320,12 @@
         "category": "Regional Rail",
         "status": "planning",
         "statusText": "Planned Expansion",
-        "timeline": "Alignment from Metrolinx Frequent Rapid Transit Network open data.",
-        "description": "GO rail expansion alignment from Metrolinx open data. Verify current project status and phasing.",
+        "timeline": "Long-range network planning; no delivery schedule is represented here.",
+        "description": "Future GO rail expansion corridor identified in Metrolinx's Frequent Rapid Transit Network. Delivery scope and timing remain subject to project approvals.",
         "color": "#cf4b41",
         "milestones": [
-          "Alignment published in Metrolinx FRTN open data",
-          "Confirm project delivery status with Metrolinx"
+          "Corridor identified in Metrolinx FRTN open data",
+          "Project scope and delivery schedule to be confirmed"
         ],
         "source_url": "https://www.metrolinx.com/en/about-us/open-data"
       },
@@ -2086,12 +2086,12 @@
         "category": "Light Rail",
         "status": "construction",
         "statusText": "Under Construction",
-        "timeline": "Alignment from City of Calgary Green Line open data.",
-        "description": "Green Line LRT alignment from City of Calgary open data. Verify current phase status.",
+        "timeline": "Project phasing and delivery timing are subject to the City of Calgary's published plans.",
+        "description": "Green Line LRT alignment from City of Calgary open data. This record represents the planned corridor and does not replace the city's current project schedule.",
         "color": "#c25a4b",
         "milestones": [
           "Alignment published in City of Calgary open data",
-          "Confirm phase delivery status with the City"
+          "See the official project source for current phasing"
         ],
         "source_url": "https://data.calgary.ca/Transportation-Transit/Green-Line-Alignment/wyyc-63e5"
       },
@@ -2291,12 +2291,12 @@
         "category": "Light Rail",
         "status": "planning",
         "statusText": "Planned / In Development",
-        "timeline": "Alignment from City of Calgary Green Line open data.",
-        "description": "Green Line LRT alignment from City of Calgary open data. Verify current phase status.",
+        "timeline": "Project phasing and delivery timing are subject to the City of Calgary's published plans.",
+        "description": "Green Line LRT alignment from City of Calgary open data. This record represents the planned corridor and does not replace the city's current project schedule.",
         "color": "#c25a4b",
         "milestones": [
           "Alignment published in City of Calgary open data",
-          "Confirm phase delivery status with the City"
+          "See the official project source for current phasing"
         ],
         "source_url": "https://data.calgary.ca/Transportation-Transit/Green-Line-Alignment/wyyc-63e5"
       },

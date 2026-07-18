@@ -15,7 +15,7 @@
     <div id="frame" class="frame">
         <header class="masthead">
             <div class="masthead-meta">
-                <span class="live-dot"></span> LIVE · MMXXVI · UPDATED WEEKLY
+                <span class="record-dot"></span> DATA RECORD · 2026 · SOURCE DATES VARY
             </div>
             <div class="masthead-main">
                 <div class="masthead-subtitle">TECHNICAL RECORD · NORTH AMERICA</div>
@@ -55,11 +55,21 @@
 
         <div id="legend" class="legend hidden">
             <h4>Status</h4>
-            <div><span class="status-planning-dot" style="background-color: #4CAF50;"></span> Planning</div>
-            <div><span class="status-approved-dot" style="background-color: #2196F3;"></span> Approved</div>
-            <div><span class="status-construction-dot" style="background-color: #FF9800;"></span> Construction</div>
-            <div><span class="status-opened-dot" style="background-color: #ef3e42;"></span> Recently Opened</div>
-            <div><span class="status-delayed-dot" style="background-color: #F44336;"></span> Delayed</div>
+            <button type="button" class="status-toggle" data-status="planning" aria-pressed="true">
+                <span class="status-planning-dot" style="background-color: #4CAF50;"></span> Planning
+            </button>
+            <button type="button" class="status-toggle" data-status="approved" aria-pressed="true">
+                <span class="status-approved-dot" style="background-color: #2196F3;"></span> Approved
+            </button>
+            <button type="button" class="status-toggle" data-status="construction" aria-pressed="true">
+                <span class="status-construction-dot" style="background-color: #FF9800;"></span> Construction
+            </button>
+            <button type="button" class="status-toggle" data-status="opened" aria-pressed="true">
+                <span class="status-opened-dot" style="background-color: #ef3e42;"></span> Recently Opened
+            </button>
+            <button type="button" class="status-toggle" data-status="delayed" aria-pressed="true">
+                <span class="status-delayed-dot" style="background-color: #F44336;"></span> Delayed
+            </button>
         </div>
     </div>
 

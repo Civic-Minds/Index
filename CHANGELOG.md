@@ -7,6 +7,11 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - **Map Launch**: The public map now opens without asking visitors to provide their own Mapbox token.
 - **Project Corridors**: Transit construction lines now render reliably when the map launches.
+- **Status Filtering**: The map legend now toggles project statuses on and off directly.
+- **Data Labeling**: Replaced the misleading live-update masthead with source-date labeling.
+- **Masthead**: Replaced decorative Roman numerals with the plain publication year.
+- **Project Copy**: Removed internal verification notes from public project details.
+- **Project Scope**: Limited the visible index to projects with corridor geometry until point-only records have mapped shapes.
 
 ## [1.3.0] - 2026-05-31
 

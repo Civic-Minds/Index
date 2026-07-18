@@ -80,19 +80,12 @@ html {
     letter-spacing: 0.08em;
 }
 
-.live-dot {
+.record-dot {
     width: 6px;
     height: 6px;
-    background: #ff0000;
+    background: var(--st-text-muted);
     border-radius: 50%;
     display: inline-block;
-    animation: live-pulse 1.5s infinite;
-}
-
-@keyframes live-pulse {
-    0% { opacity: 1; }
-    50% { opacity: 0.3; }
-    100% { opacity: 1; }
 }
 
 .masthead-main {
@@ -494,15 +487,30 @@ h1 {
     color: var(--st-text-muted);
 }
 
-.legend div {
+.legend .status-toggle {
     margin-bottom: 6px;
     display: flex;
+    width: 100%;
     align-items: center;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--st-text);
     font-size: 0.7rem;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    text-align: left;
+    cursor: pointer;
+}
+
+.legend .status-toggle:hover {
+    color: var(--st-text-muted);
+}
+
+.legend .status-toggle.is-hidden {
+    color: var(--st-text-muted);
 }
 
 .legend span {
@@ -511,6 +519,10 @@ h1 {
     display: inline-block;
     margin-right: 12px;
     border-radius: 0;
+}
+
+.legend .status-toggle.is-hidden span {
+    background: var(--st-text-muted) !important;
 }
 
 /* Pulsing Station Animation */
