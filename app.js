@@ -15,7 +15,7 @@ const projectSearch = document.getElementById('project-search');
 const loadingBanner = document.getElementById('loading');
 const hoverCard = document.getElementById('hover-card');
 const viewportStrip = document.getElementById('viewport-strip');
-const viewportChips = document.getElementById('viewport-chips');
+const viewportCards = document.getElementById('viewport-cards');
 const mapHint = document.getElementById('map-hint');
 const statTotal = document.getElementById('stat-total');
 
@@ -542,19 +542,29 @@ function updateViewportStrip() {
         return;
     }
 
-    viewportChips.innerHTML = '';
+    viewportCards.innerHTML = '';
     visible.forEach(p => {
-        const btn = document.createElement('button');
-        btn.type = 'button';
-        btn.className = 'viewport-chip';
-        btn.textContent = p.properties.name;
-        btn.addEventListener('click', () => {
+        const status = p.properties.status;
+        const statusLabel = STATUS_LABELS[status] || p.properties.statusText || status;
+        const agency = p.properties.agency || '';
+        const card = document.createElement('button');
+        card.type = 'button';
+        card.className = 'viewport-card';
+        card.innerHTML = `
+            <span class="viewport-card-name">${escapeHtml(p.properties.name)}</span>
+            <span class="viewport-card-status status-${status}">
+                <span class="chip-swatch status-${status}-dot" aria-hidden="true"></span>
+                ${escapeHtml(statusLabel)}
+            </span>
+            ${agency ? `<span class="viewport-card-agency">${escapeHtml(agency)}</span>` : ''}
+        `;
+        card.addEventListener('click', () => {
             showProjectDetails(p.properties);
             flyToProject(p);
         });
-        btn.addEventListener('mouseenter', () => setHoverProject(p.properties.name));
-        btn.addEventListener('mouseleave', () => setHoverProject(''));
-        viewportChips.appendChild(btn);
+        card.addEventListener('mouseenter', () => setHoverProject(p.properties.name));
+        card.addEventListener('mouseleave', () => setHoverProject(''));
+        viewportCards.appendChild(card);
     });
     viewportStrip.classList.remove('hidden');
 }

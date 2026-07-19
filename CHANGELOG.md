@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
-- **Map-first discovery**: Dropped the permanent project list. Explore by scrolling the map; labels appear as you zoom; an “In this view” strip lists nearby projects; details open as a sheet only when a corridor is selected.
+- **Map-first discovery**: Dropped the permanent project list. Explore by scrolling the map; labels appear as you zoom; an “In this view” card strip lists nearby projects; details open as a sheet only when a corridor is selected.
 - **Status UI**: One filter only — chips with color dots. Removed the duplicate legend and masthead status breakdown.
 - **Search**: Moved into the masthead so the map HUD is status chips only.
 - **Map controls**: Removed the Reset button; leaving a project returns to the network view.
