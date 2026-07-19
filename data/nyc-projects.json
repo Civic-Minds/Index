@@ -232,6 +232,427 @@
           40.8205
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gateway Hudson Tunnel Project",
+        "agency": "Gateway Development Commission",
+        "category": "Heavy Rail",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "New Hudson River rail tunnel plus North River Tunnel rehab; active construction packages in NJ and NY; new tunnel targeted for 2035 service.",
+        "description": "The Hudson Tunnel Project is building nine miles of new NEC track between New Jersey and New York Penn Station, including a new two-tube tunnel under the Hudson, and rehabilitating the century-old North River Tunnel. Multiple construction packages are underway from Tonnelle Avenue through Hudson Yards.",
+        "color": "#0f172a",
+        "milestones": [
+          "Portal-to-portal corridor represented (Secaucus approach to Penn Station)",
+          "Key points at Tonnelle portal, Hudson Yards, and Penn Station",
+          "Seven of ten construction packages in progress or completed"
+        ],
+        "source_url": "https://www.gatewayprogram.org/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.0758,
+            40.7613
+          ],
+          [
+            -74.052,
+            40.775
+          ],
+          [
+            -74.0316,
+            40.7877
+          ],
+          [
+            -74.028,
+            40.76
+          ],
+          [
+            -74.025,
+            40.74
+          ],
+          [
+            -74.012,
+            40.748
+          ],
+          [
+            -74.003,
+            40.7545
+          ],
+          [
+            -74.0005,
+            40.7525
+          ],
+          [
+            -73.9928,
+            40.7502
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gateway Hudson Tunnel Project",
+        "project_name": "Gateway Hudson Tunnel Project",
+        "feature_type": "station",
+        "station_name": "Secaucus Junction Approach",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#0f172a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0758,
+          40.7613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gateway Hudson Tunnel Project",
+        "project_name": "Gateway Hudson Tunnel Project",
+        "feature_type": "station",
+        "station_name": "Tonnelle Avenue Portal",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#0f172a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0316,
+          40.7877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gateway Hudson Tunnel Project",
+        "project_name": "Gateway Hudson Tunnel Project",
+        "feature_type": "station",
+        "station_name": "Hudson County Access Shaft",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#0f172a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.025,
+          40.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gateway Hudson Tunnel Project",
+        "project_name": "Gateway Hudson Tunnel Project",
+        "feature_type": "station",
+        "station_name": "Hudson Yards",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#0f172a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0005,
+          40.7525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gateway Hudson Tunnel Project",
+        "project_name": "Gateway Hudson Tunnel Project",
+        "feature_type": "station",
+        "station_name": "Penn Station",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#0f172a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9928,
+          40.7502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Interborough Express (IBX)",
+        "agency": "Metropolitan Transportation Authority",
+        "category": "Light Rail",
+        "status": "approved",
+        "statusText": "In Design",
+        "timeline": "14-mile light rail on existing LIRR/CSX freight ROW from Brooklyn Army Terminal to Jackson Heights; engineering and design underway, service targeted for the early 2030s.",
+        "description": "IBX would run 24/7 light rail on dedicated tracks within the Bay Ridge Branch and Fremont Secondary freight corridor, connecting Brooklyn and Queens and linking up to 17 subway lines while preserving freight operations.",
+        "color": "#7c3aed",
+        "milestones": [
+          "14-mile freight-ROW corridor represented",
+          "Key transfer points from Bay Ridge to Jackson Heights",
+          "Design and engineering phase active (draft EIS expected fall 2026)"
+        ],
+        "source_url": "https://www.mta.info/project/interborough-express"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.0246,
+            40.6439
+          ],
+          [
+            -74.012,
+            40.638
+          ],
+          [
+            -73.995,
+            40.63
+          ],
+          [
+            -73.9735,
+            40.625
+          ],
+          [
+            -73.95,
+            40.63
+          ],
+          [
+            -73.93,
+            40.64
+          ],
+          [
+            -73.91,
+            40.655
+          ],
+          [
+            -73.9033,
+            40.6759
+          ],
+          [
+            -73.9,
+            40.69
+          ],
+          [
+            -73.895,
+            40.71
+          ],
+          [
+            -73.89,
+            40.725
+          ],
+          [
+            -73.888,
+            40.735
+          ],
+          [
+            -73.8913,
+            40.7466
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Interborough Express (IBX)",
+        "project_name": "Interborough Express (IBX)",
+        "feature_type": "station",
+        "station_name": "Brooklyn Army Terminal",
+        "status": "approved",
+        "statusText": "In Design",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0246,
+          40.6439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Interborough Express (IBX)",
+        "project_name": "Interborough Express (IBX)",
+        "feature_type": "station",
+        "station_name": "4th Avenue / Bay Ridge",
+        "status": "approved",
+        "statusText": "In Design",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.012,
+          40.638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Interborough Express (IBX)",
+        "project_name": "Interborough Express (IBX)",
+        "feature_type": "station",
+        "station_name": "McDonald Avenue",
+        "status": "approved",
+        "statusText": "In Design",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9735,
+          40.625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Interborough Express (IBX)",
+        "project_name": "Interborough Express (IBX)",
+        "feature_type": "station",
+        "station_name": "New Utrecht Avenue",
+        "status": "approved",
+        "statusText": "In Design",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95,
+          40.63
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Interborough Express (IBX)",
+        "project_name": "Interborough Express (IBX)",
+        "feature_type": "station",
+        "station_name": "Utica Avenue",
+        "status": "approved",
+        "statusText": "In Design",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91,
+          40.655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Interborough Express (IBX)",
+        "project_name": "Interborough Express (IBX)",
+        "feature_type": "station",
+        "station_name": "East New York",
+        "status": "approved",
+        "statusText": "In Design",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9033,
+          40.6759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Interborough Express (IBX)",
+        "project_name": "Interborough Express (IBX)",
+        "feature_type": "station",
+        "station_name": "Wilson Avenue",
+        "status": "approved",
+        "statusText": "In Design",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9,
+          40.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Interborough Express (IBX)",
+        "project_name": "Interborough Express (IBX)",
+        "feature_type": "station",
+        "station_name": "Metropolitan Avenue",
+        "status": "approved",
+        "statusText": "In Design",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.895,
+          40.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Interborough Express (IBX)",
+        "project_name": "Interborough Express (IBX)",
+        "feature_type": "station",
+        "station_name": "Grand Avenue",
+        "status": "approved",
+        "statusText": "In Design",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89,
+          40.725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Interborough Express (IBX)",
+        "project_name": "Interborough Express (IBX)",
+        "feature_type": "station",
+        "station_name": "Jackson Heights\u2013Roosevelt Avenue",
+        "status": "approved",
+        "statusText": "In Design",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8913,
+          40.7466
+        ]
+      }
     }
   ]
 }

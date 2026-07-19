@@ -1,0 +1,221 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Parkway BRT",
+        "agency": "RTC of Southern Nevada",
+        "category": "BRT",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "12.5-mile BRT from South Strip Transit Terminal to the Las Vegas Medical District via Maryland Parkway and UNLV; construction active with substantial completion targeted for fall 2026.",
+        "description": "Maryland Parkway BRT rebuilds the corridor with dedicated transit lanes and enhanced stations serving the airport-area terminal, UNLV, commercial centers, and the medical district north of downtown.",
+        "color": "#eab308",
+        "milestones": [
+          "12.5-mile Maryland Parkway corridor represented",
+          "Key stations at South Strip, UNLV, Flamingo, Sahara, Charleston, Medical District",
+          "Construction progressing toward fall 2026 completion"
+        ],
+        "source_url": "https://www.rtcsnv.com/maryland-parkway/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.172,
+            36.085
+          ],
+          [
+            -115.15,
+            36.088
+          ],
+          [
+            -115.1371,
+            36.095
+          ],
+          [
+            -115.1371,
+            36.1
+          ],
+          [
+            -115.1439,
+            36.1079
+          ],
+          [
+            -115.1371,
+            36.115
+          ],
+          [
+            -115.1371,
+            36.13
+          ],
+          [
+            -115.1371,
+            36.1442
+          ],
+          [
+            -115.14,
+            36.159
+          ],
+          [
+            -115.1654,
+            36.1655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Parkway BRT",
+        "project_name": "Maryland Parkway BRT",
+        "feature_type": "station",
+        "station_name": "South Strip Transit Terminal",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#eab308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.172,
+          36.085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Parkway BRT",
+        "project_name": "Maryland Parkway BRT",
+        "feature_type": "station",
+        "station_name": "Maryland / Tropicana",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#eab308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1371,
+          36.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Parkway BRT",
+        "project_name": "Maryland Parkway BRT",
+        "feature_type": "station",
+        "station_name": "UNLV",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#eab308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1439,
+          36.1079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Parkway BRT",
+        "project_name": "Maryland Parkway BRT",
+        "feature_type": "station",
+        "station_name": "Maryland / Flamingo",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#eab308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1371,
+          36.115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Parkway BRT",
+        "project_name": "Maryland Parkway BRT",
+        "feature_type": "station",
+        "station_name": "Maryland / Desert Inn",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#eab308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1371,
+          36.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Parkway BRT",
+        "project_name": "Maryland Parkway BRT",
+        "feature_type": "station",
+        "station_name": "Maryland / Sahara",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#eab308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1371,
+          36.1442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Parkway BRT",
+        "project_name": "Maryland Parkway BRT",
+        "feature_type": "station",
+        "station_name": "Maryland / Charleston",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#eab308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.14,
+          36.159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Parkway BRT",
+        "project_name": "Maryland Parkway BRT",
+        "feature_type": "station",
+        "station_name": "Las Vegas Medical District",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#eab308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1654,
+          36.1655
+        ]
+      }
+    }
+  ]
+}

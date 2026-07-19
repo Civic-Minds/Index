@@ -626,6 +626,376 @@
           34.293149
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LAX SkyLink",
+        "agency": "Los Angeles World Airports",
+        "category": "Automated People Mover",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "2.25-mile elevated APM with six stations linking CONRAC, Metro, and the CTA; in testing with public opening targeted for late 2026.",
+        "description": "SkyLink (formerly the LAX Automated People Mover) is an elevated electric train connecting the Rental Car Center, LAX/Metro Transit Center, economy parking/GTC, and three Central Terminal Area stations. It will run 24/7 with roughly 10-minute end-to-end trips.",
+        "color": "#06b6d4",
+        "milestones": [
+          "2.25-mile elevated guideway represented",
+          "Six stations represented (CONRAC through CTA West)",
+          "Construction essentially complete; testing toward 2026 opening"
+        ],
+        "source_url": "https://www.lawa.org/transforminglax/projects/skylink"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.3715,
+            33.951
+          ],
+          [
+            -118.3787,
+            33.9501
+          ],
+          [
+            -118.3899,
+            33.9508
+          ],
+          [
+            -118.3975,
+            33.9435
+          ],
+          [
+            -118.402,
+            33.9445
+          ],
+          [
+            -118.408,
+            33.9425
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LAX SkyLink",
+        "project_name": "LAX SkyLink",
+        "feature_type": "station",
+        "station_name": "Rental Car Center (CONRAC)",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#06b6d4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3715,
+          33.951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LAX SkyLink",
+        "project_name": "LAX SkyLink",
+        "feature_type": "station",
+        "station_name": "LAX/Metro Transit Center",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#06b6d4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3787,
+          33.9501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LAX SkyLink",
+        "project_name": "LAX SkyLink",
+        "feature_type": "station",
+        "station_name": "ITF West / Economy Parking",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#06b6d4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3899,
+          33.9508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LAX SkyLink",
+        "project_name": "LAX SkyLink",
+        "feature_type": "station",
+        "station_name": "CTA East (T7/T8)",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#06b6d4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3975,
+          33.9435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LAX SkyLink",
+        "project_name": "LAX SkyLink",
+        "feature_type": "station",
+        "station_name": "CTA Center (T1/T2/T5/T6)",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#06b6d4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.402,
+          33.9445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LAX SkyLink",
+        "project_name": "LAX SkyLink",
+        "feature_type": "station",
+        "station_name": "CTA West (T3/T4/TBIT)",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#06b6d4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.408,
+          33.9425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southeast Gateway Line",
+        "agency": "Los Angeles Metro",
+        "category": "Light Rail",
+        "status": "construction",
+        "statusText": "Early Construction",
+        "timeline": "14.5-mile initial segment from Slauson (A Line) to Pioneer in Artesia with nine new stations plus I-105/C Line; advanced utility work underway, opening targeted ~2035.",
+        "description": "Formerly the West Santa Ana Branch, the Southeast Gateway Line brings Metro light rail to southeast LA County communities including Huntington Park, South Gate, Paramount, Bellflower, and Artesia, with a later phase planned north to Union Station.",
+        "color": "#ea580c",
+        "milestones": [
+          "14.5-mile Slauson-to-Pioneer corridor represented",
+          "Nine Phase 1 stations plus I-105/C Line transfer",
+          "Advanced works / early construction underway; design continuing"
+        ],
+        "source_url": "https://www.metro.net/projects/southeastgateway/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.2432,
+            33.9889
+          ],
+          [
+            -118.2252,
+            33.987
+          ],
+          [
+            -118.21,
+            33.974
+          ],
+          [
+            -118.192,
+            33.955
+          ],
+          [
+            -118.166,
+            33.928
+          ],
+          [
+            -118.16,
+            33.9033
+          ],
+          [
+            -118.127,
+            33.882
+          ],
+          [
+            -118.0821,
+            33.862
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southeast Gateway Line",
+        "project_name": "Southeast Gateway Line",
+        "feature_type": "station",
+        "station_name": "Slauson (A Line)",
+        "status": "construction",
+        "statusText": "Early Construction",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2432,
+          33.9889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southeast Gateway Line",
+        "project_name": "Southeast Gateway Line",
+        "feature_type": "station",
+        "station_name": "Pacific/Randolph",
+        "status": "construction",
+        "statusText": "Early Construction",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2252,
+          33.987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southeast Gateway Line",
+        "project_name": "Southeast Gateway Line",
+        "feature_type": "station",
+        "station_name": "Florence/Salt Lake",
+        "status": "construction",
+        "statusText": "Early Construction",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.21,
+          33.974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southeast Gateway Line",
+        "project_name": "Southeast Gateway Line",
+        "feature_type": "station",
+        "station_name": "Firestone",
+        "status": "construction",
+        "statusText": "Early Construction",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.192,
+          33.955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southeast Gateway Line",
+        "project_name": "Southeast Gateway Line",
+        "feature_type": "station",
+        "station_name": "I-105/C Line",
+        "status": "construction",
+        "statusText": "Early Construction",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.166,
+          33.928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southeast Gateway Line",
+        "project_name": "Southeast Gateway Line",
+        "feature_type": "station",
+        "station_name": "Paramount/Rosecrans",
+        "status": "construction",
+        "statusText": "Early Construction",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.16,
+          33.9033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southeast Gateway Line",
+        "project_name": "Southeast Gateway Line",
+        "feature_type": "station",
+        "station_name": "Bellflower",
+        "status": "construction",
+        "statusText": "Early Construction",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.127,
+          33.882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southeast Gateway Line",
+        "project_name": "Southeast Gateway Line",
+        "feature_type": "station",
+        "station_name": "Pioneer",
+        "status": "construction",
+        "statusText": "Early Construction",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0821,
+          33.862
+        ]
+      }
     }
   ]
 }

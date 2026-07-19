@@ -1,0 +1,152 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UTA Midvalley Express (MVX)",
+        "agency": "Utah Transit Authority",
+        "category": "BRT",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "7-mile BRT (Route 50X) between Murray Central and West Valley Central; opened April 12, 2026 with zero-fare promotion through April 2029.",
+        "description": "MVX provides frequent all-electric BRT across Murray, Taylorsville, and West Valley City, connecting TRAX Red/Blue and FrontRunner at Murray Central with the Green Line at West Valley Central via SLCC and major employment centers.",
+        "color": "#059669",
+        "milestones": [
+          "7-mile Midvalley corridor represented",
+          "Key stops at Murray Central, IMC, SLCC, and West Valley Central",
+          "Opened April 2026"
+        ],
+        "source_url": "https://www.rideuta.com/Current-Projects/Midvalley-Express"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.8948,
+            40.6609
+          ],
+          [
+            -111.8912,
+            40.6596
+          ],
+          [
+            -111.91,
+            40.662
+          ],
+          [
+            -111.93,
+            40.668
+          ],
+          [
+            -111.9437,
+            40.6727
+          ],
+          [
+            -111.95,
+            40.68
+          ],
+          [
+            -111.9606,
+            40.6933
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UTA Midvalley Express (MVX)",
+        "project_name": "UTA Midvalley Express (MVX)",
+        "feature_type": "station",
+        "station_name": "Murray Central",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#059669"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8948,
+          40.6609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UTA Midvalley Express (MVX)",
+        "project_name": "UTA Midvalley Express (MVX)",
+        "feature_type": "station",
+        "station_name": "Intermountain Medical Center",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#059669"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8912,
+          40.6596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UTA Midvalley Express (MVX)",
+        "project_name": "UTA Midvalley Express (MVX)",
+        "feature_type": "station",
+        "station_name": "SLCC Taylorsville / Redwood",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#059669"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9437,
+          40.6727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UTA Midvalley Express (MVX)",
+        "project_name": "UTA Midvalley Express (MVX)",
+        "feature_type": "station",
+        "station_name": "2700 West / State Complex",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#059669"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.95,
+          40.68
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UTA Midvalley Express (MVX)",
+        "project_name": "UTA Midvalley Express (MVX)",
+        "feature_type": "station",
+        "station_name": "West Valley Central",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#059669"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9606,
+          40.6933
+        ]
+      }
+    }
+  ]
+}

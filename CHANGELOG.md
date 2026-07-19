@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **High-Priority Corridors**: Added Gateway Hudson Tunnel, LAX SkyLink, Austin Light Rail Phase 1, Southeast Gateway Line, UTA Midvalley Express (MVX), Maryland Parkway BRT, Interborough Express (IBX), and West Seattle Link Extension.
 - **US Corridor Batch**: Added DART Silver Line, CTA Red Line Extension, South Coast Rail, A Line Foothill, East SFV LRT, Capital Line South, Second Avenue Subway Phase 2, Penn Station Access, BART Silicon Valley Phase II, West Lake Corridor, KC Streetcar extensions, and MARTA Rapid A-Line with corridor geometry and stations.
 - **Lynnwood Link Extension**: Added Sound Transit’s open Northgate-to-Lynnwood 1 Line extension and four new stations.
 - **2 Line East Link Extension**: Added the Seattle–Bellevue–Redmond cross-lake corridor and its stations.

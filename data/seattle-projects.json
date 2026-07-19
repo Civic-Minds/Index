@@ -107,7 +107,7 @@
         "status": "opened",
         "statusText": "Recently Opened",
         "timeline": "8.5-mile 1 Line extension from Northgate to Lynnwood City Center; opened 30 August 2024.",
-        "description": "Sound Transit’s Lynnwood Link Extension brings Link light rail into Snohomish County with four new stations at Shoreline South/148th, Shoreline North/185th, Mountlake Terrace, and Lynnwood City Center.",
+        "description": "Sound Transit\u2019s Lynnwood Link Extension brings Link light rail into Snohomish County with four new stations at Shoreline South/148th, Shoreline North/185th, Mountlake Terrace, and Lynnwood City Center.",
         "color": "#0369a1",
         "milestones": [
           "8.5-mile corridor represented",
@@ -226,11 +226,11 @@
         "category": "Light Rail",
         "status": "opened",
         "statusText": "Recently Opened",
-        "timeline": "Cross-lake 2 Line from Seattle’s International District through Bellevue to Downtown Redmond; Eastside segment and lake crossing opened in stages through 2025.",
-        "description": "Sound Transit’s 2 Line (East Link) connects Seattle to Bellevue and Redmond across Lake Washington, with new stations from Judkins Park through Downtown Redmond including the full Eastside corridor.",
+        "timeline": "Cross-lake 2 Line from Seattle\u2019s International District through Bellevue to Downtown Redmond; Eastside segment and lake crossing opened in stages through 2025.",
+        "description": "Sound Transit\u2019s 2 Line (East Link) connects Seattle to Bellevue and Redmond across Lake Washington, with new stations from Judkins Park through Downtown Redmond including the full Eastside corridor.",
         "color": "#0ea5e9",
         "milestones": [
-          "Seattle–Bellevue–Redmond corridor represented",
+          "Seattle\u2013Bellevue\u2013Redmond corridor represented",
           "Thirteen stations represented",
           "Cross-lake 2 Line in passenger service"
         ],
@@ -538,6 +538,115 @@
         "coordinates": [
           -122.1215,
           47.6738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Seattle Link Extension",
+        "agency": "Sound Transit",
+        "category": "Light Rail",
+        "status": "approved",
+        "statusText": "In Design",
+        "timeline": "Link extension from SODO to West Seattle with stations at SODO, Delridge, and Alaska Junction; final design and early work advancing under the updated ST3 plan (Avalon station removed for cost savings).",
+        "description": "The West Seattle Link Extension crosses the Duwamish on a new light rail bridge and continues via elevated and tunnel segments to Alaska Junction, bringing high-capacity transit to West Seattle neighborhoods.",
+        "color": "#16a34a",
+        "milestones": [
+          "SODO-to-Alaska Junction corridor represented",
+          "Three stations (SODO, Delridge, Alaska Junction)",
+          "Final design / early site work; Avalon removed in ST3 update"
+        ],
+        "source_url": "https://www.soundtransit.org/system-expansion/west-seattle-link-extension"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3274,
+            47.5813
+          ],
+          [
+            -122.34,
+            47.575
+          ],
+          [
+            -122.35,
+            47.57
+          ],
+          [
+            -122.36,
+            47.568
+          ],
+          [
+            -122.3749,
+            47.5679
+          ],
+          [
+            -122.38,
+            47.565
+          ],
+          [
+            -122.3867,
+            47.5612
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Seattle Link Extension",
+        "project_name": "West Seattle Link Extension",
+        "feature_type": "station",
+        "station_name": "SODO",
+        "status": "approved",
+        "statusText": "In Design",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3274,
+          47.5813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Seattle Link Extension",
+        "project_name": "West Seattle Link Extension",
+        "feature_type": "station",
+        "station_name": "Delridge",
+        "status": "approved",
+        "statusText": "In Design",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3749,
+          47.5679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Seattle Link Extension",
+        "project_name": "West Seattle Link Extension",
+        "feature_type": "station",
+        "station_name": "Alaska Junction",
+        "status": "approved",
+        "statusText": "In Design",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3867,
+          47.5612
         ]
       }
     }

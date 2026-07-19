@@ -1,0 +1,247 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Austin Light Rail Phase 1",
+        "agency": "Austin Transit Partnership",
+        "category": "Light Rail",
+        "status": "approved",
+        "statusText": "Approved",
+        "timeline": "Project Connect Phase 1 LPA: ~10-mile light rail from Guadalupe/38th through downtown, then branching to South Congress/Oltorf and East Riverside; construction prep advancing toward mid-2030s service.",
+        "description": "Austin's first light rail line connects UT and the northern Guadalupe spine to downtown, crosses Lady Bird Lake on a new dedicated bridge, and splits into South Congress and East Riverside branches with about 15 stations.",
+        "color": "#dc2626",
+        "milestones": [
+          "Y-shaped Phase 1 LPA corridor represented",
+          "Key stations from 38th/Guadalupe through downtown branches",
+          "LPA approved; design-build and funding advancing"
+        ],
+        "source_url": "https://www.atptx.org/light-rail/"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -97.7374,
+              30.3023
+            ],
+            [
+              -97.74,
+              30.295
+            ],
+            [
+              -97.7425,
+              30.285
+            ],
+            [
+              -97.7445,
+              30.275
+            ],
+            [
+              -97.7474,
+              30.2678
+            ],
+            [
+              -97.746,
+              30.262
+            ],
+            [
+              -97.745,
+              30.257
+            ],
+            [
+              -97.748,
+              30.25
+            ]
+          ],
+          [
+            [
+              -97.748,
+              30.25
+            ],
+            [
+              -97.75,
+              30.245
+            ],
+            [
+              -97.7544,
+              30.238
+            ]
+          ],
+          [
+            [
+              -97.748,
+              30.25
+            ],
+            [
+              -97.735,
+              30.245
+            ],
+            [
+              -97.72,
+              30.238
+            ],
+            [
+              -97.6986,
+              30.223
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Austin Light Rail Phase 1",
+        "project_name": "Austin Light Rail Phase 1",
+        "feature_type": "station",
+        "station_name": "38th/Guadalupe",
+        "status": "approved",
+        "statusText": "Approved",
+        "color": "#dc2626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7374,
+          30.3023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Austin Light Rail Phase 1",
+        "project_name": "Austin Light Rail Phase 1",
+        "feature_type": "station",
+        "station_name": "UT / West Campus",
+        "status": "approved",
+        "statusText": "Approved",
+        "color": "#dc2626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74,
+          30.295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Austin Light Rail Phase 1",
+        "project_name": "Austin Light Rail Phase 1",
+        "feature_type": "station",
+        "station_name": "Capitol Area",
+        "status": "approved",
+        "statusText": "Approved",
+        "color": "#dc2626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7445,
+          30.275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Austin Light Rail Phase 1",
+        "project_name": "Austin Light Rail Phase 1",
+        "feature_type": "station",
+        "station_name": "Republic Square",
+        "status": "approved",
+        "statusText": "Approved",
+        "color": "#dc2626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7474,
+          30.2678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Austin Light Rail Phase 1",
+        "project_name": "Austin Light Rail Phase 1",
+        "feature_type": "station",
+        "station_name": "Lady Bird Lake",
+        "status": "approved",
+        "statusText": "Approved",
+        "color": "#dc2626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.745,
+          30.257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Austin Light Rail Phase 1",
+        "project_name": "Austin Light Rail Phase 1",
+        "feature_type": "station",
+        "station_name": "South Congress / Oltorf",
+        "status": "approved",
+        "statusText": "Approved",
+        "color": "#dc2626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7544,
+          30.238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Austin Light Rail Phase 1",
+        "project_name": "Austin Light Rail Phase 1",
+        "feature_type": "station",
+        "station_name": "East Riverside",
+        "status": "approved",
+        "statusText": "Approved",
+        "color": "#dc2626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72,
+          30.238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Austin Light Rail Phase 1",
+        "project_name": "Austin Light Rail Phase 1",
+        "feature_type": "station",
+        "station_name": "Riverside / Montopolis",
+        "status": "approved",
+        "statusText": "Approved",
+        "color": "#dc2626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6986,
+          30.223
+        ]
+      }
+    }
+  ]
+}
