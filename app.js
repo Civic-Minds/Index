@@ -22,7 +22,6 @@ const sortSelect = document.getElementById('sort-select');
 const listCount = document.getElementById('list-count');
 const emptyList = document.getElementById('empty-list');
 const loadingBanner = document.getElementById('loading');
-const exploreToggle = document.getElementById('explore-toggle');
 const resetViewBtn = document.getElementById('reset-view');
 const statTotal = document.getElementById('stat-total');
 const statConstruction = document.getElementById('stat-construction');
@@ -50,7 +49,6 @@ let fullMapCollection = { type: 'FeatureCollection', features: [] };
 const hiddenStatuses = new Set();
 let activeProjectName = '';
 let hoverProjectName = '';
-let exploreMode = false;
 let searchQuery = '';
 let sortMode = 'name';
 
@@ -70,41 +68,6 @@ function showSidebar() {
 function hideSidebar() {
     sidebar.classList.remove('open');
     openBtn.classList.remove('hidden');
-}
-
-function setExploreMode(on) {
-    exploreMode = on;
-    exploreToggle.setAttribute('aria-pressed', String(on));
-    exploreToggle.classList.toggle('is-active', on);
-    if (!map) return;
-    if (on) {
-        map.scrollZoom.enable();
-        map.boxZoom.enable();
-        map.dragPan.enable();
-        map.keyboard.enable();
-        map.doubleClickZoom.enable();
-        map.touchZoomRotate.enable();
-        map.getCanvas().style.cursor = 'grab';
-    } else {
-        map.scrollZoom.disable();
-        map.boxZoom.disable();
-        map.dragPan.disable();
-        map.keyboard.disable();
-        map.doubleClickZoom.disable();
-        map.touchZoomRotate.disable();
-        map.getCanvas().style.cursor = '';
-    }
-}
-
-function setMapLockedDefault() {
-    if (!map) return;
-    map.scrollZoom.disable();
-    map.boxZoom.disable();
-    map.dragPan.disable();
-    map.dragRotate.disable();
-    map.keyboard.disable();
-    map.doubleClickZoom.disable();
-    map.touchZoomRotate.disable();
 }
 
 initializeMap(PUBLIC_MAPBOX_TOKEN);
@@ -214,7 +177,8 @@ function initializeMap(token) {
         attributionControl: false
     });
 
-    setMapLockedDefault();
+    // Allow normal pan/zoom; Reset returns to the full network framing.
+    map.dragRotate.disable();
 
     map.on('load', () => {
         simplifyBaseMap();
@@ -291,12 +255,12 @@ function initializeMap(token) {
 
         map.on('mousemove', 'transit-lines', (e) => {
             if (!e.features.length) return;
-            map.getCanvas().style.cursor = exploreMode ? 'pointer' : 'pointer';
+            map.getCanvas().style.cursor = 'pointer';
             setHoverProject(e.features[0].properties.name);
         });
 
         map.on('mouseleave', 'transit-lines', () => {
-            if (!exploreMode) map.getCanvas().style.cursor = '';
+            map.getCanvas().style.cursor = '';
             setHoverProject('');
         });
 
@@ -314,7 +278,7 @@ function initializeMap(token) {
         });
 
         map.on('mouseleave', 'transit-stations', () => {
-            if (!exploreMode) map.getCanvas().style.cursor = '';
+            map.getCanvas().style.cursor = '';
         });
 
         fetchProjects();
@@ -609,11 +573,6 @@ function showProjectDetails(props) {
     detailsView.classList.remove('hidden');
     showSidebar();
 
-    // Brief explore assist while focused
-    if (!exploreMode) {
-        setExploreMode(true);
-    }
-
     if (map) {
         activeProjectName = props.name;
         applyMapFilters();
@@ -650,7 +609,6 @@ function resetOverview() {
     } else if (map) {
         map.flyTo({ center: OVERVIEW.center, zoom: OVERVIEW.zoom, essential: true });
     }
-    setExploreMode(false);
 }
 
 projectSearch.addEventListener('input', () => {
@@ -661,10 +619,6 @@ projectSearch.addEventListener('input', () => {
 sortSelect.addEventListener('change', () => {
     sortMode = sortSelect.value;
     applyFilters();
-});
-
-exploreToggle.addEventListener('click', () => {
-    setExploreMode(!exploreMode);
 });
 
 resetViewBtn.addEventListener('click', () => {
@@ -683,7 +637,6 @@ backBtn.addEventListener('click', () => {
         applyMapFilters();
         fitMapToData(fullMapCollection);
     }
-    setExploreMode(false);
 });
 
 closeBtn.addEventListener('click', () => {
