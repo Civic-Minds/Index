@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **Calgary Green Line**: Added Phase 1 (under construction toward 2031) and Phase 2 planned expansion corridors.
+- **O-Train Stage 2 East**: Added the Blair-to-Trim Line 1 extension and its five new stations.
+- **O-Train Stage 2 South**: Added the open Line 2 south / Line 4 Airport extension with mapped stations.
+- **Surrey–Langley SkyTrain**: Added the Expo Line Fraser Highway extension and eight new stations toward a late-2029 opening.
 - **Map Launch**: The public map now opens without asking visitors to provide their own Mapbox token.
 - **Project Corridors**: Transit construction lines now render reliably when the map launches.
 - **Status Filtering**: The map legend now toggles project statuses on and off directly.

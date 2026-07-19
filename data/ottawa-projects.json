@@ -12,12 +12,886 @@
         "timeline": "Stage 2 western extension from Tunney’s Pasture through Bayshore and Moodie to Algonquin.",
         "description": "Ottawa’s Stage 2 western O-Train expansion extends the rail network west from Tunney’s Pasture, with Line 1 continuing to Algonquin and Line 3 serving Moodie.",
         "color": "#ca8a04",
-        "milestones": ["Official Stage 2 alignment represented", "Lines 1 and 3 west extension"],
+        "milestones": [
+          "Official Stage 2 alignment represented",
+          "Lines 1 and 3 west extension"
+        ],
         "source_url": "https://maps.ottawa.ca/arcgis/rest/services/Rail_Implementation_Office/MapServer/33"
       },
       "geometry": {
         "type": "LineString",
-        "coordinates": [[-75.842081,45.338892],[-75.840796,45.33949],[-75.839351,45.340377],[-75.838607,45.340704],[-75.83606,45.340971],[-75.834434,45.341171],[-75.827099,45.342682],[-75.823221,45.343281],[-75.819977,45.343576],[-75.816396,45.344101],[-75.813931,45.344645],[-75.813282,45.344778],[-75.812533,45.34491],[-75.811874,45.345037],[-75.810723,45.345281],[-75.809829,45.345429],[-75.808039,45.345646],[-75.806908,45.345759],[-75.804705,45.34594],[-75.803651,45.346067],[-75.80255,45.346209],[-75.801026,45.346247],[-75.799478,45.346244],[-75.796895,45.346594],[-75.79649,45.346686],[-75.793653,45.347793],[-75.792715,45.348329],[-75.792194,45.348657],[-75.789591,45.350369],[-75.788319,45.350927],[-75.786841,45.351491],[-75.78422,45.352888],[-75.783532,45.353276],[-75.78294,45.35364],[-75.782776,45.353736],[-75.781203,45.354589],[-75.780371,45.356121],[-75.780609,45.356828],[-75.780836,45.357685],[-75.781835,45.364344],[-75.781919,45.365104],[-75.782193,45.369624],[-75.78182,45.370464],[-75.780822,45.371459],[-75.779756,45.372436],[-75.7787,45.373345],[-75.778044,45.373984],[-75.775449,45.376794],[-75.774531,45.377707],[-75.772572,45.379565],[-75.772288,45.379792],[-75.772125,45.379931],[-75.770638,45.381345],[-75.770163,45.382055],[-75.769792,45.383197],[-75.769144,45.384263],[-75.761228,45.391407],[-75.76067,45.391849],[-75.758804,45.393147],[-75.754391,45.395573],[-75.75107,45.396989],[-75.750176,45.39735],[-75.749596,45.397571],[-75.748555,45.39799],[-75.739172,45.401956],[-75.738066,45.402456],[-75.737473,45.402736],[-75.736368,45.403226],[-75.736193,45.403299]]
+        "coordinates": [
+          [
+            -75.842081,
+            45.338892
+          ],
+          [
+            -75.840796,
+            45.33949
+          ],
+          [
+            -75.839351,
+            45.340377
+          ],
+          [
+            -75.838607,
+            45.340704
+          ],
+          [
+            -75.83606,
+            45.340971
+          ],
+          [
+            -75.834434,
+            45.341171
+          ],
+          [
+            -75.827099,
+            45.342682
+          ],
+          [
+            -75.823221,
+            45.343281
+          ],
+          [
+            -75.819977,
+            45.343576
+          ],
+          [
+            -75.816396,
+            45.344101
+          ],
+          [
+            -75.813931,
+            45.344645
+          ],
+          [
+            -75.813282,
+            45.344778
+          ],
+          [
+            -75.812533,
+            45.34491
+          ],
+          [
+            -75.811874,
+            45.345037
+          ],
+          [
+            -75.810723,
+            45.345281
+          ],
+          [
+            -75.809829,
+            45.345429
+          ],
+          [
+            -75.808039,
+            45.345646
+          ],
+          [
+            -75.806908,
+            45.345759
+          ],
+          [
+            -75.804705,
+            45.34594
+          ],
+          [
+            -75.803651,
+            45.346067
+          ],
+          [
+            -75.80255,
+            45.346209
+          ],
+          [
+            -75.801026,
+            45.346247
+          ],
+          [
+            -75.799478,
+            45.346244
+          ],
+          [
+            -75.796895,
+            45.346594
+          ],
+          [
+            -75.79649,
+            45.346686
+          ],
+          [
+            -75.793653,
+            45.347793
+          ],
+          [
+            -75.792715,
+            45.348329
+          ],
+          [
+            -75.792194,
+            45.348657
+          ],
+          [
+            -75.789591,
+            45.350369
+          ],
+          [
+            -75.788319,
+            45.350927
+          ],
+          [
+            -75.786841,
+            45.351491
+          ],
+          [
+            -75.78422,
+            45.352888
+          ],
+          [
+            -75.783532,
+            45.353276
+          ],
+          [
+            -75.78294,
+            45.35364
+          ],
+          [
+            -75.782776,
+            45.353736
+          ],
+          [
+            -75.781203,
+            45.354589
+          ],
+          [
+            -75.780371,
+            45.356121
+          ],
+          [
+            -75.780609,
+            45.356828
+          ],
+          [
+            -75.780836,
+            45.357685
+          ],
+          [
+            -75.781835,
+            45.364344
+          ],
+          [
+            -75.781919,
+            45.365104
+          ],
+          [
+            -75.782193,
+            45.369624
+          ],
+          [
+            -75.78182,
+            45.370464
+          ],
+          [
+            -75.780822,
+            45.371459
+          ],
+          [
+            -75.779756,
+            45.372436
+          ],
+          [
+            -75.7787,
+            45.373345
+          ],
+          [
+            -75.778044,
+            45.373984
+          ],
+          [
+            -75.775449,
+            45.376794
+          ],
+          [
+            -75.774531,
+            45.377707
+          ],
+          [
+            -75.772572,
+            45.379565
+          ],
+          [
+            -75.772288,
+            45.379792
+          ],
+          [
+            -75.772125,
+            45.379931
+          ],
+          [
+            -75.770638,
+            45.381345
+          ],
+          [
+            -75.770163,
+            45.382055
+          ],
+          [
+            -75.769792,
+            45.383197
+          ],
+          [
+            -75.769144,
+            45.384263
+          ],
+          [
+            -75.761228,
+            45.391407
+          ],
+          [
+            -75.76067,
+            45.391849
+          ],
+          [
+            -75.758804,
+            45.393147
+          ],
+          [
+            -75.754391,
+            45.395573
+          ],
+          [
+            -75.75107,
+            45.396989
+          ],
+          [
+            -75.750176,
+            45.39735
+          ],
+          [
+            -75.749596,
+            45.397571
+          ],
+          [
+            -75.748555,
+            45.39799
+          ],
+          [
+            -75.739172,
+            45.401956
+          ],
+          [
+            -75.738066,
+            45.402456
+          ],
+          [
+            -75.737473,
+            45.402736
+          ],
+          [
+            -75.736368,
+            45.403226
+          ],
+          [
+            -75.736193,
+            45.403299
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 East Extension",
+        "agency": "City of Ottawa / OC Transpo",
+        "category": "Light Rail",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Line 1 east from Blair through Orléans to Trim; 12 kilometres and five new stations, planned to open in 2026.",
+        "description": "Ottawa’s Stage 2 East Extension continues Confederation Line (Line 1) 12 kilometres east from Blair to Trim, adding five stations at Montréal, Jeanne d’Arc, Convent Glen, Place d’Orléans, and Trim.",
+        "color": "#2563eb",
+        "milestones": [
+          "12-kilometre east corridor represented",
+          "Five new stations represented",
+          "Opening planned for 2026"
+        ],
+        "source_url": "https://www.octranspo.com/en/o-train-extension/ride/o-train-line-1-east-extension/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.607749,
+            45.431577
+          ],
+          [
+            -75.607239,
+            45.432108
+          ],
+          [
+            -75.606579,
+            45.433072
+          ],
+          [
+            -75.604013,
+            45.433759
+          ],
+          [
+            -75.602712,
+            45.43409
+          ],
+          [
+            -75.598573,
+            45.435971
+          ],
+          [
+            -75.597158,
+            45.436287
+          ],
+          [
+            -75.591074,
+            45.440488
+          ],
+          [
+            -75.584716,
+            45.449769
+          ],
+          [
+            -75.584465,
+            45.450203
+          ],
+          [
+            -75.584143,
+            45.450745
+          ],
+          [
+            -75.58317,
+            45.452226
+          ],
+          [
+            -75.582968,
+            45.452483
+          ],
+          [
+            -75.582637,
+            45.452971
+          ],
+          [
+            -75.578174,
+            45.456478
+          ],
+          [
+            -75.574069,
+            45.458187
+          ],
+          [
+            -75.548473,
+            45.468099
+          ],
+          [
+            -75.547535,
+            45.468507
+          ],
+          [
+            -75.547025,
+            45.46872
+          ],
+          [
+            -75.544507,
+            45.469684
+          ],
+          [
+            -75.543265,
+            45.47011
+          ],
+          [
+            -75.537396,
+            45.472381
+          ],
+          [
+            -75.535918,
+            45.472981
+          ],
+          [
+            -75.534926,
+            45.473378
+          ],
+          [
+            -75.532021,
+            45.47449
+          ],
+          [
+            -75.530471,
+            45.475059
+          ],
+          [
+            -75.523035,
+            45.477932
+          ],
+          [
+            -75.521015,
+            45.478731
+          ],
+          [
+            -75.519706,
+            45.479243
+          ],
+          [
+            -75.5167,
+            45.480385
+          ],
+          [
+            -75.515059,
+            45.480992
+          ],
+          [
+            -75.504052,
+            45.48524
+          ],
+          [
+            -75.484841,
+            45.49396
+          ],
+          [
+            -75.484036,
+            45.494343
+          ],
+          [
+            -75.483006,
+            45.49484
+          ],
+          [
+            -75.479789,
+            45.496426
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 East Extension",
+        "project_name": "O-Train Stage 2 East Extension",
+        "feature_type": "station",
+        "station_name": "Montréal",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#2563eb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.58359,
+          45.451438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 East Extension",
+        "project_name": "O-Train Stage 2 East Extension",
+        "feature_type": "station",
+        "station_name": "Jeanne d’Arc",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#2563eb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.546018,
+          45.46904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 East Extension",
+        "project_name": "O-Train Stage 2 East Extension",
+        "feature_type": "station",
+        "station_name": "Convent Glen",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#2563eb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.533984,
+          45.473687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 East Extension",
+        "project_name": "O-Train Stage 2 East Extension",
+        "feature_type": "station",
+        "station_name": "Place d’Orléans",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#2563eb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.518476,
+          45.479638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 East Extension",
+        "project_name": "O-Train Stage 2 East Extension",
+        "feature_type": "station",
+        "station_name": "Trim",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#2563eb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.481646,
+          45.495391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 South Extension",
+        "agency": "City of Ottawa / OC Transpo",
+        "category": "Light Rail",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "Line 2 south to Limebank and Line 4 to Airport Station are open daily.",
+        "description": "Ottawa’s Stage 2 South Extension rebuilds and extends the Trillium Line (Line 2) south toward Limebank and adds the Line 4 Airport link, bringing new and rebuilt stations into revenue service.",
+        "color": "#16a34a",
+        "milestones": [
+          "Line 2 south and Line 4 Airport now open",
+          "South corridor and Airport branch represented",
+          "Station locations represented from City of Ottawa Stage 2 open data"
+        ],
+        "source_url": "https://www.octranspo.com/en/o-train-extension"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -75.721768,
+              45.409138
+            ],
+            [
+              -75.714649,
+              45.404239
+            ],
+            [
+              -75.709642,
+              45.397685
+            ],
+            [
+              -75.695896,
+              45.385789
+            ],
+            [
+              -75.684714,
+              45.376745
+            ],
+            [
+              -75.659036,
+              45.359528
+            ],
+            [
+              -75.665191,
+              45.368275
+            ],
+            [
+              -75.655418,
+              45.353308
+            ],
+            [
+              -75.631859,
+              45.31376
+            ],
+            [
+              -75.632538,
+              45.293425
+            ],
+            [
+              -75.666223,
+              45.277638
+            ]
+          ],
+          [
+            [
+              -75.655418,
+              45.353308
+            ],
+            [
+              -75.656062,
+              45.3329
+            ],
+            [
+              -75.668704,
+              45.323701
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 South Extension",
+        "project_name": "O-Train Stage 2 South Extension",
+        "feature_type": "station",
+        "station_name": "Bayview",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.721768,
+          45.409138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 South Extension",
+        "project_name": "O-Train Stage 2 South Extension",
+        "feature_type": "station",
+        "station_name": "Corso Italia",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.714649,
+          45.404239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 South Extension",
+        "project_name": "O-Train Stage 2 South Extension",
+        "feature_type": "station",
+        "station_name": "Dow’s Lake",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.709642,
+          45.397685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 South Extension",
+        "project_name": "O-Train Stage 2 South Extension",
+        "feature_type": "station",
+        "station_name": "Carleton",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.695896,
+          45.385789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 South Extension",
+        "project_name": "O-Train Stage 2 South Extension",
+        "feature_type": "station",
+        "station_name": "Mooney’s Bay",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.684714,
+          45.376745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 South Extension",
+        "project_name": "O-Train Stage 2 South Extension",
+        "feature_type": "station",
+        "station_name": "Greenboro",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.659036,
+          45.359528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 South Extension",
+        "project_name": "O-Train Stage 2 South Extension",
+        "feature_type": "station",
+        "station_name": "Walkley",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.665191,
+          45.368275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 South Extension",
+        "project_name": "O-Train Stage 2 South Extension",
+        "feature_type": "station",
+        "station_name": "South Keys",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.655418,
+          45.353308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 South Extension",
+        "project_name": "O-Train Stage 2 South Extension",
+        "feature_type": "station",
+        "station_name": "Leitrim",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.631859,
+          45.31376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 South Extension",
+        "project_name": "O-Train Stage 2 South Extension",
+        "feature_type": "station",
+        "station_name": "Bowesville",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.632538,
+          45.293425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 South Extension",
+        "project_name": "O-Train Stage 2 South Extension",
+        "feature_type": "station",
+        "station_name": "Limebank",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.666223,
+          45.277638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 South Extension",
+        "project_name": "O-Train Stage 2 South Extension",
+        "feature_type": "station",
+        "station_name": "Uplands",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.656062,
+          45.3329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O-Train Stage 2 South Extension",
+        "project_name": "O-Train Stage 2 South Extension",
+        "feature_type": "station",
+        "station_name": "Airport",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.668704,
+          45.323701
+        ]
       }
     }
   ]

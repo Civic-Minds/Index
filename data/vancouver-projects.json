@@ -12,19 +12,371 @@
         "timeline": "VCC–Clark to Arbutus Street; opening planned for 2027.",
         "description": "The Broadway Subway extends Vancouver’s Millennium Line 5.7 kilometres from VCC–Clark to Arbutus, with six new underground stations along the Broadway corridor.",
         "color": "#f97316",
-        "milestones": ["5.7-kilometre corridor represented", "Six underground stations represented"],
+        "milestones": [
+          "5.7-kilometre corridor represented",
+          "Six underground stations represented"
+        ],
         "source_url": "https://www.broadwaysubway.ca/about/stations/"
       },
       "geometry": {
         "type": "LineString",
-        "coordinates": [[-123.079141,49.265829],[-123.094891,49.267299],[-123.101434,49.262645],[-123.114506,49.26284],[-123.124655,49.263107],[-123.136993,49.263818],[-123.152628,49.264113]]
+        "coordinates": [
+          [
+            -123.079141,
+            49.265829
+          ],
+          [
+            -123.094891,
+            49.267299
+          ],
+          [
+            -123.101434,
+            49.262645
+          ],
+          [
+            -123.114506,
+            49.26284
+          ],
+          [
+            -123.124655,
+            49.263107
+          ],
+          [
+            -123.136993,
+            49.263818
+          ],
+          [
+            -123.152628,
+            49.264113
+          ]
+        ]
       }
     },
-    {"type":"Feature","properties":{"name":"Broadway Subway Extension","project_name":"Broadway Subway Extension","feature_type":"station","status":"construction","statusText":"Construction","color":"#f97316","station_name":"Great Northern Way–Emily Carr"},"geometry":{"type":"Point","coordinates":[-123.094891,49.267299]}},
-    {"type":"Feature","properties":{"name":"Broadway Subway Extension","project_name":"Broadway Subway Extension","feature_type":"station","status":"construction","statusText":"Construction","color":"#f97316","station_name":"Broadway–City Hall"},"geometry":{"type":"Point","coordinates":[-123.114506,49.26284]}},
-    {"type":"Feature","properties":{"name":"Broadway Subway Extension","project_name":"Broadway Subway Extension","feature_type":"station","status":"construction","statusText":"Construction","color":"#f97316","station_name":"South Granville"},"geometry":{"type":"Point","coordinates":[-123.136993,49.263818]}},
-    {"type":"Feature","properties":{"name":"Broadway Subway Extension","project_name":"Broadway Subway Extension","feature_type":"station","status":"construction","statusText":"Construction","color":"#f97316","station_name":"Mount Pleasant"},"geometry":{"type":"Point","coordinates":[-123.101434,49.262645]}},
-    {"type":"Feature","properties":{"name":"Broadway Subway Extension","project_name":"Broadway Subway Extension","feature_type":"station","status":"construction","statusText":"Construction","color":"#f97316","station_name":"Oak–VGH"},"geometry":{"type":"Point","coordinates":[-123.124655,49.263107]}},
-    {"type":"Feature","properties":{"name":"Broadway Subway Extension","project_name":"Broadway Subway Extension","feature_type":"station","status":"construction","statusText":"Construction","color":"#f97316","station_name":"Arbutus"},"geometry":{"type":"Point","coordinates":[-123.152628,49.264113]}}
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Broadway Subway Extension",
+        "project_name": "Broadway Subway Extension",
+        "feature_type": "station",
+        "status": "construction",
+        "statusText": "Construction",
+        "color": "#f97316",
+        "station_name": "Great Northern Way–Emily Carr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.094891,
+          49.267299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Broadway Subway Extension",
+        "project_name": "Broadway Subway Extension",
+        "feature_type": "station",
+        "status": "construction",
+        "statusText": "Construction",
+        "color": "#f97316",
+        "station_name": "Broadway–City Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.114506,
+          49.26284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Broadway Subway Extension",
+        "project_name": "Broadway Subway Extension",
+        "feature_type": "station",
+        "status": "construction",
+        "statusText": "Construction",
+        "color": "#f97316",
+        "station_name": "South Granville"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.136993,
+          49.263818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Broadway Subway Extension",
+        "project_name": "Broadway Subway Extension",
+        "feature_type": "station",
+        "status": "construction",
+        "statusText": "Construction",
+        "color": "#f97316",
+        "station_name": "Mount Pleasant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.101434,
+          49.262645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Broadway Subway Extension",
+        "project_name": "Broadway Subway Extension",
+        "feature_type": "station",
+        "status": "construction",
+        "statusText": "Construction",
+        "color": "#f97316",
+        "station_name": "Oak–VGH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.124655,
+          49.263107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Broadway Subway Extension",
+        "project_name": "Broadway Subway Extension",
+        "feature_type": "station",
+        "status": "construction",
+        "statusText": "Construction",
+        "color": "#f97316",
+        "station_name": "Arbutus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.152628,
+          49.264113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surrey–Langley SkyTrain",
+        "agency": "TransLink / Province of British Columbia",
+        "category": "Heavy Rail",
+        "status": "construction",
+        "statusText": "Construction",
+        "timeline": "16-kilometre Expo Line extension from King George Station to Langley City Centre; anticipated in-service late 2029.",
+        "description": "The Surrey–Langley SkyTrain extends the Expo Line 16 kilometres along Fraser Highway from King George Station in Surrey to 203 Street in Langley City, with eight new elevated stations.",
+        "color": "#7c3aed",
+        "milestones": [
+          "16-kilometre Fraser Highway corridor represented",
+          "Eight new stations represented",
+          "Anticipated in-service late 2029"
+        ],
+        "source_url": "https://surreylangleyskytrain.gov.bc.ca/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.84473,
+            49.18278
+          ],
+          [
+            -122.83393,
+            49.17898
+          ],
+          [
+            -122.80297,
+            49.16707
+          ],
+          [
+            -122.77778,
+            49.15745
+          ],
+          [
+            -122.76255,
+            49.15136
+          ],
+          [
+            -122.71332,
+            49.12949
+          ],
+          [
+            -122.69469,
+            49.12115
+          ],
+          [
+            -122.67845,
+            49.11372
+          ],
+          [
+            -122.65861,
+            49.10604
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surrey–Langley SkyTrain",
+        "project_name": "Surrey–Langley SkyTrain",
+        "feature_type": "station",
+        "station_name": "Green Timbers",
+        "status": "construction",
+        "statusText": "Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.83393,
+          49.17898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surrey–Langley SkyTrain",
+        "project_name": "Surrey–Langley SkyTrain",
+        "feature_type": "station",
+        "station_name": "152 Street",
+        "status": "construction",
+        "statusText": "Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.80297,
+          49.16707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surrey–Langley SkyTrain",
+        "project_name": "Surrey–Langley SkyTrain",
+        "feature_type": "station",
+        "station_name": "Fleetwood",
+        "status": "construction",
+        "statusText": "Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.77778,
+          49.15745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surrey–Langley SkyTrain",
+        "project_name": "Surrey–Langley SkyTrain",
+        "feature_type": "station",
+        "station_name": "Bakerview-166 Street",
+        "status": "construction",
+        "statusText": "Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.76255,
+          49.15136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surrey–Langley SkyTrain",
+        "project_name": "Surrey–Langley SkyTrain",
+        "feature_type": "station",
+        "station_name": "Hillcrest-184 Street",
+        "status": "construction",
+        "statusText": "Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.71332,
+          49.12949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surrey–Langley SkyTrain",
+        "project_name": "Surrey–Langley SkyTrain",
+        "feature_type": "station",
+        "station_name": "Clayton",
+        "status": "construction",
+        "statusText": "Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.69469,
+          49.12115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surrey–Langley SkyTrain",
+        "project_name": "Surrey–Langley SkyTrain",
+        "feature_type": "station",
+        "station_name": "Willowbrook",
+        "status": "construction",
+        "statusText": "Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67845,
+          49.11372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surrey–Langley SkyTrain",
+        "project_name": "Surrey–Langley SkyTrain",
+        "feature_type": "station",
+        "station_name": "Langley City Centre",
+        "status": "construction",
+        "statusText": "Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.65861,
+          49.10604
+        ]
+      }
+    }
   ]
 }

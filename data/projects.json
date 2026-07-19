@@ -2086,14 +2086,15 @@
         "category": "Light Rail",
         "status": "construction",
         "statusText": "Under Construction",
-        "timeline": "Project phasing and delivery timing are subject to the City of Calgary's published plans.",
-        "description": "Green Line LRT alignment from City of Calgary open data. This record represents the planned corridor and does not replace the city's current project schedule.",
+        "timeline": "Southeast segment from Shepard to Event Centre/Grand Central under construction; opening targeted for 2031. Downtown segment still in planning and design.",
+        "description": "Calgary's Green Line Phase 1 SE project is a 16-kilometre light rail corridor from Shepard near 130 Avenue S.E. to Event Centre/Grand Central Station on the east side of downtown, with 10 stations, two river crossings, and a new LRV maintenance facility.",
         "color": "#c25a4b",
         "milestones": [
-          "Alignment published in City of Calgary open data",
-          "See the official project source for current phasing"
+          "16-kilometre SE corridor represented",
+          "Construction underway toward a 2031 opening",
+          "Station locations not yet mapped as point features"
         ],
-        "source_url": "https://data.calgary.ca/Transportation-Transit/Green-Line-Alignment/wyyc-63e5"
+        "source_url": "https://www.calgary.ca/green-line/overview.html"
       },
       "geometry": {
         "type": "MultiLineString",
@@ -2290,15 +2291,16 @@
         "agency": "City of Calgary",
         "category": "Light Rail",
         "status": "planning",
-        "statusText": "Planned / In Development",
-        "timeline": "Project phasing and delivery timing are subject to the City of Calgary's published plans.",
-        "description": "Green Line LRT alignment from City of Calgary open data. This record represents the planned corridor and does not replace the city's current project schedule.",
-        "color": "#c25a4b",
+        "statusText": "Planned Expansion",
+        "timeline": "Longer-term Green Line network beyond the SE Phase 1 delivery; schedule subject to City of Calgary phasing.",
+        "description": "Green Line Phase 2 represents planned light rail expansion beyond the SE Phase 1 build, extending the north-south corridor using City of Calgary alignment open data. Delivery scope and timing remain subject to future approvals.",
+        "color": "#a8483c",
         "milestones": [
-          "Alignment published in City of Calgary open data",
-          "See the official project source for current phasing"
+          "Future alignment represented from City open data",
+          "Delivery schedule not yet confirmed",
+          "Station locations not yet mapped as point features"
         ],
-        "source_url": "https://data.calgary.ca/Transportation-Transit/Green-Line-Alignment/wyyc-63e5"
+        "source_url": "https://www.calgary.ca/green-line/overview.html"
       },
       "geometry": {
         "type": "MultiLineString",
