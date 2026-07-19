@@ -18,9 +18,15 @@
                 <div class="masthead-subtitle">NORTH AMERICA</div>
                 <div class="masthead-title">TRANSIT INDEX</div>
             </div>
-            <div class="masthead-meta" id="masthead-meta" aria-live="polite">
-                <span class="masthead-count" id="stat-total">—</span>
-                <span class="masthead-count-label">projects</span>
+            <div class="masthead-tools">
+                <label class="masthead-search" for="project-search">
+                    <span class="sr-only">Search projects</span>
+                    <input type="search" id="project-search" placeholder="Search projects…" autocomplete="off">
+                </label>
+                <div class="masthead-meta" id="masthead-meta" aria-live="polite">
+                    <span class="masthead-count" id="stat-total">—</span>
+                    <span class="masthead-count-label">projects</span>
+                </div>
             </div>
         </header>
 
@@ -28,10 +34,6 @@
         <div id="loading" class="loading-banner hidden" aria-live="polite">Loading corridors…</div>
 
         <div class="hud" id="hud">
-            <label class="hud-search" for="project-search">
-                <span class="sr-only">Search projects</span>
-                <input type="search" id="project-search" placeholder="Search…" autocomplete="off">
-            </label>
             <div class="status-chips" id="status-chips" role="radiogroup" aria-label="Filter by status"></div>
             <div class="hud-actions">
                 <button type="button" id="reset-view" class="map-control-btn" title="Reset to full network">Reset</button>
