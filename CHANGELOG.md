@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - **Map-first discovery**: Dropped the permanent project list. Explore by scrolling the map; labels appear as you zoom; an “In this view” strip lists nearby projects; details open as a sheet only when a corridor is selected.
-- **UI chrome**: Floating search/status chips, masthead stats, free pan/zoom with Reset, and hover cards on corridors.
+- **Status UI**: One filter only — chips with color dots. Removed the duplicate legend and masthead status breakdown.
 - **Sidebar density**: Single-select status chips, compact list rows, and tighter filters so large project counts scan cleaner.
 - **Regional groups**: Sidebar lists projects in collapsible regions (Ontario, Quebec, California, etc.) instead of one flat 70+ list.
 - **Map Launch**: Removed the leftover Mapbox token modal so the map no longer flashes an “enter API key” overlay.

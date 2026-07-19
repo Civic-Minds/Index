@@ -18,23 +18,9 @@
                 <div class="masthead-subtitle">NORTH AMERICA</div>
                 <div class="masthead-title">TRANSIT INDEX</div>
             </div>
-            <div class="masthead-stats" id="masthead-stats" aria-live="polite">
-                <div class="stat-block">
-                    <span class="stat-value" id="stat-total">—</span>
-                    <span class="stat-label">Projects</span>
-                </div>
-                <div class="stat-block">
-                    <span class="stat-value" id="stat-construction">—</span>
-                    <span class="stat-label">Building</span>
-                </div>
-                <div class="stat-block">
-                    <span class="stat-value" id="stat-opened">—</span>
-                    <span class="stat-label">Opened</span>
-                </div>
-                <div class="stat-block">
-                    <span class="stat-value" id="stat-planning">—</span>
-                    <span class="stat-label">Planned</span>
-                </div>
+            <div class="masthead-meta" id="masthead-meta" aria-live="polite">
+                <span class="masthead-count" id="stat-total">—</span>
+                <span class="masthead-count-label">projects</span>
             </div>
         </header>
 
@@ -84,17 +70,6 @@
                 </div>
             </div>
         </aside>
-
-        <div id="legend" class="legend hidden">
-            <h4>Status</h4>
-            <div class="legend-items">
-                <div class="legend-item"><span class="status-planning-dot"></span> Planning</div>
-                <div class="legend-item"><span class="status-approved-dot"></span> Approved</div>
-                <div class="legend-item"><span class="status-construction-dot"></span> Construction</div>
-                <div class="legend-item"><span class="status-opened-dot"></span> Opened</div>
-                <div class="legend-item"><span class="status-delayed-dot"></span> Delayed</div>
-            </div>
-        </div>
 
         <p class="map-hint" id="map-hint">Scroll the map to explore · Click a corridor for details</p>
     </div>

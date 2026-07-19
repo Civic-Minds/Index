@@ -19,9 +19,6 @@ const viewportStrip = document.getElementById('viewport-strip');
 const viewportChips = document.getElementById('viewport-chips');
 const mapHint = document.getElementById('map-hint');
 const statTotal = document.getElementById('stat-total');
-const statConstruction = document.getElementById('stat-construction');
-const statOpened = document.getElementById('stat-opened');
-const statPlanning = document.getElementById('stat-planning');
 
 const PUBLIC_MAPBOX_TOKEN = 'pk.eyJ1Ijoicnlhbmhhbm5hIiwiYSI6ImNtbXk3MTkyYTM5ZHQyb3EzOWZnczV2NWUifQ.1ipGd2Oc07tCfLY7I_Fb1w';
 const STATUS_ORDER = ['planning', 'approved', 'construction', 'opened', 'delayed'];
@@ -190,7 +187,6 @@ function initializeMap(token) {
 
     map.on('load', () => {
         simplifyBaseMap();
-        document.getElementById('legend').classList.remove('hidden');
 
         map.addSource('transit-projects', {
             type: 'geojson',
@@ -346,15 +342,7 @@ function simplifyBaseMap() {
 }
 
 function updateMastheadStats(projects) {
-    const counts = { planning: 0, approved: 0, construction: 0, opened: 0, delayed: 0 };
-    projects.forEach(p => {
-        const s = p.properties.status;
-        if (counts[s] !== undefined) counts[s] += 1;
-    });
     statTotal.textContent = String(projects.length);
-    statConstruction.textContent = String(counts.construction);
-    statOpened.textContent = String(counts.opened);
-    statPlanning.textContent = String(counts.planning + counts.approved);
 }
 
 function buildStatusChips(projects) {
@@ -372,7 +360,11 @@ function buildStatusChips(projects) {
         btn.className = `status-chip${key !== 'all' ? ` status-chip-${key}` : ''}`;
         btn.dataset.status = key;
         btn.title = key === 'all' ? 'All projects' : (STATUS_LABELS_FULL[key] || label);
-        btn.innerHTML = `<span class="chip-label">${label}</span><span class="chip-count">${count}</span>`;
+        // Dot doubles as the color key — no separate legend needed
+        const swatch = key === 'all'
+            ? ''
+            : `<span class="chip-swatch status-${key}-dot" aria-hidden="true"></span>`;
+        btn.innerHTML = `${swatch}<span class="chip-label">${label}</span><span class="chip-count">${count}</span>`;
         btn.addEventListener('click', () => {
             selectedStatus = key === 'all' ? null : key;
             syncChipUI();
