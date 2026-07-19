@@ -13,7 +13,6 @@ const clearSelectionBtn = document.getElementById('clear-selection');
 const statusChips = document.getElementById('status-chips');
 const projectSearch = document.getElementById('project-search');
 const loadingBanner = document.getElementById('loading');
-const resetViewBtn = document.getElementById('reset-view');
 const hoverCard = document.getElementById('hover-card');
 const viewportStrip = document.getElementById('viewport-strip');
 const viewportChips = document.getElementById('viewport-chips');
@@ -616,10 +615,16 @@ function showProjectDetails(props) {
 }
 
 function closeDetail() {
+    const wasFocused = Boolean(activeProjectName);
     activeProjectName = '';
     detailSheet.classList.add('hidden');
     applyMapFilters();
-    updateViewportStrip();
+    // Return to the filtered network framing after leaving a project
+    if (wasFocused) {
+        applyFilters({ fit: true });
+    } else {
+        updateViewportStrip();
+    }
     if (map.getZoom() < 4.2) mapHint.classList.remove('hidden');
 }
 
@@ -640,20 +645,10 @@ function flyToProject(project) {
     map.flyTo({ center: project.geometry.coordinates, zoom: 12, essential: true });
 }
 
-function resetOverview() {
-    closeDetail();
-    selectedStatus = null;
-    searchQuery = '';
-    projectSearch.value = '';
-    syncChipUI();
-    applyFilters({ fit: true });
-}
-
 projectSearch.addEventListener('input', () => {
     searchQuery = projectSearch.value;
     applyFilters({ fit: false });
 });
 
-resetViewBtn.addEventListener('click', resetOverview);
 closeDetailBtn.addEventListener('click', closeDetail);
 clearSelectionBtn.addEventListener('click', closeDetail);

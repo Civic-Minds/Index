@@ -215,26 +215,6 @@ html {
     box-shadow: 2px 2px 0 #000;
 }
 
-.hud-actions {
-    margin-left: auto;
-}
-
-.map-control-btn {
-    padding: 9px 12px;
-    border: 1px solid #000;
-    background: #fff;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.65rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    cursor: pointer;
-    box-shadow: 2px 2px 0 #000;
-}
-
-.map-control-btn:hover {
-    background: var(--st-gray);
-}
-
 /* Hover card on map */
 .hover-card {
     position: absolute;
