@@ -42,6 +42,7 @@ All notable changes to this project will be documented in this file.
 - **O-Train Stage 2**: Added Ottawa’s official western extension alignment for Lines 1 and 3.
 - **REM Anse-à-l’Orme**: Added the Montréal West Island branch and its seven stations from current REM feed geometry.
 - **Montréal Blue Line**: Added the Saint-Michel-to-Anjou extension and its five new stations.
+- **Québec Tramway**: Added the TramCité Le Gendre-to-Charlesbourg corridor as line-only data.
 
 ## [1.3.0] - 2026-05-31
 
