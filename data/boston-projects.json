@@ -1,0 +1,444 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail Fall River",
+        "agency": "Massachusetts Bay Transportation Authority",
+        "category": "Commuter Rail",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "Phase 1 restored South Coast Rail service via the Middleborough Secondary to Fall River; passenger service began March 24, 2025.",
+        "description": "South Coast Rail Phase 1 reconnects Fall River to Boston with new stations at East Taunton, Freetown, Fall River Depot, and Battleship Cove after decades without passenger rail.",
+        "color": "#1d4ed8",
+        "milestones": [
+          "Boston-to-Fall River corridor represented",
+          "New South Coast stations plus Middleborough Line stops represented",
+          "Opened March 2025"
+        ],
+        "source_url": "https://www.mass.gov/south-coast-rail"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.055462,
+            42.350766
+          ],
+          [
+            -71.052369,
+            42.320539
+          ],
+          [
+            -71.005548,
+            42.252069
+          ],
+          [
+            -71.0014,
+            42.2079
+          ],
+          [
+            -71.02726,
+            42.156503
+          ],
+          [
+            -71.021831,
+            42.10636
+          ],
+          [
+            -71.016524,
+            42.084612
+          ],
+          [
+            -71.011111,
+            42.060991
+          ],
+          [
+            -70.976,
+            41.9855
+          ],
+          [
+            -70.923073,
+            41.88705
+          ],
+          [
+            -71.048,
+            41.87
+          ],
+          [
+            -71.090449,
+            41.773717
+          ],
+          [
+            -71.154188,
+            41.713967
+          ],
+          [
+            -71.16199,
+            41.706213
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail Fall River",
+        "project_name": "South Coast Rail Fall River",
+        "feature_type": "station",
+        "station_name": "South Station",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.055462,
+          42.350766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail Fall River",
+        "project_name": "South Coast Rail Fall River",
+        "feature_type": "station",
+        "station_name": "JFK/UMass",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.052369,
+          42.320539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail Fall River",
+        "project_name": "South Coast Rail Fall River",
+        "feature_type": "station",
+        "station_name": "Quincy Center",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.005548,
+          42.252069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail Fall River",
+        "project_name": "South Coast Rail Fall River",
+        "feature_type": "station",
+        "station_name": "Braintree",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0014,
+          42.2079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail Fall River",
+        "project_name": "South Coast Rail Fall River",
+        "feature_type": "station",
+        "station_name": "Holbrook/Randolph",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.02726,
+          42.156503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail Fall River",
+        "project_name": "South Coast Rail Fall River",
+        "feature_type": "station",
+        "station_name": "Montello",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.021831,
+          42.10636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail Fall River",
+        "project_name": "South Coast Rail Fall River",
+        "feature_type": "station",
+        "station_name": "Brockton",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.016524,
+          42.084612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail Fall River",
+        "project_name": "South Coast Rail Fall River",
+        "feature_type": "station",
+        "station_name": "Campello",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.011111,
+          42.060991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail Fall River",
+        "project_name": "South Coast Rail Fall River",
+        "feature_type": "station",
+        "station_name": "Bridgewater",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.976,
+          41.9855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail Fall River",
+        "project_name": "South Coast Rail Fall River",
+        "feature_type": "station",
+        "station_name": "Middleborough",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.923073,
+          41.88705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail Fall River",
+        "project_name": "South Coast Rail Fall River",
+        "feature_type": "station",
+        "station_name": "East Taunton",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.048,
+          41.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail Fall River",
+        "project_name": "South Coast Rail Fall River",
+        "feature_type": "station",
+        "station_name": "Freetown",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.090449,
+          41.773717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail Fall River",
+        "project_name": "South Coast Rail Fall River",
+        "feature_type": "station",
+        "station_name": "Fall River Depot",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.154188,
+          41.713967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail Fall River",
+        "project_name": "South Coast Rail Fall River",
+        "feature_type": "station",
+        "station_name": "Battleship Cove",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.16199,
+          41.706213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail New Bedford",
+        "agency": "Massachusetts Bay Transportation Authority",
+        "category": "Commuter Rail",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "Phase 1 New Bedford branch from East Taunton via Church Street to downtown New Bedford; opened March 24, 2025 with Fall River service.",
+        "description": "The New Bedford branch of South Coast Rail Phase 1 restores passenger trains to New Bedford with stations at Church Street and the new downtown New Bedford terminal.",
+        "color": "#1d4ed8",
+        "milestones": [
+          "East Taunton-to-New Bedford branch represented",
+          "Church Street and New Bedford stations represented",
+          "Opened March 2025"
+        ],
+        "source_url": "https://www.mass.gov/south-coast-rail"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.048,
+            41.87
+          ],
+          [
+            -70.939319,
+            41.674889
+          ],
+          [
+            -70.925019,
+            41.643409
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail New Bedford",
+        "project_name": "South Coast Rail New Bedford",
+        "feature_type": "station",
+        "station_name": "East Taunton",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.048,
+          41.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail New Bedford",
+        "project_name": "South Coast Rail New Bedford",
+        "feature_type": "station",
+        "station_name": "Church Street",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.939319,
+          41.674889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Coast Rail New Bedford",
+        "project_name": "South Coast Rail New Bedford",
+        "feature_type": "station",
+        "station_name": "New Bedford",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#1d4ed8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.925019,
+          41.643409
+        ]
+      }
+    }
+  ]
+}

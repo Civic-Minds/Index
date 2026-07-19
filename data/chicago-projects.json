@@ -1,0 +1,144 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CTA Red Line Extension",
+        "agency": "Chicago Transit Authority",
+        "category": "Heavy Rail",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "5.5-mile extension from 95th/Dan Ryan to 130th Street with four new stations; groundbreaking targeted early 2026, service ~2030.",
+        "description": "CTA's Red Line Extension will push the system's busiest heavy-rail line deeper into the Far South Side, adding accessible stations near 103rd, 111th, Michigan, and 130th with bus, bike, and park-and-ride connections.",
+        "color": "#c60c30",
+        "milestones": [
+          "5.5-mile Far South Side corridor represented",
+          "Four new stations plus 95th junction represented",
+          "Construction through ~2030"
+        ],
+        "source_url": "https://www.transitchicago.com/rle/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.624401,
+            41.722386
+          ],
+          [
+            -87.6255,
+            41.707
+          ],
+          [
+            -87.6248,
+            41.6922
+          ],
+          [
+            -87.621,
+            41.6855
+          ],
+          [
+            -87.605,
+            41.659
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CTA Red Line Extension",
+        "project_name": "CTA Red Line Extension",
+        "feature_type": "station",
+        "station_name": "95th/Dan Ryan",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#c60c30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.624401,
+          41.722386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CTA Red Line Extension",
+        "project_name": "CTA Red Line Extension",
+        "feature_type": "station",
+        "station_name": "103rd Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#c60c30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6255,
+          41.707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CTA Red Line Extension",
+        "project_name": "CTA Red Line Extension",
+        "feature_type": "station",
+        "station_name": "111th Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#c60c30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6248,
+          41.6922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CTA Red Line Extension",
+        "project_name": "CTA Red Line Extension",
+        "feature_type": "station",
+        "station_name": "Michigan",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#c60c30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.621,
+          41.6855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CTA Red Line Extension",
+        "project_name": "CTA Red Line Extension",
+        "feature_type": "station",
+        "station_name": "130th Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#c60c30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.605,
+          41.659
+        ]
+      }
+    }
+  ]
+}

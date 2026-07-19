@@ -1,0 +1,259 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DART Silver Line",
+        "agency": "Dallas Area Rapid Transit",
+        "category": "Regional Rail",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "26-mile Cotton Belt regional rail from DFW Airport Terminal B to Shiloh Road in Plano; opened October 25, 2025.",
+        "description": "DART's Silver Line brings passenger service back to the historic Cotton Belt corridor, linking DFW Airport with Grapevine, Carrollton, Addison, Richardson, and Plano and transferring to light rail and TEXRail.",
+        "color": "#6b7280",
+        "milestones": [
+          "26-mile DFW-to-Plano corridor represented",
+          "Ten stations represented",
+          "Opened October 2025"
+        ],
+        "source_url": "https://www.dart.org/guide/transit-and-use/rail/rail-line-details/silver-line"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.041251,
+            32.906493
+          ],
+          [
+            -97.054058,
+            32.933798
+          ],
+          [
+            -96.983196,
+            32.950576
+          ],
+          [
+            -96.908263,
+            32.954687
+          ],
+          [
+            -96.827677,
+            32.958794
+          ],
+          [
+            -96.817765,
+            32.96278
+          ],
+          [
+            -96.748868,
+            32.997034
+          ],
+          [
+            -96.704221,
+            33.003258
+          ],
+          [
+            -96.698558,
+            33.01508
+          ],
+          [
+            -96.666691,
+            33.011788
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DART Silver Line",
+        "project_name": "DART Silver Line",
+        "feature_type": "station",
+        "station_name": "DFW Airport Terminal B",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#6b7280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.041251,
+          32.906493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DART Silver Line",
+        "project_name": "DART Silver Line",
+        "feature_type": "station",
+        "station_name": "DFW Airport North",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#6b7280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.054058,
+          32.933798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DART Silver Line",
+        "project_name": "DART Silver Line",
+        "feature_type": "station",
+        "station_name": "Cypress Waters",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#6b7280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.983196,
+          32.950576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DART Silver Line",
+        "project_name": "DART Silver Line",
+        "feature_type": "station",
+        "station_name": "Downtown Carrollton",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#6b7280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.908263,
+          32.954687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DART Silver Line",
+        "project_name": "DART Silver Line",
+        "feature_type": "station",
+        "station_name": "Addison",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#6b7280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.827677,
+          32.958794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DART Silver Line",
+        "project_name": "DART Silver Line",
+        "feature_type": "station",
+        "station_name": "Knoll Trail",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#6b7280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.817765,
+          32.96278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DART Silver Line",
+        "project_name": "DART Silver Line",
+        "feature_type": "station",
+        "station_name": "UT Dallas",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#6b7280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.748868,
+          32.997034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DART Silver Line",
+        "project_name": "DART Silver Line",
+        "feature_type": "station",
+        "station_name": "CityLine/Bush",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#6b7280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.704221,
+          33.003258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DART Silver Line",
+        "project_name": "DART Silver Line",
+        "feature_type": "station",
+        "station_name": "12th Street",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#6b7280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.698558,
+          33.01508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DART Silver Line",
+        "project_name": "DART Silver Line",
+        "feature_type": "station",
+        "station_name": "Shiloh Road",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#6b7280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.666691,
+          33.011788
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NICTD West Lake Corridor",
+        "agency": "Northern Indiana Commuter Transportation District",
+        "category": "Commuter Rail",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "8-mile Monon Corridor extension of the South Shore Line from Hammond Gateway south to Munster/Dyer; opened March 2026.",
+        "description": "The West Lake Corridor (Monon Corridor) branches the South Shore Line south through Hammond and Munster to a new terminal near the Dyer border, giving Northwest Indiana a new one-seat commute toward Chicago.",
+        "color": "#fbbf24",
+        "milestones": [
+          "Hammond-to-Munster/Dyer corridor represented",
+          "Five stations represented",
+          "Opened March 2026"
+        ],
+        "source_url": "https://www.mysouthshoreline.com/about/projects/west-lake-corridor/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.521943,
+            41.631269
+          ],
+          [
+            -87.5095,
+            41.6185
+          ],
+          [
+            -87.518467,
+            41.583052
+          ],
+          [
+            -87.518576,
+            41.564627
+          ],
+          [
+            -87.517858,
+            41.523477
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NICTD West Lake Corridor",
+        "project_name": "NICTD West Lake Corridor",
+        "feature_type": "station",
+        "station_name": "Hammond Gateway",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#fbbf24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.521943,
+          41.631269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NICTD West Lake Corridor",
+        "project_name": "NICTD West Lake Corridor",
+        "feature_type": "station",
+        "station_name": "Downtown Hammond",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#fbbf24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.5095,
+          41.6185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NICTD West Lake Corridor",
+        "project_name": "NICTD West Lake Corridor",
+        "feature_type": "station",
+        "station_name": "South Hammond",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#fbbf24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.518467,
+          41.583052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NICTD West Lake Corridor",
+        "project_name": "NICTD West Lake Corridor",
+        "feature_type": "station",
+        "station_name": "Munster Ridge Road",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#fbbf24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.518576,
+          41.564627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NICTD West Lake Corridor",
+        "project_name": "NICTD West Lake Corridor",
+        "feature_type": "station",
+        "station_name": "Munster/Dyer Main Street",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#fbbf24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.517858,
+          41.523477
+        ]
+      }
+    }
+  ]
+}

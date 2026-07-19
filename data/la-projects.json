@@ -10,7 +10,7 @@
         "status": "opened",
         "statusText": "Recently Opened",
         "timeline": "Purple Line (D Line) subway extension from Wilshire/Western to Wilshire/La Cienega; Section 1 opened May 2026.",
-        "description": "Metro's D Line Extension Section 1 adds three new subway stations under Wilshire Boulevard—La Brea, Fairfax, and La Cienega—pushing heavy rail west from the historic Wilshire/Western terminus.",
+        "description": "Metro's D Line Extension Section 1 adds three new subway stations under Wilshire Boulevard\u2014La Brea, Fairfax, and La Cienega\u2014pushing heavy rail west from the historic Wilshire/Western terminus.",
         "color": "#a855f7",
         "milestones": [
           "Section 1 corridor represented",
@@ -126,7 +126,7 @@
         "status": "construction",
         "statusText": "Under Construction",
         "timeline": "Wilshire/La Cienega to Century City/Constellation via Wilshire/Rodeo; under construction toward a later 2020s opening.",
-        "description": "Section 2 of Metro’s D Line Extension continues the subway west from La Cienega under Beverly Hills to Century City, with stations at Wilshire/Rodeo and Century City/Constellation.",
+        "description": "Section 2 of Metro\u2019s D Line Extension continues the subway west from La Cienega under Beverly Hills to Century City, with stations at Wilshire/Rodeo and Century City/Constellation.",
         "color": "#9333ea",
         "milestones": [
           "Beverly Hills-to-Century City corridor represented",
@@ -219,7 +219,7 @@
         "status": "construction",
         "statusText": "Under Construction",
         "timeline": "Century City to Westwood/VA Hospital via Westwood/UCLA; under construction as the westernmost D Line segment.",
-        "description": "Section 3 of Metro’s D Line Extension carries the subway from Century City into Westwood, with stations at Westwood/UCLA and Westwood/VA Hospital near the VA Medical Center.",
+        "description": "Section 3 of Metro\u2019s D Line Extension carries the subway from Century City into Westwood, with stations at Westwood/UCLA and Westwood/VA Hospital near the VA Medical Center.",
         "color": "#7e22ce",
         "milestones": [
           "Century City-to-Westwood corridor represented",
@@ -300,6 +300,330 @@
         "coordinates": [
           -118.45365,
           34.05415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A Line Foothill Extension",
+        "agency": "Los Angeles Metro",
+        "category": "Light Rail",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "9.1-mile A Line extension from APU/Citrus College to Pomona North; opened September 19, 2025.",
+        "description": "The Foothill Extension pushes Metro's A Line east from Azusa through Glendora, San Dimas, and La Verne to Pomona North, adding four stations on the historic Gold Line corridor.",
+        "color": "#22c55e",
+        "milestones": [
+          "Azusa-to-Pomona corridor represented",
+          "Four new stations plus APU/Citrus College represented",
+          "Opened September 2025"
+        ],
+        "source_url": "https://foothillgoldline.org/construction_phases/glendora-to-montclair/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.890831,
+            34.137113
+          ],
+          [
+            -117.8655,
+            34.1362
+          ],
+          [
+            -117.8068,
+            34.1068
+          ],
+          [
+            -117.7678,
+            34.1005
+          ],
+          [
+            -117.752331,
+            34.093751
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A Line Foothill Extension",
+        "project_name": "A Line Foothill Extension",
+        "feature_type": "station",
+        "station_name": "APU/Citrus College",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#22c55e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.890831,
+          34.137113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A Line Foothill Extension",
+        "project_name": "A Line Foothill Extension",
+        "feature_type": "station",
+        "station_name": "Glendora",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#22c55e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8655,
+          34.1362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A Line Foothill Extension",
+        "project_name": "A Line Foothill Extension",
+        "feature_type": "station",
+        "station_name": "San Dimas",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#22c55e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8068,
+          34.1068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A Line Foothill Extension",
+        "project_name": "A Line Foothill Extension",
+        "feature_type": "station",
+        "station_name": "La Verne/Fairplex",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#22c55e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7678,
+          34.1005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A Line Foothill Extension",
+        "project_name": "A Line Foothill Extension",
+        "feature_type": "station",
+        "station_name": "Pomona North",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#22c55e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.752331,
+          34.093751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East San Fernando Valley LRT",
+        "agency": "Los Angeles Metro",
+        "category": "Light Rail",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "6.7-mile light rail on Van Nuys Boulevard from the G Line to Sylmar/San Fernando; revenue service targeted around 2031.",
+        "description": "Metro's East San Fernando Valley project builds a new light-rail spine along Van Nuys Boulevard, linking the G Line to Metrolink at Sylmar/San Fernando with intermediate neighborhood stations.",
+        "color": "#f97316",
+        "milestones": [
+          "Van Nuys Boulevard corridor represented",
+          "Key corridor stations represented",
+          "Opening targeted ~2031"
+        ],
+        "source_url": "https://www.metro.net/projects/east-sfv/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.4485,
+            34.1807
+          ],
+          [
+            -118.4486,
+            34.2011
+          ],
+          [
+            -118.4487,
+            34.2214
+          ],
+          [
+            -118.4488,
+            34.2355
+          ],
+          [
+            -118.4489,
+            34.2573
+          ],
+          [
+            -118.439,
+            34.282
+          ],
+          [
+            -118.450617,
+            34.293149
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East San Fernando Valley LRT",
+        "project_name": "East San Fernando Valley LRT",
+        "feature_type": "station",
+        "station_name": "Van Nuys (G Line)",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#f97316"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4485,
+          34.1807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East San Fernando Valley LRT",
+        "project_name": "East San Fernando Valley LRT",
+        "feature_type": "station",
+        "station_name": "Sherman Way",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#f97316"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4486,
+          34.2011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East San Fernando Valley LRT",
+        "project_name": "East San Fernando Valley LRT",
+        "feature_type": "station",
+        "station_name": "Roscoe",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#f97316"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4487,
+          34.2214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East San Fernando Valley LRT",
+        "project_name": "East San Fernando Valley LRT",
+        "feature_type": "station",
+        "station_name": "Nordhoff",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#f97316"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4488,
+          34.2355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East San Fernando Valley LRT",
+        "project_name": "East San Fernando Valley LRT",
+        "feature_type": "station",
+        "station_name": "Devonshire",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#f97316"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4489,
+          34.2573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East San Fernando Valley LRT",
+        "project_name": "East San Fernando Valley LRT",
+        "feature_type": "station",
+        "station_name": "San Fernando",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#f97316"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.439,
+          34.282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East San Fernando Valley LRT",
+        "project_name": "East San Fernando Valley LRT",
+        "feature_type": "station",
+        "station_name": "Sylmar/San Fernando",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#f97316"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.450617,
+          34.293149
         ]
       }
     }

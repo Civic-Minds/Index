@@ -1,0 +1,237 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Second Avenue Subway Phase 2",
+        "agency": "Metropolitan Transportation Authority",
+        "category": "Heavy Rail",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "1.5-mile extension of the Q train from 96th Street to Harlem-125th Street with new stations at 106th, 116th, and 125th; construction underway, opening later this decade.",
+        "description": "Phase 2 of the Second Avenue Subway continues the Q north from the Phase 1 terminus at 96th Street into East Harlem, ending with a connection to the Lexington Avenue Line at 125th Street.",
+        "color": "#0039a6",
+        "milestones": [
+          "96th-to-125th corridor represented",
+          "Stations at 106th, 116th, and 125th plus 96th junction",
+          "Under construction"
+        ],
+        "source_url": "https://new.mta.info/project/second-avenue-subway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.9472,
+            40.7841
+          ],
+          [
+            -73.944,
+            40.791
+          ],
+          [
+            -73.941,
+            40.7988
+          ],
+          [
+            -73.9355,
+            40.804
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Second Avenue Subway Phase 2",
+        "project_name": "Second Avenue Subway Phase 2",
+        "feature_type": "station",
+        "station_name": "96th Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#0039a6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9472,
+          40.7841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Second Avenue Subway Phase 2",
+        "project_name": "Second Avenue Subway Phase 2",
+        "feature_type": "station",
+        "station_name": "106th Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#0039a6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944,
+          40.791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Second Avenue Subway Phase 2",
+        "project_name": "Second Avenue Subway Phase 2",
+        "feature_type": "station",
+        "station_name": "116th Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#0039a6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941,
+          40.7988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Second Avenue Subway Phase 2",
+        "project_name": "Second Avenue Subway Phase 2",
+        "feature_type": "station",
+        "station_name": "125th Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#0039a6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9355,
+          40.804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Penn Station Access",
+        "agency": "Metro-North Railroad",
+        "category": "Commuter Rail",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Four new Bronx stations on Amtrak's Hell Gate Line so Metro-North New Haven Line trains can reach Penn Station; construction since Dec 2022, service targeted late 2020s.",
+        "description": "Penn Station Access rebuilds the Hell Gate Line for Metro-North, adding stations in Co-op City, Morris Park, Parkchester/Van Nest, and Hunts Point and giving East Bronx riders a one-seat ride to Penn Station.",
+        "color": "#ee352e",
+        "milestones": [
+          "Hell Gate Line Bronx corridor represented",
+          "Four new Bronx stations represented",
+          "Under construction toward late-2020s service"
+        ],
+        "source_url": "https://new.mta.info/project/penn-station-access"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.8285,
+            40.8695
+          ],
+          [
+            -73.8603,
+            40.8545
+          ],
+          [
+            -73.8619,
+            40.842
+          ],
+          [
+            -73.886,
+            40.8205
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Penn Station Access",
+        "project_name": "Penn Station Access",
+        "feature_type": "station",
+        "station_name": "Co-op City",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#ee352e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8285,
+          40.8695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Penn Station Access",
+        "project_name": "Penn Station Access",
+        "feature_type": "station",
+        "station_name": "Morris Park",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#ee352e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8603,
+          40.8545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Penn Station Access",
+        "project_name": "Penn Station Access",
+        "feature_type": "station",
+        "station_name": "Parkchester/Van Nest",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#ee352e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8619,
+          40.842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Penn Station Access",
+        "project_name": "Penn Station Access",
+        "feature_type": "station",
+        "station_name": "Hunts Point",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#ee352e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.886,
+          40.8205
+        ]
+      }
+    }
+  ]
+}

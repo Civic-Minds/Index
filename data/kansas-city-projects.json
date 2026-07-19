@@ -1,0 +1,260 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KC Streetcar Main Street Extension",
+        "agency": "Kansas City Streetcar Authority",
+        "category": "Streetcar",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "3.5-mile extension south from Union Station along Main Street to the Country Club Plaza / UMKC area; opened October 24, 2025.",
+        "description": "The Main Street Extension doubles the KC Streetcar's reach south from Union Station through Midtown to UMKC and the Country Club Plaza, knitting together major job and campus destinations.",
+        "color": "#ef4444",
+        "milestones": [
+          "Union Station-to-Plaza corridor represented",
+          "Midtown and Plaza stations represented",
+          "Opened October 2025"
+        ],
+        "source_url": "https://kcstreetcar.org/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -94.5855,
+            39.085
+          ],
+          [
+            -94.5852,
+            39.0755
+          ],
+          [
+            -94.5855,
+            39.07
+          ],
+          [
+            -94.5862,
+            39.0565
+          ],
+          [
+            -94.5915,
+            39.041
+          ],
+          [
+            -94.5868,
+            39.0345
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KC Streetcar Main Street Extension",
+        "project_name": "KC Streetcar Main Street Extension",
+        "feature_type": "station",
+        "station_name": "Union Station",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ef4444"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5855,
+          39.085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KC Streetcar Main Street Extension",
+        "project_name": "KC Streetcar Main Street Extension",
+        "feature_type": "station",
+        "station_name": "27th & Main",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ef4444"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5852,
+          39.0755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KC Streetcar Main Street Extension",
+        "project_name": "KC Streetcar Main Street Extension",
+        "feature_type": "station",
+        "station_name": "31st & Main",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ef4444"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5855,
+          39.07
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KC Streetcar Main Street Extension",
+        "project_name": "KC Streetcar Main Street Extension",
+        "feature_type": "station",
+        "station_name": "39th & Main",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ef4444"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5862,
+          39.0565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KC Streetcar Main Street Extension",
+        "project_name": "KC Streetcar Main Street Extension",
+        "feature_type": "station",
+        "station_name": "Country Club Plaza",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ef4444"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5915,
+          39.041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KC Streetcar Main Street Extension",
+        "project_name": "KC Streetcar Main Street Extension",
+        "feature_type": "station",
+        "station_name": "UMKC",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ef4444"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5868,
+          39.0345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KC Streetcar Riverfront Extension",
+        "agency": "Kansas City Streetcar Authority",
+        "category": "Streetcar",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "0.75-mile extension from River Market to Berkley Riverfront Park; opened May 2026.",
+        "description": "The Riverfront Extension carries the streetcar north of River Market to Berkley Riverfront Park, opening riverfront redevelopment sites to frequent free rail service.",
+        "color": "#ef4444",
+        "milestones": [
+          "River Market-to-Berkley corridor represented",
+          "Riverfront stations represented",
+          "Opened May 2026"
+        ],
+        "source_url": "https://kcstreetcar.org/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -94.5835,
+            39.1095
+          ],
+          [
+            -94.58,
+            39.1135
+          ],
+          [
+            -94.5721,
+            39.1177
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KC Streetcar Riverfront Extension",
+        "project_name": "KC Streetcar Riverfront Extension",
+        "feature_type": "station",
+        "station_name": "River Market",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ef4444"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5835,
+          39.1095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KC Streetcar Riverfront Extension",
+        "project_name": "KC Streetcar Riverfront Extension",
+        "feature_type": "station",
+        "station_name": "North Loop",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ef4444"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.58,
+          39.1135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KC Streetcar Riverfront Extension",
+        "project_name": "KC Streetcar Riverfront Extension",
+        "feature_type": "station",
+        "station_name": "Berkley Riverfront",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ef4444"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5721,
+          39.1177
+        ]
+      }
+    }
+  ]
+}

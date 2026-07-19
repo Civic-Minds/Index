@@ -23,7 +23,7 @@ const tokenSubmit = document.getElementById('token-submit');
 const DEFAULT_TITLE = 'PROJECTS';
 const PUBLIC_MAPBOX_TOKEN = 'pk.eyJ1Ijoicnlhbmhhbm5hIiwiYSI6ImNtbXk3MTkyYTM5ZHQyb3EzOWZnczV2NWUifQ.1ipGd2Oc07tCfLY7I_Fb1w';
 const STATUS_ORDER = ['planning', 'approved', 'construction', 'opened', 'delayed'];
-const ACTIVE_PROJECT_NAMES = new Set(['Eglinton Crosstown LRT', 'Finch West LRT', 'Hazel McCallion Line', 'Hamilton B-Line LRT', 'Ontario Line', 'Scarborough Subway Extension', 'Yonge North Subway Extension', 'Durham-Scarborough BRT', 'Eglinton Crosstown West Extension', 'ION Stage 2', 'Eglinton East LRT', 'Sheppard East LRT', 'Waterfront West LRT', 'Waterfront East LRT', 'Hamilton A-Line', 'Finch West LRT Extension', 'Brampton Queen Street BRT / LRT', 'Downtown Mississauga Transitway', 'Bailey Avenue BRT', 'East London Link', 'Wellington Gateway', 'NFTA Metro Transit Expansion', 'O-Train Stage 2 West Extension', 'REM Anse-à-l’Orme Branch', 'Montréal Blue Line Extension', 'TramCité', 'Broadway Subway Extension', 'Green Line Phase 1', 'Green Line Phase 2', 'O-Train Stage 2 East Extension', 'O-Train Stage 2 South Extension', 'Surrey–Langley SkyTrain', 'REM South Shore', 'REM Deux-Montagnes Branch', 'Maryland Purple Line', 'Valley Line West LRT', 'Federal Way Link Extension', 'D Line Extension Section 1', 'D Line Extension Section 2', 'D Line Extension Section 3', 'METRO Green Line Extension', 'South Central Extension / Downtown Hub', 'REM Airport Branch', 'Lynnwood Link Extension', '2 Line East Link Extension']);
+const ACTIVE_PROJECT_NAMES = new Set(['Eglinton Crosstown LRT', 'Finch West LRT', 'Hazel McCallion Line', 'Hamilton B-Line LRT', 'Ontario Line', 'Scarborough Subway Extension', 'Yonge North Subway Extension', 'Durham-Scarborough BRT', 'Eglinton Crosstown West Extension', 'ION Stage 2', 'Eglinton East LRT', 'Sheppard East LRT', 'Waterfront West LRT', 'Waterfront East LRT', 'Hamilton A-Line', 'Finch West LRT Extension', 'Brampton Queen Street BRT / LRT', 'Downtown Mississauga Transitway', 'Bailey Avenue BRT', 'East London Link', 'Wellington Gateway', 'NFTA Metro Transit Expansion', 'O-Train Stage 2 West Extension', 'REM Anse-à-l’Orme Branch', 'Montréal Blue Line Extension', 'TramCité', 'Broadway Subway Extension', 'Green Line Phase 1', 'Green Line Phase 2', 'O-Train Stage 2 East Extension', 'O-Train Stage 2 South Extension', 'Surrey–Langley SkyTrain', 'REM South Shore', 'REM Deux-Montagnes Branch', 'Maryland Purple Line', 'Valley Line West LRT', 'Federal Way Link Extension', 'D Line Extension Section 1', 'D Line Extension Section 2', 'D Line Extension Section 3', 'METRO Green Line Extension', 'South Central Extension / Downtown Hub', 'REM Airport Branch', 'Lynnwood Link Extension', '2 Line East Link Extension', 'DART Silver Line', 'CTA Red Line Extension', 'South Coast Rail Fall River', 'South Coast Rail New Bedford', 'A Line Foothill Extension', 'East San Fernando Valley LRT', 'Capital Line South', 'Second Avenue Subway Phase 2', 'Penn Station Access', 'VTA BART Silicon Valley Phase II', 'NICTD West Lake Corridor', 'KC Streetcar Main Street Extension', 'KC Streetcar Riverfront Extension', 'MARTA Rapid A-Line']);
 const MAP_BACKGROUND_COLOR = '#ffffff';
 
 let map;
@@ -67,7 +67,13 @@ tokenSubmit.addEventListener('click', () => {
 
 async function fetchProjects() {
     try {
-        const [response, supplementalResponse, nftaResponse, londonResponse, ottawaResponse, remResponse, montrealResponse, quebecResponse, vancouverResponse, marylandResponse, edmontonResponse, seattleResponse, laResponse, minneapolisResponse, phoenixResponse] = await Promise.all([
+        const [
+            response, supplementalResponse, nftaResponse, londonResponse, ottawaResponse,
+            remResponse, montrealResponse, quebecResponse, vancouverResponse, marylandResponse,
+            edmontonResponse, seattleResponse, laResponse, minneapolisResponse, phoenixResponse,
+            dallasResponse, chicagoResponse, bostonResponse, nycResponse, bayAreaResponse,
+            indianaResponse, kansasCityResponse, atlantaResponse
+        ] = await Promise.all([
             fetch('data/projects.json'),
             fetch('data/regional-projects.json'),
             fetch('data/nfta-projects.json'),
@@ -82,7 +88,15 @@ async function fetchProjects() {
             fetch('data/seattle-projects.json'),
             fetch('data/la-projects.json'),
             fetch('data/minneapolis-projects.json'),
-            fetch('data/phoenix-projects.json')
+            fetch('data/phoenix-projects.json'),
+            fetch('data/dallas-projects.json'),
+            fetch('data/chicago-projects.json'),
+            fetch('data/boston-projects.json'),
+            fetch('data/nyc-projects.json'),
+            fetch('data/bay-area-projects.json'),
+            fetch('data/indiana-projects.json'),
+            fetch('data/kansas-city-projects.json'),
+            fetch('data/atlanta-projects.json')
         ]);
         const data = await response.json();
         const supplemental = await supplementalResponse.json();
@@ -99,7 +113,22 @@ async function fetchProjects() {
         const la = await laResponse.json();
         const minneapolis = await minneapolisResponse.json();
         const phoenix = await phoenixResponse.json();
-        const features = [...data.features, ...supplemental.features, ...nfta.features, ...london.features, ...ottawa.features, ...rem.features, ...montreal.features, ...quebec.features, ...vancouver.features, ...maryland.features, ...edmonton.features, ...seattle.features, ...la.features, ...minneapolis.features, ...phoenix.features];
+        const dallas = await dallasResponse.json();
+        const chicago = await chicagoResponse.json();
+        const boston = await bostonResponse.json();
+        const nyc = await nycResponse.json();
+        const bayArea = await bayAreaResponse.json();
+        const indiana = await indianaResponse.json();
+        const kansasCity = await kansasCityResponse.json();
+        const atlanta = await atlantaResponse.json();
+        const features = [
+            ...data.features, ...supplemental.features, ...nfta.features, ...london.features,
+            ...ottawa.features, ...rem.features, ...montreal.features, ...quebec.features,
+            ...vancouver.features, ...maryland.features, ...edmonton.features, ...seattle.features,
+            ...la.features, ...minneapolis.features, ...phoenix.features, ...dallas.features,
+            ...chicago.features, ...boston.features, ...nyc.features, ...bayArea.features,
+            ...indiana.features, ...kansasCity.features, ...atlanta.features
+        ];
         const projectFeatures = features.filter(feature =>
             isProjectFeature(feature) && ACTIVE_PROJECT_NAMES.has(feature.properties.name)
         );

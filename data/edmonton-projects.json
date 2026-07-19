@@ -519,7 +519,7 @@
         "name": "Valley Line West LRT",
         "project_name": "Valley Line West LRT",
         "feature_type": "station",
-        "station_name": "Wîhkwêntôwin/116 Street",
+        "station_name": "W\u00eehkw\u00eant\u00f4win/116 Street",
         "status": "construction",
         "statusText": "Under Construction",
         "color": "#16a34a"
@@ -586,6 +586,99 @@
         "coordinates": [
           -113.50194,
           53.54306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Capital Line South",
+        "agency": "City of Edmonton",
+        "category": "Light Rail",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Phase 1: 4.5 km high-floor LRT from Century Park to Heritage Valley North near Ellerslie Road; major construction 2025\u2013~2029.",
+        "description": "Capital Line South Phase 1 extends Edmonton's original LRT spine south along 111 Street with new stations at Twin Brooks and Heritage Valley North plus a new operations facility.",
+        "color": "#dc2626",
+        "milestones": [
+          "Century Park-to-Ellerslie corridor represented",
+          "Twin Brooks and Heritage Valley North stations represented",
+          "Phase 1 under construction"
+        ],
+        "source_url": "https://www.edmonton.ca/projects_plans/transit/capital-line-south"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -113.51637,
+            53.457313
+          ],
+          [
+            -113.5183,
+            53.4408
+          ],
+          [
+            -113.535,
+            53.428
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Capital Line South",
+        "project_name": "Capital Line South",
+        "feature_type": "station",
+        "station_name": "Century Park",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#dc2626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.51637,
+          53.457313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Capital Line South",
+        "project_name": "Capital Line South",
+        "feature_type": "station",
+        "station_name": "Twin Brooks",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#dc2626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5183,
+          53.4408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Capital Line South",
+        "project_name": "Capital Line South",
+        "feature_type": "station",
+        "station_name": "Heritage Valley North",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#dc2626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.535,
+          53.428
         ]
       }
     }

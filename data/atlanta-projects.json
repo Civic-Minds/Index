@@ -1,0 +1,167 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MARTA Rapid A-Line",
+        "agency": "Metropolitan Atlanta Rapid Transit Authority",
+        "category": "BRT",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "Atlanta's first BRT line linking Downtown to Summerhill and Peoplestown; Phase One service began April 18, 2026, with full station buildout through Fall 2026.",
+        "description": "The Rapid A-Line (Summerhill BRT) is MARTA's first bus rapid transit corridor, tying Downtown, the Capitol, Summerhill, Peoplestown, and BeltLine connections with frequent premium bus service.",
+        "color": "#f5a31b",
+        "milestones": [
+          "Downtown-to-Summerhill corridor represented",
+          "Key Rapid A-Line stations represented",
+          "Phase One opened April 2026"
+        ],
+        "source_url": "https://itsmarta.com/summerhill.aspx"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.3915,
+            33.7539
+          ],
+          [
+            -84.3882,
+            33.7491
+          ],
+          [
+            -84.3885,
+            33.745
+          ],
+          [
+            -84.3875,
+            33.7367
+          ],
+          [
+            -84.3865,
+            33.7325
+          ],
+          [
+            -84.385,
+            33.728
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MARTA Rapid A-Line",
+        "project_name": "MARTA Rapid A-Line",
+        "feature_type": "station",
+        "station_name": "Five Points",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#f5a31b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3915,
+          33.7539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MARTA Rapid A-Line",
+        "project_name": "MARTA Rapid A-Line",
+        "feature_type": "station",
+        "station_name": "Georgia State Capitol",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#f5a31b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3882,
+          33.7491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MARTA Rapid A-Line",
+        "project_name": "MARTA Rapid A-Line",
+        "feature_type": "station",
+        "station_name": "Capitol Gateway",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#f5a31b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3885,
+          33.745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MARTA Rapid A-Line",
+        "project_name": "MARTA Rapid A-Line",
+        "feature_type": "station",
+        "station_name": "Summerhill (Georgia Ave)",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#f5a31b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3875,
+          33.7367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MARTA Rapid A-Line",
+        "project_name": "MARTA Rapid A-Line",
+        "feature_type": "station",
+        "station_name": "Ormond Street",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#f5a31b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3865,
+          33.7325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MARTA Rapid A-Line",
+        "project_name": "MARTA Rapid A-Line",
+        "feature_type": "station",
+        "station_name": "Peoplestown",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#f5a31b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.385,
+          33.728
+        ]
+      }
+    }
+  ]
+}
