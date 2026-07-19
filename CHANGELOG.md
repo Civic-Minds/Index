@@ -38,6 +38,7 @@ All notable changes to this project will be documented in this file.
 - **Station Visibility**: Hide station markers on the overview until a corridor or project is selected.
 - **London Rapid Transit**: Added the East London Link and Wellington Gateway construction corridors.
 - **Wellington Gateway**: Corrected the corridor endpoint to Wellington Road at Greenfield Drive.
+- **Broadway Subway**: Added Vancouver’s VCC–Clark-to-Arbutus extension and six stations.
 - **NFTA Metro Expansion**: Added the University Station-to-UB North Campus study corridor while the LRT/BRT alternatives remain under review.
 - **O-Train Stage 2**: Added Ottawa’s official western extension alignment for Lines 1 and 3.
 - **REM Anse-à-l’Orme**: Added the Montréal West Island branch and its seven stations from current REM feed geometry.
