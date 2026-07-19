@@ -14,35 +14,89 @@
 <body>
     <div id="frame" class="frame">
         <header class="masthead">
-            <div class="masthead-main">
+            <div class="masthead-brand">
                 <div class="masthead-subtitle">NORTH AMERICA</div>
                 <div class="masthead-title">TRANSIT INDEX</div>
             </div>
+            <div class="masthead-stats" id="masthead-stats" aria-live="polite">
+                <div class="stat-block">
+                    <span class="stat-value" id="stat-total">—</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat-block">
+                    <span class="stat-value" id="stat-construction">—</span>
+                    <span class="stat-label">Building</span>
+                </div>
+                <div class="stat-block">
+                    <span class="stat-value" id="stat-opened">—</span>
+                    <span class="stat-label">Opened</span>
+                </div>
+                <div class="stat-block">
+                    <span class="stat-value" id="stat-planning">—</span>
+                    <span class="stat-label">Planned</span>
+                </div>
+            </div>
         </header>
+
         <div id="map"></div>
+        <div id="loading" class="loading-banner hidden" aria-live="polite">Loading corridors…</div>
+
+        <div class="map-controls" id="map-controls">
+            <button type="button" id="explore-toggle" class="map-control-btn" aria-pressed="false" title="Allow pan and zoom">
+                Explore
+            </button>
+            <button type="button" id="reset-view" class="map-control-btn" title="Reset map to full network">
+                Reset
+            </button>
+        </div>
 
         <div id="sidebar" class="sidebar hidden">
-            <button id="close-sidebar" class="close-btn">&times;</button>
+            <div class="sidebar-sheet-handle" aria-hidden="true"></div>
+            <button id="close-sidebar" class="close-btn" aria-label="Close projects panel">&times;</button>
             <div id="sidebar-content">
                 <h1 id="project-name">PROJECTS</h1>
-                <div id="filter-container" class="filter-group">
-                    <select id="status-filter">
-                        <option value="all">ALL STATUSES</option>
-                    </select>
+                <div id="list-view">
+                    <p class="list-count" id="list-count"></p>
+
+                    <div id="filter-container" class="filter-panel">
+                        <label class="search-label" for="project-search">
+                            <span class="sr-only">Search projects</span>
+                            <input type="search" id="project-search" placeholder="Search name, agency, category…" autocomplete="off">
+                        </label>
+                        <div class="sort-row">
+                            <label for="sort-select" class="sort-label">Sort</label>
+                            <select id="sort-select">
+                                <option value="name">A–Z</option>
+                                <option value="status">Status</option>
+                            </select>
+                        </div>
+                        <div class="status-chips" id="status-chips" role="group" aria-label="Filter by status">
+                            <!-- chips injected -->
+                        </div>
+                    </div>
+
+                    <div id="project-list" class="project-list"></div>
+                    <p id="empty-list" class="empty-list hidden">No projects match.</p>
                 </div>
-                <div id="project-list" class="project-list">
-                    <!-- Project list items will be injected here -->
-                </div>
+
                 <div id="project-details-view" class="details-view hidden">
                     <div id="project-status" class="status-badge">SELECT A PROJECT</div>
+                    <div class="detail-meta" id="project-meta"></div>
                     <div id="project-details" class="technical-details">
                         <p id="project-description">Click on a project to see more details.</p>
-                        <div id="project-timeline" class="timeline"></div>
+                        <div class="detail-field" id="project-timeline-field">
+                            <div class="detail-field-label">Timeline</div>
+                            <div id="project-timeline" class="timeline"></div>
+                        </div>
                         <div id="project-milestones" class="milestones-list"></div>
+                        <div class="detail-field" id="project-stations-field" hidden>
+                            <div class="detail-field-label">Stations mapped</div>
+                            <div id="project-stations-count" class="detail-field-value"></div>
+                        </div>
                     </div>
                     <div class="button-group">
-                        <a id="project-link" href="#" target="_blank" class="external-link hidden">OFFICIAL PROJECT PAGE</a>
-                        <button id="back-to-list" class="secondary-btn">BACK TO LIST</button>
+                        <a id="project-link" href="#" target="_blank" rel="noopener" class="external-link hidden">Official project page</a>
+                        <button id="back-to-list" class="secondary-btn">Back to list</button>
                     </div>
                 </div>
             </div>
@@ -52,21 +106,13 @@
 
         <div id="legend" class="legend hidden">
             <h4>Status</h4>
-            <button type="button" class="status-toggle" data-status="planning" aria-pressed="true">
-                <span class="status-planning-dot" style="background-color: #4CAF50;"></span> Planning
-            </button>
-            <button type="button" class="status-toggle" data-status="approved" aria-pressed="true">
-                <span class="status-approved-dot" style="background-color: #2196F3;"></span> Approved
-            </button>
-            <button type="button" class="status-toggle" data-status="construction" aria-pressed="true">
-                <span class="status-construction-dot" style="background-color: #FF9800;"></span> Construction
-            </button>
-            <button type="button" class="status-toggle" data-status="opened" aria-pressed="true">
-                <span class="status-opened-dot" style="background-color: #ef3e42;"></span> Recently Opened
-            </button>
-            <button type="button" class="status-toggle" data-status="delayed" aria-pressed="true">
-                <span class="status-delayed-dot" style="background-color: #F44336;"></span> Delayed
-            </button>
+            <div class="legend-items">
+                <div class="legend-item"><span class="status-planning-dot"></span> Planning</div>
+                <div class="legend-item"><span class="status-approved-dot"></span> Approved</div>
+                <div class="legend-item"><span class="status-construction-dot"></span> Construction</div>
+                <div class="legend-item"><span class="status-opened-dot"></span> Recently opened</div>
+                <div class="legend-item"><span class="status-delayed-dot"></span> Delayed</div>
+            </div>
         </div>
     </div>
 

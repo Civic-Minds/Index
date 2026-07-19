@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **UI overhaul**: Search, sort, status chips with counts, masthead stats, focus/hover map modes, Explore/Reset controls, richer project details, and a mobile bottom-sheet sidebar.
 - **Map Launch**: Removed the leftover Mapbox token modal so the map no longer flashes an “enter API key” overlay.
 - **GO Expansion corridors**: Activated six Metrolinx FRTN regional rail extensions (Kitchener, Barrie, Niagara, Gormley, West Harbour, Confederation) with clearer GO Expansion-linked copy.
 - **High-Priority Corridors**: Added Gateway Hudson Tunnel, LAX SkyLink, Austin Light Rail Phase 1, Southeast Gateway Line, UTA Midvalley Express (MVX), Maryland Parkway BRT, Interborough Express (IBX), and West Seattle Link Extension.
