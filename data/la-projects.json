@@ -116,6 +116,192 @@
           34.065078
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "D Line Extension Section 2",
+        "agency": "Los Angeles Metro",
+        "category": "Heavy Rail",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Wilshire/La Cienega to Century City/Constellation via Wilshire/Rodeo; under construction toward a later 2020s opening.",
+        "description": "Section 2 of Metro’s D Line Extension continues the subway west from La Cienega under Beverly Hills to Century City, with stations at Wilshire/Rodeo and Century City/Constellation.",
+        "color": "#9333ea",
+        "milestones": [
+          "Beverly Hills-to-Century City corridor represented",
+          "Two new stations represented (plus La Cienega junction)",
+          "Under construction west of Section 1"
+        ],
+        "source_url": "https://www.metro.net/projects/westside/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.375687,
+            34.065078
+          ],
+          [
+            -118.4013,
+            34.0674
+          ],
+          [
+            -118.4146,
+            34.0585
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "D Line Extension Section 2",
+        "project_name": "D Line Extension Section 2",
+        "feature_type": "station",
+        "station_name": "Wilshire/La Cienega",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#9333ea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.375687,
+          34.065078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "D Line Extension Section 2",
+        "project_name": "D Line Extension Section 2",
+        "feature_type": "station",
+        "station_name": "Wilshire/Rodeo",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#9333ea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4013,
+          34.0674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "D Line Extension Section 2",
+        "project_name": "D Line Extension Section 2",
+        "feature_type": "station",
+        "station_name": "Century City/Constellation",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#9333ea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4146,
+          34.0585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "D Line Extension Section 3",
+        "agency": "Los Angeles Metro",
+        "category": "Heavy Rail",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Century City to Westwood/VA Hospital via Westwood/UCLA; under construction as the westernmost D Line segment.",
+        "description": "Section 3 of Metro’s D Line Extension carries the subway from Century City into Westwood, with stations at Westwood/UCLA and Westwood/VA Hospital near the VA Medical Center.",
+        "color": "#7e22ce",
+        "milestones": [
+          "Century City-to-Westwood corridor represented",
+          "Two new stations represented (plus Century City junction)",
+          "Under construction as the final planned section"
+        ],
+        "source_url": "https://www.metro.net/projects/westside/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.4146,
+            34.0585
+          ],
+          [
+            -118.44698,
+            34.05832
+          ],
+          [
+            -118.45365,
+            34.05415
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "D Line Extension Section 3",
+        "project_name": "D Line Extension Section 3",
+        "feature_type": "station",
+        "station_name": "Century City/Constellation",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7e22ce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4146,
+          34.0585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "D Line Extension Section 3",
+        "project_name": "D Line Extension Section 3",
+        "feature_type": "station",
+        "station_name": "Westwood/UCLA",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7e22ce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.44698,
+          34.05832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "D Line Extension Section 3",
+        "project_name": "D Line Extension Section 3",
+        "feature_type": "station",
+        "station_name": "Westwood/VA Hospital",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7e22ce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.45365,
+          34.05415
+        ]
+      }
     }
   ]
 }

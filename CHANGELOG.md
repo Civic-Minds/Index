@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - **Valley Line West**: Added Edmonton’s downtown-to-Lewis Farms LRT corridor and 16 stops under construction through 2028.
 - **Federal Way Link**: Added Sound Transit’s open 1 Line extension from Angle Lake to Federal Way Downtown.
 - **D Line Section 1**: Added LA Metro’s open Wilshire subway extension to La Cienega.
+- **D Line Sections 2–3**: Added the under-construction subway segments through Beverly Hills, Century City, and Westwood.
 - **REM Network**: Added the open South Shore trunk and Deux-Montagnes branch, and corrected the Anse-à-l’Orme station set to the West Island branch only.
 - **Maryland Purple Line**: Added the Bethesda-to-New Carrollton light rail corridor and all 21 stations (opening targeted for winter 2027).
 - **Calgary Green Line**: Added Phase 1 (under construction toward 2031) and Phase 2 planned expansion corridors.
