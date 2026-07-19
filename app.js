@@ -16,10 +16,6 @@ const statusFilter = document.getElementById('status-filter');
 const filterContainer = document.getElementById('filter-container');
 const statusToggles = document.querySelectorAll('.status-toggle');
 
-const tokenPrompt = document.getElementById('token-prompt');
-const tokenInput = document.getElementById('token-input');
-const tokenSubmit = document.getElementById('token-submit');
-
 const DEFAULT_TITLE = 'PROJECTS';
 const PUBLIC_MAPBOX_TOKEN = 'pk.eyJ1Ijoicnlhbmhhbm5hIiwiYSI6ImNtbXk3MTkyYTM5ZHQyb3EzOWZnczV2NWUifQ.1ipGd2Oc07tCfLY7I_Fb1w';
 const STATUS_ORDER = ['planning', 'approved', 'construction', 'opened', 'delayed'];
@@ -49,21 +45,7 @@ function hideSidebar() {
     openBtn.classList.remove('hidden');
 }
 
-// Check for saved token
-const savedToken = localStorage.getItem('mapbox_token');
-if (savedToken || PUBLIC_MAPBOX_TOKEN) {
-    initializeMap(savedToken || PUBLIC_MAPBOX_TOKEN);
-}
-
-tokenSubmit.addEventListener('click', () => {
-    const token = tokenInput.value.trim();
-    if (token) {
-        localStorage.setItem('mapbox_token', token);
-        initializeMap(token);
-    } else {
-        alert('Please enter a valid Mapbox token.');
-    }
-});
+initializeMap(PUBLIC_MAPBOX_TOKEN);
 
 async function fetchProjects() {
     try {
@@ -154,7 +136,6 @@ async function fetchProjects() {
 
 function initializeMap(token) {
     mapboxgl.accessToken = token;
-    tokenPrompt.style.display = 'none';
 
     map = new mapboxgl.Map({
         container: 'map',
