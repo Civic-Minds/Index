@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Montréal Blue Line Extension",
+        "agency": "Société de transport de Montréal / ARTM",
+        "category": "Heavy Rail",
+        "status": "construction",
+        "statusText": "Construction",
+        "timeline": "Saint-Michel to Anjou along Jean-Talon with five new stations.",
+        "description": "Montréal’s Line 5 Blue extension will add five stations east from Saint-Michel to Anjou along the Jean-Talon corridor.",
+        "color": "#1d4ed8",
+        "milestones": ["Five new stations represented", "Saint-Michel-to-Anjou corridor represented"],
+        "source_url": "https://www.artm.quebec/grands-projets/projets-dinfrastructure/prolongement-de-la-ligne-bleue-du-metro/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-73.600023,45.559573],[-73.591106,45.566561],[-73.5844,45.5749],[-73.5802,45.583084],[-73.57495,45.59202],[-73.5688,45.5991]]
+      }
+    },
+    {"type":"Feature","properties":{"name":"Montréal Blue Line Extension","project_name":"Montréal Blue Line Extension","feature_type":"station","status":"construction","statusText":"Construction","color":"#1d4ed8","station_name":"Saint-Michel"},"geometry":{"type":"Point","coordinates":[-73.600023,45.559573]}},
+    {"type":"Feature","properties":{"name":"Montréal Blue Line Extension","project_name":"Montréal Blue Line Extension","feature_type":"station","status":"construction","statusText":"Construction","color":"#1d4ed8","station_name":"Pie-IX"},"geometry":{"type":"Point","coordinates":[-73.591106,45.566561]}},
+    {"type":"Feature","properties":{"name":"Montréal Blue Line Extension","project_name":"Montréal Blue Line Extension","feature_type":"station","status":"construction","statusText":"Construction","color":"#1d4ed8","station_name":"Viau"},"geometry":{"type":"Point","coordinates":[-73.5844,45.5749]}},
+    {"type":"Feature","properties":{"name":"Montréal Blue Line Extension","project_name":"Montréal Blue Line Extension","feature_type":"station","status":"construction","statusText":"Construction","color":"#1d4ed8","station_name":"Lacordaire"},"geometry":{"type":"Point","coordinates":[-73.5802,45.583084]}},
+    {"type":"Feature","properties":{"name":"Montréal Blue Line Extension","project_name":"Montréal Blue Line Extension","feature_type":"station","status":"construction","statusText":"Construction","color":"#1d4ed8","station_name":"Langelier"},"geometry":{"type":"Point","coordinates":[-73.57495,45.59202]}},
+    {"type":"Feature","properties":{"name":"Montréal Blue Line Extension","project_name":"Montréal Blue Line Extension","feature_type":"station","status":"construction","statusText":"Construction","color":"#1d4ed8","station_name":"Anjou"},"geometry":{"type":"Point","coordinates":[-73.5688,45.5991]}}
+  ]
+}
