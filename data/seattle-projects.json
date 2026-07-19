@@ -97,6 +97,449 @@
           47.315833
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lynnwood Link Extension",
+        "agency": "Sound Transit",
+        "category": "Light Rail",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "8.5-mile 1 Line extension from Northgate to Lynnwood City Center; opened 30 August 2024.",
+        "description": "Sound Transit’s Lynnwood Link Extension brings Link light rail into Snohomish County with four new stations at Shoreline South/148th, Shoreline North/185th, Mountlake Terrace, and Lynnwood City Center.",
+        "color": "#0369a1",
+        "milestones": [
+          "8.5-mile corridor represented",
+          "Four new stations represented",
+          "Opened August 2024"
+        ],
+        "source_url": "https://www.soundtransit.org/system-expansion/lynnwood-link-extension"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.328309,
+            47.703026
+          ],
+          [
+            -122.325246,
+            47.73609
+          ],
+          [
+            -122.32291,
+            47.764065
+          ],
+          [
+            -122.3148,
+            47.785034
+          ],
+          [
+            -122.294866,
+            47.815575
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lynnwood Link Extension",
+        "project_name": "Lynnwood Link Extension",
+        "feature_type": "station",
+        "station_name": "Shoreline South/148th",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0369a1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.325246,
+          47.73609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lynnwood Link Extension",
+        "project_name": "Lynnwood Link Extension",
+        "feature_type": "station",
+        "station_name": "Shoreline North/185th",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0369a1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32291,
+          47.764065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lynnwood Link Extension",
+        "project_name": "Lynnwood Link Extension",
+        "feature_type": "station",
+        "station_name": "Mountlake Terrace",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0369a1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3148,
+          47.785034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lynnwood Link Extension",
+        "project_name": "Lynnwood Link Extension",
+        "feature_type": "station",
+        "station_name": "Lynnwood City Center",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0369a1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.294866,
+          47.815575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2 Line East Link Extension",
+        "agency": "Sound Transit",
+        "category": "Light Rail",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "Cross-lake 2 Line from Seattle’s International District through Bellevue to Downtown Redmond; Eastside segment and lake crossing opened in stages through 2025.",
+        "description": "Sound Transit’s 2 Line (East Link) connects Seattle to Bellevue and Redmond across Lake Washington, with new stations from Judkins Park through Downtown Redmond including the full Eastside corridor.",
+        "color": "#0ea5e9",
+        "milestones": [
+          "Seattle–Bellevue–Redmond corridor represented",
+          "Thirteen stations represented",
+          "Cross-lake 2 Line in passenger service"
+        ],
+        "source_url": "https://www.soundtransit.org/system-expansion/east-link-extension"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.328056,
+            47.598333
+          ],
+          [
+            -122.301944,
+            47.590278
+          ],
+          [
+            -122.232778,
+            47.588056
+          ],
+          [
+            -122.190412,
+            47.586555
+          ],
+          [
+            -122.191111,
+            47.608056
+          ],
+          [
+            -122.191933,
+            47.615234
+          ],
+          [
+            -122.183811,
+            47.617955
+          ],
+          [
+            -122.178499,
+            47.623788
+          ],
+          [
+            -122.165728,
+            47.624457
+          ],
+          [
+            -122.138928,
+            47.636321
+          ],
+          [
+            -122.133633,
+            47.644798
+          ],
+          [
+            -122.109574,
+            47.667285
+          ],
+          [
+            -122.1215,
+            47.6738
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2 Line East Link Extension",
+        "project_name": "2 Line East Link Extension",
+        "feature_type": "station",
+        "station_name": "International District/Chinatown",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0ea5e9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.328056,
+          47.598333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2 Line East Link Extension",
+        "project_name": "2 Line East Link Extension",
+        "feature_type": "station",
+        "station_name": "Judkins Park",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0ea5e9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301944,
+          47.590278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2 Line East Link Extension",
+        "project_name": "2 Line East Link Extension",
+        "feature_type": "station",
+        "station_name": "Mercer Island",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0ea5e9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.232778,
+          47.588056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2 Line East Link Extension",
+        "project_name": "2 Line East Link Extension",
+        "feature_type": "station",
+        "station_name": "South Bellevue",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0ea5e9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.190412,
+          47.586555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2 Line East Link Extension",
+        "project_name": "2 Line East Link Extension",
+        "feature_type": "station",
+        "station_name": "East Main",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0ea5e9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191111,
+          47.608056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2 Line East Link Extension",
+        "project_name": "2 Line East Link Extension",
+        "feature_type": "station",
+        "station_name": "Bellevue Downtown",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0ea5e9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.191933,
+          47.615234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2 Line East Link Extension",
+        "project_name": "2 Line East Link Extension",
+        "feature_type": "station",
+        "station_name": "Wilburton",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0ea5e9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.183811,
+          47.617955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2 Line East Link Extension",
+        "project_name": "2 Line East Link Extension",
+        "feature_type": "station",
+        "station_name": "Spring District/120th",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0ea5e9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.178499,
+          47.623788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2 Line East Link Extension",
+        "project_name": "2 Line East Link Extension",
+        "feature_type": "station",
+        "station_name": "Bel-Red/130th",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0ea5e9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.165728,
+          47.624457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2 Line East Link Extension",
+        "project_name": "2 Line East Link Extension",
+        "feature_type": "station",
+        "station_name": "Overlake Village",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0ea5e9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.138928,
+          47.636321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2 Line East Link Extension",
+        "project_name": "2 Line East Link Extension",
+        "feature_type": "station",
+        "station_name": "Redmond Technology",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0ea5e9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.133633,
+          47.644798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2 Line East Link Extension",
+        "project_name": "2 Line East Link Extension",
+        "feature_type": "station",
+        "station_name": "Marymoor Village",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0ea5e9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.109574,
+          47.667285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2 Line East Link Extension",
+        "project_name": "2 Line East Link Extension",
+        "feature_type": "station",
+        "station_name": "Downtown Redmond",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0ea5e9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1215,
+          47.6738
+        ]
+      }
     }
   ]
 }

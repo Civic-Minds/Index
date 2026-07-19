@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **Lynnwood Link Extension**: Added Sound Transit’s open Northgate-to-Lynnwood 1 Line extension and four new stations.
+- **2 Line East Link Extension**: Added the Seattle–Bellevue–Redmond cross-lake corridor and its stations.
 - **METRO Green Line Extension**: Added Minneapolis–Eden Prairie Southwest LRT corridor and 16 stations (opening planned 2027).
 - **South Central Extension / Downtown Hub**: Added Valley Metro’s open Phoenix Central Avenue extension and downtown hub.
 - **REM Airport Branch**: Added the under-construction spur to YUL via Marie-Curie.
