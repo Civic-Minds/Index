@@ -1,9 +1,5 @@
-// DOM Elements
-const sidebar = document.getElementById('sidebar');
+const detailSheet = document.getElementById('detail-sheet');
 const projectName = document.getElementById('project-name');
-const projectList = document.getElementById('project-list');
-const listView = document.getElementById('list-view');
-const detailsView = document.getElementById('project-details-view');
 const projectStatus = document.getElementById('project-status');
 const projectDescription = document.getElementById('project-description');
 const projectMilestones = document.getElementById('project-milestones');
@@ -12,22 +8,21 @@ const projectMeta = document.getElementById('project-meta');
 const projectStationsField = document.getElementById('project-stations-field');
 const projectStationsCount = document.getElementById('project-stations-count');
 const projectLink = document.getElementById('project-link');
-const closeBtn = document.getElementById('close-sidebar');
-const openBtn = document.getElementById('open-sidebar');
-const backBtn = document.getElementById('back-to-list');
-const filterContainer = document.getElementById('filter-container');
+const closeDetailBtn = document.getElementById('close-detail');
+const clearSelectionBtn = document.getElementById('clear-selection');
 const statusChips = document.getElementById('status-chips');
 const projectSearch = document.getElementById('project-search');
-const listCount = document.getElementById('list-count');
-const emptyList = document.getElementById('empty-list');
 const loadingBanner = document.getElementById('loading');
 const resetViewBtn = document.getElementById('reset-view');
+const hoverCard = document.getElementById('hover-card');
+const viewportStrip = document.getElementById('viewport-strip');
+const viewportChips = document.getElementById('viewport-chips');
+const mapHint = document.getElementById('map-hint');
 const statTotal = document.getElementById('stat-total');
 const statConstruction = document.getElementById('stat-construction');
 const statOpened = document.getElementById('stat-opened');
 const statPlanning = document.getElementById('stat-planning');
 
-const DEFAULT_TITLE = 'PROJECTS';
 const PUBLIC_MAPBOX_TOKEN = 'pk.eyJ1Ijoicnlhbmhhbm5hIiwiYSI6ImNtbXk3MTkyYTM5ZHQyb3EzOWZnczV2NWUifQ.1ipGd2Oc07tCfLY7I_Fb1w';
 const STATUS_ORDER = ['planning', 'approved', 'construction', 'opened', 'delayed'];
 const STATUS_LABELS = {
@@ -48,34 +43,17 @@ const ACTIVE_PROJECT_NAMES = new Set(['Eglinton Crosstown LRT', 'Finch West LRT'
 const MAP_BACKGROUND_COLOR = '#ffffff';
 const OVERVIEW = { center: [-98.5, 39.5], zoom: 3 };
 
-/** Region buckets — order is display order in the sidebar */
-const REGION_ORDER = [
-    'Ontario',
-    'Quebec',
-    'Western Canada',
-    'Pacific Northwest',
-    'California',
-    'Southwest',
-    'Texas',
-    'Mountain West',
-    'Midwest',
-    'Northeast',
-    'Mid-Atlantic',
-    'Southeast',
-    'Other'
-];
-
 let map;
 let allProjects = [];
 let allStationFeatures = [];
 let fullMapCollection = { type: 'FeatureCollection', features: [] };
-/** null = all statuses; otherwise only this status is shown */
+let labelCollection = { type: 'FeatureCollection', features: [] };
+/** null = all statuses */
 let selectedStatus = null;
 let activeProjectName = '';
 let hoverProjectName = '';
 let searchQuery = '';
-/** Open region ids; empty + no search = all collapsed */
-const openRegions = new Set();
+let viewportUpdateTimer = null;
 
 function isProjectFeature(feature) {
     return feature.geometry && ['LineString', 'MultiLineString'].includes(feature.geometry.type);
@@ -85,14 +63,59 @@ function isStationFeature(feature) {
     return feature.properties?.feature_type === 'station' && feature.geometry?.type === 'Point';
 }
 
-function showSidebar() {
-    sidebar.classList.add('open');
-    openBtn.classList.add('hidden');
+function featureCentroid(feature) {
+    const g = feature.geometry;
+    if (!g) return null;
+    const pts = [];
+    const walk = (c) => {
+        if (!c || !c.length) return;
+        if (typeof c[0] === 'number') {
+            pts.push(c);
+            return;
+        }
+        c.forEach(walk);
+    };
+    walk(g.coordinates);
+    if (!pts.length) return null;
+    let lon = 0;
+    let lat = 0;
+    pts.forEach(p => {
+        lon += p[0];
+        lat += p[1];
+    });
+    return [lon / pts.length, lat / pts.length];
 }
 
-function hideSidebar() {
-    sidebar.classList.remove('open');
-    openBtn.classList.remove('hidden');
+function escapeHtml(str) {
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+}
+
+function stationCountFor(projectName) {
+    return allStationFeatures.filter(f => f.properties.project_name === projectName).length;
+}
+
+function buildLabelCollection(projects) {
+    return {
+        type: 'FeatureCollection',
+        features: projects.map(p => {
+            const c = featureCentroid(p);
+            if (!c) return null;
+            return {
+                type: 'Feature',
+                properties: {
+                    name: p.properties.name,
+                    status: p.properties.status,
+                    statusText: p.properties.statusText || p.properties.status,
+                    color: p.properties.color || '#f28c28'
+                },
+                geometry: { type: 'Point', coordinates: c }
+            };
+        }).filter(Boolean)
+    };
 }
 
 initializeMap(PUBLIC_MAPBOX_TOKEN);
@@ -100,14 +123,7 @@ initializeMap(PUBLIC_MAPBOX_TOKEN);
 async function fetchProjects() {
     loadingBanner.classList.remove('hidden');
     try {
-        const [
-            response, supplementalResponse, nftaResponse, londonResponse, ottawaResponse,
-            remResponse, montrealResponse, quebecResponse, vancouverResponse, marylandResponse,
-            edmontonResponse, seattleResponse, laResponse, minneapolisResponse, phoenixResponse,
-            dallasResponse, chicagoResponse, bostonResponse, nycResponse, bayAreaResponse,
-            indianaResponse, kansasCityResponse, atlantaResponse, austinResponse,
-            saltLakeResponse, lasVegasResponse
-        ] = await Promise.all([
+        const responses = await Promise.all([
             fetch('data/projects.json'),
             fetch('data/regional-projects.json'),
             fetch('data/nfta-projects.json'),
@@ -135,41 +151,9 @@ async function fetchProjects() {
             fetch('data/salt-lake-projects.json'),
             fetch('data/las-vegas-projects.json')
         ]);
-        const data = await response.json();
-        const supplemental = await supplementalResponse.json();
-        const nfta = await nftaResponse.json();
-        const london = await londonResponse.json();
-        const ottawa = await ottawaResponse.json();
-        const rem = await remResponse.json();
-        const montreal = await montrealResponse.json();
-        const quebec = await quebecResponse.json();
-        const vancouver = await vancouverResponse.json();
-        const maryland = await marylandResponse.json();
-        const edmonton = await edmontonResponse.json();
-        const seattle = await seattleResponse.json();
-        const la = await laResponse.json();
-        const minneapolis = await minneapolisResponse.json();
-        const phoenix = await phoenixResponse.json();
-        const dallas = await dallasResponse.json();
-        const chicago = await chicagoResponse.json();
-        const boston = await bostonResponse.json();
-        const nyc = await nycResponse.json();
-        const bayArea = await bayAreaResponse.json();
-        const indiana = await indianaResponse.json();
-        const kansasCity = await kansasCityResponse.json();
-        const atlanta = await atlantaResponse.json();
-        const austin = await austinResponse.json();
-        const saltLake = await saltLakeResponse.json();
-        const lasVegas = await lasVegasResponse.json();
-        const features = [
-            ...data.features, ...supplemental.features, ...nfta.features, ...london.features,
-            ...ottawa.features, ...rem.features, ...montreal.features, ...quebec.features,
-            ...vancouver.features, ...maryland.features, ...edmonton.features, ...seattle.features,
-            ...la.features, ...minneapolis.features, ...phoenix.features, ...dallas.features,
-            ...chicago.features, ...boston.features, ...nyc.features, ...bayArea.features,
-            ...indiana.features, ...kansasCity.features, ...atlanta.features,
-            ...austin.features, ...saltLake.features, ...lasVegas.features
-        ];
+        const collections = await Promise.all(responses.map(r => r.json()));
+        const features = collections.flatMap(c => c.features || []);
+
         const projectFeatures = features.filter(feature =>
             isProjectFeature(feature) && ACTIVE_PROJECT_NAMES.has(feature.properties.name)
         );
@@ -179,10 +163,10 @@ async function fetchProjects() {
         allProjects = projectFeatures;
         allStationFeatures = stationFeatures;
         fullMapCollection = { type: 'FeatureCollection', features: [...projectFeatures, ...stationFeatures] };
+        labelCollection = buildLabelCollection(projectFeatures);
         updateMastheadStats(allProjects);
         buildStatusChips(allProjects);
-        applyFilters();
-        updateMapData(fullMapCollection);
+        applyFilters({ fit: true });
     } catch (error) {
         console.error('Error fetching projects:', error);
         loadingBanner.textContent = 'Failed to load corridors.';
@@ -202,16 +186,17 @@ function initializeMap(token) {
         attributionControl: false
     });
 
-    // Allow normal pan/zoom; Reset returns to the full network framing.
     map.dragRotate.disable();
 
     map.on('load', () => {
         simplifyBaseMap();
-
-        sidebar.classList.remove('hidden');
         document.getElementById('legend').classList.remove('hidden');
-        showSidebar();
+
         map.addSource('transit-projects', {
+            type: 'geojson',
+            data: { type: 'FeatureCollection', features: [] }
+        });
+        map.addSource('project-labels', {
             type: 'geojson',
             data: { type: 'FeatureCollection', features: [] }
         });
@@ -224,7 +209,7 @@ function initializeMap(token) {
             paint: {
                 'line-color': ['coalesce', ['get', 'color'], '#f28c28'],
                 'line-width': 3,
-                'line-opacity': 0.2,
+                'line-opacity': 0.15,
                 'line-dasharray': [1.2, 2.2]
             },
             filter: ['==', 'name', '']
@@ -237,7 +222,12 @@ function initializeMap(token) {
             layout: { 'line-join': 'round', 'line-cap': 'round' },
             paint: {
                 'line-color': ['coalesce', ['get', 'color'], '#f28c28'],
-                'line-width': 4,
+                'line-width': [
+                    'interpolate', ['linear'], ['zoom'],
+                    3, 2.5,
+                    8, 4,
+                    12, 6
+                ],
                 'line-opacity': 1,
                 'line-dasharray': [1.2, 2.2]
             }
@@ -250,8 +240,8 @@ function initializeMap(token) {
             layout: { 'line-join': 'round', 'line-cap': 'round' },
             paint: {
                 'line-color': ['coalesce', ['get', 'color'], '#f28c28'],
-                'line-width': 8,
-                'line-opacity': 0.35
+                'line-width': 9,
+                'line-opacity': 0.4
             },
             filter: ['==', 'name', '']
         });
@@ -269,6 +259,33 @@ function initializeMap(token) {
             }
         });
 
+        map.addLayer({
+            id: 'project-labels',
+            type: 'symbol',
+            source: 'project-labels',
+            minzoom: 5,
+            layout: {
+                'text-field': ['get', 'name'],
+                'text-font': ['DIN Pro Medium', 'Arial Unicode MS Regular'],
+                'text-size': [
+                    'interpolate', ['linear'], ['zoom'],
+                    5, 10,
+                    10, 13
+                ],
+                'text-offset': [0, 1.1],
+                'text-anchor': 'top',
+                'text-max-width': 14,
+                'text-optional': true,
+                'text-allow-overlap': false,
+                'text-ignore-placement': false
+            },
+            paint: {
+                'text-color': '#111111',
+                'text-halo-color': '#ffffff',
+                'text-halo-width': 1.4
+            }
+        });
+
         map.on('click', 'transit-lines', (e) => {
             const props = e.features[0].properties;
             const project = allProjects.find(item => item.properties.name === props.name);
@@ -281,12 +298,15 @@ function initializeMap(token) {
         map.on('mousemove', 'transit-lines', (e) => {
             if (!e.features.length) return;
             map.getCanvas().style.cursor = 'pointer';
-            setHoverProject(e.features[0].properties.name);
+            const name = e.features[0].properties.name;
+            setHoverProject(name);
+            showHoverCard(e.features[0].properties, e.point);
         });
 
         map.on('mouseleave', 'transit-lines', () => {
             map.getCanvas().style.cursor = '';
             setHoverProject('');
+            hideHoverCard();
         });
 
         map.on('click', 'transit-stations', (e) => {
@@ -301,10 +321,12 @@ function initializeMap(token) {
         map.on('mouseenter', 'transit-stations', () => {
             map.getCanvas().style.cursor = 'pointer';
         });
-
         map.on('mouseleave', 'transit-stations', () => {
             map.getCanvas().style.cursor = '';
         });
+
+        map.on('moveend', scheduleViewportUpdate);
+        map.on('zoomend', scheduleViewportUpdate);
 
         fetchProjects();
     });
@@ -314,7 +336,6 @@ function simplifyBaseMap() {
     if (!map) return;
     const style = map.getStyle();
     if (!style || !style.layers) return;
-
     style.layers.forEach(layer => {
         if (layer.type === 'background') {
             map.setPaintProperty(layer.id, 'background-color', MAP_BACKGROUND_COLOR);
@@ -322,43 +343,6 @@ function simplifyBaseMap() {
             map.setLayoutProperty(layer.id, 'visibility', 'none');
         }
     });
-}
-
-function updateMapData(data) {
-    if (!map) return;
-    map.getSource('transit-projects').setData(data);
-    fitMapToData(data);
-    applyMapFilters();
-}
-
-function fitMapToData(data) {
-    if (!data || !data.features || !data.features.length) return;
-    const bounds = new mapboxgl.LngLatBounds();
-    let hasCoords = false;
-
-    data.features.forEach(feature => {
-        if (!feature.geometry) return;
-        if (feature.geometry.type === 'Point') {
-            bounds.extend(feature.geometry.coordinates);
-            hasCoords = true;
-        } else if (feature.geometry.type === 'LineString') {
-            feature.geometry.coordinates.forEach(coord => bounds.extend(coord));
-            hasCoords = true;
-        } else if (feature.geometry.type === 'MultiLineString') {
-            feature.geometry.coordinates.forEach(line =>
-                line.forEach(coord => bounds.extend(coord))
-            );
-            hasCoords = true;
-        }
-    });
-
-    if (hasCoords) {
-        map.fitBounds(bounds, { padding: 70, maxZoom: 11 });
-    }
-}
-
-function stationCountFor(projectName) {
-    return allStationFeatures.filter(f => f.properties.project_name === projectName).length;
 }
 
 function updateMastheadStats(projects) {
@@ -382,7 +366,6 @@ function buildStatusChips(projects) {
     });
 
     statusChips.innerHTML = '';
-
     const makeChip = (key, label, count) => {
         const btn = document.createElement('button');
         btn.type = 'button';
@@ -393,7 +376,7 @@ function buildStatusChips(projects) {
         btn.addEventListener('click', () => {
             selectedStatus = key === 'all' ? null : key;
             syncChipUI();
-            applyFilters();
+            applyFilters({ fit: true });
         });
         statusChips.appendChild(btn);
     };
@@ -415,108 +398,60 @@ function syncChipUI() {
     });
 }
 
-function featureCentroid(feature) {
-    const g = feature.geometry;
-    if (!g) return null;
-    const pts = [];
-    const walk = (c) => {
-        if (!c || !c.length) return;
-        if (typeof c[0] === 'number') {
-            pts.push(c);
-            return;
-        }
-        c.forEach(walk);
-    };
-    walk(g.coordinates);
-    if (!pts.length) return null;
-    let lon = 0;
-    let lat = 0;
-    pts.forEach(p => {
-        lon += p[0];
-        lat += p[1];
-    });
-    return [lon / pts.length, lat / pts.length];
-}
-
-function regionForProject(project) {
-    const name = project.properties.name || '';
-    // Explicit name rules first (most reliable for this dataset)
-    if (/Hazel McCallion|Eglinton|Ontario Line|Finch|Scarborough|Yonge|Mississauga|Brampton|Hamilton|Kitchener|Barrie|Niagara|Gormley|Waterfront|Sheppard|ION Stage|East London Link|Wellington Gateway|Durham|Confederation Extension|Lakeshore West/i.test(name)) {
-        return 'Ontario';
-    }
-    if (/O-Train/i.test(name)) return 'Ontario';
-    if (/Bailey Avenue|NFTA/i.test(name)) return 'Northeast';
-    if (/REM|Montréal|Montreal|TramCité|Blue Line Extension/i.test(name)) return 'Quebec';
-    if (/Broadway|Surrey|Green Line Phase|Valley Line|Capital Line/i.test(name)) return 'Western Canada';
-    if (/Lynnwood|Federal Way|East Link|West Seattle|2 Line East/i.test(name)) return 'Pacific Northwest';
-    if (/(^| )D Line Extension|Foothill|San Fernando|LAX|Southeast Gateway|VTA BART/i.test(name)) return 'California';
-    if (/South Central|Maryland Parkway/i.test(name)) return 'Southwest';
-    if (/DART|Austin Light Rail/i.test(name)) return 'Texas';
-    if (/Midvalley|Utah/i.test(name)) return 'Mountain West';
-    if (/CTA|West Lake|METRO Green Line|KC Streetcar/i.test(name)) return 'Midwest';
-    if (/South Coast Rail/i.test(name)) return 'Northeast';
-    if (/Second Avenue|Penn Station|Gateway|IBX/i.test(name)) return 'Northeast';
-    if (/Purple Line/i.test(name)) return 'Mid-Atlantic';
-    if (/MARTA/i.test(name)) return 'Southeast';
-
-    const c = featureCentroid(project);
-    if (!c) return 'Other';
-    const [lon, lat] = c;
-
-    if (lat >= 49 || (lat >= 41.7 && lon >= -95 && lon <= -74 && lat >= 41.7)) {
-        if (lon <= -95) return 'Western Canada';
-        if (lon >= -75) return 'Quebec';
-        return 'Ontario';
-    }
-    if (lon <= -114 && lat < 42.5 && lat >= 32) return 'California';
-    if (lon <= -116 && lat >= 42) return 'Pacific Northwest';
-    if (lon <= -109 && lat < 42 && lat >= 31) return 'Southwest';
-    if (lon <= -93.5 && lon > -107 && lat < 37 && lat >= 25) return 'Texas';
-    if (lon <= -102 && lat >= 36.5) return 'Mountain West';
-    if (lon <= -82 && lon > -104 && lat >= 36.5) return 'Midwest';
-    if (lon > -80 && lat >= 38) return 'Northeast';
-    if (lon <= -74.5 && lon > -83 && lat >= 36.5 && lat < 40.5) return 'Mid-Atlantic';
-    if (lat < 37 && lon > -95) return 'Southeast';
-    return 'Other';
-}
-
 function getFilteredProjects() {
     const q = searchQuery.trim().toLowerCase();
     return allProjects.filter(p => {
-        const status = p.properties.status;
-        if (selectedStatus && status !== selectedStatus) return false;
+        if (selectedStatus && p.properties.status !== selectedStatus) return false;
         if (!q) return true;
         const hay = [
             p.properties.name,
             p.properties.agency,
             p.properties.category,
             p.properties.statusText,
-            p.properties.description,
-            regionForProject(p)
+            p.properties.description
         ].filter(Boolean).join(' ').toLowerCase();
         return hay.includes(q);
-    }).sort((a, b) => a.properties.name.localeCompare(b.properties.name));
-}
-
-function groupByRegion(projects) {
-    const groups = new Map();
-    REGION_ORDER.forEach(r => groups.set(r, []));
-    projects.forEach(p => {
-        const region = regionForProject(p);
-        if (!groups.has(region)) groups.set(region, []);
-        groups.get(region).push(p);
     });
-    return REGION_ORDER
-        .filter(r => groups.get(r)?.length)
-        .map(r => ({ region: r, projects: groups.get(r) }));
 }
 
-function applyFilters() {
+function applyFilters({ fit = false } = {}) {
     const filtered = getFilteredProjects();
-    renderProjectList(filtered);
-    listCount.textContent = `${filtered.length} projects`;
-    emptyList.classList.toggle('hidden', filtered.length > 0);
+    const names = new Set(filtered.map(p => p.properties.name));
+    const features = [
+        ...filtered,
+        ...allStationFeatures.filter(s => names.has(s.properties.project_name))
+    ];
+    const collection = { type: 'FeatureCollection', features };
+    const labels = buildLabelCollection(filtered);
+
+    if (map && map.getSource('transit-projects')) {
+        map.getSource('transit-projects').setData(collection);
+        map.getSource('project-labels').setData(labels);
+        if (fit && !activeProjectName) {
+            fitMapToData({ type: 'FeatureCollection', features: filtered });
+        }
+    }
     applyMapFilters();
+    updateViewportStrip();
+}
+
+function fitMapToData(data) {
+    if (!map || !data?.features?.length) return;
+    const bounds = new mapboxgl.LngLatBounds();
+    let hasCoords = false;
+    data.features.forEach(feature => {
+        if (!feature.geometry || feature.properties?.feature_type === 'station') return;
+        if (feature.geometry.type === 'LineString') {
+            feature.geometry.coordinates.forEach(coord => bounds.extend(coord));
+            hasCoords = true;
+        } else if (feature.geometry.type === 'MultiLineString') {
+            feature.geometry.coordinates.forEach(line => line.forEach(coord => bounds.extend(coord)));
+            hasCoords = true;
+        }
+    });
+    if (hasCoords) {
+        map.fitBounds(bounds, { padding: 80, maxZoom: 11, duration: 600 });
+    }
 }
 
 function applyMapFilters() {
@@ -526,12 +461,10 @@ function applyMapFilters() {
         ? ['==', 'status', selectedStatus]
         : ['any', ...STATUS_ORDER.map(item => ['==', 'status', item])];
 
-    const focusName = activeProjectName || hoverProjectName;
-
+    // Search already filtered source data; status still applied for safety
     if (activeProjectName) {
         map.setFilter('transit-lines', ['all', statusExpression, ['==', 'name', activeProjectName]]);
         map.setFilter('transit-lines-dim', ['all', statusExpression, ['!=', 'name', activeProjectName]]);
-        map.setPaintProperty('transit-lines-dim', 'line-opacity', 0.18);
     } else {
         map.setFilter('transit-lines', statusExpression);
         map.setFilter('transit-lines-dim', ['==', 'name', '']);
@@ -540,12 +473,26 @@ function applyMapFilters() {
     const stationProjectExpression = activeProjectName
         ? ['==', 'project_name', activeProjectName]
         : ['==', 'feature_type', '__no_project_selected__'];
-    map.setFilter('transit-stations', ['all', ['==', 'feature_type', 'station'], stationProjectExpression, statusExpression]);
+    map.setFilter('transit-stations', [
+        'all',
+        ['==', 'feature_type', 'station'],
+        stationProjectExpression,
+        statusExpression
+    ]);
 
-    if (focusName) {
-        map.setFilter('transit-lines-hover', ['all', ['==', 'name', focusName], statusExpression]);
-    } else {
-        map.setFilter('transit-lines-hover', ['==', 'name', '']);
+    const focusName = activeProjectName || hoverProjectName;
+    map.setFilter(
+        'transit-lines-hover',
+        focusName ? ['all', ['==', 'name', focusName], statusExpression] : ['==', 'name', '']
+    );
+
+    if (map.getLayer('project-labels')) {
+        map.setFilter('project-labels', statusExpression);
+        map.setLayoutProperty(
+            'project-labels',
+            'visibility',
+            activeProjectName ? 'none' : 'visible'
+        );
     }
 }
 
@@ -555,73 +502,70 @@ function setHoverProject(name) {
     applyMapFilters();
 }
 
-function renderProjectList(projects) {
-    projectList.innerHTML = '';
-    const groups = groupByRegion(projects);
-    const searching = Boolean(searchQuery.trim());
-
-    // While searching, auto-expand matching regions
-    if (searching) {
-        groups.forEach(g => openRegions.add(g.region));
+function showHoverCard(props, point) {
+    if (activeProjectName) {
+        hideHoverCard();
+        return;
     }
-
-    groups.forEach(({ region, projects: items }) => {
-        const section = document.createElement('section');
-        section.className = 'region-group';
-        section.dataset.region = region;
-
-        const isOpen = searching || openRegions.has(region);
-        const header = document.createElement('button');
-        header.type = 'button';
-        header.className = 'region-header';
-        header.setAttribute('aria-expanded', String(isOpen));
-        header.innerHTML = `
-            <span class="region-chevron" aria-hidden="true"></span>
-            <span class="region-name">${escapeHtml(region)}</span>
-            <span class="region-count">${items.length}</span>
-        `;
-        header.addEventListener('click', () => {
-            if (openRegions.has(region)) openRegions.delete(region);
-            else openRegions.add(region);
-            renderProjectList(getFilteredProjects());
-        });
-
-        const body = document.createElement('div');
-        body.className = `region-body${isOpen ? '' : ' is-collapsed'}`;
-
-        items.forEach(project => {
-            const item = document.createElement('button');
-            item.type = 'button';
-            item.className = 'project-item';
-            item.dataset.name = project.properties.name;
-            const shortStatus = STATUS_LABELS[project.properties.status]
-                || project.properties.statusText
-                || project.properties.status;
-            item.innerHTML = `
-                <span class="project-item-name">${escapeHtml(project.properties.name)}</span>
-                <span class="project-item-status status-${project.properties.status}">${escapeHtml(shortStatus)}</span>
-            `;
-            item.addEventListener('click', () => {
-                showProjectDetails(project.properties);
-                flyToProject(project);
-            });
-            item.addEventListener('mouseenter', () => setHoverProject(project.properties.name));
-            item.addEventListener('mouseleave', () => setHoverProject(''));
-            body.appendChild(item);
-        });
-
-        section.appendChild(header);
-        section.appendChild(body);
-        projectList.appendChild(section);
-    });
+    const status = props.statusText || STATUS_LABELS_FULL[props.status] || props.status;
+    hoverCard.innerHTML = `
+        <div class="hover-card-name">${escapeHtml(props.name)}</div>
+        <div class="hover-card-status status-${props.status}">${escapeHtml(status)}</div>
+    `;
+    hoverCard.classList.remove('hidden');
+    hoverCard.style.left = `${point.x + 14}px`;
+    hoverCard.style.top = `${point.y + 14}px`;
 }
 
-function escapeHtml(str) {
-    return String(str)
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;');
+function hideHoverCard() {
+    hoverCard.classList.add('hidden');
+}
+
+function scheduleViewportUpdate() {
+    clearTimeout(viewportUpdateTimer);
+    viewportUpdateTimer = setTimeout(updateViewportStrip, 120);
+}
+
+function updateViewportStrip() {
+    if (!map || activeProjectName) {
+        viewportStrip.classList.add('hidden');
+        return;
+    }
+    const zoom = map.getZoom();
+    if (zoom < 4.2) {
+        viewportStrip.classList.add('hidden');
+        mapHint.classList.remove('hidden');
+        return;
+    }
+    mapHint.classList.add('hidden');
+
+    const bounds = map.getBounds();
+    const visible = getFilteredProjects().filter(p => {
+        const c = featureCentroid(p);
+        if (!c) return false;
+        return bounds.contains(c);
+    }).slice(0, 12);
+
+    if (!visible.length) {
+        viewportStrip.classList.add('hidden');
+        return;
+    }
+
+    viewportChips.innerHTML = '';
+    visible.forEach(p => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'viewport-chip';
+        btn.textContent = p.properties.name;
+        btn.addEventListener('click', () => {
+            showProjectDetails(p.properties);
+            flyToProject(p);
+        });
+        btn.addEventListener('mouseenter', () => setHoverProject(p.properties.name));
+        btn.addEventListener('mouseleave', () => setHoverProject(''));
+        viewportChips.appendChild(btn);
+    });
+    viewportStrip.classList.remove('hidden');
 }
 
 function showProjectDetails(props) {
@@ -634,7 +578,6 @@ function showProjectDetails(props) {
     if (props.agency) metaParts.push(`<span class="meta-pill">${escapeHtml(props.agency)}</span>`);
     if (props.category) metaParts.push(`<span class="meta-pill">${escapeHtml(props.category)}</span>`);
     projectMeta.innerHTML = metaParts.join('');
-
     projectTimeline.textContent = props.timeline || '—';
 
     const nStations = stationCountFor(props.name);
@@ -672,14 +615,20 @@ function showProjectDetails(props) {
         projectLink.classList.add('hidden');
     }
 
-    listView.classList.add('hidden');
-    detailsView.classList.remove('hidden');
-    showSidebar();
+    activeProjectName = props.name;
+    hideHoverCard();
+    detailSheet.classList.remove('hidden');
+    viewportStrip.classList.add('hidden');
+    mapHint.classList.add('hidden');
+    applyMapFilters();
+}
 
-    if (map) {
-        activeProjectName = props.name;
-        applyMapFilters();
-    }
+function closeDetail() {
+    activeProjectName = '';
+    detailSheet.classList.add('hidden');
+    applyMapFilters();
+    updateViewportStrip();
+    if (map.getZoom() < 4.2) mapHint.classList.remove('hidden');
 }
 
 function flyToProject(project) {
@@ -687,64 +636,32 @@ function flyToProject(project) {
     if (project.geometry.type === 'LineString') {
         const bounds = new mapboxgl.LngLatBounds();
         project.geometry.coordinates.forEach(coord => bounds.extend(coord));
-        map.fitBounds(bounds, { padding: 80, maxZoom: 11 });
+        map.fitBounds(bounds, { padding: { top: 100, bottom: 220, left: 40, right: 40 }, maxZoom: 12 });
         return;
     }
     if (project.geometry.type === 'MultiLineString') {
         const bounds = new mapboxgl.LngLatBounds();
-        project.geometry.coordinates.forEach(line =>
-            line.forEach(coord => bounds.extend(coord))
-        );
-        map.fitBounds(bounds, { padding: 80, maxZoom: 11 });
+        project.geometry.coordinates.forEach(line => line.forEach(coord => bounds.extend(coord)));
+        map.fitBounds(bounds, { padding: { top: 100, bottom: 220, left: 40, right: 40 }, maxZoom: 12 });
         return;
     }
-
-    const coords = project.geometry.coordinates;
-    map.flyTo({ center: coords, zoom: 12, essential: true });
+    map.flyTo({ center: project.geometry.coordinates, zoom: 12, essential: true });
 }
 
 function resetOverview() {
-    activeProjectName = '';
-    hoverProjectName = '';
-    applyMapFilters();
-    if (map && fullMapCollection.features.length) {
-        fitMapToData(fullMapCollection);
-    } else if (map) {
-        map.flyTo({ center: OVERVIEW.center, zoom: OVERVIEW.zoom, essential: true });
-    }
+    closeDetail();
+    selectedStatus = null;
+    searchQuery = '';
+    projectSearch.value = '';
+    syncChipUI();
+    applyFilters({ fit: true });
 }
 
 projectSearch.addEventListener('input', () => {
     searchQuery = projectSearch.value;
-    applyFilters();
+    applyFilters({ fit: false });
 });
 
-resetViewBtn.addEventListener('click', () => {
-    resetOverview();
-    projectName.textContent = DEFAULT_TITLE;
-    listView.classList.remove('hidden');
-    detailsView.classList.add('hidden');
-});
-
-backBtn.addEventListener('click', () => {
-    projectName.textContent = DEFAULT_TITLE;
-    listView.classList.remove('hidden');
-    detailsView.classList.add('hidden');
-    if (map) {
-        activeProjectName = '';
-        applyMapFilters();
-        fitMapToData(fullMapCollection);
-    }
-});
-
-closeBtn.addEventListener('click', () => {
-    hideSidebar();
-    if (map) {
-        activeProjectName = '';
-        applyMapFilters();
-    }
-});
-
-openBtn.addEventListener('click', () => {
-    showSidebar();
-});
+resetViewBtn.addEventListener('click', resetOverview);
+closeDetailBtn.addEventListener('click', closeDetail);
+clearSelectionBtn.addEventListener('click', closeDetail);

@@ -41,58 +41,49 @@
         <div id="map"></div>
         <div id="loading" class="loading-banner hidden" aria-live="polite">Loading corridors…</div>
 
-        <div class="map-controls" id="map-controls">
-            <button type="button" id="reset-view" class="map-control-btn" title="Reset map to full network">
-                Reset
-            </button>
-        </div>
-
-        <div id="sidebar" class="sidebar hidden">
-            <div class="sidebar-sheet-handle" aria-hidden="true"></div>
-            <button id="close-sidebar" class="close-btn" aria-label="Close projects panel">&times;</button>
-            <div id="sidebar-content">
-                <h1 id="project-name">PROJECTS</h1>
-                <div id="list-view">
-                    <p class="list-count" id="list-count"></p>
-
-                    <div id="filter-container" class="filter-panel">
-                        <label class="search-label" for="project-search">
-                            <span class="sr-only">Search projects</span>
-                            <input type="search" id="project-search" placeholder="Search projects or regions…" autocomplete="off">
-                        </label>
-                        <div class="status-chips" id="status-chips" role="radiogroup" aria-label="Filter by status">
-                            <!-- chips injected -->
-                        </div>
-                    </div>
-
-                    <div id="project-list" class="project-list"></div>
-                    <p id="empty-list" class="empty-list hidden">No projects match.</p>
-                </div>
-
-                <div id="project-details-view" class="details-view hidden">
-                    <div id="project-status" class="status-badge">SELECT A PROJECT</div>
-                    <div class="detail-meta" id="project-meta"></div>
-                    <div id="project-details" class="technical-details">
-                        <p id="project-description">Click on a project to see more details.</p>
-                        <div class="detail-field" id="project-timeline-field">
-                            <div class="detail-field-label">Timeline</div>
-                            <div id="project-timeline" class="timeline"></div>
-                        </div>
-                        <div id="project-milestones" class="milestones-list"></div>
-                        <div class="detail-field" id="project-stations-field" hidden>
-                            <div class="detail-field-label">Stations mapped</div>
-                            <div id="project-stations-count" class="detail-field-value"></div>
-                        </div>
-                    </div>
-                    <div class="button-group">
-                        <a id="project-link" href="#" target="_blank" rel="noopener" class="external-link hidden">Official project page</a>
-                        <button id="back-to-list" class="secondary-btn">Back to list</button>
-                    </div>
-                </div>
+        <div class="hud" id="hud">
+            <label class="hud-search" for="project-search">
+                <span class="sr-only">Search projects</span>
+                <input type="search" id="project-search" placeholder="Search…" autocomplete="off">
+            </label>
+            <div class="status-chips" id="status-chips" role="radiogroup" aria-label="Filter by status"></div>
+            <div class="hud-actions">
+                <button type="button" id="reset-view" class="map-control-btn" title="Reset to full network">Reset</button>
             </div>
         </div>
 
-        <button id="open-sidebar" class="sidebar-toggle hidden">Projects</button>
+        <div id="hover-card" class="hover-card hidden" aria-hidden="true"></div>
+
+        <div id="viewport-strip" class="viewport-strip hidden" aria-label="Projects in view">
+            <div class="viewport-strip-label">In this view</div>
+            <div id="viewport-chips" class="viewport-chips"></div>
+        </div>
+
+        <aside id="detail-sheet" class="detail-sheet hidden" aria-live="polite">
+            <div class="detail-sheet-handle" aria-hidden="true"></div>
+            <button type="button" id="close-detail" class="close-btn" aria-label="Close project details">&times;</button>
+            <div class="detail-sheet-body">
+                <h1 id="project-name">Project</h1>
+                <div id="project-status" class="status-badge">—</div>
+                <div class="detail-meta" id="project-meta"></div>
+                <div class="technical-details">
+                    <p id="project-description"></p>
+                    <div class="detail-field">
+                        <div class="detail-field-label">Timeline</div>
+                        <div id="project-timeline" class="timeline"></div>
+                    </div>
+                    <div id="project-milestones" class="milestones-list"></div>
+                    <div class="detail-field" id="project-stations-field" hidden>
+                        <div class="detail-field-label">Stations mapped</div>
+                        <div id="project-stations-count" class="detail-field-value"></div>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <a id="project-link" href="#" target="_blank" rel="noopener" class="external-link hidden">Official project page</a>
+                    <button type="button" id="clear-selection" class="secondary-btn">Back to map</button>
+                </div>
+            </div>
+        </aside>
 
         <div id="legend" class="legend hidden">
             <h4>Status</h4>
@@ -100,10 +91,12 @@
                 <div class="legend-item"><span class="status-planning-dot"></span> Planning</div>
                 <div class="legend-item"><span class="status-approved-dot"></span> Approved</div>
                 <div class="legend-item"><span class="status-construction-dot"></span> Construction</div>
-                <div class="legend-item"><span class="status-opened-dot"></span> Recently opened</div>
+                <div class="legend-item"><span class="status-opened-dot"></span> Opened</div>
                 <div class="legend-item"><span class="status-delayed-dot"></span> Delayed</div>
             </div>
         </div>
+
+        <p class="map-hint" id="map-hint">Scroll the map to explore · Click a corridor for details</p>
     </div>
 
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js"></script>
