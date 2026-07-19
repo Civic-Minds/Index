@@ -658,18 +658,9 @@ html {
 
     .legend {
         top: auto;
-        bottom: auto;
         right: 10px;
         /* Sit above the viewport strip when present */
         bottom: 96px;
-    }
-
-    .map-hint {
-        /* Keep clear of legend on narrow screens */
-        right: 10px;
-        left: 10px;
-        transform: none;
-        max-width: none;
     }
 
     .detail-sheet {
