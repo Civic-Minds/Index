@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Anse-à-l’Orme Branch",
+        "agency": "Réseau express métropolitain",
+        "category": "Light Metro",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "Bois-Franc to Anse-à-l’Orme through Montréal’s West Island.",
+        "description": "The REM’s Anse-à-l’Orme branch connects Montréal’s West Island to the existing network at Bois-Franc.",
+        "color": "#73a400",
+        "milestones": ["Branch geometry represented", "Seven stations represented"],
+        "source_url": "https://rem.info/en/travelling/stations"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-73.712574,45.522058],[-73.719963,45.519313],[-73.724308,45.517756],[-73.728412,45.51628],[-73.731448,45.51521],[-73.741774,45.511524],[-73.744472,45.510469],[-73.757284,45.505817],[-73.760125,45.504775],[-73.760875,45.50415],[-73.761065,45.503343],[-73.760701,45.502637],[-73.757816,45.500743],[-73.757233,45.500024],[-73.757234,45.499193],[-73.760296,45.495776],[-73.765609,45.490284],[-73.766979,45.489151],[-73.769075,45.48798],[-73.780297,45.482702],[-73.78667,45.479681],[-73.787749,45.479044],[-73.789348,45.477969],[-73.808675,45.468793],[-73.813344,45.466455],[-73.81488,45.466116],[-73.816385,45.466198],[-73.818855,45.466651],[-73.820358,45.46665],[-73.821764,45.466272],[-73.823796,45.465251],[-73.825502,45.464599],[-73.82756,45.463892],[-73.834696,45.460301],[-73.839226,45.458024],[-73.841559,45.457199],[-73.852632,45.454786],[-73.855892,45.45407],[-73.858269,45.453382],[-73.860001,45.452632],[-73.870379,45.44746],[-73.874933,45.445259],[-73.881231,45.442157],[-73.884048,45.440936],[-73.887214,45.439644],[-73.889791,45.438802],[-73.894222,45.43761],[-73.897008,45.436653],[-73.899521,45.435951],[-73.902798,45.434889],[-73.905383,45.433802],[-73.908058,45.43249],[-73.90986,45.431536]]
+      }
+    },
+    {"type":"Feature","properties":{"name":"REM Anse-à-l’Orme Branch","project_name":"REM Anse-à-l’Orme Branch","feature_type":"station","status":"opened","statusText":"Recently Opened","color":"#73a400","station_name":"Bois-Franc"},"geometry":{"type":"Point","coordinates":[-73.712529,45.522024]}},
+    {"type":"Feature","properties":{"name":"REM Anse-à-l’Orme Branch","project_name":"REM Anse-à-l’Orme Branch","feature_type":"station","status":"opened","statusText":"Recently Opened","color":"#73a400","station_name":"Sunnybrooke"},"geometry":{"type":"Point","coordinates":[-73.786422,45.503944]}},
+    {"type":"Feature","properties":{"name":"REM Anse-à-l’Orme Branch","project_name":"REM Anse-à-l’Orme Branch","feature_type":"station","status":"opened","statusText":"Recently Opened","color":"#73a400","station_name":"Pierrefonds-Roxboro"},"geometry":{"type":"Point","coordinates":[-73.811892,45.509707]}},
+    {"type":"Feature","properties":{"name":"REM Anse-à-l’Orme Branch","project_name":"REM Anse-à-l’Orme Branch","feature_type":"station","status":"opened","statusText":"Recently Opened","color":"#73a400","station_name":"Des Sources"},"geometry":{"type":"Point","coordinates":[-73.791056,45.477123]}},
+    {"type":"Feature","properties":{"name":"REM Anse-à-l’Orme Branch","project_name":"REM Anse-à-l’Orme Branch","feature_type":"station","status":"opened","statusText":"Recently Opened","color":"#73a400","station_name":"Fairview–Pointe-Claire"},"geometry":{"type":"Point","coordinates":[-73.835339,45.459943]}},
+    {"type":"Feature","properties":{"name":"REM Anse-à-l’Orme Branch","project_name":"REM Anse-à-l’Orme Branch","feature_type":"station","status":"opened","statusText":"Recently Opened","color":"#73a400","station_name":"Kirkland"},"geometry":{"type":"Point","coordinates":[-73.885581,45.440275]}},
+    {"type":"Feature","properties":{"name":"REM Anse-à-l’Orme Branch","project_name":"REM Anse-à-l’Orme Branch","feature_type":"station","status":"opened","statusText":"Recently Opened","color":"#73a400","station_name":"Anse-à-l’Orme"},"geometry":{"type":"Point","coordinates":[-73.909901,45.431596]}}
+  ]
+}

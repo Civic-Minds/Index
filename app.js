@@ -23,7 +23,7 @@ const tokenSubmit = document.getElementById('token-submit');
 const DEFAULT_TITLE = 'PROJECTS';
 const PUBLIC_MAPBOX_TOKEN = 'pk.eyJ1Ijoicnlhbmhhbm5hIiwiYSI6ImNtbXk3MTkyYTM5ZHQyb3EzOWZnczV2NWUifQ.1ipGd2Oc07tCfLY7I_Fb1w';
 const STATUS_ORDER = ['planning', 'approved', 'construction', 'opened', 'delayed'];
-const ACTIVE_PROJECT_NAMES = new Set(['Eglinton Crosstown LRT', 'Finch West LRT', 'Hazel McCallion Line', 'Hamilton B-Line LRT', 'Ontario Line', 'Scarborough Subway Extension', 'Yonge North Subway Extension', 'Durham-Scarborough BRT', 'Eglinton Crosstown West Extension', 'ION Stage 2', 'Eglinton East LRT', 'Sheppard East LRT', 'Waterfront West LRT', 'Waterfront East LRT', 'Hamilton A-Line', 'Finch West LRT Extension', 'Brampton Queen Street BRT / LRT', 'Downtown Mississauga Transitway', 'Bailey Avenue BRT', 'East London Link', 'Wellington Gateway', 'NFTA Metro Transit Expansion', 'O-Train Stage 2 West Extension']);
+const ACTIVE_PROJECT_NAMES = new Set(['Eglinton Crosstown LRT', 'Finch West LRT', 'Hazel McCallion Line', 'Hamilton B-Line LRT', 'Ontario Line', 'Scarborough Subway Extension', 'Yonge North Subway Extension', 'Durham-Scarborough BRT', 'Eglinton Crosstown West Extension', 'ION Stage 2', 'Eglinton East LRT', 'Sheppard East LRT', 'Waterfront West LRT', 'Waterfront East LRT', 'Hamilton A-Line', 'Finch West LRT Extension', 'Brampton Queen Street BRT / LRT', 'Downtown Mississauga Transitway', 'Bailey Avenue BRT', 'East London Link', 'Wellington Gateway', 'NFTA Metro Transit Expansion', 'O-Train Stage 2 West Extension', 'REM Anse-à-l’Orme Branch']);
 const MAP_BACKGROUND_COLOR = '#ffffff';
 
 let map;
@@ -67,19 +67,21 @@ tokenSubmit.addEventListener('click', () => {
 
 async function fetchProjects() {
     try {
-        const [response, supplementalResponse, nftaResponse, londonResponse, ottawaResponse] = await Promise.all([
+        const [response, supplementalResponse, nftaResponse, londonResponse, ottawaResponse, remResponse] = await Promise.all([
             fetch('data/projects.json'),
             fetch('data/regional-projects.json'),
             fetch('data/nfta-projects.json'),
             fetch('data/london-projects.json'),
-            fetch('data/ottawa-projects.json')
+            fetch('data/ottawa-projects.json'),
+            fetch('data/rem-projects.json')
         ]);
         const data = await response.json();
         const supplemental = await supplementalResponse.json();
         const nfta = await nftaResponse.json();
         const london = await londonResponse.json();
         const ottawa = await ottawaResponse.json();
-        const features = [...data.features, ...supplemental.features, ...nfta.features, ...london.features, ...ottawa.features];
+        const rem = await remResponse.json();
+        const features = [...data.features, ...supplemental.features, ...nfta.features, ...london.features, ...ottawa.features, ...rem.features];
         const projectFeatures = features.filter(feature =>
             isProjectFeature(feature) && ACTIVE_PROJECT_NAMES.has(feature.properties.name)
         );
