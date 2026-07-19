@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Federal Way Link Extension",
+        "agency": "Sound Transit",
+        "category": "Light Rail",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "7.8-mile 1 Line extension from Angle Lake to Federal Way Downtown; opened 6 December 2025.",
+        "description": "Sound Transit's Federal Way Link Extension continues the 1 Line 7.8 miles south from Angle Lake with three new stations at Kent Des Moines, Star Lake, and Federal Way Downtown.",
+        "color": "#0284c7",
+        "milestones": [
+          "7.8-mile corridor represented",
+          "Three new stations represented",
+          "Opened December 2025"
+        ],
+        "source_url": "https://www.soundtransit.org/system-expansion/federal-way-link-extension"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.2975,
+            47.422778
+          ],
+          [
+            -122.294444,
+            47.389444
+          ],
+          [
+            -122.297778,
+            47.359167
+          ],
+          [
+            -122.303889,
+            47.315833
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Federal Way Link Extension",
+        "project_name": "Federal Way Link Extension",
+        "feature_type": "station",
+        "station_name": "Kent Des Moines",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0284c7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.294444,
+          47.389444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Federal Way Link Extension",
+        "project_name": "Federal Way Link Extension",
+        "feature_type": "station",
+        "station_name": "Star Lake",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0284c7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.297778,
+          47.359167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Federal Way Link Extension",
+        "project_name": "Federal Way Link Extension",
+        "feature_type": "station",
+        "station_name": "Federal Way Downtown",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#0284c7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.303889,
+          47.315833
+        ]
+      }
+    }
+  ]
+}

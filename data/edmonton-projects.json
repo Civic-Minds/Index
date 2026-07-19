@@ -1,0 +1,593 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "agency": "City of Edmonton",
+        "category": "Light Rail",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "14-kilometre extension from downtown to Lewis Farms; construction through 2028, then testing before opening.",
+        "description": "Edmonton's low-floor Valley Line continues west from downtown to Lewis Farms, with elevated stations at West Edmonton Mall and Misericordia linking major destinations along 87 Avenue and Stony Plain Road.",
+        "color": "#16a34a",
+        "milestones": [
+          "14-kilometre west corridor represented",
+          "Sixteen stops and stations represented",
+          "Construction complete targeted for 2028, then commissioning"
+        ],
+        "source_url": "https://www.edmonton.ca/projects_plans/transit/valley-line-west"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -113.501912,
+            53.542997
+          ],
+          [
+            -113.504498,
+            53.543029
+          ],
+          [
+            -113.504777,
+            53.543175
+          ],
+          [
+            -113.504734,
+            53.546025
+          ],
+          [
+            -113.505067,
+            53.54628
+          ],
+          [
+            -113.509927,
+            53.546293
+          ],
+          [
+            -113.518188,
+            53.54626
+          ],
+          [
+            -113.523703,
+            53.54626
+          ],
+          [
+            -113.53029,
+            53.546196
+          ],
+          [
+            -113.537714,
+            53.54714
+          ],
+          [
+            -113.54383,
+            53.547904
+          ],
+          [
+            -113.544989,
+            53.547994
+          ],
+          [
+            -113.545504,
+            53.547955
+          ],
+          [
+            -113.546083,
+            53.547841
+          ],
+          [
+            -113.546727,
+            53.5477
+          ],
+          [
+            -113.552885,
+            53.545737
+          ],
+          [
+            -113.555138,
+            53.545023
+          ],
+          [
+            -113.560932,
+            53.543735
+          ],
+          [
+            -113.562863,
+            53.543072
+          ],
+          [
+            -113.567562,
+            53.542868
+          ],
+          [
+            -113.568871,
+            53.542728
+          ],
+          [
+            -113.570545,
+            53.542167
+          ],
+          [
+            -113.57136,
+            53.542001
+          ],
+          [
+            -113.572519,
+            53.541976
+          ],
+          [
+            -113.574128,
+            53.542116
+          ],
+          [
+            -113.575995,
+            53.542141
+          ],
+          [
+            -113.577218,
+            53.541963
+          ],
+          [
+            -113.578613,
+            53.541644
+          ],
+          [
+            -113.580072,
+            53.541313
+          ],
+          [
+            -113.58108,
+            53.541287
+          ],
+          [
+            -113.583376,
+            53.541249
+          ],
+          [
+            -113.587282,
+            53.541287
+          ],
+          [
+            -113.588698,
+            53.540994
+          ],
+          [
+            -113.589728,
+            53.540624
+          ],
+          [
+            -113.590329,
+            53.540267
+          ],
+          [
+            -113.590307,
+            53.538329
+          ],
+          [
+            -113.590307,
+            53.534605
+          ],
+          [
+            -113.59035,
+            53.531429
+          ],
+          [
+            -113.590329,
+            53.527641
+          ],
+          [
+            -113.59035,
+            53.524963
+          ],
+          [
+            -113.590672,
+            53.524261
+          ],
+          [
+            -113.591595,
+            53.523713
+          ],
+          [
+            -113.593891,
+            53.522424
+          ],
+          [
+            -113.596315,
+            53.520881
+          ],
+          [
+            -113.596659,
+            53.52046
+          ],
+          [
+            -113.596723,
+            53.51986
+          ],
+          [
+            -113.596981,
+            53.519669
+          ],
+          [
+            -113.597581,
+            53.519541
+          ],
+          [
+            -113.599362,
+            53.519567
+          ],
+          [
+            -113.60698,
+            53.51963
+          ],
+          [
+            -113.609662,
+            53.519643
+          ],
+          [
+            -113.615305,
+            53.519605
+          ],
+          [
+            -113.617387,
+            53.519758
+          ],
+          [
+            -113.622944,
+            53.520421
+          ],
+          [
+            -113.629038,
+            53.521289
+          ],
+          [
+            -113.631978,
+            53.521493
+          ],
+          [
+            -113.634231,
+            53.521684
+          ],
+          [
+            -113.639402,
+            53.521659
+          ],
+          [
+            -113.645861,
+            53.52148
+          ],
+          [
+            -113.652685,
+            53.521353
+          ],
+          [
+            -113.654122,
+            53.521595
+          ],
+          [
+            -113.656118,
+            53.522143
+          ],
+          [
+            -113.658092,
+            53.522577
+          ],
+          [
+            -113.660967,
+            53.523075
+          ],
+          [
+            -113.662834,
+            53.523138
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "Lewis Farms",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.66417,
+          53.52278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "Aldergrove/Belmead",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.63833,
+          53.52139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "West Edmonton Mall",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.62278,
+          53.52056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "Misericordia",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.61167,
+          53.51972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "Meadowlark",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.595,
+          53.52167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "Glenwood/Sherwood",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.59028,
+          53.53167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "Jasper Place",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.58944,
+          53.54083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "Stony Plain Road/149 Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.58056,
+          53.54139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "Grovenor/142 Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.56472,
+          53.54306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "Glenora",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.55139,
+          53.54611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "124 Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.53583,
+          53.54694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "Brewery/120 Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.52833,
+          53.54611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "Wîhkwêntôwin/116 Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.52167,
+          53.54611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "MacEwan Arts/112 Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.51361,
+          53.54611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "NorQuest",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.50472,
+          53.54528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valley Line West LRT",
+        "project_name": "Valley Line West LRT",
+        "feature_type": "station",
+        "station_name": "Alex Decoteau",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#16a34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.50194,
+          53.54306
+        ]
+      }
+    }
+  ]
+}

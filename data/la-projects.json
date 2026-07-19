@@ -1,0 +1,121 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "D Line Extension Section 1",
+        "agency": "Los Angeles Metro",
+        "category": "Heavy Rail",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "Purple Line (D Line) subway extension from Wilshire/Western to Wilshire/La Cienega; Section 1 opened May 2026.",
+        "description": "Metro's D Line Extension Section 1 adds three new subway stations under Wilshire Boulevard—La Brea, Fairfax, and La Cienega—pushing heavy rail west from the historic Wilshire/Western terminus.",
+        "color": "#a855f7",
+        "milestones": [
+          "Section 1 corridor represented",
+          "Three new stations plus Wilshire/Western represented",
+          "Opened May 2026"
+        ],
+        "source_url": "https://www.metro.net/projects/westside/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.308862,
+            34.062115
+          ],
+          [
+            -118.344352,
+            34.062526
+          ],
+          [
+            -118.3614,
+            34.0625
+          ],
+          [
+            -118.375687,
+            34.065078
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "D Line Extension Section 1",
+        "project_name": "D Line Extension Section 1",
+        "feature_type": "station",
+        "station_name": "Wilshire/Western",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#a855f7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.308862,
+          34.062115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "D Line Extension Section 1",
+        "project_name": "D Line Extension Section 1",
+        "feature_type": "station",
+        "station_name": "Wilshire/La Brea",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#a855f7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.344352,
+          34.062526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "D Line Extension Section 1",
+        "project_name": "D Line Extension Section 1",
+        "feature_type": "station",
+        "station_name": "Wilshire/Fairfax",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#a855f7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3614,
+          34.0625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "D Line Extension Section 1",
+        "project_name": "D Line Extension Section 1",
+        "feature_type": "station",
+        "station_name": "Wilshire/La Cienega",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#a855f7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.375687,
+          34.065078
+        ]
+      }
+    }
+  ]
+}
