@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **REM Network**: Added the open South Shore trunk and Deux-Montagnes branch, and corrected the Anse-à-l’Orme station set to the West Island branch only.
+- **Maryland Purple Line**: Added the Bethesda-to-New Carrollton light rail corridor and all 21 stations (opening targeted for winter 2027).
 - **Calgary Green Line**: Added Phase 1 (under construction toward 2031) and Phase 2 planned expansion corridors.
 - **O-Train Stage 2 East**: Added the Blair-to-Trim Line 1 extension and its five new stations.
 - **O-Train Stage 2 South**: Added the open Line 2 south / Line 4 Airport extension with mapped stations.

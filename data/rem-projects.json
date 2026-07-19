@@ -4,28 +4,649 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "REM South Shore",
+        "agency": "Réseau express métropolitain",
+        "category": "Light Metro",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "Brossard to Gare Centrale via Île-des-Sœurs; opened 31 July 2023 as the first REM segment.",
+        "description": "The REM South Shore segment links Brossard, Du Quartier, and Panama with downtown Montréal at Gare Centrale via Île-des-Sœurs, forming the original Rive-Sud trunk of the automated light metro network.",
+        "color": "#84cc16",
+        "milestones": [
+          "South Shore corridor represented",
+          "Five in-service stations represented",
+          "Opened July 2023"
+        ],
+        "source_url": "https://rem.info/en/travelling/stations"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.430582,
+            45.438061
+          ],
+          [
+            -73.433312,
+            45.44669
+          ],
+          [
+            -73.470361,
+            45.46496
+          ],
+          [
+            -73.538899,
+            45.47033
+          ],
+          [
+            -73.566687,
+            45.499927
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM South Shore",
+        "project_name": "REM South Shore",
+        "feature_type": "station",
+        "station_name": "Brossard",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#84cc16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.430582,
+          45.438061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM South Shore",
+        "project_name": "REM South Shore",
+        "feature_type": "station",
+        "station_name": "Du Quartier",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#84cc16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.433312,
+          45.44669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM South Shore",
+        "project_name": "REM South Shore",
+        "feature_type": "station",
+        "station_name": "Panama",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#84cc16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.470361,
+          45.46496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM South Shore",
+        "project_name": "REM South Shore",
+        "feature_type": "station",
+        "station_name": "Île-des-Sœurs",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#84cc16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.538899,
+          45.47033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM South Shore",
+        "project_name": "REM South Shore",
+        "feature_type": "station",
+        "station_name": "Gare Centrale",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#84cc16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.566687,
+          45.499927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "agency": "Réseau express métropolitain",
+        "category": "Light Metro",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "Mont-Royal Tunnel and North Shore extension to Deux-Montagnes; revenue service from 17 November 2025.",
+        "description": "The REM Deux-Montagnes branch continues north from downtown through the Mont-Royal Tunnel and along the former Deux-Montagnes line to Laval and Deux-Montagnes, completing continuous service between Brossard and the North Shore.",
+        "color": "#65a30d",
+        "milestones": [
+          "Tunnel and North Shore corridor represented",
+          "Fifteen in-service stations represented",
+          "Opened November 2025"
+        ],
+        "source_url": "https://rem.info/en/travelling/stations"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.566687,
+            45.499927
+          ],
+          [
+            -73.572129,
+            45.502487
+          ],
+          [
+            -73.612061,
+            45.510374
+          ],
+          [
+            -73.633879,
+            45.513747
+          ],
+          [
+            -73.643454,
+            45.516515
+          ],
+          [
+            -73.661869,
+            45.52182
+          ],
+          [
+            -73.672223,
+            45.524803
+          ],
+          [
+            -73.689377,
+            45.52999
+          ],
+          [
+            -73.712503,
+            45.522026
+          ],
+          [
+            -73.785701,
+            45.50384
+          ],
+          [
+            -73.811632,
+            45.510205
+          ],
+          [
+            -73.852951,
+            45.519906
+          ],
+          [
+            -73.862472,
+            45.52346
+          ],
+          [
+            -73.887885,
+            45.537255
+          ],
+          [
+            -73.912414,
+            45.545683
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "project_name": "REM Deux-Montagnes Branch",
+        "feature_type": "station",
+        "station_name": "Gare Centrale",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#65a30d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.566687,
+          45.499927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "project_name": "REM Deux-Montagnes Branch",
+        "feature_type": "station",
+        "station_name": "McGill",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#65a30d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.572129,
+          45.502487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "project_name": "REM Deux-Montagnes Branch",
+        "feature_type": "station",
+        "station_name": "Édouard-Montpetit",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#65a30d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.612061,
+          45.510374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "project_name": "REM Deux-Montagnes Branch",
+        "feature_type": "station",
+        "station_name": "Canora",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#65a30d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.633879,
+          45.513747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "project_name": "REM Deux-Montagnes Branch",
+        "feature_type": "station",
+        "station_name": "Ville-de-Mont-Royal",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#65a30d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.643454,
+          45.516515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "project_name": "REM Deux-Montagnes Branch",
+        "feature_type": "station",
+        "station_name": "Côte-de-Liesse",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#65a30d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.661869,
+          45.52182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "project_name": "REM Deux-Montagnes Branch",
+        "feature_type": "station",
+        "station_name": "Montpellier",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#65a30d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.672223,
+          45.524803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "project_name": "REM Deux-Montagnes Branch",
+        "feature_type": "station",
+        "station_name": "Du Ruisseau",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#65a30d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.689377,
+          45.52999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "project_name": "REM Deux-Montagnes Branch",
+        "feature_type": "station",
+        "station_name": "Bois-Franc",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#65a30d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.712503,
+          45.522026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "project_name": "REM Deux-Montagnes Branch",
+        "feature_type": "station",
+        "station_name": "Sunnybrooke",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#65a30d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.785701,
+          45.50384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "project_name": "REM Deux-Montagnes Branch",
+        "feature_type": "station",
+        "station_name": "Pierrefonds-Roxboro",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#65a30d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.811632,
+          45.510205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "project_name": "REM Deux-Montagnes Branch",
+        "feature_type": "station",
+        "station_name": "Île-Bigras",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#65a30d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.852951,
+          45.519906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "project_name": "REM Deux-Montagnes Branch",
+        "feature_type": "station",
+        "station_name": "Sainte-Dorothée",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#65a30d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.862472,
+          45.52346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "project_name": "REM Deux-Montagnes Branch",
+        "feature_type": "station",
+        "station_name": "Grand-Moulin",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#65a30d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.887885,
+          45.537255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Deux-Montagnes Branch",
+        "project_name": "REM Deux-Montagnes Branch",
+        "feature_type": "station",
+        "station_name": "Deux-Montagnes",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#65a30d"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912414,
+          45.545683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "REM Anse-à-l’Orme Branch",
         "agency": "Réseau express métropolitain",
         "category": "Light Metro",
         "status": "opened",
         "statusText": "Recently Opened",
-        "timeline": "Bois-Franc to Anse-à-l’Orme through Montréal’s West Island.",
-        "description": "The REM’s Anse-à-l’Orme branch connects Montréal’s West Island to the existing network at Bois-Franc.",
+        "timeline": "West Island branch from Bois-Franc to Anse-à-l’Orme; opened May 2026.",
+        "description": "The REM’s Anse-à-l’Orme branch serves Montréal’s West Island from Bois-Franc through Des Sources, Fairview–Pointe-Claire, and Kirkland to Anse-à-l’Orme.",
         "color": "#73a400",
-        "milestones": ["Branch geometry represented", "Seven stations represented"],
+        "milestones": [
+          "West Island corridor represented",
+          "Five in-service stations represented",
+          "Opened May 2026"
+        ],
         "source_url": "https://rem.info/en/travelling/stations"
       },
       "geometry": {
         "type": "LineString",
-        "coordinates": [[-73.712574,45.522058],[-73.719963,45.519313],[-73.724308,45.517756],[-73.728412,45.51628],[-73.731448,45.51521],[-73.741774,45.511524],[-73.744472,45.510469],[-73.757284,45.505817],[-73.760125,45.504775],[-73.760875,45.50415],[-73.761065,45.503343],[-73.760701,45.502637],[-73.757816,45.500743],[-73.757233,45.500024],[-73.757234,45.499193],[-73.760296,45.495776],[-73.765609,45.490284],[-73.766979,45.489151],[-73.769075,45.48798],[-73.780297,45.482702],[-73.78667,45.479681],[-73.787749,45.479044],[-73.789348,45.477969],[-73.808675,45.468793],[-73.813344,45.466455],[-73.81488,45.466116],[-73.816385,45.466198],[-73.818855,45.466651],[-73.820358,45.46665],[-73.821764,45.466272],[-73.823796,45.465251],[-73.825502,45.464599],[-73.82756,45.463892],[-73.834696,45.460301],[-73.839226,45.458024],[-73.841559,45.457199],[-73.852632,45.454786],[-73.855892,45.45407],[-73.858269,45.453382],[-73.860001,45.452632],[-73.870379,45.44746],[-73.874933,45.445259],[-73.881231,45.442157],[-73.884048,45.440936],[-73.887214,45.439644],[-73.889791,45.438802],[-73.894222,45.43761],[-73.897008,45.436653],[-73.899521,45.435951],[-73.902798,45.434889],[-73.905383,45.433802],[-73.908058,45.43249],[-73.90986,45.431536]]
+        "coordinates": [
+          [
+            -73.712503,
+            45.522026
+          ],
+          [
+            -73.791108,
+            45.477111
+          ],
+          [
+            -73.835328,
+            45.459952
+          ],
+          [
+            -73.885608,
+            45.440314
+          ],
+          [
+            -73.909908,
+            45.431592
+          ]
+        ]
       }
     },
-    {"type":"Feature","properties":{"name":"REM Anse-à-l’Orme Branch","project_name":"REM Anse-à-l’Orme Branch","feature_type":"station","status":"opened","statusText":"Recently Opened","color":"#73a400","station_name":"Bois-Franc"},"geometry":{"type":"Point","coordinates":[-73.712529,45.522024]}},
-    {"type":"Feature","properties":{"name":"REM Anse-à-l’Orme Branch","project_name":"REM Anse-à-l’Orme Branch","feature_type":"station","status":"opened","statusText":"Recently Opened","color":"#73a400","station_name":"Sunnybrooke"},"geometry":{"type":"Point","coordinates":[-73.786422,45.503944]}},
-    {"type":"Feature","properties":{"name":"REM Anse-à-l’Orme Branch","project_name":"REM Anse-à-l’Orme Branch","feature_type":"station","status":"opened","statusText":"Recently Opened","color":"#73a400","station_name":"Pierrefonds-Roxboro"},"geometry":{"type":"Point","coordinates":[-73.811892,45.509707]}},
-    {"type":"Feature","properties":{"name":"REM Anse-à-l’Orme Branch","project_name":"REM Anse-à-l’Orme Branch","feature_type":"station","status":"opened","statusText":"Recently Opened","color":"#73a400","station_name":"Des Sources"},"geometry":{"type":"Point","coordinates":[-73.791056,45.477123]}},
-    {"type":"Feature","properties":{"name":"REM Anse-à-l’Orme Branch","project_name":"REM Anse-à-l’Orme Branch","feature_type":"station","status":"opened","statusText":"Recently Opened","color":"#73a400","station_name":"Fairview–Pointe-Claire"},"geometry":{"type":"Point","coordinates":[-73.835339,45.459943]}},
-    {"type":"Feature","properties":{"name":"REM Anse-à-l’Orme Branch","project_name":"REM Anse-à-l’Orme Branch","feature_type":"station","status":"opened","statusText":"Recently Opened","color":"#73a400","station_name":"Kirkland"},"geometry":{"type":"Point","coordinates":[-73.885581,45.440275]}},
-    {"type":"Feature","properties":{"name":"REM Anse-à-l’Orme Branch","project_name":"REM Anse-à-l’Orme Branch","feature_type":"station","status":"opened","statusText":"Recently Opened","color":"#73a400","station_name":"Anse-à-l’Orme"},"geometry":{"type":"Point","coordinates":[-73.909901,45.431596]}}
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Anse-à-l’Orme Branch",
+        "project_name": "REM Anse-à-l’Orme Branch",
+        "feature_type": "station",
+        "station_name": "Bois-Franc",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#73a400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.712503,
+          45.522026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Anse-à-l’Orme Branch",
+        "project_name": "REM Anse-à-l’Orme Branch",
+        "feature_type": "station",
+        "station_name": "Des Sources",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#73a400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.791108,
+          45.477111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Anse-à-l’Orme Branch",
+        "project_name": "REM Anse-à-l’Orme Branch",
+        "feature_type": "station",
+        "station_name": "Fairview–Pointe-Claire",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#73a400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.835328,
+          45.459952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Anse-à-l’Orme Branch",
+        "project_name": "REM Anse-à-l’Orme Branch",
+        "feature_type": "station",
+        "station_name": "Kirkland",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#73a400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885608,
+          45.440314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Anse-à-l’Orme Branch",
+        "project_name": "REM Anse-à-l’Orme Branch",
+        "feature_type": "station",
+        "station_name": "Anse-à-l’Orme",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#73a400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.909908,
+          45.431592
+        ]
+      }
+    }
   ]
 }

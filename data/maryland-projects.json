@@ -1,0 +1,512 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "agency": "Maryland Transit Administration",
+        "category": "Light Rail",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "16.2-mile light rail from Bethesda to New Carrollton; passenger service targeted for winter 2027.",
+        "description": "The Purple Line is a 16-mile light rail corridor with 21 stations linking Bethesda and Silver Spring in Montgomery County to College Park and New Carrollton in Prince George’s County, connecting to Metrorail, MARC, and Amtrak.",
+        "color": "#7c3aed",
+        "milestones": [
+          "Full Bethesda-to-New Carrollton alignment represented",
+          "Twenty-one stations represented",
+          "Opening targeted for winter 2027"
+        ],
+        "source_url": "https://www.purplelinemd.com/overview"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -77.094635,
+            38.981875
+          ],
+          [
+            -77.07662,
+            38.994665
+          ],
+          [
+            -77.05351,
+            39.000816
+          ],
+          [
+            -77.037566,
+            38.998089
+          ],
+          [
+            -77.029793,
+            38.993839
+          ],
+          [
+            -77.024515,
+            38.99478
+          ],
+          [
+            -77.016511,
+            38.999336
+          ],
+          [
+            -77.007586,
+            39.001149
+          ],
+          [
+            -77.001163,
+            38.99892
+          ],
+          [
+            -76.994985,
+            38.998913
+          ],
+          [
+            -76.988412,
+            38.989656
+          ],
+          [
+            -76.980054,
+            38.98429
+          ],
+          [
+            -76.954799,
+            38.985419
+          ],
+          [
+            -76.946001,
+            38.987222
+          ],
+          [
+            -76.936514,
+            38.98547
+          ],
+          [
+            -76.928166,
+            38.978364
+          ],
+          [
+            -76.924213,
+            38.968355
+          ],
+          [
+            -76.918622,
+            38.960046
+          ],
+          [
+            -76.902057,
+            38.961958
+          ],
+          [
+            -76.885106,
+            38.950936
+          ],
+          [
+            -76.872361,
+            38.949187
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Bethesda",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.094635,
+          38.981875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Chevy Chase Lake",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.07662,
+          38.994665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Lyttonsville",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.05351,
+          39.000816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Woodside–16th Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.037566,
+          38.998089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Silver Spring",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.029793,
+          38.993839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Silver Spring Library",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.024515,
+          38.99478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Dale Drive",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.016511,
+          38.999336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Manchester Place",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.007586,
+          39.001149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Long Branch",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.001163,
+          38.99892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Piney Branch Road",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.994985,
+          38.998913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Takoma/Langley Transit Center",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.988412,
+          38.989656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Riggs Road",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.980054,
+          38.98429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Adelphi Road–West Campus",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.954799,
+          38.985419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "UM Campus Center",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.946001,
+          38.987222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "East Campus",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.936514,
+          38.98547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "College Park–UMD",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.928166,
+          38.978364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "M Square",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.924213,
+          38.968355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Riverdale Park",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.918622,
+          38.960046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Beacon Heights",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.902057,
+          38.961958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "Annapolis Road–Glenridge",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.885106,
+          38.950936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maryland Purple Line",
+        "project_name": "Maryland Purple Line",
+        "feature_type": "station",
+        "station_name": "New Carrollton",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#7c3aed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.872361,
+          38.949187
+        ]
+      }
+    }
+  ]
+}
