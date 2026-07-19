@@ -9,14 +9,15 @@
         "category": "Regional Rail",
         "status": "planning",
         "statusText": "Planned Expansion",
-        "timeline": "Long-range network planning; no delivery schedule is represented here.",
-        "description": "Future GO rail expansion corridor identified in Metrolinx's Frequent Rapid Transit Network. Delivery scope and timing remain subject to project approvals.",
-        "color": "#cf4b41",
+        "timeline": "Long-range GO rail expansion toward the Waterloo Region corridor; full two-way all-day GO Expansion delivery is phased and not fully funded for every segment.",
+        "description": "Future GO rail corridor west of today's Kitchener Line service, identified in Metrolinx's Frequent Rapid Transit Network as part of the broader GO Expansion program to grow regional rail frequency and coverage.",
+        "color": "#b45309",
         "milestones": [
-          "Corridor identified in Metrolinx FRTN open data",
-          "Project scope and delivery schedule to be confirmed"
+          "Corridor from Metrolinx FRTN open data",
+          "Tied to GO Expansion long-range network planning",
+          "Delivery schedule not yet fixed for this segment"
         ],
-        "source_url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip"
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/go-expansion"
       },
       "geometry": {
         "type": "LineString",
@@ -76,14 +77,15 @@
         "category": "Regional Rail",
         "status": "planning",
         "statusText": "Planned Expansion",
-        "timeline": "Long-range network planning; no delivery schedule is represented here.",
-        "description": "Future GO rail expansion corridor identified in Metrolinx's Frequent Rapid Transit Network. Delivery scope and timing remain subject to project approvals.",
-        "color": "#cf4b41",
+        "timeline": "Long-range northern expansion of the Richmond Hill corridor beyond Gormley; not a current construction package under GO Expansion enabling works.",
+        "description": "Future GO rail segment north of Gormley on the Richmond Hill Line, mapped from Metrolinx's Frequent Rapid Transit Network as a potential longer-term expansion of regional rail into York Region.",
+        "color": "#b45309",
         "milestones": [
-          "Corridor identified in Metrolinx FRTN open data",
-          "Project scope and delivery schedule to be confirmed"
+          "Corridor from Metrolinx FRTN open data",
+          "Beyond today's Gormley GO service pattern",
+          "Delivery schedule not yet fixed"
         ],
-        "source_url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip"
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/go-expansion"
       },
       "geometry": {
         "type": "LineString",
@@ -123,14 +125,15 @@
         "category": "Regional Rail",
         "status": "planning",
         "statusText": "Planned Expansion",
-        "timeline": "Long-range network planning; no delivery schedule is represented here.",
-        "description": "Future GO rail expansion corridor identified in Metrolinx's Frequent Rapid Transit Network. Delivery scope and timing remain subject to project approvals.",
-        "color": "#cf4b41",
+        "timeline": "Long-range Lakeshore West growth beyond West Harbour toward fuller Hamilton-area rail service under network planning.",
+        "description": "Future GO rail segment around West Harbour on Lakeshore West, drawn from Metrolinx's Frequent Rapid Transit Network as Hamilton-area regional rail continues to expand beyond the existing West Harbour GO station.",
+        "color": "#b45309",
         "milestones": [
-          "Corridor identified in Metrolinx FRTN open data",
-          "Project scope and delivery schedule to be confirmed"
+          "Corridor from Metrolinx FRTN open data",
+          "Hamilton-area Lakeshore West network growth",
+          "Delivery schedule not yet fixed for this segment"
         ],
-        "source_url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip"
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/go-expansion"
       },
       "geometry": {
         "type": "LineString",
@@ -158,14 +161,15 @@
         "category": "Regional Rail",
         "status": "planning",
         "statusText": "Planned Expansion",
-        "timeline": "Long-range network planning; no delivery schedule is represented here.",
-        "description": "Future GO rail expansion corridor identified in Metrolinx's Frequent Rapid Transit Network. Delivery scope and timing remain subject to project approvals.",
-        "color": "#cf4b41",
+        "timeline": "Long-range Barrie Line network growth under GO Expansion; two-way all-day service goals apply to the wider corridor, while this FRTN segment remains unscheduled.",
+        "description": "Future GO rail expansion on the Barrie Line north of today's core service pattern, identified in Metrolinx's Frequent Rapid Transit Network as part of regional rail growth toward Simcoe County.",
+        "color": "#b45309",
         "milestones": [
-          "Corridor identified in Metrolinx FRTN open data",
-          "Project scope and delivery schedule to be confirmed"
+          "Corridor from Metrolinx FRTN open data",
+          "Aligned with GO Expansion Barrie Line ambitions",
+          "Segment-level delivery schedule not yet fixed"
         ],
-        "source_url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip"
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/go-expansion"
       },
       "geometry": {
         "type": "LineString",
@@ -257,14 +261,15 @@
         "category": "Regional Rail",
         "status": "planning",
         "statusText": "Planned Expansion",
-        "timeline": "Long-range network planning; no delivery schedule is represented here.",
-        "description": "Future GO rail expansion corridor identified in Metrolinx's Frequent Rapid Transit Network. Delivery scope and timing remain subject to project approvals.",
-        "color": "#cf4b41",
+        "timeline": "Seasonal Niagara GO service already operates; this FRTN corridor represents longer-range network expansion beyond today's limited service pattern.",
+        "description": "Future GO rail expansion toward Niagara beyond current seasonal service, mapped from Metrolinx's Frequent Rapid Transit Network as the long-term vision for more frequent regional rail to Niagara Falls and the peninsula.",
+        "color": "#b45309",
         "milestones": [
-          "Corridor identified in Metrolinx FRTN open data",
-          "Project scope and delivery schedule to be confirmed"
+          "Corridor from Metrolinx FRTN open data",
+          "Builds on existing seasonal Niagara GO service",
+          "Full all-day expansion not yet scheduled"
         ],
-        "source_url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip"
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/go-expansion"
       },
       "geometry": {
         "type": "LineString",
@@ -320,14 +325,15 @@
         "category": "Regional Rail",
         "status": "planning",
         "statusText": "Planned Expansion",
-        "timeline": "Long-range network planning; no delivery schedule is represented here.",
-        "description": "Future GO rail expansion corridor identified in Metrolinx's Frequent Rapid Transit Network. Delivery scope and timing remain subject to project approvals.",
-        "color": "#cf4b41",
+        "timeline": "Long-range Hamilton-area GO rail link around Confederation; separate from Ottawa O-Train Stage 2 Confederation Line.",
+        "description": "Future GO rail segment in the Hamilton Confederation GO area from Metrolinx's Frequent Rapid Transit Network, representing planned regional rail connectivity—not the Ottawa O-Train Confederation Line.",
+        "color": "#b45309",
         "milestones": [
-          "Corridor identified in Metrolinx FRTN open data",
-          "Project scope and delivery schedule to be confirmed"
+          "Corridor from Metrolinx FRTN open data",
+          "Hamilton-area GO network planning",
+          "Delivery schedule not yet fixed"
         ],
-        "source_url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip"
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/go-expansion"
       },
       "geometry": {
         "type": "LineString",
