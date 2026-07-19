@@ -441,7 +441,7 @@ function featureCentroid(feature) {
 function regionForProject(project) {
     const name = project.properties.name || '';
     // Explicit name rules first (most reliable for this dataset)
-    if (/Eglinton|Ontario Line|Finch|Scarborough|Yonge|Mississauga|Brampton|Hamilton|Kitchener|Barrie|Niagara|Gormley|Waterfront|Sheppard|ION|London Link|Wellington|Durham|Confederation Extension|Lakeshore West/i.test(name)) {
+    if (/Eglinton|Ontario Line|Finch|Scarborough|Yonge|Mississauga|Brampton|Hamilton|Kitchener|Barrie|Niagara|Gormley|Waterfront|Sheppard|ION Stage|East London Link|Wellington Gateway|Durham|Confederation Extension|Lakeshore West/i.test(name)) {
         return 'Ontario';
     }
     if (/O-Train|Bailey Avenue|NFTA/i.test(name)) {
