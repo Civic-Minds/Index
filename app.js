@@ -18,7 +18,6 @@ const backBtn = document.getElementById('back-to-list');
 const filterContainer = document.getElementById('filter-container');
 const statusChips = document.getElementById('status-chips');
 const projectSearch = document.getElementById('project-search');
-const sortSelect = document.getElementById('sort-select');
 const listCount = document.getElementById('list-count');
 const emptyList = document.getElementById('empty-list');
 const loadingBanner = document.getElementById('loading');
@@ -49,6 +48,23 @@ const ACTIVE_PROJECT_NAMES = new Set(['Eglinton Crosstown LRT', 'Finch West LRT'
 const MAP_BACKGROUND_COLOR = '#ffffff';
 const OVERVIEW = { center: [-98.5, 39.5], zoom: 3 };
 
+/** Region buckets — order is display order in the sidebar */
+const REGION_ORDER = [
+    'Ontario',
+    'Quebec',
+    'Western Canada',
+    'Pacific Northwest',
+    'California',
+    'Southwest',
+    'Texas',
+    'Mountain West',
+    'Midwest',
+    'Northeast',
+    'Mid-Atlantic',
+    'Southeast',
+    'Other'
+];
+
 let map;
 let allProjects = [];
 let allStationFeatures = [];
@@ -58,7 +74,8 @@ let selectedStatus = null;
 let activeProjectName = '';
 let hoverProjectName = '';
 let searchQuery = '';
-let sortMode = 'name';
+/** Open region ids; empty + no search = all collapsed */
+const openRegions = new Set();
 
 function isProjectFeature(feature) {
     return feature.geometry && ['LineString', 'MultiLineString'].includes(feature.geometry.type);
@@ -398,9 +415,75 @@ function syncChipUI() {
     });
 }
 
+function featureCentroid(feature) {
+    const g = feature.geometry;
+    if (!g) return null;
+    const pts = [];
+    const walk = (c) => {
+        if (!c || !c.length) return;
+        if (typeof c[0] === 'number') {
+            pts.push(c);
+            return;
+        }
+        c.forEach(walk);
+    };
+    walk(g.coordinates);
+    if (!pts.length) return null;
+    let lon = 0;
+    let lat = 0;
+    pts.forEach(p => {
+        lon += p[0];
+        lat += p[1];
+    });
+    return [lon / pts.length, lat / pts.length];
+}
+
+function regionForProject(project) {
+    const name = project.properties.name || '';
+    // Explicit name rules first (most reliable for this dataset)
+    if (/Eglinton|Ontario Line|Finch|Scarborough|Yonge|Mississauga|Brampton|Hamilton|Kitchener|Barrie|Niagara|Gormley|Waterfront|Sheppard|ION|London Link|Wellington|Durham|Confederation Extension|Lakeshore West/i.test(name)) {
+        return 'Ontario';
+    }
+    if (/O-Train|Bailey Avenue|NFTA/i.test(name)) {
+        return /O-Train/i.test(name) ? 'Ontario' : 'Northeast';
+    }
+    if (/REM|Montréal|Montreal|TramCité|Blue Line Extension/i.test(name)) return 'Quebec';
+    if (/Broadway|Surrey|Green Line Phase|Valley Line|Capital Line/i.test(name)) return 'Western Canada';
+    if (/Lynnwood|Federal Way|East Link|West Seattle|2 Line East/i.test(name)) return 'Pacific Northwest';
+    if (/D Line|Foothill|San Fernando|LAX|Southeast Gateway|VTA BART/i.test(name)) return 'California';
+    if (/South Central|Maryland Parkway/i.test(name)) return 'Southwest';
+    if (/DART|Austin Light Rail/i.test(name)) return 'Texas';
+    if (/Midvalley|Utah/i.test(name)) return 'Mountain West';
+    if (/CTA|West Lake|METRO Green Line|KC Streetcar/i.test(name)) return 'Midwest';
+    if (/South Coast Rail/i.test(name)) return 'Northeast';
+    if (/Second Avenue|Penn Station|Gateway|IBX/i.test(name)) return 'Northeast';
+    if (/Purple Line/i.test(name)) return 'Mid-Atlantic';
+    if (/MARTA/i.test(name)) return 'Southeast';
+
+    const c = featureCentroid(project);
+    if (!c) return 'Other';
+    const [lon, lat] = c;
+
+    if (lat >= 49 || (lat >= 41.7 && lon >= -95 && lon <= -74 && lat >= 41.7)) {
+        if (lon <= -95) return 'Western Canada';
+        if (lon >= -75) return 'Quebec';
+        return 'Ontario';
+    }
+    if (lon <= -114 && lat < 42.5 && lat >= 32) return 'California';
+    if (lon <= -116 && lat >= 42) return 'Pacific Northwest';
+    if (lon <= -109 && lat < 42 && lat >= 31) return 'Southwest';
+    if (lon <= -93.5 && lon > -107 && lat < 37 && lat >= 25) return 'Texas';
+    if (lon <= -102 && lat >= 36.5) return 'Mountain West';
+    if (lon <= -82 && lon > -104 && lat >= 36.5) return 'Midwest';
+    if (lon > -80 && lat >= 38) return 'Northeast';
+    if (lon <= -74.5 && lon > -83 && lat >= 36.5 && lat < 40.5) return 'Mid-Atlantic';
+    if (lat < 37 && lon > -95) return 'Southeast';
+    return 'Other';
+}
+
 function getFilteredProjects() {
     const q = searchQuery.trim().toLowerCase();
-    let list = allProjects.filter(p => {
+    return allProjects.filter(p => {
         const status = p.properties.status;
         if (selectedStatus && status !== selectedStatus) return false;
         if (!q) return true;
@@ -409,27 +492,30 @@ function getFilteredProjects() {
             p.properties.agency,
             p.properties.category,
             p.properties.statusText,
-            p.properties.description
+            p.properties.description,
+            regionForProject(p)
         ].filter(Boolean).join(' ').toLowerCase();
         return hay.includes(q);
-    });
+    }).sort((a, b) => a.properties.name.localeCompare(b.properties.name));
+}
 
-    list = list.slice().sort((a, b) => {
-        if (sortMode === 'status') {
-            const ra = STATUS_ORDER.indexOf(a.properties.status);
-            const rb = STATUS_ORDER.indexOf(b.properties.status);
-            if (ra !== rb) return ra - rb;
-        }
-        return a.properties.name.localeCompare(b.properties.name);
+function groupByRegion(projects) {
+    const groups = new Map();
+    REGION_ORDER.forEach(r => groups.set(r, []));
+    projects.forEach(p => {
+        const region = regionForProject(p);
+        if (!groups.has(region)) groups.set(region, []);
+        groups.get(region).push(p);
     });
-
-    return list;
+    return REGION_ORDER
+        .filter(r => groups.get(r)?.length)
+        .map(r => ({ region: r, projects: groups.get(r) }));
 }
 
 function applyFilters() {
     const filtered = getFilteredProjects();
     renderProjectList(filtered);
-    listCount.textContent = `${filtered.length} of ${allProjects.length}`;
+    listCount.textContent = `${filtered.length} projects`;
     emptyList.classList.toggle('hidden', filtered.length > 0);
     applyMapFilters();
 }
@@ -472,25 +558,62 @@ function setHoverProject(name) {
 
 function renderProjectList(projects) {
     projectList.innerHTML = '';
-    projects.forEach(project => {
-        const item = document.createElement('button');
-        item.type = 'button';
-        item.className = 'project-item';
-        item.dataset.name = project.properties.name;
-        const shortStatus = STATUS_LABELS[project.properties.status]
-            || project.properties.statusText
-            || project.properties.status;
-        item.innerHTML = `
-            <span class="project-item-name">${escapeHtml(project.properties.name)}</span>
-            <span class="project-item-status status-${project.properties.status}">${escapeHtml(shortStatus)}</span>
+    const groups = groupByRegion(projects);
+    const searching = Boolean(searchQuery.trim());
+
+    // While searching, auto-expand matching regions
+    if (searching) {
+        groups.forEach(g => openRegions.add(g.region));
+    }
+
+    groups.forEach(({ region, projects: items }) => {
+        const section = document.createElement('section');
+        section.className = 'region-group';
+        section.dataset.region = region;
+
+        const isOpen = searching || openRegions.has(region);
+        const header = document.createElement('button');
+        header.type = 'button';
+        header.className = 'region-header';
+        header.setAttribute('aria-expanded', String(isOpen));
+        header.innerHTML = `
+            <span class="region-chevron" aria-hidden="true"></span>
+            <span class="region-name">${escapeHtml(region)}</span>
+            <span class="region-count">${items.length}</span>
         `;
-        item.addEventListener('click', () => {
-            showProjectDetails(project.properties);
-            flyToProject(project);
+        header.addEventListener('click', () => {
+            if (openRegions.has(region)) openRegions.delete(region);
+            else openRegions.add(region);
+            renderProjectList(getFilteredProjects());
         });
-        item.addEventListener('mouseenter', () => setHoverProject(project.properties.name));
-        item.addEventListener('mouseleave', () => setHoverProject(''));
-        projectList.appendChild(item);
+
+        const body = document.createElement('div');
+        body.className = `region-body${isOpen ? '' : ' is-collapsed'}`;
+
+        items.forEach(project => {
+            const item = document.createElement('button');
+            item.type = 'button';
+            item.className = 'project-item';
+            item.dataset.name = project.properties.name;
+            const shortStatus = STATUS_LABELS[project.properties.status]
+                || project.properties.statusText
+                || project.properties.status;
+            item.innerHTML = `
+                <span class="project-item-name">${escapeHtml(project.properties.name)}</span>
+                <span class="project-item-status status-${project.properties.status}">${escapeHtml(shortStatus)}</span>
+            `;
+            item.addEventListener('click', () => {
+                showProjectDetails(project.properties);
+                flyToProject(project);
+            });
+            item.addEventListener('mouseenter', () => setHoverProject(project.properties.name));
+            item.addEventListener('mouseleave', () => setHoverProject(''));
+            body.appendChild(item);
+        });
+
+        section.appendChild(header);
+        section.appendChild(body);
+        projectList.appendChild(section);
     });
 }
 
@@ -594,11 +717,6 @@ function resetOverview() {
 
 projectSearch.addEventListener('input', () => {
     searchQuery = projectSearch.value;
-    applyFilters();
-});
-
-sortSelect.addEventListener('change', () => {
-    sortMode = sortSelect.value;
     applyFilters();
 });
 

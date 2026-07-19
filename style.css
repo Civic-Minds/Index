@@ -271,12 +271,6 @@ h1 {
     gap: 8px;
 }
 
-.search-sort-row {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 6px;
-}
-
 .search-label {
     display: block;
     min-width: 0;
@@ -296,17 +290,6 @@ h1 {
 #project-search:focus {
     outline: 1px solid #000;
     outline-offset: 0;
-}
-
-#sort-select {
-    padding: 8px 8px;
-    border: 1px solid var(--st-border);
-    border-radius: 0;
-    background: var(--st-white);
-    font-size: 0.7rem;
-    font-family: 'IBM Plex Mono', monospace;
-    cursor: pointer;
-    min-width: 72px;
 }
 
 .status-chips {
@@ -356,12 +339,73 @@ h1 {
 .status-chip-opened.is-active { box-shadow: inset 3px 0 0 var(--status-opened); }
 .status-chip-delayed.is-active { box-shadow: inset 3px 0 0 var(--status-delayed); }
 
-/* Project list */
+/* Regional groups — collapsed by default so 70+ isn't a wall of text */
 .project-list {
     display: flex;
     flex-direction: column;
     gap: 0;
     border-top: 1px solid var(--st-border);
+}
+
+.region-group {
+    border-bottom: 1px solid var(--st-border);
+}
+
+.region-header {
+    display: grid;
+    grid-template-columns: 12px 1fr auto;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    margin: 0;
+    padding: 11px 4px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    text-align: left;
+    font: inherit;
+    color: inherit;
+}
+
+.region-header:hover {
+    background: var(--st-gray);
+}
+
+.region-chevron {
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 6px solid #000;
+    transition: transform 0.15s ease;
+}
+
+.region-header[aria-expanded="true"] .region-chevron {
+    transform: rotate(90deg);
+}
+
+.region-name {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.region-count {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--st-text-muted);
+    font-variant-numeric: tabular-nums;
+}
+
+.region-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 6px 12px;
+}
+
+.region-body.is-collapsed {
+    display: none;
 }
 
 .project-item {
@@ -371,9 +415,9 @@ h1 {
     gap: 10px;
     width: 100%;
     margin: 0;
-    padding: 11px 2px;
+    padding: 8px 4px;
     border: 0;
-    border-bottom: 1px solid #e8e8e8;
+    border-top: 1px solid #eee;
     border-radius: 0;
     cursor: pointer;
     background: transparent;
@@ -387,7 +431,7 @@ h1 {
 }
 
 .project-item-name {
-    font-size: 0.8rem;
+    font-size: 0.76rem;
     font-weight: 400;
     font-family: 'IBM Plex Mono', monospace;
     letter-spacing: 0.01em;
@@ -395,12 +439,12 @@ h1 {
 }
 
 .project-item-status {
-    font-size: 0.58rem;
+    font-size: 0.55rem;
     font-weight: 400;
     font-family: 'IBM Plex Mono', monospace;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
     text-transform: uppercase;
     color: var(--st-text-muted);
     white-space: nowrap;
