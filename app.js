@@ -32,6 +32,13 @@ const DEFAULT_TITLE = 'PROJECTS';
 const PUBLIC_MAPBOX_TOKEN = 'pk.eyJ1Ijoicnlhbmhhbm5hIiwiYSI6ImNtbXk3MTkyYTM5ZHQyb3EzOWZnczV2NWUifQ.1ipGd2Oc07tCfLY7I_Fb1w';
 const STATUS_ORDER = ['planning', 'approved', 'construction', 'opened', 'delayed'];
 const STATUS_LABELS = {
+    planning: 'Plan',
+    approved: 'Approved',
+    construction: 'Build',
+    opened: 'Open',
+    delayed: 'Delayed'
+};
+const STATUS_LABELS_FULL = {
     planning: 'Planning',
     approved: 'Approved',
     construction: 'Construction',
@@ -46,7 +53,8 @@ let map;
 let allProjects = [];
 let allStationFeatures = [];
 let fullMapCollection = { type: 'FeatureCollection', features: [] };
-const hiddenStatuses = new Set();
+/** null = all statuses; otherwise only this status is shown */
+let selectedStatus = null;
 let activeProjectName = '';
 let hoverProjectName = '';
 let searchQuery = '';
@@ -357,61 +365,36 @@ function buildStatusChips(projects) {
     });
 
     statusChips.innerHTML = '';
-    const allBtn = document.createElement('button');
-    allBtn.type = 'button';
-    allBtn.className = 'status-chip is-active';
-    allBtn.dataset.status = 'all';
-    allBtn.setAttribute('aria-pressed', 'true');
-    allBtn.innerHTML = `All <span class="chip-count">${projects.length}</span>`;
-    allBtn.addEventListener('click', () => {
-        hiddenStatuses.clear();
-        STATUS_ORDER.forEach(s => {
-            // show all
-        });
-        syncChipUI();
-        applyFilters();
-    });
-    statusChips.appendChild(allBtn);
 
-    STATUS_ORDER.forEach(status => {
-        if (!counts[status]) return;
+    const makeChip = (key, label, count) => {
         const btn = document.createElement('button');
         btn.type = 'button';
-        btn.className = `status-chip status-chip-${status}`;
-        btn.dataset.status = status;
-        btn.setAttribute('aria-pressed', 'true');
-        btn.innerHTML = `${STATUS_LABELS[status] || status} <span class="chip-count">${counts[status]}</span>`;
+        btn.className = `status-chip${key !== 'all' ? ` status-chip-${key}` : ''}`;
+        btn.dataset.status = key;
+        btn.title = key === 'all' ? 'All projects' : (STATUS_LABELS_FULL[key] || label);
+        btn.innerHTML = `<span class="chip-label">${label}</span><span class="chip-count">${count}</span>`;
         btn.addEventListener('click', () => {
-            if (hiddenStatuses.has(status)) {
-                hiddenStatuses.delete(status);
-            } else {
-                hiddenStatuses.add(status);
-            }
-            // If every status hidden, clear
-            const visible = STATUS_ORDER.filter(s => counts[s] && !hiddenStatuses.has(s));
-            if (!visible.length) hiddenStatuses.clear();
+            selectedStatus = key === 'all' ? null : key;
             syncChipUI();
             applyFilters();
         });
         statusChips.appendChild(btn);
+    };
+
+    makeChip('all', 'All', projects.length);
+    STATUS_ORDER.forEach(status => {
+        if (!counts[status]) return;
+        makeChip(status, STATUS_LABELS[status] || status, counts[status]);
     });
     syncChipUI();
 }
 
 function syncChipUI() {
-    const chips = statusChips.querySelectorAll('.status-chip');
-    const allHiddenEmpty = STATUS_ORDER.every(s => !hiddenStatuses.has(s));
-    chips.forEach(chip => {
-        const status = chip.dataset.status;
-        if (status === 'all') {
-            chip.classList.toggle('is-active', allHiddenEmpty);
-            chip.setAttribute('aria-pressed', String(allHiddenEmpty));
-            return;
-        }
-        const on = !hiddenStatuses.has(status);
-        chip.classList.toggle('is-active', on);
-        chip.classList.toggle('is-hidden', !on);
-        chip.setAttribute('aria-pressed', String(on));
+    statusChips.querySelectorAll('.status-chip').forEach(chip => {
+        const key = chip.dataset.status;
+        const active = selectedStatus === null ? key === 'all' : key === selectedStatus;
+        chip.classList.toggle('is-active', active);
+        chip.setAttribute('aria-pressed', String(active));
     });
 }
 
@@ -419,7 +402,7 @@ function getFilteredProjects() {
     const q = searchQuery.trim().toLowerCase();
     let list = allProjects.filter(p => {
         const status = p.properties.status;
-        if (hiddenStatuses.has(status)) return false;
+        if (selectedStatus && status !== selectedStatus) return false;
         if (!q) return true;
         const hay = [
             p.properties.name,
@@ -454,15 +437,13 @@ function applyFilters() {
 function applyMapFilters() {
     if (!map || !map.getLayer('transit-lines')) return;
 
-    const visibleStatuses = STATUS_ORDER.filter(item => !hiddenStatuses.has(item));
-    const statusExpression = visibleStatuses.length
-        ? ['any', ...visibleStatuses.map(item => ['==', 'status', item])]
-        : ['==', 'status', '__hidden__'];
+    const statusExpression = selectedStatus
+        ? ['==', 'status', selectedStatus]
+        : ['any', ...STATUS_ORDER.map(item => ['==', 'status', item])];
 
     const focusName = activeProjectName || hoverProjectName;
 
     if (activeProjectName) {
-        // Focus mode: active full, others dim
         map.setFilter('transit-lines', ['all', statusExpression, ['==', 'name', activeProjectName]]);
         map.setFilter('transit-lines-dim', ['all', statusExpression, ['!=', 'name', activeProjectName]]);
         map.setPaintProperty('transit-lines-dim', 'line-opacity', 0.18);
@@ -492,16 +473,16 @@ function setHoverProject(name) {
 function renderProjectList(projects) {
     projectList.innerHTML = '';
     projects.forEach(project => {
-        const item = document.createElement('div');
+        const item = document.createElement('button');
+        item.type = 'button';
         item.className = 'project-item';
         item.dataset.name = project.properties.name;
-        const agency = project.properties.agency ? `<div class="project-item-agency">${escapeHtml(project.properties.agency)}</div>` : '';
+        const shortStatus = STATUS_LABELS[project.properties.status]
+            || project.properties.statusText
+            || project.properties.status;
         item.innerHTML = `
-            <div class="project-item-header">
-                <h3>${escapeHtml(project.properties.name)}</h3>
-            </div>
-            <div class="project-item-status status-${project.properties.status}">${escapeHtml(project.properties.statusText || project.properties.status)}</div>
-            ${agency}
+            <span class="project-item-name">${escapeHtml(project.properties.name)}</span>
+            <span class="project-item-status status-${project.properties.status}">${escapeHtml(shortStatus)}</span>
         `;
         item.addEventListener('click', () => {
             showProjectDetails(project.properties);
