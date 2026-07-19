@@ -441,16 +441,15 @@ function featureCentroid(feature) {
 function regionForProject(project) {
     const name = project.properties.name || '';
     // Explicit name rules first (most reliable for this dataset)
-    if (/Eglinton|Ontario Line|Finch|Scarborough|Yonge|Mississauga|Brampton|Hamilton|Kitchener|Barrie|Niagara|Gormley|Waterfront|Sheppard|ION Stage|East London Link|Wellington Gateway|Durham|Confederation Extension|Lakeshore West/i.test(name)) {
+    if (/Hazel McCallion|Eglinton|Ontario Line|Finch|Scarborough|Yonge|Mississauga|Brampton|Hamilton|Kitchener|Barrie|Niagara|Gormley|Waterfront|Sheppard|ION Stage|East London Link|Wellington Gateway|Durham|Confederation Extension|Lakeshore West/i.test(name)) {
         return 'Ontario';
     }
-    if (/O-Train|Bailey Avenue|NFTA/i.test(name)) {
-        return /O-Train/i.test(name) ? 'Ontario' : 'Northeast';
-    }
+    if (/O-Train/i.test(name)) return 'Ontario';
+    if (/Bailey Avenue|NFTA/i.test(name)) return 'Northeast';
     if (/REM|Montréal|Montreal|TramCité|Blue Line Extension/i.test(name)) return 'Quebec';
     if (/Broadway|Surrey|Green Line Phase|Valley Line|Capital Line/i.test(name)) return 'Western Canada';
     if (/Lynnwood|Federal Way|East Link|West Seattle|2 Line East/i.test(name)) return 'Pacific Northwest';
-    if (/D Line|Foothill|San Fernando|LAX|Southeast Gateway|VTA BART/i.test(name)) return 'California';
+    if (/D Line Extension|Foothill|San Fernando|LAX|Southeast Gateway|VTA BART/i.test(name)) return 'California';
     if (/South Central|Maryland Parkway/i.test(name)) return 'Southwest';
     if (/DART|Austin Light Rail/i.test(name)) return 'Texas';
     if (/Midvalley|Utah/i.test(name)) return 'Mountain West';
