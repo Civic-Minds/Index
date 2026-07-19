@@ -551,11 +551,12 @@ html {
     background: var(--st-gray);
 }
 
-/* Legend */
+/* Legend — top-right under the HUD so it never stacks on the viewport strip */
 .legend {
     position: absolute;
     right: 14px;
-    bottom: 18px;
+    top: calc(var(--header-height) + 58px);
+    bottom: auto;
     z-index: 500;
     padding: 10px 12px;
     background: #fff;
@@ -656,7 +657,19 @@ html {
     }
 
     .legend {
-        display: none;
+        top: auto;
+        bottom: auto;
+        right: 10px;
+        /* Sit above the viewport strip when present */
+        bottom: 96px;
+    }
+
+    .map-hint {
+        /* Keep clear of legend on narrow screens */
+        right: 10px;
+        left: 10px;
+        transform: none;
+        max-width: none;
     }
 
     .detail-sheet {
