@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Central Extension / Downtown Hub",
+        "agency": "Valley Metro",
+        "category": "Light Rail",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "5.5-mile extension from the Downtown Phoenix Hub south on Central Avenue to Baseline Road; opened 7 June 2025.",
+        "description": "Valley Metro’s South Central Extension/Downtown Hub adds light rail south from downtown Phoenix along Central Avenue to Baseline Road, rebuilt the downtown transfer hub, and launched A/B two-line service across the network.",
+        "color": "#ea580c",
+        "milestones": [
+          "Opened June 2025",
+          "5.5-mile Central Avenue corridor represented",
+          "Eight stations represented"
+        ],
+        "source_url": "https://www.valleymetro.org/project/south-central-extension-downtown-hub"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.0746,
+            33.4483
+          ],
+          [
+            -112.0744,
+            33.4422
+          ],
+          [
+            -112.0735,
+            33.4182
+          ],
+          [
+            -112.0734,
+            33.4125
+          ],
+          [
+            -112.0733,
+            33.4067
+          ],
+          [
+            -112.0733,
+            33.3995
+          ],
+          [
+            -112.0733,
+            33.3915
+          ],
+          [
+            -112.0733,
+            33.3788
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Central Extension / Downtown Hub",
+        "project_name": "South Central Extension / Downtown Hub",
+        "feature_type": "station",
+        "station_name": "Downtown Phoenix Hub",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0746,
+          33.4483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Central Extension / Downtown Hub",
+        "project_name": "South Central Extension / Downtown Hub",
+        "feature_type": "station",
+        "station_name": "Lincoln/Central",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0744,
+          33.4422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Central Extension / Downtown Hub",
+        "project_name": "South Central Extension / Downtown Hub",
+        "feature_type": "station",
+        "station_name": "Buckeye/Central",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0735,
+          33.4182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Central Extension / Downtown Hub",
+        "project_name": "South Central Extension / Downtown Hub",
+        "feature_type": "station",
+        "station_name": "Pioneer/Central",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0734,
+          33.4125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Central Extension / Downtown Hub",
+        "project_name": "South Central Extension / Downtown Hub",
+        "feature_type": "station",
+        "station_name": "Broadway/Central",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0733,
+          33.4067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Central Extension / Downtown Hub",
+        "project_name": "South Central Extension / Downtown Hub",
+        "feature_type": "station",
+        "station_name": "Roeser/Central",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0733,
+          33.3995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Central Extension / Downtown Hub",
+        "project_name": "South Central Extension / Downtown Hub",
+        "feature_type": "station",
+        "station_name": "Southern/Central",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0733,
+          33.3915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Central Extension / Downtown Hub",
+        "project_name": "South Central Extension / Downtown Hub",
+        "feature_type": "station",
+        "station_name": "Baseline/Central",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "color": "#ea580c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0733,
+          33.3788
+        ]
+      }
+    }
+  ]
+}

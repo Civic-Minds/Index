@@ -1,0 +1,420 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "agency": "Metropolitan Council / Metro Transit",
+        "category": "Light Rail",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "14.5-mile extension from Target Field to SouthWest Station in Eden Prairie; over 90% complete with passenger service planned for 2027.",
+        "description": "The METRO Green Line Extension (Southwest LRT) continues light rail from downtown Minneapolis through St. Louis Park, Hopkins, and Minnetonka to Eden Prairie, adding 16 stations and a one-seat ride toward St. Paul.",
+        "color": "#00843D",
+        "milestones": [
+          "14.5-mile corridor represented",
+          "Sixteen new stations represented",
+          "Opening planned for 2027"
+        ],
+        "source_url": "https://metrocouncil.org/Transportation/Projects/Light-Rail-Projects/METRO-Green-Line-Extension.aspx"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -93.27722,
+            44.98333
+          ],
+          [
+            -93.28299,
+            44.9813
+          ],
+          [
+            -93.29573,
+            44.9743
+          ],
+          [
+            -93.30913,
+            44.96806
+          ],
+          [
+            -93.31466,
+            44.96068
+          ],
+          [
+            -93.32438,
+            44.94772
+          ],
+          [
+            -93.33945,
+            44.94379
+          ],
+          [
+            -93.35476,
+            44.93859
+          ],
+          [
+            -93.36502,
+            44.93486
+          ],
+          [
+            -93.38644,
+            44.9278
+          ],
+          [
+            -93.40919,
+            44.92077
+          ],
+          [
+            -93.42097,
+            44.9178
+          ],
+          [
+            -93.41391,
+            44.89811
+          ],
+          [
+            -93.4109,
+            44.8905
+          ],
+          [
+            -93.41049,
+            44.87708
+          ],
+          [
+            -93.43101,
+            44.85918
+          ],
+          [
+            -93.44305,
+            44.86
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "Target Field",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.27722,
+          44.98333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "Royalston Avenue/Farmers Market",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.28299,
+          44.9813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "Bassett Creek Valley",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.29573,
+          44.9743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "Bryn Mawr",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.30913,
+          44.96806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "West 21st Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.31466,
+          44.96068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "West Lake Street",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.32438,
+          44.94772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "Beltline Boulevard",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.33945,
+          44.94379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "Wooddale Avenue",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.35476,
+          44.93859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "Louisiana Avenue",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.36502,
+          44.93486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "Blake Road",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.38644,
+          44.9278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "Downtown Hopkins",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.40919,
+          44.92077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "Shady Oak",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.42097,
+          44.9178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "Opus",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.41391,
+          44.89811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "City West",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4109,
+          44.8905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "Golden Triangle",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.41049,
+          44.87708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "Eden Prairie Town Center",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.43101,
+          44.85918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "METRO Green Line Extension",
+        "project_name": "METRO Green Line Extension",
+        "feature_type": "station",
+        "station_name": "SouthWest Station",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#00843D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.44305,
+          44.86
+        ]
+      }
+    }
+  ]
+}

@@ -5,6 +5,9 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **METRO Green Line Extension**: Added Minneapolis–Eden Prairie Southwest LRT corridor and 16 stations (opening planned 2027).
+- **South Central Extension / Downtown Hub**: Added Valley Metro’s open Phoenix Central Avenue extension and downtown hub.
+- **REM Airport Branch**: Added the under-construction spur to YUL via Marie-Curie.
 - **Valley Line West**: Added Edmonton’s downtown-to-Lewis Farms LRT corridor and 16 stops under construction through 2028.
 - **Federal Way Link**: Added Sound Transit’s open 1 Line extension from Angle Lake to Federal Way Downtown.
 - **D Line Section 1**: Added LA Metro’s open Wilshire subway extension to La Cienega.

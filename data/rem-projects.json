@@ -647,6 +647,80 @@
           45.431592
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Airport Branch",
+        "agency": "Réseau express métropolitain",
+        "category": "Light Metro",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Branch to YUL Montréal–Trudeau Airport via Marie-Curie; under construction with stations not yet in revenue service.",
+        "description": "The REM Airport branch will connect Montréal–Trudeau International Airport to the REM network at Marie-Curie and YUL-Aéroport-Montréal-Trudeau, completing the last major REM segment still under construction.",
+        "color": "#4d7c0f",
+        "milestones": [
+          "Airport spur corridor represented",
+          "Two stations under construction represented",
+          "Not yet in passenger service"
+        ],
+        "source_url": "https://rem.info/en/travelling/stations"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.755,
+            45.488
+          ],
+          [
+            -73.760294,
+            45.480051
+          ],
+          [
+            -73.749619,
+            45.457128
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Airport Branch",
+        "project_name": "REM Airport Branch",
+        "feature_type": "station",
+        "station_name": "Marie-Curie",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#4d7c0f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.760294,
+          45.480051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "REM Airport Branch",
+        "project_name": "REM Airport Branch",
+        "feature_type": "station",
+        "station_name": "YUL-Aéroport-Montréal-Trudeau",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "color": "#4d7c0f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.749619,
+          45.457128
+        ]
+      }
     }
   ]
 }
