@@ -449,7 +449,7 @@ function regionForProject(project) {
     if (/REM|Montréal|Montreal|TramCité|Blue Line Extension/i.test(name)) return 'Quebec';
     if (/Broadway|Surrey|Green Line Phase|Valley Line|Capital Line/i.test(name)) return 'Western Canada';
     if (/Lynnwood|Federal Way|East Link|West Seattle|2 Line East/i.test(name)) return 'Pacific Northwest';
-    if (/D Line Extension|Foothill|San Fernando|LAX|Southeast Gateway|VTA BART/i.test(name)) return 'California';
+    if (/(^| )D Line Extension|Foothill|San Fernando|LAX|Southeast Gateway|VTA BART/i.test(name)) return 'California';
     if (/South Central|Maryland Parkway/i.test(name)) return 'Southwest';
     if (/DART|Austin Light Rail/i.test(name)) return 'Texas';
     if (/Midvalley|Utah/i.test(name)) return 'Mountain West';
