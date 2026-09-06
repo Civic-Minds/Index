@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **North American project coverage**: Added Honolulu Skyline Segment 3 and the Sepulveda Transit Corridor, and corrected BART Silicon Valley Phase II to its current planning-and-engineering status.
 - **Data accuracy audit**: Corrected stale Yonge North, Hazel McCallion, ION Stage 2, Calgary Green Line, Eglinton West, Hamilton, Ottawa, Durham–Scarborough, GO corridor, Ontario Line, and Scarborough station records against current agency sources, including live count checks.
 - **Map-first discovery**: Dropped the permanent project list. Explore by scrolling the map; labels appear as you zoom; an “In this view” card strip lists nearby projects; details open as a sheet only when a corridor is selected.
 - **Status UI**: One filter only — chips with color dots. Removed the duplicate legend and masthead status breakdown.

@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Honolulu Skyline Segment 3",
+        "agency": "Honolulu Authority for Rapid Transportation",
+        "category": "Automated Heavy Rail",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Three-mile City Center Guideway and Stations segment is under construction; passenger service is scheduled for 2031.",
+        "description": "Skyline Segment 3 extends automated rail from Kalihi Transit Center to Civic Center with six new stations: Mokauea, Niuhelewai, Kūwili, Hōlau, Kuloloia, and Ka‘ākaukukui.",
+        "color": "#7c3aed",
+        "milestones": [
+          "Three-mile elevated guideway and six stations",
+          "Guideway and station construction underway",
+          "Passenger service scheduled for 2031"
+        ],
+        "source_url": "https://honolulutransit.org/construction/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-157.8813296565, 21.3284382412],
+          [-157.8725446716, 21.3218140376],
+          [-157.8664341182, 21.3176512876],
+          [-157.8651326495, 21.3124966346],
+          [-157.8633346036, 21.3065226640],
+          [-157.8592935829, 21.3012428192]
+        ]
+      }
+    },
+    {"type":"Feature","properties":{"name":"Honolulu Skyline Segment 3","project_name":"Honolulu Skyline Segment 3","feature_type":"station","station_name":"Mokauea","status":"construction","statusText":"Under Construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-157.8813296565,21.3284382412]}},
+    {"type":"Feature","properties":{"name":"Honolulu Skyline Segment 3","project_name":"Honolulu Skyline Segment 3","feature_type":"station","station_name":"Niuhelewai","status":"construction","statusText":"Under Construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-157.8725446716,21.3218140376]}},
+    {"type":"Feature","properties":{"name":"Honolulu Skyline Segment 3","project_name":"Honolulu Skyline Segment 3","feature_type":"station","station_name":"Kūwili","status":"construction","statusText":"Under Construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-157.8664341182,21.3176512876]}},
+    {"type":"Feature","properties":{"name":"Honolulu Skyline Segment 3","project_name":"Honolulu Skyline Segment 3","feature_type":"station","station_name":"Hōlau","status":"construction","statusText":"Under Construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-157.8651326495,21.3124966346]}},
+    {"type":"Feature","properties":{"name":"Honolulu Skyline Segment 3","project_name":"Honolulu Skyline Segment 3","feature_type":"station","station_name":"Kuloloia","status":"construction","statusText":"Under Construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-157.8633346036,21.3065226640]}},
+    {"type":"Feature","properties":{"name":"Honolulu Skyline Segment 3","project_name":"Honolulu Skyline Segment 3","feature_type":"station","station_name":"Ka‘ākaukukui","status":"construction","statusText":"Under Construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-157.8592935829,21.3012428192]}}
+  ]
+}

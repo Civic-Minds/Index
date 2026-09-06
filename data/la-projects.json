@@ -996,6 +996,36 @@
           33.862
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sepulveda Transit Corridor",
+        "agency": "Los Angeles County Metropolitan Transportation Authority",
+        "category": "Heavy Rail",
+        "status": "planning",
+        "statusText": "Planning",
+        "timeline": "Metro selected an underground heavy-rail locally preferred alternative in January 2026; the project remains in planning and environmental review.",
+        "description": "The Sepulveda Transit Corridor would connect the San Fernando Valley and the Westside between the Van Nuys Metrolink Station and the E Line Sepulveda Station, with a connection to the G Line.",
+        "color": "#9333ea",
+        "milestones": [
+          "Locally Preferred Alternative selected January 2026",
+          "Underground heavy-rail alternative represented",
+          "Environmental review and project planning continue"
+        ],
+        "source_url": "https://www.metro.net/projects/sepulvedacorridor/"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-118.4514, 34.1889],
+          [-118.4510, 34.1650],
+          [-118.4460, 34.1400],
+          [-118.4350, 34.1150],
+          [-118.4260, 34.0930],
+          [-118.4040, 34.0600]
+        ]
+      }
     }
   ]
 }

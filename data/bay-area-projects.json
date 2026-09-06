@@ -7,17 +7,17 @@
         "name": "VTA BART Silicon Valley Phase II",
         "agency": "Santa Clara Valley Transportation Authority",
         "category": "Heavy Rail",
-        "status": "construction",
-        "statusText": "Under Construction",
-        "timeline": "Six-mile subway extension from Berryessa through downtown San Jose to Santa Clara with four new stations; tunneling and station construction underway.",
-        "description": "Phase II of BART Silicon Valley digs under San Jose to reach Diridon and Santa Clara, finishing the long-planned link from the East Bay into the heart of Silicon Valley.",
+        "status": "planning",
+        "statusText": "Planning and Engineering",
+        "timeline": "Six-mile subway extension from Berryessa through downtown San Jose to Santa Clara; the project is in planning and engineering while it advances toward federal funding and construction.",
+        "description": "Phase II of BART Silicon Valley would extend BART through downtown San Jose to Santa Clara. VTA’s current project page places it in planning and engineering rather than active construction.",
         "color": "#0099d8",
         "milestones": [
           "Berryessa-to-Santa Clara corridor represented",
           "Four new stations plus Berryessa junction represented",
-          "Under construction"
+          "Planning and engineering phase"
         ],
-        "source_url": "https://www.vta.org/projects/bart-sv"
+        "source_url": "https://www.vta.org/projects/bart-sv/phase-ii"
       },
       "geometry": {
         "type": "LineString",
@@ -52,8 +52,8 @@
         "project_name": "VTA BART Silicon Valley Phase II",
         "feature_type": "station",
         "station_name": "Berryessa/North San Jose",
-        "status": "construction",
-        "statusText": "Under Construction",
+        "status": "planning",
+        "statusText": "Planning and Engineering",
         "color": "#0099d8"
       },
       "geometry": {
@@ -71,8 +71,8 @@
         "project_name": "VTA BART Silicon Valley Phase II",
         "feature_type": "station",
         "station_name": "28th Street/Little Portugal",
-        "status": "construction",
-        "statusText": "Under Construction",
+        "status": "planning",
+        "statusText": "Planning and Engineering",
         "color": "#0099d8"
       },
       "geometry": {
@@ -90,8 +90,8 @@
         "project_name": "VTA BART Silicon Valley Phase II",
         "feature_type": "station",
         "station_name": "Downtown San Jose",
-        "status": "construction",
-        "statusText": "Under Construction",
+        "status": "planning",
+        "statusText": "Planning and Engineering",
         "color": "#0099d8"
       },
       "geometry": {
@@ -109,8 +109,8 @@
         "project_name": "VTA BART Silicon Valley Phase II",
         "feature_type": "station",
         "station_name": "Diridon",
-        "status": "construction",
-        "statusText": "Under Construction",
+        "status": "planning",
+        "statusText": "Planning and Engineering",
         "color": "#0099d8"
       },
       "geometry": {
@@ -128,8 +128,8 @@
         "project_name": "VTA BART Silicon Valley Phase II",
         "feature_type": "station",
         "station_name": "Santa Clara",
-        "status": "construction",
-        "statusText": "Under Construction",
+        "status": "planning",
+        "statusText": "Planning and Engineering",
         "color": "#0099d8"
       },
       "geometry": {
