@@ -209,5 +209,30 @@
         ]
       }
     }
+    ,{
+      "type": "Feature",
+      "properties": {
+        "name": "Rio East–Dobson Streetcar Extension",
+        "agency": "Valley Metro / Cities of Tempe and Mesa",
+        "category": "Streetcar",
+        "status": "planning",
+        "statusText": "Planning and Design",
+        "timeline": "The Rio East–Dobson Extension Study is evaluating the alignment and stop areas for a planned 4.35-mile extension from Tempe into Mesa.",
+        "description": "The planned extension would continue from Marina Heights and Rio Salado Parkway through Tempe and Mesa along Dobson Road to Main Street. The project has federal RAISE funding for design and environmental work.",
+        "color": "#ea580c",
+        "source_url": "https://redestreetcar.com/archive.html",
+        "geometry_note": "Study corridor; stop locations and final alignment remain under evaluation."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-111.918, 33.431],
+          [-111.892, 33.431],
+          [-111.874, 33.431],
+          [-111.874, 33.415],
+          [-111.841, 33.415]
+        ]
+      }
+    }
   ]
 }

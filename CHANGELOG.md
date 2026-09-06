@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **Phoenix coverage**: Added the federally funded Rio East–Dobson Streetcar Extension as an active planning project.
 - **North American coverage**: Added federally tracked U.S. transit projects plus active Canadian and Mexican passenger-rail corridors, with approximate geometry clearly documented where final alignments are not fixed.
 - **North American project coverage**: Added Honolulu Skyline Segment 3 and the Sepulveda Transit Corridor, and corrected BART Silicon Valley Phase II to its current planning-and-engineering status.
 - **Data accuracy audit**: Corrected stale Yonge North, Hazel McCallion, ION Stage 2, Calgary Green Line, Eglinton West, Hamilton, Ottawa, Durham–Scarborough, GO corridor, Ontario Line, and Scarborough station records against current agency sources, including live count checks.

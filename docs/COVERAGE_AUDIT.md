@@ -6,6 +6,11 @@ Index is an editorial map of major active transit projects, not a complete inven
 
 ## United States
 
+The Rio East–Dobson Streetcar Extension in the Tempe–Mesa area was also added after review of the Valley Metro study record. It is an active planning/design project with federal RAISE funding for design and environmental work, not an active construction project.
+
+- Valley Metro study record: <https://redestreetcar.com/archive.html>
+- Federal grant announcement: <https://stanton.house.gov/2024/6/stanton-announces-15-9-million-federal-grant-to-advance-rio-east-dobson-streetcar-extension>
+
 The Federal Transit Administration's current Capital Investment Grants roster was checked against every project parent loaded by `app.js`. The missing projects from that roster were added to `data/fta-projects.json`:
 
 - Stone Avenue BRT
