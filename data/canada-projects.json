@@ -1,0 +1,6 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {"type":"Feature","properties":{"name":"Alto High-Speed Rail","agency":"Alto / Government of Canada","category":"High-Speed Rail","status":"planning","statusText":"Co-Development","timeline":"Canada's Alto high-speed rail initiative is in co-development for an electrified passenger rail corridor between Toronto and Québec City.","description":"A planned high-speed passenger rail corridor connecting Toronto, Peterborough, Ottawa, Montréal, Laval, Trois-Rivières, and Québec City.","color":"#1d4ed8","source_url":"https://tc.canada.ca/en/corporate-services/transparency/briefing-documents-transport-canada/2026-dm/transport-canada-structure-portfolio/tc-groups/major-projects","geometry_note":"Approximate Toronto–Québec City corridor; final alignment and station geometry are not yet fixed."},"geometry":{"type":"LineString","coordinates":[[-79.383,43.653],[-78.320,44.310],[-75.697,45.421],[-73.567,45.501],[-72.545,46.343],[-71.208,46.814]]}}
+  ]
+}
