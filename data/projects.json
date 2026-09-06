@@ -7,17 +7,17 @@
         "name": "Kitchener Extension",
         "agency": "Metrolinx / GO Transit",
         "category": "Regional Rail",
-        "status": "planning",
-        "statusText": "Planned Expansion",
-        "timeline": "Long-range GO rail expansion toward the Waterloo Region corridor; full two-way all-day GO Expansion delivery is phased and not fully funded for every segment.",
-        "description": "Future GO rail corridor west of today's Kitchener Line service, identified in Metrolinx's Frequent Rapid Transit Network as part of the broader GO Expansion program to grow regional rail frequency and coverage.",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Phased infrastructure improvements are underway to enable two-way, all-day GO service between Union Station and Kitchener GO.",
+        "description": "Metrolinx's Kitchener Extension improves the corridor between Georgetown and Kitchener GO through phased track, platform, storage, bridge, and station works. Current and future phases are being delivered as construction advances.",
         "color": "#b45309",
         "milestones": [
-          "Corridor from Metrolinx FRTN open data",
-          "Tied to GO Expansion long-range network planning",
-          "Delivery schedule not yet fixed for this segment"
+          "Second platform and passing-track work at Guelph and Breslau",
+          "Future phases include Acton, Rockwood, Guelph, and corridor works",
+          "Phased construction supports two-way, all-day Kitchener service"
         ],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/go-expansion"
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/kitchener-line-go-expansion/what-were-building/kitchener-extension"
       },
       "geometry": {
         "type": "LineString",
@@ -75,17 +75,17 @@
         "name": "Gormley Extension",
         "agency": "Metrolinx / GO Transit",
         "category": "Regional Rail",
-        "status": "planning",
-        "statusText": "Planned Expansion",
-        "timeline": "Long-range northern expansion of the Richmond Hill corridor beyond Gormley; not a current construction package under GO Expansion enabling works.",
-        "description": "Future GO rail segment north of Gormley on the Richmond Hill Line, mapped from Metrolinx's Frequent Rapid Transit Network as a potential longer-term expansion of regional rail into York Region.",
+        "status": "opened",
+        "statusText": "In Service",
+        "timeline": "GO Richmond Hill Line service reaches Gormley; the station is included in current GO service information.",
+        "description": "The Richmond Hill Line extension to Gormley is an in-service GO corridor, not a future extension beyond Gormley. The mapped segment connects the Richmond Hill corridor to Gormley GO.",
         "color": "#b45309",
         "milestones": [
-          "Corridor from Metrolinx FRTN open data",
-          "Beyond today's Gormley GO service pattern",
-          "Delivery schedule not yet fixed"
+          "Gormley GO is an active GO station",
+          "Richmond Hill Line service reaches Gormley",
+          "Current service and station records reviewed"
         ],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/go-expansion"
+        "source_url": "https://www.gotransit.com/en/see-schedules/pdf-schedules"
       },
       "geometry": {
         "type": "LineString",
@@ -123,17 +123,17 @@
         "name": "Lakeshore West Line - West Harbour Extension",
         "agency": "Metrolinx / GO Transit",
         "category": "Regional Rail",
-        "status": "planning",
-        "statusText": "Planned Expansion",
-        "timeline": "Long-range Lakeshore West growth beyond West Harbour toward fuller Hamilton-area rail service under network planning.",
-        "description": "Future GO rail segment around West Harbour on Lakeshore West, drawn from Metrolinx's Frequent Rapid Transit Network as Hamilton-area regional rail continues to expand beyond the existing West Harbour GO station.",
+        "status": "opened",
+        "statusText": "Opened",
+        "timeline": "The West Harbour connecting track is complete and supports expanded Niagara and Hamilton-area GO service.",
+        "description": "Completed Lakeshore West connection work around West Harbour removed the station's former dead-end operation and supports expanded service toward Confederation and Niagara Falls.",
         "color": "#b45309",
         "milestones": [
-          "Corridor from Metrolinx FRTN open data",
-          "Hamilton-area Lakeshore West network growth",
-          "Delivery schedule not yet fixed for this segment"
+          "Connecting track completed",
+          "Expanded Niagara service now serves West Harbour",
+          "Future service enhancements remain part of Niagara Extension planning"
         ],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/go-expansion"
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/lakeshore-west-line-go-expansion/what-were-building/niagara-extension"
       },
       "geometry": {
         "type": "LineString",
@@ -159,17 +159,17 @@
         "name": "Barrie Extension",
         "agency": "Metrolinx / GO Transit",
         "category": "Regional Rail",
-        "status": "planning",
-        "statusText": "Planned Expansion",
-        "timeline": "Long-range Barrie Line network growth under GO Expansion; two-way all-day service goals apply to the wider corridor, while this FRTN segment remains unscheduled.",
-        "description": "Future GO rail expansion on the Barrie Line north of today's core service pattern, identified in Metrolinx's Frequent Rapid Transit Network as part of regional rail growth toward Simcoe County.",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Second-track and corridor works are underway on the Barrie Line to support more frequent two-way, all-day service through Simcoe County.",
+        "description": "The Barrie Rail Corridor Expansion adds a second track between Lansdowne Avenue in Toronto and Allandale Waterfront GO Station, with upgrades to existing stations and structures.",
         "color": "#b45309",
         "milestones": [
-          "Corridor from Metrolinx FRTN open data",
-          "Aligned with GO Expansion Barrie Line ambitions",
-          "Segment-level delivery schedule not yet fixed"
+          "Second-track expansion reaches Allandale Waterfront",
+          "Corridor and station construction works are underway",
+          "Supports two-way, all-day Barrie Line service"
         ],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/go-expansion"
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/barrie-line-go-expansion/resources/barrie-rail-corridor-expansion-tpap"
       },
       "geometry": {
         "type": "LineString",
@@ -260,16 +260,16 @@
         "agency": "Metrolinx / GO Transit",
         "category": "Regional Rail",
         "status": "planning",
-        "statusText": "Planned Expansion",
-        "timeline": "Seasonal Niagara GO service already operates; this FRTN corridor represents longer-range network expansion beyond today's limited service pattern.",
-        "description": "Future GO rail expansion toward Niagara beyond current seasonal service, mapped from Metrolinx's Frequent Rapid Transit Network as the long-term vision for more frequent regional rail to Niagara Falls and the peninsula.",
+        "statusText": "Planning",
+        "timeline": "Niagara GO service is expanding incrementally while infrastructure and future service options remain under planning.",
+        "description": "The Niagara Extension supports expanded GO service between Hamilton and Niagara Falls, including completed West Harbour connection work, proposed station improvements, and longer-term service planning.",
         "color": "#b45309",
         "milestones": [
-          "Corridor from Metrolinx FRTN open data",
-          "Builds on existing seasonal Niagara GO service",
-          "Full all-day expansion not yet scheduled"
+          "More than 25 kilometres of new track in the program scope",
+          "Four new or improved stations in the program scope",
+          "Future service enhancements remain subject to planning"
         ],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/go-expansion"
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/lakeshore-west-line-go-expansion/what-were-building/niagara-extension"
       },
       "geometry": {
         "type": "LineString",
@@ -323,17 +323,17 @@
         "name": "Confederation Extension",
         "agency": "Metrolinx / GO Transit",
         "category": "Regional Rail",
-        "status": "planning",
-        "statusText": "Planned Expansion",
-        "timeline": "Long-range Hamilton-area GO rail link around Confederation; separate from Ottawa O-Train Stage 2 Confederation Line.",
-        "description": "Future GO rail segment in the Hamilton Confederation GO area from Metrolinx's Frequent Rapid Transit Network, representing planned regional rail connectivity—not the Ottawa O-Train Confederation Line.",
+        "status": "opened",
+        "statusText": "Opened",
+        "timeline": "Confederation GO opened on the Lakeshore West Line on October 27, 2025.",
+        "description": "The completed Lakeshore West extension from West Harbour to Confederation GO is now in service. It is a Hamilton/Niagara GO project, separate from Ottawa's O-Train Confederation Line.",
         "color": "#b45309",
         "milestones": [
-          "Corridor from Metrolinx FRTN open data",
-          "Hamilton-area GO network planning",
-          "Delivery schedule not yet fixed"
+          "Confederation GO station completed",
+          "Station entered service October 27, 2025",
+          "Niagara Extension service now serves the station"
         ],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/go-expansion"
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/lakeshore-west-line-go-expansion/what-were-building/confederation"
       },
       "geometry": {
         "type": "LineString",
@@ -357,14 +357,14 @@
         "category": "Light Rail",
         "status": "construction",
         "statusText": "Under Construction",
-        "timeline": "Stage 2 extensions under construction.",
-        "description": "Track alignment for Ottawa's Confederation Line Stage 2 extension from City of Ottawa open data.",
+        "timeline": "Stage 2 Line 1 east extension reached substantial completion in March 2026; the west extension and new Line 3 remain under construction.",
+        "description": "Track alignment for Ottawa's Confederation Line Stage 2 extensions from City of Ottawa open data. The combined record includes the east extension, west extension, and new Line 3 work.",
         "color": "#b64b40",
         "milestones": [
           "Stage 2 extension alignment published",
           "Construction ongoing per City of Ottawa"
         ],
-        "source_url": "https://open.ottawa.ca/datasets/city-of-ottawa::o-train-line-stage-2/about"
+        "source_url": "https://ottawa.ca/en/business/research-and-data/investor-relations/green-bonds-city-ottawa/city-ottawa-green-debenture-treasurers-information-report-2024/green-debenture-project-updates"
       },
       "geometry": {
         "type": "MultiLineString",
@@ -2093,14 +2093,14 @@
         "status": "construction",
         "statusText": "Under Construction",
         "timeline": "Southeast segment from Shepard to Event Centre/Grand Central under construction; opening targeted for 2031. Downtown segment still in planning and design.",
-        "description": "Calgary's Green Line Phase 1 SE project is a 16-kilometre light rail corridor from Shepard near 130 Avenue S.E. to Event Centre/Grand Central Station on the east side of downtown, with 10 stations, two river crossings, and a new LRV maintenance facility.",
+        "description": "Calgary's Green Line Phase 1 includes a 17.2-kilometre light rail corridor from Shepard through the southeast and downtown, with 12 stations, two river crossings, and a new LRV maintenance facility. Construction is underway on the southeast segment; the downtown segment remains in functional planning.",
         "color": "#c25a4b",
         "milestones": [
-          "16-kilometre SE corridor represented",
+          "17.2-kilometre Phase 1 corridor represented",
           "Construction underway toward a 2031 opening",
           "Station locations not yet mapped as point features"
         ],
-        "source_url": "https://www.calgary.ca/green-line/overview.html"
+        "source_url": "https://www.calgary.ca/green-line/about.html"
       },
       "geometry": {
         "type": "MultiLineString",
@@ -2297,16 +2297,16 @@
         "agency": "City of Calgary",
         "category": "Light Rail",
         "status": "planning",
-        "statusText": "Planned Expansion",
-        "timeline": "Longer-term Green Line network beyond the SE Phase 1 delivery; schedule subject to City of Calgary phasing.",
-        "description": "Green Line Phase 2 represents planned light rail expansion beyond the SE Phase 1 build, extending the north-south corridor using City of Calgary alignment open data. Delivery scope and timing remain subject to future approvals.",
+        "statusText": "Unfunded Future Extension",
+        "timeline": "Future north and south Green Line extensions beyond funded Phase 1; no delivery schedule is set.",
+        "description": "This corridor represents Calgary's long-term Green Line vision beyond funded Phase 1, including future north and south extensions. The City says these extensions are currently unfunded and will be built in phases as funding becomes available.",
         "color": "#a8483c",
         "milestones": [
           "Future alignment represented from City open data",
           "Delivery schedule not yet confirmed",
           "Station locations not yet mapped as point features"
         ],
-        "source_url": "https://www.calgary.ca/green-line/overview.html"
+        "source_url": "https://www.calgary.ca/green-line/faqs-and-resources.html"
       },
       "geometry": {
         "type": "MultiLineString",
@@ -2624,7 +2624,7 @@
         "milestones": [
           "18 stations and stops represented"
         ],
-        "source_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/ttc-routes-and-schedules"
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/finch-west-lrt/what-were-building"
       },
       "geometry": {
         "type": "LineString",
@@ -2744,22 +2744,22 @@
       },
       "geometry": {"type":"MultiLineString","coordinates":[[[-79.64370395,43.59835781],[-79.64451782,43.59687407],[-79.64633609,43.59503634],[-79.64709726,43.59432577]],[[-79.73304917,43.66597881],[-79.71677357,43.65392677],[-79.71259073,43.65076458],[-79.69881777,43.64060401],[-79.6839779,43.62942354],[-79.67673073,43.62424269],[-79.65552045,43.60854794],[-79.64727533,43.60271583],[-79.64536073,43.60063893],[-79.64523678,43.59965861],[-79.64505813,43.59932464],[-79.64485008,43.59910094],[-79.6439901,43.59852219],[-79.64216828,43.59802072],[-79.6405381,43.59765477],[-79.62899381,43.58928533],[-79.62230392,43.5844798],[-79.61011354,43.57583569],[-79.60327699,43.5710804],[-79.59986712,43.56808827],[-79.59070066,43.56170229],[-79.58522459,43.55776667]]]}
     },
-    {"type":"Feature","properties":{"name":"Port Credit","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.58522474,43.55776667]}},
+    {"type":"Feature","properties":{"name":"Port Credit GO Station","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.58522474,43.55776667]}},
     {"type":"Feature","properties":{"name":"Mineola","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.5907008,43.56170229]}},
     {"type":"Feature","properties":{"name":"North Service","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.60185172,43.56984544]}},
     {"type":"Feature","properties":{"name":"Queensway","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.60757002,43.5741013]}},
     {"type":"Feature","properties":{"name":"Dundas","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.61637888,43.58025943]}},
-    {"type":"Feature","properties":{"name":"Cooksville","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.62230406,43.5844798]}},
+    {"type":"Feature","properties":{"name":"Cooksville GO Station","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.62230406,43.5844798]}},
     {"type":"Feature","properties":{"name":"Fairview","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.62770012,43.58845811]}},
     {"type":"Feature","properties":{"name":"Burnhamthorpe","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.63423333,43.59288617]}},
     {"type":"Feature","properties":{"name":"Robert Speck","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.6384403,43.59620628]}},
-    {"type":"Feature","properties":{"name":"Mississauga City Centre","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.64709726,43.59432577]}},
+    {"type":"Feature","properties":{"name":"City Centre","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.64709726,43.59432577]}},
     {"type":"Feature","properties":{"name":"Eglinton","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.65291785,43.60676999]}},
     {"type":"Feature","properties":{"name":"Matheson","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.67028513,43.61947438]}},
     {"type":"Feature","properties":{"name":"Courtneypark","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.69425045,43.63716349]}},
     {"type":"Feature","properties":{"name":"Derry","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.70616148,43.64610062]}},
     {"type":"Feature","properties":{"name":"County Court","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.7232631,43.65872803]}},
-    {"type":"Feature","properties":{"name":"Sir Lou","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.72735328,43.66175363]}},
+    {"type":"Feature","properties":{"name":"Ray Lawson","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.72735328,43.66175363]}},
     {"type":"Feature","properties":{"name":"Brampton Gateway Terminal","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.73304932,43.66597881]}},
     {"type":"Feature","properties":{"name":"Britannia","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.67957474,43.62628117]}},
     {"type":"Feature","properties":{"name":"Bristol","project_name":"Hazel McCallion Line","feature_type":"station","status":"construction","color":"#00a6a6"},"geometry":{"type":"Point","coordinates":[-79.66355202,43.61449229]}},
@@ -2770,12 +2770,12 @@
         "agency": "Metrolinx / City of Hamilton",
         "category": "Light Rail",
         "status": "construction",
-        "statusText": "In Delivery",
-        "timeline": "14-kilometre corridor from McMaster University to Eastgate Square.",
-        "description": "Hamilton's B-Line LRT will run on dedicated tracks through the lower city from McMaster University to Eastgate Square.",
+        "statusText": "Enabling Works",
+        "timeline": "14-kilometre corridor from McMaster University to Eastgate Square; enabling works and detailed design are underway before major LRT construction.",
+        "description": "Hamilton's B-Line LRT will run on dedicated tracks through the lower city from McMaster University to Eastgate Square. The City currently reports enabling works and detailed design underway.",
         "color": "#d97706",
         "milestones": ["17 stops represented"],
-        "source_url": "https://www.hamilton.ca/city-council/plans-strategies/light-rail-transit-lrt"
+        "source_url": "https://www.hamilton.ca/city-council/plans-strategies/light-rail-transit-lrt/lrt-enabling-works"
       },
       "geometry": {"type":"LineString","coordinates":[[-79.76416893,43.22810074],[-79.78440743,43.2322913],[-79.78645507,43.2327688],[-79.7889831,43.23345298],[-79.79091771,43.23396219],[-79.79575038,43.23513849],[-79.79951562,43.23600891],[-79.80023241,43.23654779],[-79.80076556,43.23712603],[-79.80132929,43.23781421],[-79.8017481,43.23817532],[-79.80222924,43.23836608],[-79.80380763,43.23885984],[-79.80455061,43.23908296],[-79.80511637,43.23924839],[-79.8066167,43.23962802],[-79.80754856,43.23986204],[-79.80846898,43.24009393],[-79.80939429,43.24031392],[-79.81091911,43.2406346],[-79.81288679,43.2410356],[-79.81510544,43.24149562],[-79.81772531,43.24207633],[-79.81990009,43.24259788],[-79.82281786,43.2433031],[-79.82409973,43.24360975],[-79.82784093,43.24738538],[-79.83329814,43.25056975],[-79.83932089,43.25132938],[-79.84896803,43.25210101],[-79.86417258,43.25512419],[-79.87868732,43.25939829],[-79.8879793,43.26220351],[-79.8898909,43.26273905],[-79.89068577,43.26268821],[-79.89218066,43.2620515],[-79.8926679,43.26167071],[-79.89360674,43.26080528],[-79.89438514,43.2605067],[-79.8964788,43.2602688],[-79.8975666,43.2600722],[-79.9013135,43.2592781],[-79.91177925,43.25790328],[-79.9194963,43.25769591]]}
     },
@@ -2815,14 +2815,14 @@
     {"type":"Feature","properties":{"name":"Osgoode","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.38657395,43.65075456]}},
     {"type":"Feature","properties":{"name":"Queen","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.37921775,43.65233404]}},
     {"type":"Feature","properties":{"name":"Pape","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.3452128,43.67971718]}},
-    {"type":"Feature","properties":{"name":"Science Centre","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.33865942,43.72055972]}},
+    {"type":"Feature","properties":{"name":"Don Valley","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.33865942,43.72055972]}},
     {"type":"Feature","properties":{"name":"Exhibition","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.41821271,43.63637639]}},
     {"type":"Feature","properties":{"name":"East Harbour","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.34735613,43.65518241]}},
-    {"type":"Feature","properties":{"name":"King / Bathurst","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.40249706,43.64380688]}},
-    {"type":"Feature","properties":{"name":"Queen / Spadina","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.39633908,43.64866988]}},
+    {"type":"Feature","properties":{"name":"King West","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.40249706,43.64380688]}},
+    {"type":"Feature","properties":{"name":"Chinatown","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.39633908,43.64866988]}},
     {"type":"Feature","properties":{"name":"Moss Park","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.37020707,43.65426668]}},
-    {"type":"Feature","properties":{"name":"Corktown","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.36438272,43.65213926]}},
-    {"type":"Feature","properties":{"name":"Riverside/Leslieville","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.34569611,43.65984045]}},
+    {"type":"Feature","properties":{"name":"Distillery District","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.36438272,43.65213926]}},
+    {"type":"Feature","properties":{"name":"Leslieville","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.34569611,43.65984045]}},
     {"type":"Feature","properties":{"name":"Gerrard","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.34248613,43.66741901]}},
     {"type":"Feature","properties":{"name":"Cosburn","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.34894948,43.68939057]}},
     {"type":"Feature","properties":{"name":"Thorncliffe Park","project_name":"Ontario Line","feature_type":"station","status":"construction","color":"#7c3aed"},"geometry":{"type":"Point","coordinates":[-79.35005187,43.70521637]}},
@@ -2839,14 +2839,14 @@
         "description": "The Scarborough Subway Extension will extend Line 2 from Kennedy to McCowan Road with three new stations.",
         "color": "#dc2626",
         "milestones": ["3 new stations represented"],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/scarborough-subway-extension"
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/scarborough-subway-extension/what-were-building"
       },
       "geometry": {"type":"LineString","coordinates":[[-79.26452956,43.73225651],[-79.26306123,43.73272751],[-79.26049636,43.73396283],[-79.25834128,43.73443381],[-79.25813954,43.7345463],[-79.25795077,43.73455991],[-79.25698546,43.73478448],[-79.25341373,43.7355967],[-79.25312251,43.73563785],[-79.24832139,43.73665961],[-79.24807332,43.7366885],[-79.24623152,43.73709697],[-79.24608445,43.73735022],[-79.24579421,43.73801809],[-79.24563232,43.73840294],[-79.2455911,43.73853253],[-79.24554314,43.73874659],[-79.24551603,43.73898533],[-79.24551752,43.73926796],[-79.24553431,43.73991479],[-79.2455103,43.74081662],[-79.24539253,43.74196889],[-79.24484987,43.74416313],[-79.24458833,43.74635799],[-79.24442432,43.75280369],[-79.24539602,43.75516069],[-79.24541512,43.75553219],[-79.24550562,43.75644599],[-79.24621432,43.75836929],[-79.24895342,43.76541609],[-79.25139477,43.77088047],[-79.25293408,43.77489158],[-79.25881946,43.78960121]]}
     },
     {"type":"Feature","properties":{"name":"Kennedy","project_name":"Scarborough Subway Extension","feature_type":"station","status":"construction","color":"#dc2626"},"geometry":{"type":"Point","coordinates":[-79.26452971,43.73225651]}},
-    {"type":"Feature","properties":{"name":"Lawrence East","project_name":"Scarborough Subway Extension","feature_type":"station","status":"construction","color":"#dc2626"},"geometry":{"type":"Point","coordinates":[-79.24545384,43.75543875]}},
+    {"type":"Feature","properties":{"name":"Lawrence & McCowan","project_name":"Scarborough Subway Extension","feature_type":"station","status":"construction","color":"#dc2626"},"geometry":{"type":"Point","coordinates":[-79.24545384,43.75543875]}},
     {"type":"Feature","properties":{"name":"Scarborough Centre","project_name":"Scarborough Subway Extension","feature_type":"station","status":"construction","color":"#dc2626"},"geometry":{"type":"Point","coordinates":[-79.25342428,43.77621057]}},
-    {"type":"Feature","properties":{"name":"McCowan","project_name":"Scarborough Subway Extension","feature_type":"station","status":"construction","color":"#dc2626"},"geometry":{"type":"Point","coordinates":[-79.25877044,43.78961206]}},
+    {"type":"Feature","properties":{"name":"Sheppard & McCowan","project_name":"Scarborough Subway Extension","feature_type":"station","status":"construction","color":"#dc2626"},"geometry":{"type":"Point","coordinates":[-79.25877044,43.78961206]}},
     {
       "type": "Feature",
       "properties": {
@@ -2856,14 +2856,13 @@
         "status": "construction",
         "statusText": "Under Construction",
         "timeline": "7.4-kilometre extension north from Finch Station to Richmond Hill Centre.",
-        "description": "The Yonge North Subway Extension will extend Line 1 from Finch Station to Richmond Hill Centre with six new stations.",
+        "description": "The Yonge North Subway Extension will extend Line 1 from Finch Station to Richmond Hill with five new stations.",
         "color": "#2563eb",
-        "milestones": ["6 new stations represented"],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/yonge-north-subway-extension"
+        "milestones": ["5 new stations represented"],
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/yonge-north-subway-extension/what-were-building"
       },
       "geometry": {"type":"LineString","coordinates":[[-79.41556755,43.7797612],[-79.41577925,43.7807214],[-79.41599165,43.7816298],[-79.41614737,43.78227239],[-79.41648524,43.78354535],[-79.41712448,43.78620248],[-79.41760091,43.78807754],[-79.42005527,43.79802067],[-79.42118868,43.8021611],[-79.42339967,43.81141953],[-79.42424271,43.81522178],[-79.4257363,43.82351951],[-79.42574593,43.82441524],[-79.42523739,43.825326],[-79.42449571,43.82570301],[-79.41731737,43.82772597],[-79.41631315,43.8282666],[-79.41562149,43.82910967],[-79.4156728,43.83011486],[-79.4159247,43.83084042],[-79.41920837,43.83411784],[-79.42005354,43.83439052],[-79.42112458,43.83507805],[-79.42203778,43.83614526],[-79.42568578,43.84079447]]}
     },
-    {"type":"Feature","properties":{"name":"Cummer/Drewry","project_name":"Yonge North Subway Extension","feature_type":"station","status":"construction","color":"#2563eb"},"geometry":{"type":"Point","coordinates":[-79.41734049,43.7870611]}},
     {"type":"Feature","properties":{"name":"Steeles","project_name":"Yonge North Subway Extension","feature_type":"station","status":"construction","color":"#2563eb"},"geometry":{"type":"Point","coordinates":[-79.42004938,43.7980308]}},
     {"type":"Feature","properties":{"name":"Clark","project_name":"Yonge North Subway Extension","feature_type":"station","status":"construction","color":"#2563eb"},"geometry":{"type":"Point","coordinates":[-79.42237178,43.8071388]}},
     {"type":"Feature","properties":{"name":"Royal Orchard","project_name":"Yonge North Subway Extension","feature_type":"station","status":"construction","color":"#2563eb"},"geometry":{"type":"Point","coordinates":[-79.42555686,43.82339001]}},
@@ -2877,10 +2876,10 @@
         "category": "Light Rail",
         "status": "construction",
         "statusText": "In Delivery",
-        "timeline": "9.2-kilometre extension from Mount Dennis to Renforth, with an airport segment advancing west to Pearson.",
-        "description": "The Eglinton Crosstown West Extension will continue Line 5 from Mount Dennis through Etobicoke to Pearson Airport with 11 mapped stations.",
+        "timeline": "9.2-kilometre extension from Mount Dennis to Renforth; a further Pearson link remains under exploration.",
+        "description": "The Eglinton Crosstown West Extension will continue Line 5 from Mount Dennis to Renforth with seven stations, plus up to three potential stations on a Pearson link. The data also maps the existing Mount Dennis endpoint.",
         "color": "#f97316",
-        "milestones": ["11 stations represented", "Airport segment included"],
+        "milestones": ["10 extension station locations represented, plus the Mount Dennis endpoint", "Pearson link marked as potential"],
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/eglinton-crosstown-west-extension"
       },
       "geometry": {"type":"MultiLineString","coordinates":[[[-79.48726136,43.68737675],[-79.49010872,43.68678133],[-79.49025195,43.68680559],[-79.49065829,43.68671661],[-79.49364477,43.68597954],[-79.49480233,43.68564574],[-79.49792084,43.68467094],[-79.49881454,43.68446944],[-79.5011338,43.68402235],[-79.50179326,43.68397263],[-79.50275233,43.68405368],[-79.50329145,43.68414635],[-79.50421526,43.68436463],[-79.50530255,43.68459465],[-79.50572795,43.68464505],[-79.50651605,43.68467845],[-79.50675495,43.68467265],[-79.50722165,43.68463805],[-79.50825546,43.68448045],[-79.50829415,43.68441795],[-79.50846077,43.68438107],[-79.51140699,43.68389036],[-79.51231816,43.68375016],[-79.51246956,43.6837752],[-79.51437323,43.68349764],[-79.5162483,43.68346599],[-79.52053411,43.68335009],[-79.52119902,43.68333346],[-79.52166741,43.68330686],[-79.52227566,43.68324444],[-79.52288159,43.6831468],[-79.52681738,43.68245797],[-79.52929541,43.68202247],[-79.52974568,43.68192346],[-79.53016977,43.6818137],[-79.53150527,43.68141448],[-79.53237953,43.68115492],[-79.53307469,43.68099968],[-79.53392456,43.68085405],[-79.53774726,43.68028405],[-79.53839656,43.6801653],[-79.53906439,43.68001692],[-79.54084402,43.67961155],[-79.5429989,43.67911972],[-79.54471474,43.67864617],[-79.54810545,43.6778583],[-79.54970859,43.67749459],[-79.55091704,43.67723762],[-79.5535825,43.67661964],[-79.55551775,43.67613566],[-79.55765708,43.67560806],[-79.5585639,43.6753879],[-79.559238,43.67524933],[-79.55990426,43.675147],[-79.56254571,43.67481953],[-79.56332204,43.67472436],[-79.56422228,43.67460137],[-79.56481612,43.67449934],[-79.56550567,43.67435229],[-79.56747752,43.67392312],[-79.56827767,43.67374491],[-79.56947904,43.67343505],[-79.57190187,43.67278762],[-79.58055518,43.67052626],[-79.58467467,43.6695163],[-79.5857311,43.66925239],[-79.58645433,43.66907079],[-79.58703621,43.66883282],[-79.58751243,43.66854192],[-79.58781496,43.66827003],[-79.58802865,43.6680236],[-79.58817958,43.66781191],[-79.58829946,43.6675622],[-79.58867862,43.66650841],[-79.58880466,43.66625537],[-79.5889459,43.66603429],[-79.58929134,43.66523302],[-79.5911088,43.66250476],[-79.59145888,43.66273979]],[[-79.59145896,43.66273985],[-79.5919414,43.66304496],[-79.5928816,43.66371497],[-79.5936905,43.66431467],[-79.5939093,43.66450647],[-79.5939564,43.66461507],[-79.594143,43.66512157],[-79.59500108,43.66664062],[-79.59581387,43.66801736],[-79.59587955,43.66930578],[-79.59577411,43.66956373],[-79.59565669,43.66983576],[-79.59545492,43.67059997],[-79.59536961,43.6710465],[-79.59511534,43.67141342],[-79.59477484,43.67164386],[-79.59415749,43.67194078],[-79.59340629,43.67216856],[-79.59265622,43.67238373],[-79.59231654,43.67251323],[-79.59217158,43.67271242],[-79.59212826,43.67293769],[-79.59225731,43.67320944],[-79.59269598,43.67411905],[-79.59295997,43.6747855],[-79.59302918,43.6750432],[-79.59309803,43.67559103],[-79.59321428,43.67634966],[-79.59322036,43.67646164],[-79.59334689,43.67789055],[-79.59342671,43.67857639],[-79.59352201,43.67909074],[-79.59379119,43.67999362],[-79.59428075,43.68080487],[-79.59511682,43.68163179],[-79.59631525,43.68244243],[-79.59700367,43.68273576],[-79.59780447,43.68300046],[-79.59838578,43.68333562],[-79.59986174,43.68453869],[-79.60123544,43.68570312],[-79.60186899,43.68633444],[-79.60926598,43.68820807],[-79.61042728,43.68884427],[-79.61076268,43.68903937],[-79.61140428,43.68929937],[-79.61250101,43.68957965],[-79.61345353,43.68982706],[-79.61381438,43.68991997],[-79.61515082,43.69025621]]]}
@@ -2903,8 +2902,8 @@
         "agency": "Region of Waterloo",
         "category": "Light Rail",
         "status": "planning",
-        "statusText": "Planning",
-        "timeline": "17-kilometre extension from Fairway Station to Downtown Cambridge.",
+        "statusText": "Pre-construction",
+        "timeline": "17-kilometre extension from Fairway Station to Downtown Cambridge; detailed design and pre-construction work are underway after Regional Council approval in November 2025.",
         "description": "ION Stage 2 will extend the Waterloo Region ION network from Fairway Station to Downtown Cambridge. Station locations are not presented as final here.",
         "color": "#0891b2",
         "milestones": ["Corridor geometry represented", "Station locations not finalized"],
@@ -2920,11 +2919,11 @@
         "category": "Bus Rapid Transit",
         "status": "planning",
         "statusText": "Planning",
-        "timeline": "Regional BRT corridor connecting Scarborough with Durham Region.",
-        "description": "The Durham-Scarborough BRT is a planned rapid bus corridor from Scarborough Centre east through Durham Region.",
+        "timeline": "Proposed 36-kilometre rapid bus corridor connecting Scarborough with Durham Region; 49 stops are proposed.",
+        "description": "The Durham-Scarborough BRT is a proposed 36-kilometre rapid bus corridor from Scarborough through Pickering, Ajax, and Whitby to Oshawa, with 49 proposed stops.",
         "color": "#16a34a",
-        "milestones": ["Corridor geometry represented", "Station locations not yet mapped"],
-        "source_url": "https://www.metrolinx.com/en/projects-and-programs/durham-scarborough-bus-rapid-transit"
+        "milestones": ["36-kilometre corridor represented", "49 proposed stops not mapped as point features"],
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/durham-scarborough-brt"
       },
       "geometry": {"type":"LineString","coordinates":[[-79.25428781,43.77603844],[-79.25304029,43.77627458],[-79.25282058,43.7763202],[-79.25250829,43.77545531],[-79.25215569,43.77455701],[-79.25208379,43.77420901],[-79.25186109,43.7736411],[-79.25167489,43.7731252],[-79.25154159,43.7726134],[-79.25145638,43.772179],[-79.25065789,43.7723464],[-79.23174546,43.77642769],[-79.20494398,43.78253622],[-79.19334938,43.78538384],[-79.18785799,43.78669464],[-79.18327778,43.78785624],[-79.16355513,43.79246618],[-79.15686331,43.79402683],[-79.15181016,43.79524124],[-79.14597919,43.79890817],[-79.14145682,43.8019409],[-79.13693523,43.80432516],[-79.13381296,43.80653423],[-79.13187924,43.80821315],[-79.12927625,43.80955715],[-79.127549,43.81022539],[-79.12664479,43.81060739],[-79.12522349,43.81148769],[-79.12394899,43.81271619],[-79.11765998,43.81738166],[-79.11326757,43.82055448],[-79.11015125,43.82277591],[-79.10461564,43.82421439],[-79.10295478,43.82466589],[-79.10192583,43.82506241],[-79.10089554,43.82565896],[-79.10041729,43.82634317],[-79.09802604,43.82973562],[-79.09449199,43.83278103],[-79.09024791,43.83568089],[-79.08242497,43.84216844],[-79.0739418,43.84792267],[-79.0691359,43.85126758],[-79.05541348,43.85458195],[-79.04297271,43.8573669],[-79.04266392,43.85735135],[-79.04186311,43.85753983],[-79.0124046,43.86417951],[-79.01226162,43.86427607],[-78.97679468,43.87217706],[-78.94219865,43.87984923],[-78.93229812,43.88207102],[-78.86340933,43.89762834]]}
     },
@@ -2940,7 +2939,7 @@
         "description": "The 19-kilometre Eglinton Crosstown LRT runs between Mount Dennis and Kennedy with 25 stations and stops.",
         "color": "#f28c28",
         "milestones": ["25 stations and stops represented"],
-        "source_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/ttc-routes-and-schedules"
+        "source_url": "https://www.metrolinx.com/en/projects-and-programs/line5"
       },
       "geometry": {
         "type": "LineString",
