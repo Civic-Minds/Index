@@ -73,6 +73,8 @@ The current SICT/ATTRAPI passenger-rail program identifies four new national rou
 
 ## Deliberate exclusions
 
+The news sweep added six current projects to `data/news-projects.json`: Bowmanville GO Extension, Ballard Link Extension, West Phoenix High-Capacity Transit Corridor, Colorado Connector, Lackawanna Cut-Off Restoration, and New River Valley Passenger Rail Project. Glassboro–Camden Light Rail and Fiesta District Streetcar remain watchlist items because their current funding or delivery status is not yet as clear as the included projects.
+
 Freight-only infrastructure, completed projects, unfunded concepts, and proposals without a current authoritative project record were not added. Examples include the Lac-Mégantic rail bypass, which is a freight bypass rather than passenger transit, and the Interstate Bridge Replacement Program, which is a highway/bridge program rather than a transit project in Index's scope.
 
 ## Verification
