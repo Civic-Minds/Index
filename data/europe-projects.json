@@ -211,6 +211,124 @@
           [[18.082, 59.317], [18.059, 59.299], [18.075, 59.293], [18.068, 59.278]]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rome Metro Line C Extension",
+        "agency": "Metro C S.p.A. / Roma Metropolitane",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Italy",
+        "city": "Rome",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Construction continues through the historic centre toward Venezia, with the northwest T2 extension planned toward Clodio–Mazzini and Farnesina.",
+        "description": "Rome’s Line C program is advancing through the historic centre toward Piazza Venezia and the northwest, where the future extension toward Clodio–Mazzini and Farnesina is being developed.",
+        "color": "#b91c1c",
+        "milestones": ["Construction continues through the historic centre", "New northwest worksites being established", "Clodio–Mazzini and Farnesina extensions in development"],
+        "source_url": "https://metrocspa.it/2026/02/18/metro-c-al-via-i-lavori-per-il-prolungamento-della-linea/",
+        "geometry_note": "Approximate Colosseo–Venezia–Clodio/Farnesina corridor; the future alignment and station geometry remain subject to project development."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[12.492, 41.890], [12.483, 41.895], [12.470, 41.905], [12.460, 41.915], [12.454, 41.945]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amsterdam–Schiphol–Hoofddorp Transit Connection",
+        "agency": "Municipality of Amsterdam / national MIRT study partners",
+        "category": "Regional Rail",
+        "region": "Europe",
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "status": "planning",
+        "statusText": "Planning and Alternatives Study",
+        "timeline": "Amsterdam Zuid through Schiphol to Hoofddorp; a preferred alternative is planned to be selected in 2026.",
+        "description": "A national MIRT study is comparing better public-transit connections between Amsterdam Zuid, Schiphol, and Hoofddorp, including possible extensions of the Noord/Zuidlijn.",
+        "color": "#0369a1",
+        "milestones": ["MIRT study underway", "Solutions include metro and other transit alternatives", "Preferred alternative planned for 2026"],
+        "source_url": "https://www.amsterdam.nl/projecten/amsterdam-haarlemmermeer/",
+        "geometry_note": "Approximate Amsterdam Zuid–Schiphol–Hoofddorp study corridor; the mode and final alignment have not been selected."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[4.873, 52.338], [4.824, 52.323], [4.762, 52.309], [4.694, 52.302]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brussels Metro Line 3",
+        "agency": "STIB-MIVB / Beliris",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Belgium",
+        "city": "Brussels",
+        "status": "construction",
+        "statusText": "Construction and Conversion",
+        "timeline": "Albert to Bordet, combining conversion of the existing premetro with a new north–south tunnel and eight new stations.",
+        "description": "Brussels Metro Line 3 will convert the existing north–south premetro and extend it from Brussels-South toward Bordet, including a new tunnel and the Toots Thielemans station.",
+        "color": "#ca8a04",
+        "milestones": ["Existing premetro conversion underway", "New north–south tunnel planned and under construction", "Eight new stations included in the northern extension"],
+        "source_url": "https://www.brussel.be/metro3",
+        "geometry_note": "Approximate Albert–Bordet corridor; the line combines existing premetro infrastructure with a new tunnel and station works."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[4.334, 50.819], [4.335, 50.836], [4.357, 50.860], [4.380, 50.876], [4.400, 50.884]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Helsinki Crown Bridges Tramway",
+        "agency": "Helsinki City Transport / Kaupunkiliikenne",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Finland",
+        "city": "Helsinki",
+        "status": "construction",
+        "statusText": "Construction and Testing",
+        "timeline": "Approximately 8 km from Hakaniemi through Kalasatama and Korkeasaari to Laajasalo; service preparation is underway for a planned 2027 opening.",
+        "description": "The Crown Bridges tramway will connect Helsinki city centre with Laajasalo through the new Kruunuvuorensilta bridge, Korkeasaari, and Kalasatama.",
+        "color": "#15803d",
+        "milestones": ["Bridge and track construction advanced", "Operational testing and preparation underway", "Service planned for 2027"],
+        "source_url": "https://kaupunkiliikenne.fi/uutisartikkelit/kruunusillat-raitiotien-kayttoonottovaiheen-valmistelut-on-aloitettu/",
+        "geometry_note": "Approximate Hakaniemi–Kalasatama–Korkeasaari–Laajasalo corridor; bridge and station geometry is represented schematically."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[24.951, 60.181], [24.973, 60.185], [24.985, 60.179], [25.005, 60.176]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tampere Tramway Pirkkala–Linnainmaa",
+        "agency": "Tampereen Ratikka / Tampere Tramway",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Finland",
+        "city": "Tampere",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Two construction branches extend from central Tampere to Pirkkala and Linnainmaa; track, stops, and street works are underway in 2026.",
+        "description": "The Pirkkala–Linnainmaa project expands Tampere’s tramway south to Pirkkala and east from the city centre toward Linnainmaa, with associated street and depot works.",
+        "color": "#4d7c0f",
+        "milestones": ["Phase-one construction underway", "Rails and stops being built in 2026", "Pirkkala and Linnainmaa branches in delivery"],
+        "source_url": "https://www.tampereenratikka.fi/pirkkala-linnainmaa-raitiotien-rakentaminen-vauhdissa-kevaan-ja-kesan-aikana/",
+        "geometry_note": "Approximate branched corridor from central Tampere; the route and stop geometry is schematic and not a survey dataset."
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [[23.770, 61.495], [23.799, 61.500], [23.835, 61.504], [23.879, 61.511]],
+          [[23.770, 61.495], [23.755, 61.484], [23.729, 61.477], [23.699, 61.470], [23.665, 61.463], [23.642, 61.455]]
+        ]
+      }
     }
   ]
 }
