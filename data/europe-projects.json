@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bakerloo Line Extension",
+        "agency": "Transport for London",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "United Kingdom",
+        "city": "London",
+        "status": "planning",
+        "statusText": "Planning",
+        "timeline": "Proposed extension from Elephant & Castle through Old Kent Road and New Cross Gate to Lewisham.",
+        "description": "Transport for London is developing plans to extend the Bakerloo line into southeast London, with a core proposal to Lewisham and a possible future extension beyond it.",
+        "color": "#7c3aed",
+        "milestones": ["Core corridor proposed", "Delivery remains subject to funding and approvals"],
+        "source_url": "https://tfl.gov.uk/corporate/about-tfl/how-we-work/planning-for-the-future",
+        "geometry_note": "Approximate Waterloo–Lewisham corridor; the future alignment and station geometry remain subject to funding and approvals."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-0.113, 51.503], [-0.099, 51.494], [-0.091, 51.487], [-0.075, 51.483], [-0.040, 51.475], [-0.014, 51.464]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Paris Express Line 15 South",
+        "agency": "Société des grands projets",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "France",
+        "city": "Paris",
+        "status": "construction",
+        "statusText": "Construction and Testing",
+        "timeline": "Pont de Sèvres to Noisy–Champs; passenger service planned for 2027.",
+        "description": "The first major southern section of the Grand Paris Express is a fully automated metro ring connecting the southern suburbs of Paris from Pont de Sèvres to Noisy–Champs.",
+        "color": "#db2777",
+        "milestones": ["Civil works began in 2016", "Testing underway", "Opening planned for 2027"],
+        "source_url": "https://www.grandparisexpress.fr/ligne-15-sud",
+        "geometry_note": "Approximate corridor based on the official station sequence; authoritative station points are not included in this first batch."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[2.231, 48.823], [2.260, 48.827], [2.276, 48.806], [2.302, 48.799], [2.321, 48.791], [2.340, 48.787], [2.365, 48.789], [2.382, 48.787], [2.403, 48.790], [2.418, 48.792], [2.435, 48.783], [2.460, 48.786], [2.485, 48.789], [2.520, 48.802], [2.548, 48.814]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dublin MetroLink",
+        "agency": "Transport Infrastructure Ireland / National Transport Authority",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Ireland",
+        "city": "Dublin",
+        "status": "construction",
+        "statusText": "Approved and Entering Construction",
+        "timeline": "Approximately 19 km from Estuary and Swords through Dublin Airport and the city centre to Charlemont, with 16 stations.",
+        "description": "MetroLink is a planned automated metro connecting Swords, Dublin Airport, north Dublin, the city centre, and Charlemont. Its Railway Order became operative in January 2026 and major construction packages are entering procurement.",
+        "color": "#0f766e",
+        "milestones": ["Railway Order became operative in January 2026", "Airport and civil-works packages entering procurement", "16 stations planned"],
+        "source_url": "https://roapplication.metrolink.ie/en/",
+        "geometry_note": "Approximate route based on the official preferred alignment; station points are not included in this first batch."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-6.225, 53.514], [-6.220, 53.459], [-6.270, 53.426], [-6.265, 53.390], [-6.275, 53.365], [-6.275, 53.345], [-6.265, 53.335], [-6.260, 53.325], [-6.255, 53.315], [-6.255, 53.305], [-6.258, 53.295], [-6.260, 53.285]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oslo Fornebu Line",
+        "agency": "Oslo Municipality / Fornebubanen",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Norway",
+        "city": "Oslo",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Approximately 7.7 km from Majorstuen to Fornebu with six new underground stations; opening planned for 2029.",
+        "description": "The Fornebu Line is a new Oslo metro extension connecting Majorstuen with the growing Fornebu area through Skøyen, Vækerø, Lysaker, Fornebuporten, and Flytårnet.",
+        "color": "#ea580c",
+        "milestones": ["Construction began in 2020", "Six underground stations", "Opening planned for 2029"],
+        "source_url": "https://www.oslo.kommune.no/english/the-fornebu-line/",
+        "geometry_note": "Approximate Majorstuen–Fornebu corridor; station points are not included in this first batch."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.717, 59.929], [10.692, 59.930], [10.667, 59.930], [10.638, 59.923], [10.614, 59.912], [10.600, 59.901], [10.583, 59.890]]
+      }
+    }
+  ]
+}

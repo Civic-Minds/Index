@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **Europe expansion**: Added the first four officially sourced European transit projects on the Europe expansion branch while retaining the existing North American records.
 - **News-driven coverage**: Added six newly confirmed North American passenger-transit projects found in the current news sweep.
 - **Phoenix coverage**: Added the federally funded Rio East–Dobson Streetcar Extension as an active planning project.
 - **North American coverage**: Added federally tracked U.S. transit projects plus active Canadian and Mexican passenger-rail corridors, with approximate geometry clearly documented where final alignments are not fixed.
