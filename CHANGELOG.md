@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **Europe expansion**: Added ten more Poland, Greece, Portugal, Italy, Croatia, North Macedonia, and Bulgaria projects with local-language official sources and explicit status/geometry notes.
 - **Europe expansion**: Added Sofia, Belgrade, and Sarajevo projects from Bulgarian, Serbian, and Bosnian official sources, including a recently opened Sofia extension.
 - **Europe expansion**: Added Austria, Czechia, Portugal, and Romania projects with local-language official sources and status notes for phased delivery and financing.
 - **Europe expansion**: Added Italy, the Netherlands, Belgium, and Finland projects with local-language official sources and explicit planning/construction status.

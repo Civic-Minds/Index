@@ -519,6 +519,239 @@
         "type": "LineString",
         "coordinates": [[18.302, 43.831], [18.303, 43.822], [18.314, 43.816], [18.325, 43.817]]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Warsaw M2 Western Extension to Karolin",
+        "agency": "Metro Warszawskie",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Poland",
+        "city": "Warsaw",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "The final western section adds Lazurowa, Chrzanów, and Karolin over roughly 4 km; construction is active in 2026.",
+        "description": "The final western extension of Warsaw’s M2 continues beyond Bemowo to Lazurowa, Chrzanów, and Karolin, with a new technical and maintenance depot.",
+        "color": "#1d4ed8",
+        "milestones": ["Three western stations under construction", "Karolin technical and maintenance depot included", "Construction works reported in 2026"],
+        "source_url": "https://metro.waw.pl/metro-warszawskie/linia-m2/dziennik-budowy-odcinek-zachodni/marzec-2026/",
+        "geometry_note": "Approximate Bemowo–Lazurowa–Chrzanów–Karolin corridor; station and depot geometry is schematic, and adjacent intermodal works remain separately approved."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[20.900, 52.239], [20.890, 52.238], [20.880, 52.235], [20.870, 52.231]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kraków KST IV Tram to Mistrzejowice",
+        "agency": "Zarząd Dróg Miasta Krakowa / MPK Kraków",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Poland",
+        "city": "Kraków",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "The approximately 4.5 km KST IV corridor from Lema and Meissnera to Mistrzejowice is in construction and completion works in 2026.",
+        "description": "Kraków’s KST IV project adds a fast tram connection from the Lema and Meissnera area through Młyńska and Dobrego Pasterza to Mistrzejowice.",
+        "color": "#0f766e",
+        "milestones": ["Approximately 4.5 km corridor", "Construction and testing works continued in 2026", "Mistrzejowice connection in final delivery phase"],
+        "source_url": "https://zdmk.pl/dzialania/budowa-kst-etap-iv-w-modelu-ppp/",
+        "geometry_note": "Approximate Lema–Meissnera–Mistrzejowice tram corridor; final track, stop, and roadway geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[19.990, 50.067], [20.000, 50.075], [20.020, 50.085], [20.030, 50.095]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Athens Metro Line 4 Section A",
+        "agency": "Elliniko Metro S.A.",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Greece",
+        "city": "Athens",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Alsos Veikou–Goudi; 12.8 km and 15 stations, with tunnel works and station construction active in 2026.",
+        "description": "Athens’ new Line 4 will connect Galatsi, Kypseli, Exarchia, the Academy, Kolonaki, Evangelismos, Ilisia, Zografou, and Goudi.",
+        "color": "#9333ea",
+        "milestones": ["Tunnel-boring works underway", "Construction active at most stations", "12.8 km and 15 stations in Section A"],
+        "source_url": "https://www.emetro.gr/?p=35799",
+        "geometry_note": "Approximate Alsos Veikou–Goudi corridor; station and tunnel geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[23.750, 38.020], [23.740, 38.000], [23.730, 37.985], [23.745, 37.975], [23.770, 37.975], [23.780, 37.980]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thessaloniki Metro Kalamaria Extension",
+        "agency": "Elliniko Metro S.A.",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Greece",
+        "city": "Thessaloniki",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "The 4.78 km underground extension with five stations began passenger service on 27 August 2026.",
+        "description": "The Kalamaria branch extends Thessaloniki Metro southeast from 25is Martiou through Nomarchia, Kalamaria, Aretsou, Nea Krini, and Mikra.",
+        "color": "#0891b2",
+        "milestones": ["4.78 km extension completed", "Five new stations", "Passenger service began on 27 August 2026"],
+        "source_url": "https://www.emetro.gr/?p=36058",
+        "geometry_note": "Approximate 25is Martiou–Mikra corridor; station locations and final track geometry are schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[22.954, 40.602], [22.952, 40.588], [22.947, 40.579], [22.944, 40.568], [22.942, 40.559], [22.936, 40.549]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lisbon Violeta Light Metro",
+        "agency": "Metropolitano de Lisboa / Municipalities of Loures and Odivelas",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Portugal",
+        "city": "Lisbon",
+        "status": "planning",
+        "statusText": "Planning and Re-tendering",
+        "timeline": "The 11.5 km, 17-station light metro between Hospital Beatriz Ângelo, Odivelas, and Loures has a completion target of 2029.",
+        "description": "The Violeta line is a planned light-metro connection for Loures and Odivelas. Its procurement is being reset after all 2024 bids exceeded the base budget.",
+        "color": "#7c3aed",
+        "milestones": ["11.5 km and 17 stations planned", "European funding framework targets 2029 execution", "Procurement procedure being re-tendered"],
+        "source_url": "https://projetos.metrolisboa.pt/expansao/linha-violeta/",
+        "geometry_note": "Approximate Hospital Beatriz Ângelo–Odivelas–Loures corridor; final alignment and station geometry remain subject to procurement."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-9.159, 38.790], [-9.186, 38.780], [-9.170, 38.800], [-9.166, 38.840]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Porto Metro Pink Line",
+        "agency": "Metro do Porto",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Portugal",
+        "city": "Porto",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "The circular/direct Boavista–Baixa corridor from Casa da Música to São Bento is under construction, with works continuing in 2026.",
+        "description": "The Pink Line links Casa da Música to São Bento, serving Galiza, Hospital Santo António, and central Porto through a new underground corridor.",
+        "color": "#db2777",
+        "milestones": ["Casa da Música–São Bento corridor in delivery", "Hospital Santo António station in final construction phase", "Central Porto street and shaft works continuing"],
+        "source_url": "https://novaslinhas.metrodoporto.pt/linha-rosa/",
+        "geometry_note": "Approximate Casa da Música–Galiza–São Bento corridor; the underground route and station geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-8.630, 41.157], [-8.638, 41.153], [-8.616, 41.149], [-8.610, 41.145]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Turin Metro Line 2",
+        "agency": "Città di Torino / Infra.To",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Italy",
+        "city": "Turin",
+        "status": "planning",
+        "statusText": "Design and Pre-Construction",
+        "timeline": "The first functional lot from Rebaudengo to Porta Nuova is 7.7 km with 10 stations; works are planned to begin in autumn 2026 and service is targeted for 2032.",
+        "description": "Turin’s new Y-shaped Metro Line 2 will connect Rebaudengo, the city centre, Porta Nuova, and future southern and northern branches; the first lot is financed.",
+        "color": "#ea580c",
+        "milestones": ["First functional lot financed", "7.7 km and 10 stations in first lot", "Construction sites planned for autumn 2026"],
+        "source_url": "https://www.comune.torino.it/schede-informative/linea-2-della-metropolitana-torino-un-nuovo-asse-strategico-per-mobilita-urbana",
+        "geometry_note": "Approximate Rebaudengo–Porta Nuova first-lot corridor; the wider Y-shaped network and final station geometry remain subject to delivery stages."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[7.704, 45.104], [7.704, 45.087], [7.686, 45.079], [7.681, 45.070]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zagreb Sarajevska Tramway Extension",
+        "agency": "City of Zagreb / ZET",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Croatia",
+        "city": "Zagreb",
+        "status": "construction",
+        "statusText": "Near Completion",
+        "timeline": "The 2.25 km new tram line from Avenija Dubrovnik toward Ranžirni kolodvor is near completion, with opening expected in autumn 2026.",
+        "description": "The Sarajevska corridor extends Zagreb’s tram network south through Zapruđe, Travno, Utrina, Dugave, and Jakuševec.",
+        "color": "#16a34a",
+        "milestones": ["2.25 km of new tram track", "Construction near completion in July 2026", "Opening expected in autumn 2026"],
+        "source_url": "https://www.zagreb.hr/en/zamjenici-gradonacelnika-zagreba-obisli-gradiliste/221623",
+        "geometry_note": "Approximate Avenija Dubrovnik–Sarajevska–Ranžirni kolodvor corridor; final track and stop geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[15.999, 45.773], [16.010, 45.765], [16.025, 45.753], [16.040, 45.744]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skopje Bus Rapid Transit",
+        "agency": "City of Skopje / JSP Skopje",
+        "category": "BRT",
+        "region": "Europe",
+        "country": "North Macedonia",
+        "city": "Skopje",
+        "status": "planning",
+        "statusText": "Planning and Environmental Review",
+        "timeline": "The two-line BRT program includes dedicated corridors, a new fleet, and a depot; environmental assessment documents remain part of current preparation.",
+        "description": "Skopje’s planned BRT would create two high-capacity bus corridors operated by JSP Skopje, supported by a new depot and dedicated infrastructure.",
+        "color": "#ca8a04",
+        "milestones": ["Two BRT lines planned", "EBRD-supported project documents published", "Environmental and social assessment remains in preparation"],
+        "source_url": "https://skopje.gov.mk/media/6813/esap-brt-mkd.pdf",
+        "geometry_note": "Approximate city BRT corridors; final route and stop geometry is not authoritative."
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [[21.430, 42.050], [21.430, 42.000], [21.460, 41.970]],
+          [[21.380, 42.000], [21.430, 42.000], [21.500, 42.010]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sofia Metro Line 3 Slatina Extension",
+        "agency": "Metropolitan EAD / Столичен метрополитен",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "The 6 km, six-station extension from Shipka through Geo Milev and Slatina to Arena Sofia and Tsarigradsko Shose is targeted for completion in 2027.",
+        "description": "This eastern Line 3 extension serves Geo Milev, Slatina, Arena Sofia, Sofia Tech Park, and Tsarigradsko Shose.",
+        "color": "#2563eb",
+        "milestones": ["Six stations planned", "Tunnel works and station construction active", "Completion targeted for 2027"],
+        "source_url": "https://www.metropolitan.bg/aktualno/slatina-25-07-2025",
+        "geometry_note": "Approximate Shipka–Geo Milev–Slatina–Tsarigradsko Shose corridor; station and track geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[23.340, 42.694], [23.360, 42.695], [23.380, 42.695], [23.400, 42.690], [23.430, 42.685]]
+      }
     }
   ]
 }
