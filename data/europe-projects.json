@@ -447,6 +447,78 @@
         "type": "LineString",
         "coordinates": [[26.065, 44.452], [26.066, 44.469], [26.068, 44.477], [26.084, 44.479], [26.085, 44.491], [26.086, 44.503], [26.101, 44.516], [26.094, 44.570]]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sofia Metro Line 3 Northeast Extension",
+        "agency": "Metropolitan EAD / Столичен метрополитен",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "The 3 km northeast extension beyond Hadzhi Dimitar opened to passengers on 14 August 2026 with three stations.",
+        "description": "Sofia Metro Line 3 now reaches the Levski neighbourhood through the new Stadion Georgi Asparuhov, Besarabia, and Gen. Vladimir Vazov stations.",
+        "color": "#2563eb",
+        "milestones": ["Three stations completed", "Extension opened on 14 August 2026", "Line 3 extended toward Levski neighbourhoods"],
+        "source_url": "https://www.metrosofia.com/bg/article/trite-novi-stantsii-na-liniya-3-shte-priemat-patnitsi-oshte-ot-14-avgust-sled-1200-ch",
+        "geometry_note": "Approximate Hadzhi Dimitar–Levski corridor; station locations and final track geometry are represented schematically."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[23.353, 42.705], [23.365, 42.712], [23.380, 42.718], [23.398, 42.727]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Belgrade Metro Line 1 Phase 1",
+        "agency": "Belgrade Metro and Train / City of Belgrade",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Serbia",
+        "city": "Belgrade",
+        "status": "construction",
+        "statusText": "Preparatory Construction",
+        "timeline": "The first phase is preparing approximately 11 km of underground tunnelling, with tunnel-boring machines being transported for launch from Makiš and Karaburma.",
+        "description": "Belgrade’s first metro line has moved into tunnel-construction preparation, with two TBMs factory-tested and shipped toward launch sites at Makiš and Karaburma.",
+        "color": "#9333ea",
+        "milestones": ["Master integrator contracted", "TBMs factory-tested in 2026", "Tunnel launch sites prepared at Makiš and Karaburma"],
+        "source_url": "https://www.beograd.rs/lat/beoinfo-vesti/a115198/Beogradski-metro-ulazi-u-novu-fazu-krtice-krecu-ka-Srbiji.html",
+        "geometry_note": "Approximate first-line phase corridor and TBM launch segments; final alignment and station geometry are not represented authoritatively here."
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [[20.382, 44.729], [20.407, 44.759], [20.435, 44.793], [20.454, 44.801]],
+          [[20.501, 44.824], [20.513, 44.812], [20.528, 44.796], [20.536, 44.783]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sarajevo Ilidža–Hrasnica Tramway Extension",
+        "agency": "KJKP GRAS / Sarajevo Canton",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Bosnia and Herzegovina",
+        "city": "Sarajevo",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "The tramway extension from Ilidža to Hrasnica remains under construction, with work-related service changes recorded in 2026.",
+        "description": "Sarajevo is extending its tramway south from Ilidža toward Hrasnica, adding a new corridor beyond the existing network and improving access to the southern suburbs.",
+        "color": "#ea580c",
+        "milestones": ["Construction continued into 2026", "Ilidža–Hrasnica corridor under delivery", "Temporary transit changes issued for works"],
+        "source_url": "https://gras.ba/izmjena-rezima-saobracaja-od-02-02-2026-do-07-03-2026-izvodjenje-radova-na-izgradnji-tramvajske-pruge-hrasnica-ilidza/",
+        "geometry_note": "Approximate Ilidža–Hrasnica corridor; the extension’s final track and stop geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[18.302, 43.831], [18.303, 43.822], [18.314, 43.816], [18.325, 43.817]]
+      }
     }
   ]
 }
