@@ -329,6 +329,124 @@
           [[23.770, 61.495], [23.755, 61.484], [23.729, 61.477], [23.699, 61.470], [23.665, 61.463], [23.642, 61.455]]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vienna U2xU5 Expansion",
+        "agency": "Wiener Linien / City of Vienna",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Austria",
+        "city": "Vienna",
+        "status": "construction",
+        "statusText": "Construction and Phased Expansion",
+        "timeline": "The first stage extends U2 to Matzleinsdorfer Platz and builds U5 to Frankhplatz; U5 to Hernals is planned from 2028 and U2 to Wienerberg from 2030.",
+        "description": "Vienna’s U2xU5 program combines the southern U2 extension with the city’s new automated U5, creating new interchange points and extending rapid transit toward Hernals and Wienerberg in later stages.",
+        "color": "#be123c",
+        "milestones": ["First-stage tunnels and stations under construction", "U5 Frankhplatz structural completion planned for 2026", "Later U5 and U2 stages rescheduled for 2028 and 2030 starts"],
+        "source_url": "https://museum.wienerlinien.at/web/guest/news/update-oeffi-ausbau-u2xu5",
+        "geometry_note": "Approximate branched U2/U5 corridor based on the current staged program; station and tunnel geometry is schematic."
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [[16.372, 48.200], [16.357, 48.210], [16.350, 48.199], [16.353, 48.192], [16.352, 48.185], [16.357, 48.176], [16.350, 48.164]],
+          [[16.372, 48.200], [16.357, 48.210], [16.361, 48.217], [16.342, 48.221], [16.334, 48.224], [16.319, 48.226]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prague Metro Line D",
+        "agency": "Dopravní podnik hl. m. Prahy",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Czechia",
+        "city": "Prague",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Pankrác to Nové Dvory is being built in linked sections, with three additional stations in the Olbrachtova–Nové Dvory works and service expected in the second half of 2032.",
+        "description": "Metro Line D is Prague’s new southbound metro corridor. DPP began the next section from Olbrachtova to Nové Dvory in June 2026, including tunnels, Nádraží Krč, Nemocnice Krč, and Nové Dvory stations.",
+        "color": "#0369a1",
+        "milestones": ["Pankrác–Olbrachtova section under construction since 2022", "Olbrachtova–Nové Dvory construction began in June 2026", "Five-station Pankrác–Nové Dvory service expected in 2032"],
+        "source_url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3368-zacala-stavba-dalsiho-useku-metra-d-od-stanice-olbrachtova-na-nove-dvory",
+        "geometry_note": "Approximate Pankrác–Nové Dvory–Písnice corridor; the route and station geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[14.439, 50.052], [14.433, 50.044], [14.446, 50.033], [14.458, 50.021], [14.455, 50.006], [14.466, 49.985], [14.485, 49.969]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Porto Metro Rubi Line",
+        "agency": "Metro do Porto",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Portugal",
+        "city": "Porto",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Casa da Música to Santo Ovídio via Campo Alegre, Arrábida, and Devesas, including a new metro-only bridge over the Douro.",
+        "description": "The Rubi Line is a new north–south Metro do Porto corridor connecting Porto and Vila Nova de Gaia with a dedicated Douro crossing and an interchange at Devesas railway station.",
+        "color": "#7c2d12",
+        "milestones": ["Construction contract signed", "New Douro bridge included", "Casa da Música–Santo Ovídio corridor in delivery"],
+        "source_url": "https://www.metrodoporto.pt/pages/321",
+        "geometry_note": "Approximate Casa da Música–Santo Ovídio corridor; the bridge, station, and approach geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-8.630, 41.157], [-8.650, 41.153], [-8.640, 41.147], [-8.632, 41.139], [-8.613, 41.124], [-8.600, 41.105]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lisbon Red Line to Alcântara",
+        "agency": "Metropolitano de Lisboa",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Portugal",
+        "city": "Lisbon",
+        "status": "planning",
+        "statusText": "Planning and Financing Pending",
+        "timeline": "The 4.1 km São Sebastião–Alcântara extension adds four stations; the current official schedule targets service in 2030.",
+        "description": "Lisbon’s Red Line is planned to extend west from São Sebastião through Campolide, Campo de Ourique, and Infante Santo to Alcântara, where it will connect with the future LIOS corridor.",
+        "color": "#e11d48",
+        "milestones": ["Four new stations planned", "Environmental approval received with conditions", "Financing structure awaits European Investment Bank approval"],
+        "source_url": "https://projetos.metrolisboa.pt/expansao/linha-vermelha/",
+        "geometry_note": "Approximate São Sebastião–Alcântara corridor; the final construction and station geometry is represented schematically."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-9.152, 38.734], [-9.163, 38.733], [-9.166, 38.716], [-9.174, 38.711], [-9.177, 38.704]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bucharest Metro Line M6",
+        "agency": "Metrorex",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Romania",
+        "city": "Bucharest",
+        "status": "construction",
+        "statusText": "Construction and Systems Procurement",
+        "timeline": "The 1 Mai–Henri Coandă Airport metro connection is planned as a 14.2 km, 12-station corridor with construction and systems procurement continuing in 2026.",
+        "description": "Metro Line M6 will connect northern Bucharest with Băneasa and Henri Coandă International Airport, extending the metro network from 1 Mai through the airport corridor.",
+        "color": "#0f766e",
+        "milestones": ["Southern and northern sections defined", "Tunnel-boring works reported on the airport corridor", "Rolling stock and automation packages scheduled in 2026"],
+        "source_url": "https://www.metrorex.ro/storage/documents/1768206500PAAS%202026%20vers.%201.pdf",
+        "geometry_note": "Approximate 1 Mai–Băneasa–Henri Coandă corridor; station and airport approach geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[26.065, 44.452], [26.066, 44.469], [26.068, 44.477], [26.084, 44.479], [26.085, 44.491], [26.086, 44.503], [26.101, 44.516], [26.094, 44.570]]
+      }
     }
   ]
 }
