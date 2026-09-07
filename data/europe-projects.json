@@ -93,5 +93,124 @@
         "coordinates": [[10.717, 59.929], [10.692, 59.930], [10.667, 59.930], [10.638, 59.923], [10.614, 59.912], [10.600, 59.901], [10.583, 59.890]]
       }
     }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Madrid Metro Line 11 Extension",
+        "agency": "Comunidad de Madrid / Metro de Madrid",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Spain",
+        "city": "Madrid",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Plaza Elíptica to Conde de Casal; 6.6 km and five stations, with works scheduled to finish in 2027.",
+        "description": "The first major phase of Madrid’s Line 11 expansion extends the metro across the south of the city, linking Plaza Elíptica with Palos de la Frontera, Atocha, and Conde de Casal.",
+        "color": "#dc2626",
+        "milestones": ["6.6 km tunnel under construction", "Five stations in this phase", "Works scheduled to finish in 2027"],
+        "source_url": "https://www.comunidad.madrid/infraestructuras/ampliacion-linea-11",
+        "geometry_note": "Approximate Plaza Elíptica–Conde de Casal corridor; station points are not included in this batch."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-3.718, 40.384], [-3.716, 40.391], [-3.713, 40.400], [-3.693, 40.404], [-3.690, 40.407], [-3.670, 40.410]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barcelona Diagonal Tram Connection",
+        "agency": "Ajuntament de Barcelona / Autoritat del Transport Metropolità",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Spain",
+        "city": "Barcelona",
+        "status": "planning",
+        "statusText": "Planning and Design",
+        "timeline": "Francesc Macià to Glòries via Avinguda Diagonal; the second-phase reurbanization project is complete and connection work continues through approvals.",
+        "description": "The planned Diagonal connection will join Barcelona’s Trambaix and Trambesòs networks, creating a unified tram corridor between Francesc Macià and Glòries.",
+        "color": "#0891b2",
+        "milestones": ["First Glòries–Girona phase built", "Second-phase executive reurbanization project completed", "Final tram connection remains in project development"],
+        "source_url": "https://ajuntament.barcelona.cat/lescorts/ca/noticia/enllestit-el-projecte-de-reurbanitzacio-de-la-segona-fase-de-la-connexio-del-tramvia_1425442",
+        "geometry_note": "Approximate Francesc Macià–Glòries corridor; the final construction alignment and station points are not included in this batch."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[2.143, 41.395], [2.153, 41.394], [2.161, 41.393], [2.168, 41.395], [2.186, 41.397], [2.198, 41.394]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Siemensbahn Reactivation",
+        "agency": "Deutsche Bahn / Land Berlin",
+        "category": "Commuter Rail",
+        "region": "Europe",
+        "country": "Germany",
+        "city": "Berlin",
+        "status": "planning",
+        "statusText": "Planning",
+        "timeline": "Reactivation of the 4.5 km Jungfernheide–Gartenfeld S-Bahn corridor, with realization planned between 2026 and 2029.",
+        "description": "Deutsche Bahn is reactivating Berlin’s disused Siemensbahn to reconnect Siemensstadt and Gartenfeld with the S-Bahn ring and the wider rail network.",
+        "color": "#1d4ed8",
+        "milestones": ["Historic corridor disused since 1980", "Planning and approvals underway", "Realization planned for 2026–2029"],
+        "source_url": "https://bauprojekte.deutschebahn.com/p/siemensbahn-reaktivierung",
+        "geometry_note": "Approximate Jungfernheide–Gartenfeld corridor; the reactivated station and track geometry is represented schematically."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[13.300, 52.530], [13.267, 52.536], [13.246, 52.537], [13.227, 52.543]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Copenhagen M5 Metro",
+        "agency": "Metroselskabet",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Denmark",
+        "city": "Copenhagen",
+        "status": "planning",
+        "statusText": "Planning",
+        "timeline": "Nine-station metro planned in two phases; the first phase is planned to open in 2036 and the second in 2045.",
+        "description": "M5 is Copenhagen’s planned new metro line, connecting København H and Amager with future development areas in Østhavnen, including Refshaleøen and Lynetteholm.",
+        "color": "#9333ea",
+        "milestones": ["Nine stations planned", "Environmental assessment completed", "First phase planned to open in 2036"],
+        "source_url": "https://metroselskabet.dk/da/projekter-og-udvikling/igangvaerende-projekter/m5/",
+        "geometry_note": "Approximate M5 corridor based on the current station sequence; phase-two alignment and station forms remain subject to later decisions."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[12.564, 55.672], [12.573, 55.663], [12.585, 55.659], [12.617, 55.663], [12.625, 55.660], [12.628, 55.669], [12.622, 55.683], [12.635, 55.694]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stockholm Blue Line to Nacka and Söderort",
+        "agency": "Region Stockholm / Förvaltning för utbyggd tunnelbana",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Sweden",
+        "city": "Stockholm",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "Extension from Kungsträdgården through Sofia, with branches to Nacka and Söderort; traffic start planned for 2030.",
+        "description": "Stockholm’s Blue Line expansion adds seven stations and two branches, extending metro service east to Nacka and south through Gullmarsplan and Sockenplan.",
+        "color": "#2563eb",
+        "milestones": ["Seven new stations planned", "Nacka and Söderort branches under construction", "Traffic start planned for 2030"],
+        "source_url": "https://nyatunnelbanan.se/nacka-soderort/",
+        "geometry_note": "Approximate branched corridor based on the official station sequence; station points are not included in this batch."
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [[18.071, 59.330], [18.082, 59.317], [18.091, 59.304], [18.122, 59.306], [18.145, 59.309], [18.164, 59.311]],
+          [[18.082, 59.317], [18.059, 59.299], [18.075, 59.293], [18.068, 59.278]]
+        ]
+      }
+    }
   ]
 }
