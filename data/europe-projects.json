@@ -752,6 +752,236 @@
         "type": "LineString",
         "coordinates": [[23.340, 42.694], [23.360, 42.695], [23.380, 42.695], [23.400, 42.690], [23.430, 42.685]]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Paris Express Line 18",
+        "agency": "Société des grands projets",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "France",
+        "city": "Paris",
+        "status": "construction",
+        "statusText": "Testing and Construction",
+        "timeline": "The 35 km automatic metro from Orly Airport to Versailles–Chantiers is being delivered in phases: Massy–Christ de Saclay in 2026, Orly in 2027, and Versailles in 2030.",
+        "description": "Line 18 will connect Orly Airport, Massy, the Paris-Saclay research campus, Saint-Quentin-en-Yvelines, and Versailles with 10 new stations.",
+        "color": "#be123c",
+        "milestones": ["35 km and 10 stations planned", "Testing underway on the first section", "First passenger service planned for 2026"],
+        "source_url": "https://www.grandparisexpress.fr/ligne-18",
+        "geometry_note": "Approximate Orly–Massy–Saclay–Versailles corridor; the mixed tunnel and viaduct alignment is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[2.364, 48.728], [2.279, 48.725], [2.255, 48.711], [2.165, 48.710], [2.156, 48.723], [2.075, 48.769], [2.036, 48.800]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Paris Express Line 16",
+        "agency": "Société des grands projets",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "France",
+        "city": "Paris",
+        "status": "construction",
+        "statusText": "Systems Installation and Testing",
+        "timeline": "The 29 km line from Saint-Denis–Pleyel to Noisy–Champs will open in two stages: to Clichy–Montfermeil in 2027 and to Noisy–Champs in 2028.",
+        "description": "Line 16 is a new automated metro across northeastern Paris, serving La Courneuve, Le Bourget, Aulnay-sous-Bois, Sevran, Clichy-sous-Bois, Chelles, and Noisy–Champs.",
+        "color": "#2563eb",
+        "milestones": ["Tunnel construction completed", "Station and tunnel systems being installed", "First passenger service planned for 2027"],
+        "source_url": "https://www.grandparisexpress.fr/ligne-16",
+        "geometry_note": "Approximate Saint-Denis–Pleyel–Chelles–Noisy–Champs corridor; station and tunnel geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[2.343, 48.918], [2.390, 48.931], [2.425, 48.944], [2.490, 48.950], [2.533, 48.951], [2.570, 48.899], [2.612, 48.852]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hovedstadens Letbane (Ring 3)",
+        "agency": "Hovedstadens Letbane / Region Hovedstaden",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Denmark",
+        "city": "Copenhagen",
+        "status": "opened",
+        "statusText": "Recently Opened",
+        "timeline": "The 28 km Ring 3 light-rail line between Ishøj and Lundtofte opened across its full length on 22 August 2026 with 29 stations.",
+        "description": "Copenhagen’s new orbital light rail connects Ishøj, the western suburbs, Herlev Hospital, DTU, and Lundtofte with six S-train interchanges.",
+        "color": "#16a34a",
+        "milestones": ["First 12-station section opened in October 2025", "Remaining 17 stations opened in August 2026", "Full 28 km line now in passenger service"],
+        "source_url": "https://www.letbane.dk/nyheder/00688/",
+        "geometry_note": "Approximate Ishøj–Ring 3–Lundtofte corridor; station locations and local street alignment are schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[12.351, 55.615], [12.386, 55.650], [12.425, 55.670], [12.475, 55.700], [12.522, 55.735], [12.546, 55.770]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Naples Metro Line 1 to Capodichino",
+        "agency": "Comune di Napoli / Metropolitana di Napoli",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Italy",
+        "city": "Naples",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "The Centro Direzionale–Capodichino section, including the Poggioreale and Capodichino stations, remains in construction and completion works in the 2026–2028 program.",
+        "description": "Line 1 is extending east and north from the city centre through Centro Direzionale, Poggioreale, and Capodichino to reach Naples International Airport.",
+        "color": "#ea580c",
+        "milestones": ["Centro Direzionale–Capodichino section funded", "Poggioreale and Capodichino stations in delivery", "Completion program runs through 2028"],
+        "source_url": "https://static-www.comune.napoli.it/wp-content/uploads/2026/01/DELIBERAZIONE-DI-CONSIGLIO-COMUNALE-N.-1-DEL-29-GENNAIO-2026.pdf",
+        "geometry_note": "Approximate Centro Direzionale–Poggioreale–Capodichino corridor; underground alignment and station geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[14.275, 40.852], [14.288, 40.854], [14.298, 40.858], [14.302, 40.867], [14.293, 40.881]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Munich U5 Extension to Pasing",
+        "agency": "Landeshauptstadt München / Baureferat",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Germany",
+        "city": "Munich",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "The 3.8 km western U5 extension from Laimer Platz to Pasing is being built with the new Am Knie and Pasing stations.",
+        "description": "Munich’s U5 is extending west to Pasing, adding a direct underground connection to the growing western district and its regional rail interchange.",
+        "color": "#7c3aed",
+        "milestones": ["3.8 km extension under construction", "Am Knie and Pasing stations included", "Pasing works progressing in 2026"],
+        "source_url": "https://stadt.muenchen.de/news/260210_mobilitaet.html",
+        "geometry_note": "Approximate Laimer Platz–Am Knie–Pasing corridor; station and tunnel geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[11.466, 48.134], [11.447, 48.142], [11.430, 48.149], [11.414, 48.150]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gdańsk Południe–Wrzeszcz Tram",
+        "agency": "Gdańsk / Dyrekcja Rozbudowy Miasta Gdańska",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Poland",
+        "city": "Gdańsk",
+        "status": "planning",
+        "statusText": "Tender Awarded, Construction Due 2026",
+        "timeline": "The 3.6 km tram route from Piecki-Migowo to Wrzeszcz is scheduled to start in the third quarter of 2026 and finish in the third quarter of 2029, with seven stops.",
+        "description": "The Gdańsk Południe–Wrzeszcz route will connect the southern districts to the established Wrzeszcz tram and rail interchange through a new tunnel and seven stops.",
+        "color": "#0891b2",
+        "milestones": ["3.6 km route and seven stops planned", "Preferred construction offer selected in April 2026", "Construction scheduled for 2026–2029"],
+        "source_url": "https://www.gdansk.pl/itd/Gdansk-Poludnie-Wrzeszcz%2Cr%2C9",
+        "geometry_note": "Approximate Piecki-Migowo–Wrzeszcz corridor; tunnel, stops, and street integration are schematic pending construction."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[18.550, 54.350], [18.565, 54.365], [18.575, 54.382], [18.590, 54.400]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wrocław Tram to Jagodno",
+        "agency": "City of Wrocław / Wrocławskie Inwestycje",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Poland",
+        "city": "Wrocław",
+        "status": "planning",
+        "statusText": "Design and Enabling Works",
+        "timeline": "The bus-and-tram corridor to Jagodno is being designed for delivery around 2029, including a grade-separated crossing at Bardzka.",
+        "description": "Wrocław is converting the Jagodno transport corridor into a bus-and-tram route, extending electric tram service south from the existing network toward Jagodno P+R.",
+        "color": "#ca8a04",
+        "milestones": ["Bus corridor opened in 2025", "Railway grade separation agreed in March 2026", "Tram delivery targeted for 2029"],
+        "source_url": "https://www.wroclaw.pl/dla-mieszkanca/tramwaj-na-jagodno-tory-kolejowe-przecinajace-bardzka-ida-do-gory",
+        "geometry_note": "Approximate Gaj–Bardzka–Jagodno corridor; final tram track and stop geometry remains in design."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[17.038, 51.085], [17.045, 51.075], [17.052, 51.062], [17.063, 51.048]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Toulouse Metro Line C",
+        "agency": "Tisséo Collectivités / Toulouse Métropole",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "France",
+        "city": "Toulouse",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "The 27 km, 21-station third metro line from Colomiers to Labège is under construction, with passenger service planned for 2028.",
+        "description": "Toulouse’s Line C will cross the metropolitan area from Colomiers through central Toulouse to Labège, linking five municipalities and four park-and-ride sites.",
+        "color": "#dc2626",
+        "milestones": ["Preparatory works began in 2022", "Tunnel and viaduct works active in 2026", "Passenger service planned for 2028"],
+        "source_url": "https://projetsmetro.tisseo.fr/presentation-du-projet",
+        "geometry_note": "Approximate Colomiers–Toulouse–Labège corridor; station and tunnel geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[1.334, 43.611], [1.400, 43.606], [1.444, 43.604], [1.468, 43.585], [1.535, 43.548]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bergen Light Rail to Åsane",
+        "agency": "Bergen kommune / Vestland fylkeskommune",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Norway",
+        "city": "Bergen",
+        "status": "planning",
+        "statusText": "Planning and Route Review",
+        "timeline": "The planned extension from Bergen city centre to Åsane is in route and regulatory planning, including a revised tunnel solution through the city centre and Sandviken.",
+        "description": "Bergen’s fifth light-rail stage will extend Bybanen north from the city centre to Åsane, with planning also coordinating the main cycling route and Fløyfjell Tunnel works.",
+        "color": "#0f766e",
+        "milestones": ["Åsane extension approved in principle", "Central section being re-regulated in 2026", "Planning proposal targeted for autumn 2026"],
+        "source_url": "https://www.bergen.kommune.no/omkommunen/arealplaner/offentlige-planer-under-arbeid/bybanens-reguleringsplaner",
+        "geometry_note": "Approximate Bergen–Sandviken–Åsane corridor; the central tunnel and station alignment remains subject to regulatory planning."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[5.322, 60.392], [5.330, 60.405], [5.337, 60.425], [5.342, 60.450], [5.350, 60.480]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rail Baltica Riga Node",
+        "agency": "Eiropas Dzelzceļa līnijas / RB Rail AS",
+        "category": "Regional Rail",
+        "region": "Europe",
+        "country": "Latvia",
+        "city": "Riga",
+        "status": "construction",
+        "statusText": "Construction and Systems Integration",
+        "timeline": "The Rail Baltica Riga node includes the southern section of Riga Central Station and connecting mainline works, with construction and systems integration continuing in 2026.",
+        "description": "Rail Baltica is building a new standard-gauge passenger-rail connection through Riga, including the rebuilt central station and links toward the airport and the southern mainline.",
+        "color": "#0369a1",
+        "milestones": ["Southern Riga Central Station section in construction", "Permanent power and systems testing began in 2026", "Latvian mainline construction active south of Riga"],
+        "source_url": "https://www.railbaltica.org/lv/jaunumi/new-riga-central-station-transits-to-power-on-mode/",
+        "geometry_note": "Approximate Riga Central Station–airport/southern node corridor; the full Rail Baltica alignment and station works are represented schematically."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[24.114, 56.946], [24.090, 56.951], [24.060, 56.956], [23.970, 56.930]]
+      }
     }
   ]
 }
