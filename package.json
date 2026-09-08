@@ -4,7 +4,8 @@
     "description": "Interactive transit construction map for North America and Europe.",
     "main": "app.js",
     "scripts": {
-        "start": "npx serve ."
+        "start": "npx serve .",
+        "validate:data": "node scripts/validate-data.mjs"
     },
     "keywords": [
         "transit",

@@ -35,9 +35,7 @@ const STATUS_LABELS_FULL = {
     opened: 'Recently opened',
     delayed: 'Delayed'
 };
-const ACTIVE_PROJECT_NAMES = new Set(['Bowmanville GO Extension', 'Ballard Link Extension', 'West Phoenix High-Capacity Transit Corridor', 'Colorado Connector', 'Lackawanna Cut-Off Restoration', 'New River Valley Passenger Rail Project', 'Rio East–Dobson Streetcar Extension', 'Red Line Modernization Project', 'Green Line Transformation Program', 'Stone Avenue BRT', 'Eastside Transit Corridor Phase 2', 'Vermont Avenue BRT', 'Transbay Program Downtown Extension', 'Downtown Riverfront Streetcar', 'Federal Boulevard BRT', 'West Elizabeth Corridor', 'Broward Commuter Rail South', 'Northeast Corridor Rapid Transit', 'MARTA Rapid Campbellton', 'MARTA Rapid Southlake', 'Blue Hill Avenue Transit Action Plan', 'Cleveland MetroHealth Line BRT', 'Columbus East Main Street BRT', 'Columbus Northwest BRT', 'Columbus West Broad Street BRT', 'MAPS 4 Bus Rapid Transit Corridor', '82nd Avenue Transit Project', 'Montgomery Park Transit Project', 'TV Highway Transit and Safety Project', 'Lowcountry Rapid Transit', 'METRORapid Gulfton Corridor', 'San Antonio ART East/West Corridor', 'Davis-Salt Lake City Community Connector', 'FrontRunner 2X', 'Richmond Highway Bus Rapid Transit', 'Swift Gold Line BRT', 'RapidRide K Line BRT', 'Division Street Bus Rapid Transit', 'Madison North-South BRT', 'Tren México–Pachuca', 'Tren México–Querétaro', 'Tren Querétaro–Irapuato', 'Tren Saltillo–Nuevo Laredo', 'Tren Suburbano Lechería–AIFA', 'Alto High-Speed Rail', 'Honolulu Skyline Segment 3', 'Eglinton Crosstown LRT', 'Finch West LRT', 'Hazel McCallion Line', 'Hamilton B-Line LRT', 'Ontario Line', 'Scarborough Subway Extension', 'Yonge North Subway Extension', 'Durham-Scarborough BRT', 'Eglinton Crosstown West Extension', 'ION Stage 2', 'Eglinton East LRT', 'Sheppard East LRT', 'Waterfront West LRT', 'Waterfront East LRT', 'Hamilton A-Line', 'Finch West LRT Extension', 'Brampton Queen Street BRT / LRT', 'Downtown Mississauga Transitway', 'Bailey Avenue BRT', 'East London Link', 'Wellington Gateway', 'NFTA Metro Transit Expansion', 'O-Train Stage 2 West Extension', 'REM Anse-à-l’Orme Branch', 'Montréal Blue Line Extension', 'TramCité', 'Broadway Subway Extension', 'Green Line Phase 1', 'Green Line Phase 2', 'O-Train Stage 2 East Extension', 'O-Train Stage 2 South Extension', 'Surrey–Langley SkyTrain', 'REM South Shore', 'REM Deux-Montagnes Branch', 'Maryland Purple Line', 'Valley Line West LRT', 'Federal Way Link Extension', 'D Line Extension Section 1', 'D Line Extension Section 2', 'D Line Extension Section 3', 'METRO Green Line Extension', 'South Central Extension / Downtown Hub', 'REM Airport Branch', 'Lynnwood Link Extension', '2 Line East Link Extension', 'DART Silver Line', 'CTA Red Line Extension', 'South Coast Rail Fall River', 'South Coast Rail New Bedford', 'A Line Foothill Extension', 'East San Fernando Valley LRT', 'Capital Line South', 'Second Avenue Subway Phase 2', 'Penn Station Access', 'VTA BART Silicon Valley Phase II', 'NICTD West Lake Corridor', 'KC Streetcar Main Street Extension', 'KC Streetcar Riverfront Extension', 'MARTA Rapid A-Line', 'Gateway Hudson Tunnel Project', 'LAX SkyLink', 'Austin Light Rail Phase 1', 'Southeast Gateway Line', 'UTA Midvalley Express (MVX)', 'Maryland Parkway BRT', 'Interborough Express (IBX)', 'West Seattle Link Extension', 'Kitchener Extension', 'Gormley Extension', 'Lakeshore West Line - West Harbour Extension', 'Barrie Extension', 'Niagara Extension', 'Confederation Extension', 'Sepulveda Transit Corridor', 'Bakerloo Line Extension', 'Grand Paris Express Line 15 South', 'Dublin MetroLink', 'Oslo Fornebu Line', 'Madrid Metro Line 11 Extension', 'Barcelona Diagonal Tram Connection', 'Siemensbahn Reactivation', 'Copenhagen M5 Metro', 'Stockholm Blue Line to Nacka and Söderort', 'Rome Metro Line C Extension', 'Amsterdam–Schiphol–Hoofddorp Transit Connection', 'Brussels Metro Line 3', 'Helsinki Crown Bridges Tramway', 'Tampere Tramway Pirkkala–Linnainmaa', 'Vienna U2xU5 Expansion', 'Prague Metro Line D', 'Porto Metro Rubi Line', 'Lisbon Red Line to Alcântara', 'Bucharest Metro Line M6', 'Sofia Metro Line 3 Northeast Extension', 'Belgrade Metro Line 1 Phase 1', 'Sarajevo Ilidža–Hrasnica Tramway Extension', 'Warsaw M2 Western Extension to Karolin', 'Kraków KST IV Tram to Mistrzejowice', 'Athens Metro Line 4 Section A', 'Thessaloniki Metro Kalamaria Extension', 'Lisbon Violeta Light Metro', 'Porto Metro Pink Line', 'Turin Metro Line 2', 'Zagreb Sarajevska Tramway Extension', 'Skopje Bus Rapid Transit', 'Sofia Metro Line 3 Slatina Extension', 'Grand Paris Express Line 18', 'Grand Paris Express Line 16', 'Hovedstadens Letbane (Ring 3)', 'Naples Metro Line 1 to Capodichino', 'Munich U5 Extension to Pasing', 'Gdańsk Południe–Wrzeszcz Tram', 'Wrocław Tram to Jagodno', 'Toulouse Metro Line C', 'Bergen Light Rail to Åsane', 'Rail Baltica Riga Node']);
-['Grand Paris Express Line 15 West', 'Grand Paris Express Line 17', 'Lyon Tram T10', 'Toulouse Metro Line B Extension to Labège', 'Hamburg U5', 'Cologne North–South Stadtbahn Stage 3', 'Frankfurt U5 Europaviertel Extension', 'Milan Metro M5 Extension to Monza', 'Milan Metro M3 Extension to Paullo', 'Bologna Tram Line Red', 'Bologna Tram Line Green', 'Florence Tram Line 3.2.1 to Bagno a Ripoli', 'Florence Tram Line 3.2.2 to Rovezzano', 'Seville Metro Line 3 North', 'Málaga Metro Line 2 to Hospital Civil', 'Granada Metro South Extension', 'Alcalá de Guadaíra Tramway', 'Crossrail 2', 'DLR Beckton Riverside–Thamesmead Extension', 'DART+ West', 'DART+ South West', 'DART+ Coastal North', 'Cork Area Commuter Rail Programme Phase 1', 'Utrecht Merwedelijn', 'Brno Tram Line 1 to Kamechy', 'The Hague Koningscorridor', 'Charleroi Metro M5 Extension to Les Viviers', 'Lausanne Metro M3', 'Grand Paris Express Line 18', 'Grand Paris Express Line 16', 'Hovedstadens Letbane (Ring 3)', 'Naples Metro Line 1 to Capodichino', 'Munich U5 Extension to Pasing', 'Gdańsk Południe–Wrzeszcz Tram', 'Wrocław Tram to Jagodno', 'Toulouse Metro Line C', 'Bergen Light Rail to Åsane', 'Rail Baltica Riga Node'].forEach(name => ACTIVE_PROJECT_NAMES.add(name));
-['Grand Paris Express Line 15 East', 'Nantes Tram Line 6', 'Nantes Tram Line 7', 'Nantes Busway Line 8', 'Lisbon Metro Circular Line', 'Lyon Tram T9', 'Lyon Tram T6 Extension to La Doua', 'Budapest Buda Tram Network Phase II', 'Budapest Pest Tram Network Phase II', 'Marseille Tramway Extension to Place du 4 Septembre'].forEach(name => ACTIVE_PROJECT_NAMES.add(name));
+const PROJECT_DATA_SOURCES = ['data/projects.geojson', 'data/stations.geojson'];
 const MAP_BACKGROUND_COLOR = '#ffffff';
 const OVERVIEW = { center: [-25, 48], zoom: 2.5 };
 
@@ -92,8 +90,10 @@ function escapeHtml(str) {
         .replace(/"/g, '&quot;');
 }
 
-function stationCountFor(projectName) {
-    return allStationFeatures.filter(f => f.properties.project_name === projectName).length;
+function stationCountFor(projectId, projectName) {
+    return allStationFeatures.filter(f =>
+        f.properties.project_id === projectId || f.properties.project_name === projectName
+    ).length;
 }
 
 function buildLabelCollection(projects) {
@@ -121,48 +121,15 @@ initializeMap(PUBLIC_MAPBOX_TOKEN);
 async function fetchProjects() {
     loadingBanner.classList.remove('hidden');
     try {
-        const responses = await Promise.all([
-            fetch('data/projects.json'),
-            fetch('data/regional-projects.json'),
-            fetch('data/nfta-projects.json'),
-            fetch('data/london-projects.json'),
-            fetch('data/ottawa-projects.json'),
-            fetch('data/rem-projects.json'),
-            fetch('data/montreal-projects.json'),
-            fetch('data/quebec-projects.json'),
-            fetch('data/vancouver-projects.json'),
-            fetch('data/maryland-projects.json'),
-            fetch('data/edmonton-projects.json'),
-            fetch('data/seattle-projects.json'),
-            fetch('data/la-projects.json'),
-            fetch('data/minneapolis-projects.json'),
-            fetch('data/phoenix-projects.json'),
-            fetch('data/dallas-projects.json'),
-            fetch('data/chicago-projects.json'),
-            fetch('data/boston-projects.json'),
-            fetch('data/nyc-projects.json'),
-            fetch('data/bay-area-projects.json'),
-            fetch('data/indiana-projects.json'),
-            fetch('data/kansas-city-projects.json'),
-            fetch('data/atlanta-projects.json'),
-            fetch('data/austin-projects.json'),
-            fetch('data/salt-lake-projects.json'),
-            fetch('data/las-vegas-projects.json'),
-            fetch('data/honolulu-projects.json'),
-            fetch('data/fta-projects.json'),
-            fetch('data/mexico-projects.json'),
-            fetch('data/canada-projects.json'),
-            fetch('data/news-projects.json'),
-            fetch('data/europe-projects.json')
-        ]);
+        const responses = await Promise.all(PROJECT_DATA_SOURCES.map(source => fetch(source)));
         const collections = await Promise.all(responses.map(r => r.json()));
-        const features = collections.flatMap(c => c.features || []);
+        const [projectCollection, stationCollection] = collections;
 
-        const projectFeatures = features.filter(feature =>
-            isProjectFeature(feature) && ACTIVE_PROJECT_NAMES.has(feature.properties.name)
+        const projectFeatures = (projectCollection.features || []).filter(feature =>
+            isProjectFeature(feature) && feature.properties?.published === true
         );
-        const stationFeatures = features.filter(feature =>
-            isStationFeature(feature) && ACTIVE_PROJECT_NAMES.has(feature.properties.project_name)
+        const stationFeatures = (stationCollection.features || []).filter(feature =>
+            isStationFeature(feature) && feature.properties?.published === true
         );
         allProjects = projectFeatures;
         allStationFeatures = stationFeatures;
@@ -314,7 +281,9 @@ function initializeMap(token) {
 
         map.on('click', 'transit-stations', (e) => {
             const station = e.features[0].properties;
-            const project = allProjects.find(item => item.properties.name === station.project_name);
+            const project = allProjects.find(item =>
+                item.properties.id === station.project_id || item.properties.name === station.project_name
+            );
             if (project) {
                 showProjectDetails(project.properties);
                 flyToProject(project);
@@ -589,7 +558,7 @@ function showProjectDetails(props) {
     projectMeta.innerHTML = metaParts.join('');
     projectTimeline.textContent = props.timeline || '—';
 
-    const nStations = stationCountFor(props.name);
+    const nStations = stationCountFor(props.id, props.name);
     if (nStations > 0) {
         projectStationsField.hidden = false;
         projectStationsCount.textContent = String(nStations);

@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **Data storage**: Consolidated published projects and stations into canonical GeoJSON files and removed the JavaScript name allowlist, so new records are data-only.
 - **Europe expansion**: Added 38 more France, Germany, Italy, Spain, UK, Ireland, Benelux, Czechia, Belgium, Switzerland, Scandinavia, Poland, and Latvia projects with official local-language sources.
 - **Europe expansion**: Added ten more France, Denmark, Italy, Germany, Poland, Norway, and Latvia projects with official local-language sources and explicit status/geometry notes.
 - **Europe expansion**: Added ten more Poland, Greece, Portugal, Italy, Croatia, North Macedonia, and Bulgaria projects with local-language official sources and explicit status/geometry notes.
