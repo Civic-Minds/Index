@@ -44,8 +44,6 @@ const OVERVIEW = { center: [-25, 48], zoom: 2.5 };
 let map;
 let allProjects = [];
 let allStationFeatures = [];
-let fullMapCollection = { type: 'FeatureCollection', features: [] };
-let labelCollection = { type: 'FeatureCollection', features: [] };
 /** null = all statuses */
 let selectedStatus = null;
 let activeProjectName = '';
@@ -124,6 +122,11 @@ async function fetchProjects() {
     loadingBanner.classList.remove('hidden');
     try {
         const responses = await Promise.all(PROJECT_DATA_SOURCES.map(source => fetch(source)));
+        const failedIndex = responses.findIndex(response => !response.ok);
+        if (failedIndex !== -1) {
+            const response = responses[failedIndex];
+            throw new Error(`Failed to load ${PROJECT_DATA_SOURCES[failedIndex]} (${response.status})`);
+        }
         const collections = await Promise.all(responses.map(r => r.json()));
         const [projectCollection, stationCollection] = collections;
 
@@ -135,8 +138,6 @@ async function fetchProjects() {
         );
         allProjects = projectFeatures;
         allStationFeatures = stationFeatures;
-        fullMapCollection = { type: 'FeatureCollection', features: [...projectFeatures, ...stationFeatures] };
-        labelCollection = buildLabelCollection(projectFeatures);
         updateMastheadStats(allProjects);
         buildStatusChips(allProjects);
         applyFilters({ fit: true });
