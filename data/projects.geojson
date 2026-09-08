@@ -12388,10 +12388,38 @@
         "sources": [
           {
             "url": "https://www.comunidad.madrid/infraestructuras/ampliacion-linea-11",
-            "language": "unknown",
+            "language": "es",
             "supports": [
-              "project"
-            ]
+              "project",
+              "geometry",
+              "stations"
+            ],
+            "title": "Ampliación Línea 11",
+            "publisher": "Comunidad de Madrid",
+            "accessed_at": "2026-09-08"
+          },
+          {
+            "url": "https://www.comunidad.madrid/noticias/2026/08/22/comunidad-madrid-prosigue-excavacion-ininterrumpida-mayrit-linea-11-metro-prepara-proximo-cale-palos-frontera",
+            "title": "La Comunidad de Madrid prosigue con la excavación ininterrumpida de Mayrit en la Línea 11 de Metro",
+            "publisher": "Comunidad de Madrid",
+            "language": "es",
+            "supports": [
+              "status",
+              "timeline"
+            ],
+            "accessed_at": "2026-09-08"
+          },
+          {
+            "url": "https://www.comunidad.madrid/notas-prensa/2026/03/26/diaz-ayuso-anuncia-arranque-ampliacion-linea-11-metro-valdebebas-inicio-perforacion-tuneladora-mayrit",
+            "title": "Díaz Ayuso anuncia el arranque de la ampliación de la Línea 11 de Metro a Valdebebas",
+            "publisher": "Comunidad de Madrid",
+            "language": "es",
+            "supports": [
+              "status",
+              "timeline",
+              "description"
+            ],
+            "accessed_at": "2026-09-08"
           }
         ],
         "geometry_note": "Approximate Plaza Elíptica–Conde de Casal corridor; station points are not included in this batch.",
@@ -12451,10 +12479,26 @@
         "sources": [
           {
             "url": "https://ajuntament.barcelona.cat/lescorts/ca/noticia/enllestit-el-projecte-de-reurbanitzacio-de-la-segona-fase-de-la-connexio-del-tramvia_1425442",
-            "language": "unknown",
+            "language": "ca",
             "supports": [
+              "status",
               "project"
-            ]
+            ],
+            "title": "Enllestit el projecte de reurbanització de la segona fase de la connexió del tramvia",
+            "publisher": "Ajuntament de Barcelona",
+            "accessed_at": "2026-09-08"
+          },
+          {
+            "url": "https://ajuntament.barcelona.cat/mobilitat/tramviaconnectat/sites/default/files/Estudi_informatiu_Presentacio.pdf",
+            "title": "Connexió del Trambaix i Trambesòs",
+            "publisher": "Ajuntament de Barcelona",
+            "language": "ca",
+            "supports": [
+              "project",
+              "geometry",
+              "stations"
+            ],
+            "accessed_at": "2026-09-08"
           }
         ],
         "geometry_note": "Approximate Francesc Macià–Glòries corridor; the final construction alignment and station points are not included in this batch.",
@@ -12569,10 +12613,37 @@
         "sources": [
           {
             "url": "https://metroselskabet.dk/da/projekter-og-udvikling/igangvaerende-projekter/m5/",
-            "language": "unknown",
+            "language": "da",
             "supports": [
-              "project"
-            ]
+              "project",
+              "timeline",
+              "stations"
+            ],
+            "title": "M5 – kommende metrolinje",
+            "publisher": "Metroselskabet",
+            "accessed_at": "2026-09-08"
+          },
+          {
+            "url": "https://metroselskabet.dk/da/projekter-og-udvikling/nabo-til-anlaegsprojekter/m5/",
+            "title": "M5 projekt - Naboinfo",
+            "publisher": "Metroselskabet",
+            "language": "da",
+            "supports": [
+              "status",
+              "timeline"
+            ],
+            "accessed_at": "2026-09-08"
+          },
+          {
+            "url": "https://metroselskabet.dk/en/contact-and-press/press/press-releases/sneak-peek-at-the-future-m5-line-see-the-first-visualizations-of-six-new-metro-stations/",
+            "title": "Sneak peek at the future M5 line: See the first visualizations of six new metro stations",
+            "publisher": "Metroselskabet",
+            "language": "en",
+            "supports": [
+              "stations",
+              "description"
+            ],
+            "accessed_at": "2026-09-08"
           }
         ],
         "geometry_note": "Approximate M5 corridor based on the current station sequence; phase-two alignment and station forms remain subject to later decisions.",
@@ -12640,10 +12711,38 @@
         "sources": [
           {
             "url": "https://nyatunnelbanan.se/nacka-soderort/",
-            "language": "unknown",
+            "language": "sv",
             "supports": [
-              "project"
-            ]
+              "project",
+              "timeline",
+              "stations"
+            ],
+            "title": "Blå linje till Nacka och Söderort",
+            "publisher": "Nya tunnelbanan",
+            "accessed_at": "2026-09-08"
+          },
+          {
+            "url": "https://nyatunnelbanan.se/tilldelade-kontrakt/",
+            "title": "Nya tunnelbanan – Tilldelade kontrakt",
+            "publisher": "Nya tunnelbanan",
+            "language": "sv",
+            "supports": [
+              "status",
+              "stations"
+            ],
+            "accessed_at": "2026-09-08"
+          },
+          {
+            "url": "https://nyatunnelbanan.se/nyheter/allt-hanger-ihop-pa-bla-linje-har-arbetar-vi/",
+            "title": "Allt hänger ihop på Blå linje – här arbetar vi!",
+            "publisher": "Nya tunnelbanan",
+            "language": "sv",
+            "supports": [
+              "status",
+              "geometry",
+              "stations"
+            ],
+            "accessed_at": "2026-09-08"
           }
         ],
         "geometry_note": "Approximate branched corridor based on the official station sequence; station points are not included in this batch.",
@@ -12951,10 +13050,27 @@
         "sources": [
           {
             "url": "https://www.tampereenratikka.fi/pirkkala-linnainmaa-raitiotien-rakentaminen-vauhdissa-kevaan-ja-kesan-aikana/",
-            "language": "unknown",
+            "language": "fi",
             "supports": [
-              "project"
-            ]
+              "status",
+              "timeline",
+              "stations"
+            ],
+            "title": "Pirkkala–Linnainmaa-raitiotien rakentaminen vauhdissa kevään ja kesän aikana",
+            "publisher": "Tampereen Ratikka",
+            "accessed_at": "2026-09-08"
+          },
+          {
+            "url": "https://www.tampereenratikka.fi/rakentaminen/pirkkala-linnainmaa/",
+            "title": "Pirkkala–Linnainmaa -raitiotie",
+            "publisher": "Tampereen Ratikka",
+            "language": "fi",
+            "supports": [
+              "project",
+              "timeline",
+              "stations"
+            ],
+            "accessed_at": "2026-09-08"
           }
         ],
         "geometry_note": "Approximate branched corridor from central Tampere; the route and stop geometry is schematic and not a survey dataset.",
@@ -13129,10 +13245,39 @@
         "sources": [
           {
             "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3368-zacala-stavba-dalsiho-useku-metra-d-od-stanice-olbrachtova-na-nove-dvory",
-            "language": "unknown",
+            "language": "cs",
             "supports": [
-              "project"
-            ]
+              "status",
+              "timeline",
+              "stations"
+            ],
+            "title": "Začala stavba dalšího úseku metra D od stanice Olbrachtova na Nové Dvory",
+            "publisher": "Dopravní podnik hl. m. Prahy (DPP)",
+            "accessed_at": "2026-09-08"
+          },
+          {
+            "url": "https://www.dpp.cz/metro-d/realizace/usek-olbrachtova-nove-dvory",
+            "title": "Úsek Olbrachtova – Nové Dvory",
+            "publisher": "Dopravní podnik hl. m. Prahy (DPP)",
+            "language": "cs",
+            "supports": [
+              "geometry",
+              "stations",
+              "status",
+              "timeline"
+            ],
+            "accessed_at": "2026-09-08"
+          },
+          {
+            "url": "https://www.dpp.cz/en/company/for-media/press-news/detail/580_3332-the-next-section-of-metro-line-d-olbrachtova-nove-dvory-will-be-built-by-a-consortium-led-by-subterra-dpp-has-signed-a-contract-with-the-contractor",
+            "title": "The next section of Metro Line D, Olbrachtova–Nové Dvory, will be built by a consortium led by Subterra",
+            "publisher": "Dopravní podnik hl. m. Prahy (DPP)",
+            "language": "en",
+            "supports": [
+              "status",
+              "timeline"
+            ],
+            "accessed_at": "2026-09-08"
           }
         ],
         "geometry_note": "Approximate Pankrác–Nové Dvory–Písnice corridor; the route and station geometry is schematic.",
@@ -16642,10 +16787,26 @@
         "sources": [
           {
             "url": "https://projetos.metrolisboa.pt/siga-os-trabalhos-das-obras-de-expansao-da-linha-circular/",
-            "language": "unknown",
+            "language": "pt",
             "supports": [
-              "project"
-            ]
+              "status",
+              "timeline"
+            ],
+            "title": "Siga os trabalhos das obras de expansão da linha Circular",
+            "publisher": "Metropolitano de Lisboa",
+            "accessed_at": "2026-09-08"
+          },
+          {
+            "url": "https://projetos.metrolisboa.pt/obras-da-linha-circular-continuam-a-avancar/",
+            "title": "Obras da linha Circular continuam a avançar",
+            "publisher": "Metropolitano de Lisboa",
+            "language": "pt",
+            "supports": [
+              "status",
+              "timeline",
+              "description"
+            ],
+            "accessed_at": "2026-09-08"
           }
         ],
         "geometry_note": "Approximate Rato–Estrela–Santos–Cais do Sodré alignment; tunnel and station geometry is schematic.",

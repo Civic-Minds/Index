@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **Source enrichment**: Added additional official English and local-language references for seven European projects so status, geometry, timeline, and station claims can be checked against the records.
 - **Source provenance**: Added auditable project source records with language and claim metadata, and exposed them in project details.
 - **Mobile search**: Collapsed the project search into a compact button so the map header has more room on small screens.
 - **Map credits**: Restyled the Mapbox and OpenStreetMap attribution so required map credits fit the Index interface cleanly.
