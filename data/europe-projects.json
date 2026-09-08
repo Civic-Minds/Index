@@ -982,6 +982,880 @@
         "type": "LineString",
         "coordinates": [[24.114, 56.946], [24.090, 56.951], [24.060, 56.956], [23.970, 56.930]]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Paris Express Line 15 West",
+        "agency": "Société des grands projets",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "France",
+        "city": "Paris",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "The 11-station western section from Pont de Sèvres to Saint-Denis–Pleyel is under construction, with service planned for 2031.",
+        "description": "The western arc of the Grand Paris Express will connect Saint-Cloud, La Défense, Nanterre, Bois-Colombes, and Saint-Denis–Pleyel in a new orbital metro corridor.",
+        "color": "#db2777",
+        "milestones": ["Civil works began in 2023–2024", "Tunnel-boring activity continues in 2026", "11 stations planned for 2031 service"],
+        "source_url": "https://www.grandparisexpress.fr/ligne-15-ouest",
+        "geometry_note": "Approximate Pont de Sèvres–La Défense–Saint-Denis–Pleyel corridor; the tunnel and station geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[2.231, 48.823], [2.206, 48.842], [2.178, 48.862], [2.150, 48.890], [2.116, 48.905], [2.095, 48.918]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Paris Express Line 17",
+        "agency": "Société des grands projets",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "France",
+        "city": "Paris",
+        "status": "construction",
+        "statusText": "Construction and Equipment",
+        "timeline": "The new automated line from Saint-Denis–Pleyel toward Le Bourget Airport and Parc des Expositions is under construction, with phased openings from 2027 to 2030.",
+        "description": "Line 17 will connect Saint-Denis, Le Bourget Airport, the Paris Nord Villepinte exhibition centre, and the wider Charles de Gaulle airport corridor.",
+        "color": "#0f766e",
+        "milestones": ["Construction active along the full route", "Viaduct and station works progressing", "First section planned to open in 2027"],
+        "source_url": "https://www.grandparisexpress.fr/ligne-17",
+        "geometry_note": "Approximate Saint-Denis–Le Bourget–Parc des Expositions–airport corridor; the mixed underground and elevated alignment is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[2.343, 48.918], [2.363, 48.930], [2.405, 48.942], [2.455, 48.958], [2.520, 48.976], [2.565, 49.005]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lyon Tram T10",
+        "agency": "SYTRAL Mobilités / Métropole de Lyon",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "France",
+        "city": "Lyon",
+        "status": "construction",
+        "statusText": "Testing and Final Construction",
+        "timeline": "The new tram will connect Vénissieux with Halle Tony Garnier and Saint-Fons, with track works completed on part of the route and testing underway in 2026.",
+        "description": "Lyon’s T10 creates a north–south tram connection from Gare de Vénissieux through Saint-Fons and Gerland to Halle Tony Garnier.",
+        "color": "#ea580c",
+        "milestones": ["Track laying completed in the Lyon 7 sector", "Unoccupied test runs began in early 2026", "Vénissieux and Saint-Fons works continue"],
+        "source_url": "https://mairie7.lyon.fr/actualite/cadre-de-vie/infos-travaux",
+        "geometry_note": "Approximate Vénissieux–Saint-Fons–Gerland corridor; final track and stop geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[4.887, 45.703], [4.877, 45.718], [4.858, 45.735], [4.847, 45.750], [4.838, 45.765]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Toulouse Metro Line B Extension to Labège",
+        "agency": "Tisséo Collectivités / Toulouse Métropole",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "France",
+        "city": "Toulouse",
+        "status": "construction",
+        "statusText": "Construction and Systems Coordination",
+        "timeline": "The Line B extension will add 2.7 km and two stations from Ramonville to Labège, with service planned for 2027 and an interchange with Line C.",
+        "description": "Toulouse is extending its existing Line B south to Labège with Parc du Canal and Labège Madron stations, linking the corridor to the future Line C.",
+        "color": "#2563eb",
+        "milestones": ["2.7 km extension planned", "Two new stations", "Works coordinated with Line C and active in 2026"],
+        "source_url": "https://projetsmetro.tisseo.fr/le-projet-ligne-b",
+        "geometry_note": "Approximate Ramonville–Parc du Canal–Labège corridor; final alignment and station geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[1.474, 43.546], [1.486, 43.540], [1.505, 43.532], [1.530, 43.527]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hamburg U5",
+        "agency": "HOCHBAHN U5 Projekt GmbH",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Germany",
+        "city": "Hamburg",
+        "status": "construction",
+        "statusText": "First Section Under Construction",
+        "timeline": "The first section from Bramfeld through City Nord is under construction, while the eastern and western sections continue through design and approval planning in 2026.",
+        "description": "Hamburg’s new fully automated U5 will cross the city from Bramfeld and City Nord through the centre toward the western arenas and eventually Osdorf.",
+        "color": "#9333ea",
+        "milestones": ["Bramfeld–City Nord first section under construction", "City Nord station structural works progressing", "Further sections in design and approval planning"],
+        "source_url": "https://www.hochbahn.de/de/presse/pressemitteilungen/u5-entscheidende-bauphase-an-der-sengelmannstrasse--119190",
+        "geometry_note": "Approximate Bramfeld–City Nord–central Hamburg–western arenas corridor; final station and tunnel geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.083, 53.611], [10.057, 53.600], [10.025, 53.592], [9.990, 53.571], [9.950, 53.566], [9.910, 53.591]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cologne North–South Stadtbahn Stage 3",
+        "agency": "Stadt Köln / Kölner Verkehrs-Betriebe",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Germany",
+        "city": "Cologne",
+        "status": "construction",
+        "statusText": "Delayed Construction",
+        "timeline": "The third stage on Bonner Straße is under construction, with track completion and KVB operation targeted for 2029 after delays from unexploded-ordnance investigations.",
+        "description": "The surface section of Cologne’s North–South Stadtbahn extends the tram and light-rail corridor south along Bonner Straße toward Bayenthal and Marienburg.",
+        "color": "#ca8a04",
+        "milestones": ["Works active across all construction sections", "Track and overhead works progressing", "Operation targeted for 2029"],
+        "source_url": "https://www.stadt-koeln.de/politik-und-verwaltung/presseservice/nord-sued-stadtbahn-arbeiten-auf-der-bonner-strasse-schreiten-voran",
+        "geometry_note": "Approximate Innenstadt–Bayenthal–Marienburg corridor; construction-stage track and stop geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[6.957, 50.925], [6.965, 50.906], [6.968, 50.885], [6.968, 50.866], [6.970, 50.847]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frankfurt U5 Europaviertel Extension",
+        "agency": "Stadt Frankfurt am Main / SBEV",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Germany",
+        "city": "Frankfurt",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "The U5 is being extended underground beyond Frankfurt Hauptbahnhof into the Europaviertel, with tunnel fit-out works active in 2026.",
+        "description": "Frankfurt’s U5 Europaviertel extension connects the central station to the new Europaviertel district through the future Güterplatz station and additional western stops.",
+        "color": "#0f766e",
+        "milestones": ["Underground route construction underway", "Güterplatz tunnel fit-out active in 2026", "Europaviertel connected beyond the main station"],
+        "source_url": "https://frankfurt.de/aktuelle-meldung/Meldungen/Verlaengerung-U5-ins-Europaviertel/",
+        "geometry_note": "Approximate Hauptbahnhof–Europaviertel corridor; underground alignment and station geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[8.663, 50.107], [8.650, 50.106], [8.632, 50.105], [8.614, 50.105]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Milan Metro M5 Extension to Monza",
+        "agency": "Comune di Milano / Metropolitana Milanese",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Italy",
+        "city": "Milan",
+        "status": "planning",
+        "statusText": "Financed and Preparing Procurement",
+        "timeline": "The M5 extension beyond Bignami will add 11 stations through Cinisello Balsamo and Monza, with a revised €589 million city allocation approved in 2026.",
+        "description": "Milan’s purple line will cross into Monza, adding connections at Monza FS, San Gerardo Hospital, the Villa Reale, and the city’s institutional centre.",
+        "color": "#7c3aed",
+        "milestones": ["New economic framework approved in June 2026", "11 new stations planned", "International construction tender prepared"],
+        "source_url": "https://www.comune.milano.it/en/w/opere-pubbliche.-m5-approvato-il-nuovo-quadro-economico-per-il-prolungamento-a-monza",
+        "geometry_note": "Approximate Bignami–Cinisello–Monza corridor; final alignment and station geometry remain subject to procurement."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.214, 45.526], [9.218, 45.545], [9.211, 45.564], [9.215, 45.585], [9.230, 45.610], [9.250, 45.625]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Milan Metro M3 Extension to Paullo",
+        "agency": "Comune di Milano / Città Metropolitana di Milano",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Italy",
+        "city": "Milan",
+        "status": "planning",
+        "statusText": "Feasibility Project Approved",
+        "timeline": "The M3 extension along the Paullese corridor has an approved technical-economic feasibility project and is being prepared for future national funding calls.",
+        "description": "Milan is studying an eastern extension of the yellow M3 line along the Paullese corridor to improve rapid-transit access toward San Donato and Paullo.",
+        "color": "#eab308",
+        "milestones": ["Feasibility project approved in August 2026", "Funding application pathway being prepared", "Paullese corridor selected for further development"],
+        "source_url": "https://www.comune.milano.it/w/mobilit%C3%A0.-approvato-il-pfte-per-il-prolungamento-della-m3-verso-paullo",
+        "geometry_note": "Approximate San Donato–Paullese–Paullo corridor; mode, alignment, and station geometry remain subject to further design."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.255, 45.429], [9.285, 45.420], [9.330, 45.410], [9.385, 45.402], [9.445, 45.405]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bologna Tram Line Red",
+        "agency": "Comune di Bologna",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Italy",
+        "city": "Bologna",
+        "status": "construction",
+        "statusText": "Final Construction and Commissioning",
+        "timeline": "The first Bologna tram line is in final construction and street-reopening works in 2026 after track installation across the city corridor.",
+        "description": "The Red Line will connect Borgo Panigale and the western suburbs through Bologna’s centre to the eastern San Donato and Fiera area.",
+        "color": "#dc2626",
+        "milestones": ["Track works completed in several central sections", "Final street and tramway works continuing", "Commissioning follows the construction phase"],
+        "source_url": "https://www.comune.bologna.it/novita/comunicati-stampa/tram-linea-rossa-rimosse-le-reti-di-cantiere-saffi-e-emilia-ponente",
+        "geometry_note": "Approximate Borgo Panigale–city centre–San Donato/Fiera corridor; final track and stop geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[11.280, 44.510], [11.300, 44.505], [11.340, 44.500], [11.350, 44.505], [11.380, 44.510], [11.410, 44.515]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bologna Tram Line Green",
+        "agency": "Comune di Bologna",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Italy",
+        "city": "Bologna",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "The Green Line’s northern works include the Via Corticella underpass and related track packages, with construction activity continuing in 2026.",
+        "description": "Bologna’s Green Line will connect the northern city and Corticella corridor with the existing network, complementing the Red Line and forming a connected tram system.",
+        "color": "#16a34a",
+        "milestones": ["Northern section works active", "Via Corticella underpass included", "Line planned as the second connected tram corridor"],
+        "source_url": "https://atti9.comune.bologna.it/webpub/wpub_ordtraf.nsf/dettaglio.xsp?action=openDocument&documentId=B8078DF531B8B5BBC1258E050035708A",
+        "geometry_note": "Approximate northern Bologna–Corticella corridor; final route and stop geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[11.345, 44.530], [11.350, 44.550], [11.355, 44.575], [11.365, 44.600], [11.380, 44.625]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Florence Tram Line 3.2.1 to Bagno a Ripoli",
+        "agency": "Comune di Firenze / Tram di Firenze",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Italy",
+        "city": "Florence",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "The 7.2 km, 17-stop line from Piazza della Libertà to Bagno a Ripoli is in construction and active work-zone management in 2026.",
+        "description": "Florence is extending its tram network east across the Arno to Bagno a Ripoli, linking the city centre, Viale Europa, and the suburban terminus at Via Granacci.",
+        "color": "#0891b2",
+        "milestones": ["7.2 km and 17 stops planned", "Executive project approved", "Construction sites and traffic changes active in 2026"],
+        "source_url": "https://mobilita.comune.fi.it/tramvia/sistema_tramviario/linea3.2.1.html",
+        "geometry_note": "Approximate Piazza della Libertà–Arno–Bagno a Ripoli corridor; final track and stop geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[11.263, 43.780], [11.274, 43.772], [11.282, 43.765], [11.305, 43.760], [11.330, 43.752], [11.355, 43.745]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Florence Tram Line 3.2.2 to Rovezzano",
+        "agency": "Comune di Firenze / Tram di Firenze",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Italy",
+        "city": "Florence",
+        "status": "planning",
+        "statusText": "Definitive Project and Delivery Planning",
+        "timeline": "The Piazza della Libertà–Rovezzano extension has a definitive project and delivery agreement approved at the end of 2025.",
+        "description": "Florence’s Line 3.2.2 will extend the eastern tram network from Piazza della Libertà toward Rovezzano and the eastern rail corridor.",
+        "color": "#0369a1",
+        "milestones": ["Definitive project approved in December 2025", "Public-utility declaration completed", "Executive design and works delivery being arranged"],
+        "source_url": "https://mobilita.comune.fi.it/tramvia/sistema_tramviario/sistema.html",
+        "geometry_note": "Approximate Piazza della Libertà–Rovezzano corridor; final alignment and stop geometry remain subject to detailed design."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[11.263, 43.780], [11.278, 43.784], [11.300, 43.785], [11.325, 43.786], [11.350, 43.783]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seville Metro Line 3 North",
+        "agency": "Junta de Andalucía / Agencia de Obra Pública",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Spain",
+        "city": "Seville",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "The northern section from Pino Montano through San Lázaro and Macarena to Prado is under construction, with works active across multiple sections in 2026.",
+        "description": "Seville’s Line 3 North is a new metro corridor linking the northern districts and major hospitals with the city centre at Prado de San Sebastián.",
+        "color": "#1d4ed8",
+        "milestones": ["More than half of the route in execution", "Hospital Macarena station works advancing", "Utility crossings and tunnel works active in 2026"],
+        "source_url": "https://www.juntadeandalucia.es/organismos/aopja/servicios/actualidad/noticias/detalle/670618.html",
+        "geometry_note": "Approximate Pino Montano–San Lázaro–Macarena–Prado corridor; the underground alignment and station geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-5.960, 37.430], [-5.970, 37.415], [-5.982, 37.400], [-5.985, 37.385], [-5.990, 37.375]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Málaga Metro Line 2 to Hospital Civil",
+        "agency": "Junta de Andalucía / Metro de Málaga",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Spain",
+        "city": "Málaga",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "The Line 2 extension from Guadalmedina to Hospital Civil is being built in three sections, with construction continuing in 2026.",
+        "description": "Málaga is extending Line 2 north from Guadalmedina through the city to the Hospital Civil and the northern hospital district.",
+        "color": "#ea580c",
+        "milestones": ["Three extension sections in execution", "Tunnel works active in Calle Hilera", "2026 program continues construction toward Hospital Civil"],
+        "source_url": "https://www.juntadeandalucia.es/organismos/avra/servicios/actualidad/noticias/detalle/623326.html",
+        "geometry_note": "Approximate Guadalmedina–Hospital Civil corridor; underground alignment and station geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-4.426, 36.718], [-4.431, 36.728], [-4.433, 36.738], [-4.431, 36.748]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Granada Metro South Extension",
+        "agency": "Junta de Andalucía / Metro de Granada",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Spain",
+        "city": "Granada",
+        "status": "construction",
+        "statusText": "Construction and Completion Works",
+        "timeline": "The southern extension toward Churriana de la Vega and Armilla is being completed alongside 2026 planning for future network expansions.",
+        "description": "Granada’s metro is extending south through Armilla toward Churriana de la Vega, adding service to growing suburban districts south of the city.",
+        "color": "#16a34a",
+        "milestones": ["Southern extension works continuing", "Churriana de la Vega and Armilla served by the extension", "2026 works focus on completion and commissioning"],
+        "source_url": "https://www.juntadeandalucia.es/organismos/avra/servicios/actualidad/noticias/detalle/623326.html",
+        "geometry_note": "Approximate Granada centre–Armilla–Churriana de la Vega corridor; final track and stop geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-3.607, 37.176], [-3.609, 37.160], [-3.616, 37.145], [-3.640, 37.135]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alcalá de Guadaíra Tramway",
+        "agency": "Junta de Andalucía / Agencia de Obra Pública",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Spain",
+        "city": "Alcalá de Guadaíra",
+        "status": "construction",
+        "statusText": "Final Systems and Commissioning Works",
+        "timeline": "The 4.7 km, 10-stop tramway is in final signaling, electrification, finishing, and depot works in the 2026 program.",
+        "description": "The Alcalá de Guadaíra tram will connect the town centre and university corridor with the Seville Metro Line 1 interchange at Pablo de Olavide.",
+        "color": "#ca8a04",
+        "milestones": ["4.7 km and 10 stops", "Signaling and electrification works scheduled for completion", "Depot and workshop commissioning included"],
+        "source_url": "https://www.juntadeandalucia.es/export/proy_presup2026/presentacion/presentacion-4-11.pdf",
+        "geometry_note": "Approximate Pablo de Olavide–Alcalá de Guadaíra corridor; final track and stop geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-5.934, 37.358], [-5.900, 37.354], [-5.865, 37.350], [-5.840, 37.347]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crossrail 2",
+        "agency": "Transport for London / Department for Transport",
+        "category": "Regional Rail",
+        "region": "Europe",
+        "country": "United Kingdom",
+        "city": "London",
+        "status": "planning",
+        "statusText": "Safeguarded and Paused",
+        "timeline": "The proposed regional railway would link Surrey and Hertfordshire through a new north–south tunnel under central London; design development remains paused while the route is safeguarded.",
+        "description": "Crossrail 2 is a protected long-term regional rail project connecting Wimbledon and suburban Surrey with Tottenham Hale and New Southgate in north-east London.",
+        "color": "#7c3aed",
+        "milestones": ["Route safeguarded", "Design and development paused since 2020", "Construction powers and funding not yet authorized"],
+        "source_url": "https://tfl.gov.uk/corporate/about-tfl/how-we-work/planning-for-the-future/crossrail-2",
+        "geometry_note": "Approximate Wimbledon–central London–Tottenham Hale/New Southgate corridor; the safeguarded route remains subject to future revision."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-0.214, 51.421], [-0.185, 51.445], [-0.150, 51.490], [-0.135, 51.530], [-0.110, 51.570], [-0.098, 51.617]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DLR Beckton Riverside–Thamesmead Extension",
+        "agency": "Transport for London",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "United Kingdom",
+        "city": "London",
+        "status": "planning",
+        "statusText": "Consultation and Consent Preparation",
+        "timeline": "The proposed cross-river extension from Gallions Reach through Beckton Riverside to Thamesmead is being developed for a Transport and Works Act application in 2027.",
+        "description": "The DLR extension would add a new station at Beckton Riverside and a tunnel under the Thames to a new Thamesmead station, connecting two major east-London growth areas.",
+        "color": "#0369a1",
+        "milestones": ["Public consultation completed in July 2026", "Environmental assessment continuing", "Application planned for early 2027"],
+        "source_url": "https://tfl.gov.uk/corporate/about-tfl/how-we-work/planning-for-the-future/dlr-extension",
+        "geometry_note": "Approximate Gallions Reach–Beckton Riverside–Thamesmead corridor; river crossing and station geometry remain subject to consent."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[0.102, 51.508], [0.128, 51.510], [0.150, 51.500], [0.165, 51.486], [0.122, 51.495]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DART+ West",
+        "agency": "Iarnród Éireann / National Transport Authority",
+        "category": "Regional Rail",
+        "region": "Europe",
+        "country": "Ireland",
+        "city": "Dublin",
+        "status": "approved",
+        "statusText": "Statutorily Approved, Enabling Works Due",
+        "timeline": "DART+ West will electrify and expand frequent rail service from Maynooth and the M3 Parkway to Dublin city centre, with enabling works expected from 2026.",
+        "description": "DART+ West extends Dublin’s electrified suburban rail network west to Maynooth and the M3 Parkway through the existing northern city approach.",
+        "color": "#0891b2",
+        "milestones": ["Railway design received statutory approval in 2024", "Enabling works expected in 2026", "Part of the program expanding the DART network beyond 150 km"],
+        "source_url": "https://www.dartplus.ie/en-ie/projects/dart-west",
+        "geometry_note": "Approximate Dublin city centre–Maynooth/M3 Parkway corridor; track, station, and electrification works are schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-6.250, 53.349], [-6.300, 53.355], [-6.370, 53.365], [-6.445, 53.380], [-6.590, 53.382]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DART+ South West",
+        "agency": "Iarnród Éireann / National Transport Authority",
+        "category": "Regional Rail",
+        "region": "Europe",
+        "country": "Ireland",
+        "city": "Dublin",
+        "status": "planning",
+        "statusText": "Railway Order and Delivery Planning",
+        "timeline": "DART+ South West will expand and electrify the Kildare line from Hazelhatch and Celbridge to Dublin city centre as part of the DART+ program.",
+        "description": "The south-western DART+ project will bring more frequent electrified rail service to Hazelhatch, Celbridge, Clondalkin, and the western approach to Dublin.",
+        "color": "#16a34a",
+        "milestones": ["Hazelhatch–city centre corridor identified", "Electrification and capacity upgrades planned", "Part of the wider DART+ network program"],
+        "source_url": "https://www.dartplus.ie/en-ie/projects/dart-south-west",
+        "geometry_note": "Approximate Hazelhatch–Celbridge–Dublin corridor; final station, track, and electrification geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-6.480, 53.270], [-6.420, 53.292], [-6.350, 53.320], [-6.300, 53.340], [-6.250, 53.349]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DART+ Coastal North",
+        "agency": "Iarnród Éireann / National Transport Authority",
+        "category": "Regional Rail",
+        "region": "Europe",
+        "country": "Ireland",
+        "city": "Dublin",
+        "status": "planning",
+        "statusText": "Railway Order and Delivery Planning",
+        "timeline": "DART+ Coastal North will expand and electrify the coastal rail corridor from Drogheda to Dublin city centre, improving capacity and frequency.",
+        "description": "The Coastal North project extends the DART model north through Malahide, Balbriggan, and Drogheda while upgrading the existing Dublin coastal route.",
+        "color": "#1d4ed8",
+        "milestones": ["Drogheda–city centre corridor included in DART+", "Electrification and capacity upgrades planned", "Frequent modern service planned for coastal communities"],
+        "source_url": "https://www.dartplus.ie/en-ie/projects/dart-coastal-north",
+        "geometry_note": "Approximate Dublin–Malahide–Balbriggan–Drogheda corridor; final track and station geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-6.250, 53.349], [-6.150, 53.450], [-6.130, 53.610], [-6.120, 53.720], [-6.350, 53.715]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cork Area Commuter Rail Programme Phase 1",
+        "agency": "Iarnród Éireann / National Transport Authority",
+        "category": "Regional Rail",
+        "region": "Europe",
+        "country": "Ireland",
+        "city": "Cork",
+        "status": "construction",
+        "statusText": "Capacity and Signalling Works",
+        "timeline": "Phase 1 includes Cork Kent platform works, the Glounthaune–Midleton twin-track project, and signalling upgrades scheduled for completion in 2026.",
+        "description": "The Cork Area Commuter Rail Programme is expanding capacity on the Cobh, Midleton, and Mallow commuter corridors ahead of longer-term electrification.",
+        "color": "#ca8a04",
+        "milestones": ["New Kent Station platform opened", "Glounthaune–Midleton twin-track works scheduled for 2026", "Cork signalling and communications upgrade included"],
+        "source_url": "https://www.transportforireland.ie/news/official-opening-of-new-platform-6-at-kent-station-cork-by-taoiseach-eu-commissioner-and-transport-minister-obrien/",
+        "geometry_note": "Approximate Cork Kent–Glounthaune–Midleton commuter corridor; phase-one rail works are represented schematically."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-8.473, 51.901], [-8.390, 51.908], [-8.280, 51.915], [-8.170, 51.916]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Utrecht Merwedelijn",
+        "agency": "Gemeente Utrecht / Gemeente Nieuwegein / Province of Utrecht",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Netherlands",
+        "city": "Utrecht",
+        "status": "planning",
+        "statusText": "Preferred Option Under Consultation",
+        "timeline": "The proposed tram between Utrecht and Nieuwegein has a provisional preference for a sunken route toward Westraven, with a formal decision expected no earlier than late 2026.",
+        "description": "The Merwedelijn would provide a high-capacity tram connection from Utrecht Centraal through the growing Merwedekanaalzone toward Nieuwegein and future southern development.",
+        "color": "#0891b2",
+        "milestones": ["National and regional funding commitments assembled", "Provisional preferred option published", "Public reaction and formal decision process continuing in 2026"],
+        "source_url": "https://www.utrecht.nl/wonen-en-leven/verkeer/openbaar-vervoer/investeren-in-bereikbaarheid",
+        "geometry_note": "Approximate Utrecht Centraal–Merwedekanaalzone–Westraven/Nieuwegein corridor; mode, route, and stop geometry remain subject to decision."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[5.110, 52.089], [5.100, 52.075], [5.095, 52.055], [5.090, 52.035], [5.080, 52.015]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brno Tram Line 1 to Kamechy",
+        "agency": "Dopravní podnik města Brna / City of Brno",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Czechia",
+        "city": "Brno",
+        "status": "construction",
+        "statusText": "Under Construction",
+        "timeline": "The 1.4 km Line 1 extension to Kamechy includes three new stops and a completed tunnel breakthrough, with first passengers planned for late 2027.",
+        "description": "Brno is extending tram Line 1 from Bystrc toward the Kamechy housing area, including the Ruda, Říčanská, and Kamechy stops.",
+        "color": "#7c3aed",
+        "milestones": ["Tunnel breakthrough completed in June 2026", "1.4 km and three stops", "Passenger service planned for late 2027"],
+        "source_url": "https://bystrc.brno.cz/w/prodlouzeni-tt-kamechy-aktualni-informace",
+        "geometry_note": "Approximate Bystrc–Ečerova–Kamechy corridor; final track and stop geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[16.519, 49.218], [16.507, 49.220], [16.495, 49.224], [16.482, 49.228]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Hague Koningscorridor",
+        "agency": "Gemeente Den Haag / Metropolitan Region Rotterdam The Hague",
+        "category": "Regional Rail",
+        "region": "Europe",
+        "country": "Netherlands",
+        "city": "The Hague",
+        "status": "planning",
+        "statusText": "Long-Term HOV Planning",
+        "timeline": "The planned high-quality transit corridor would connect Scheveningen and the International Zone through Den Haag Centraal and Binckhorst toward Voorburg, Zoetermeer, or Delft.",
+        "description": "The Koningscorridor is a long-term high-capacity transit project for The Hague’s central and eastern growth areas, complementing RandstadRail and existing tram corridors.",
+        "color": "#0369a1",
+        "milestones": ["Corridor to Voorburg is concrete in current planning", "Long-term HOV delivery targeted around 2040", "Further western/eastern extensions remain under study"],
+        "source_url": "https://www.denhaag.nl/nl/verkeer-en-vervoer/ov-next-openbaar-vervoer-van-de-toekomst/",
+        "geometry_note": "Approximate Scheveningen–Den Haag Centraal–Binckhorst–Voorburg corridor; mode and final alignment remain under study."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[4.275, 52.105], [4.290, 52.090], [4.322, 52.080], [4.360, 52.082], [4.390, 52.090]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Charleroi Metro M5 Extension to Les Viviers",
+        "agency": "TEC / Opérateur de Transport de Wallonie",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Belgium",
+        "city": "Charleroi",
+        "status": "construction",
+        "statusText": "Systems and Station Works",
+        "timeline": "The M5 extension and renovation project is in equipment and finishing works in 2026, with service to Les Viviers planned for 2027.",
+        "description": "Charleroi is completing the light-metro extension from the existing network toward the Les Viviers terminus and the future Grand Hôpital de Charleroi in Gilly.",
+        "color": "#dc2626",
+        "milestones": ["Six existing stations being renovated", "Two new stations at Corbeau and Les Viviers", "Electrical and signaling works scheduled in 2026"],
+        "source_url": "https://presse.ch.letec.be/metro-5--les-travaux-avancent-a-grands-pas-mise-en-service-prevue-en-2027",
+        "geometry_note": "Approximate Charleroi central network–Gilly–Les Viviers corridor; the reused and extended infrastructure is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[4.444, 50.410], [4.468, 50.405], [4.490, 50.395], [4.510, 50.385]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lausanne Metro M3",
+        "agency": "Canton of Vaud / Ville de Lausanne",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Switzerland",
+        "city": "Lausanne",
+        "status": "planning",
+        "statusText": "Route and Interchange Design",
+        "timeline": "The planned third metro line will connect Lausanne station and the city centre with the northern Blécherette district; the station interface and route concept are being refined.",
+        "description": "Lausanne’s M3 is intended to add a north–south metro axis from the main station toward Blécherette, complementing the existing M2 and the planned tram network.",
+        "color": "#9333ea",
+        "milestones": ["Third metro line retained in city planning", "Direct station-to-Chauderon concept under refinement", "Northern Blécherette connection remains the core objective"],
+        "source_url": "https://www.lausanne.ch/apps/actualites/Next/serve.php?id=10116",
+        "geometry_note": "Approximate Lausanne station–Chauderon–Blécherette corridor; station configuration and final alignment remain under design."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[6.629, 46.516], [6.632, 46.523], [6.630, 46.532], [6.625, 46.545], [6.620, 46.560]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Paris Express Line 15 East",
+        "agency": "Société des grands projets / Île-de-France Mobilités",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "France",
+        "city": "Paris",
+        "status": "construction",
+        "statusText": "Tunnel and Station Construction",
+        "timeline": "The eastern section of Grand Paris Express Line 15 is under construction, with first service planned for 2031.",
+        "description": "Line 15 East will complete the eastern arc of the Grand Paris Express between Saint-Denis Pleyel and Champigny Centre, serving Seine-Saint-Denis and eastern Val-de-Marne.",
+        "color": "#be185d",
+        "milestones": ["Preparatory works began at stations", "Tunnel boring expanded in 2026", "Service planned for 2031"],
+        "source_url": "https://www.grandparisexpress.fr/ligne-15-est/gare-drancy-bobigny",
+        "geometry_note": "Approximate Saint-Denis Pleyel–Drancy–Bobigny–Champigny corridor; the station and tunnel alignment is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[2.356, 48.917], [2.382, 48.915], [2.432, 48.910], [2.488, 48.905], [2.548, 48.818]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nantes Tram Line 6",
+        "agency": "Nantes Métropole / Naolib",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "France",
+        "city": "Nantes",
+        "status": "construction",
+        "statusText": "Works Underway",
+        "timeline": "The new Line 6 is being built between Rezé and Babinière, with delivery planned for the end of 2027.",
+        "description": "Nantes Tram Line 6 will cross the Loire and connect Rezé, the Île de Nantes, central Nantes, and La Chapelle-sur-Erdre.",
+        "color": "#0f766e",
+        "milestones": ["Rails installed on the Île de Nantes", "Pont Anne-de-Bretagne works support the line", "Delivery planned for late 2027"],
+        "source_url": "https://metropole.nantes.fr/ma-ville-ma-metropole/les-grands-projets/de-nouvelles-lignes-de-transport-pour-mieux-se-deplacer",
+        "geometry_note": "Approximate Rezé–Île de Nantes–Nantes–Babinière corridor; new track and stop locations are schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-1.550, 47.190], [-1.548, 47.205], [-1.560, 47.212], [-1.550, 47.225], [-1.548, 47.270], [-1.552, 47.300]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nantes Tram Line 7",
+        "agency": "Nantes Métropole / Naolib",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "France",
+        "city": "Nantes",
+        "status": "construction",
+        "statusText": "Works Underway",
+        "timeline": "The new Line 7 is being built between Rezé and François Mitterrand in Saint-Herblain, with delivery planned for the end of 2027.",
+        "description": "Nantes Tram Line 7 will connect Rezé and the Île de Nantes to the western districts of Nantes and Saint-Herblain.",
+        "color": "#c2410c",
+        "milestones": ["New rails laid on the Île de Nantes", "Shared bridge and interchange works underway", "Delivery planned for late 2027"],
+        "source_url": "https://metropole.nantes.fr/ma-ville-ma-metropole/les-grands-projets/de-nouvelles-lignes-de-transport-pour-mieux-se-deplacer",
+        "geometry_note": "Approximate Rezé–Île de Nantes–François Mitterrand corridor; new track and stop locations are schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-1.550, 47.190], [-1.548, 47.205], [-1.560, 47.212], [-1.575, 47.225], [-1.605, 47.235], [-1.640, 47.235]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nantes Busway Line 8",
+        "agency": "Nantes Métropole / Naolib",
+        "category": "BRT",
+        "region": "Europe",
+        "country": "France",
+        "city": "Nantes",
+        "status": "construction",
+        "statusText": "Bridge and Corridor Works",
+        "timeline": "The electric Busway Line 8 is being prepared between Bouguenais and Thouaré-sur-Loire, with service planned for September 2027.",
+        "description": "Nantes Busway Line 8 will provide a new cross-metropolitan electric rapid-transit connection using the new Loire crossings and upgraded corridors.",
+        "color": "#0369a1",
+        "milestones": ["Pont des Trois-Continents works started", "Electric Busway route planned at about 24 km", "Service planned for September 2027"],
+        "source_url": "https://metropole.nantes.fr/ma-ville-ma-metropole/les-grands-projets/de-nouvelles-lignes-de-transport-pour-mieux-se-deplacer",
+        "geometry_note": "Approximate Bouguenais–Nantes–Thouaré-sur-Loire corridor; dedicated lanes and stop locations are schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-1.625, 47.180], [-1.590, 47.195], [-1.550, 47.215], [-1.500, 47.240], [-1.440, 47.270]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lisbon Metro Circular Line",
+        "agency": "Metropolitano de Lisboa, EPE",
+        "category": "Heavy Rail",
+        "region": "Europe",
+        "country": "Portugal",
+        "city": "Lisbon",
+        "status": "construction",
+        "statusText": "Final Construction and Systems Works",
+        "timeline": "The Circular Line extension between Rato and Cais do Sodré is in its final construction and systems phase.",
+        "description": "Lisbon Metro is joining the Rato and Cais do Sodré branches through new stations at Estrela and Santos to create the Circular Line.",
+        "color": "#dc2626",
+        "milestones": ["Rato–Cais do Sodré tunnel and stations under construction", "Cais do Sodré works tracked through monthly reports", "Final systems and finishing works continuing in 2026"],
+        "source_url": "https://projetos.metrolisboa.pt/siga-os-trabalhos-das-obras-de-expansao-da-linha-circular/",
+        "geometry_note": "Approximate Rato–Estrela–Santos–Cais do Sodré alignment; tunnel and station geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-9.160, 38.716], [-9.163, 38.714], [-9.162, 38.710], [-9.158, 38.706], [-9.145, 38.706]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lyon Tram T9",
+        "agency": "SYTRAL Mobilités / Métropole de Lyon",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "France",
+        "city": "Lyon",
+        "status": "construction",
+        "statusText": "Construction and Bridge Works",
+        "timeline": "The new T9 is being built between Vaulx-en-Velin La Soie and Charpennes, with service targeted for 2026.",
+        "description": "Lyon Tram T9 will create a new east-side north–south connection through Vaulx-en-Velin and Villeurbanne, linking the La Soie and Charpennes areas.",
+        "color": "#b45309",
+        "milestones": ["New line construction began", "New bridge works support the crossing near Croix-Luizet", "Service targeted for 2026"],
+        "source_url": "https://www.tcl.fr/se-deplacer/travaux-en-cours-sur-le-reseau-tcl/travaux-prolongement-t6-t9-et-t10",
+        "geometry_note": "Approximate La Soie–Vaulx-en-Velin–Villeurbanne–Charpennes corridor; new track and bridge alignment is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[4.925, 45.761], [4.940, 45.775], [4.925, 45.790], [4.910, 45.805], [4.875, 45.785]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lyon Tram T6 Extension to La Doua",
+        "agency": "SYTRAL Mobilités / Métropole de Lyon",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "France",
+        "city": "Lyon",
+        "status": "opened",
+        "statusText": "Opened February 2026",
+        "timeline": "The northern extension of Lyon Tram T6 to La Doua entered service on 14 February 2026.",
+        "description": "The T6 extension adds a new east-Lyon connection from Hôpitaux Est through Villeurbanne and the Gratte-Ciel district to the La Doua university campus.",
+        "color": "#16a34a",
+        "milestones": ["5.6 km extension completed", "Ten new accessible stations added", "Passenger service began 14 February 2026"],
+        "source_url": "https://www.grandlyon.com/actualite/le-tramway-t6-pousse-jusqua-la-doua",
+        "geometry_note": "Approximate Hôpitaux Est–Grandclément–Gratte-Ciel–La Doua corridor; the opened extension is represented schematically."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[4.900, 45.735], [4.895, 45.750], [4.885, 45.765], [4.880, 45.780], [4.875, 45.785]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Budapest Buda Tram Network Phase II",
+        "agency": "Budapesti Közlekedési Központ / Ministry of Construction and Transport",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Hungary",
+        "city": "Budapest",
+        "status": "construction",
+        "statusText": "Funding Secured, Works Starting",
+        "timeline": "The second phase of the Buda interwoven tram network is funded, with preparatory works expected to begin in autumn 2026 and completion planned for 2029.",
+        "description": "The project will build a 2.8 km double-track tram connection from Szent Gellért tér along the Danube to the Kopaszi-gát and BudaPart area.",
+        "color": "#7c3aed",
+        "milestones": ["EU and state funding agreement signed", "2.8 km of new double track", "Seven pairs of accessible stops planned"],
+        "source_url": "https://bkk.hu/hirek/2026/07/meg-az-osszel-elkezdodhet-a-budai-fonodo-villamoshalozat-masodik-utemenek-megvalositasa.16941/",
+        "geometry_note": "Approximate Szent Gellért tér–Műegyetem rakpart–Kopaszi-gát corridor; final track and stop geometry is schematic."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[19.046, 47.483], [19.050, 47.481], [19.056, 47.477], [19.064, 47.472], [19.072, 47.468]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Budapest Pest Tram Network Phase II",
+        "agency": "Budapesti Közlekedési Központ",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "Hungary",
+        "city": "Budapest",
+        "status": "planning",
+        "statusText": "Permitting Design",
+        "timeline": "The second phase of Budapest’s Pest interwoven tram project is in permitting design for a new tram route along Bajcsy-Zsilinszky út and southern Váci út.",
+        "description": "The project would restore a central Pest tram connection between Lehel tér and Deák Ferenc tér and improve links to the inner-city network.",
+        "color": "#2563eb",
+        "milestones": ["Decision-preparation phase completed", "Permitting designs underway in 2026", "Public and professional consultation continuing"],
+        "source_url": "https://bkk.hu/hirek/2026/05/engedelyezesi-tervek-szakaszaban-a-pesti-fonodo-villamos-ulesezik-a-mobilitasi-temacsoport.16674/",
+        "geometry_note": "Approximate Lehel tér–Bajcsy-Zsilinszky út–Deák Ferenc tér corridor; route and stop design remain subject to permitting."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[19.056, 47.517], [19.055, 47.510], [19.054, 47.502], [19.055, 47.495], [19.050, 47.498]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marseille Tramway Extension to Place du 4 Septembre",
+        "agency": "Métropole Aix-Marseille-Provence / Ville de Marseille",
+        "category": "Streetcar",
+        "region": "Europe",
+        "country": "France",
+        "city": "Marseille",
+        "status": "planning",
+        "statusText": "Public Inquiry Completed",
+        "timeline": "The Catalans tramway extension from Rue de Rome toward Place du 4-Septembre was the subject of a public inquiry in May and June 2026.",
+        "description": "The planned extension would take Marseille’s tram network west through the Catalans and Pharo area toward Place du 4-Septembre.",
+        "color": "#ea580c",
+        "milestones": ["Public inquiry opened by prefectural order", "Inquiry held from May to June 2026", "Final alignment and delivery remain subject to the project process"],
+        "source_url": "https://mairie1-7.marseille.fr/actualites/enquete-publique-sur-le-projet-dextension-du-tramway-catalans",
+        "geometry_note": "Approximate Rue de Rome–Catalans–Place du 4-Septembre corridor; final alignment and stop locations remain subject to approval."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[5.378, 43.292], [5.365, 43.292], [5.355, 43.293], [5.345, 43.294], [5.332, 43.294]]
+      }
     }
   ]
 }
