@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **Map labels**: Show labels for longer corridors at wider zoom levels while keeping smaller projects uncluttered until closer in.
 - **Status labels**: Changed the visible `Plan` and `Build` labels to `Planning` and `Construction` for clearer grammar.
 - **Search header**: Collapsed project search behind the same compact toggle on desktop and mobile, leaving more room for the index header.
 - **Source audit**: Enriched Athens, Brussels, Dublin, and Oslo projects with official English and local-language references for easier fact-checking.

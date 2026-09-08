@@ -86,6 +86,38 @@ function featureCentroid(feature) {
     return [lon / pts.length, lat / pts.length];
 }
 
+function coordinateDistanceKm(a, b) {
+    const earthRadiusKm = 6371;
+    const toRadians = value => value * Math.PI / 180;
+    const dLat = toRadians(b[1] - a[1]);
+    const dLon = toRadians(b[0] - a[0]);
+    const lat1 = toRadians(a[1]);
+    const lat2 = toRadians(b[1]);
+    const sinLat = Math.sin(dLat / 2);
+    const sinLon = Math.sin(dLon / 2);
+    const arc = sinLat * sinLat + Math.cos(lat1) * Math.cos(lat2) * sinLon * sinLon;
+    return 2 * earthRadiusKm * Math.atan2(Math.sqrt(arc), Math.sqrt(1 - arc));
+}
+
+function featureLengthKm(feature) {
+    const lines = feature.geometry?.type === 'LineString'
+        ? [feature.geometry.coordinates]
+        : feature.geometry?.type === 'MultiLineString'
+            ? feature.geometry.coordinates
+            : [];
+    return lines.reduce((total, line) => total + line.slice(1).reduce(
+        (length, point, index) => length + coordinateDistanceKm(line[index], point),
+        0
+    ), 0);
+}
+
+function labelMinZoom(lengthKm) {
+    if (lengthKm >= 500) return 3.2;
+    if (lengthKm >= 150) return 4;
+    if (lengthKm >= 40) return 4.8;
+    return 5.6;
+}
+
 function escapeHtml(str) {
     return String(str)
         .replace(/&/g, '&amp;')
@@ -157,7 +189,8 @@ function buildLabelCollection(projects) {
                     name: p.properties.name,
                     status: p.properties.status,
                     statusText: p.properties.statusText || p.properties.status,
-                    color: p.properties.color || '#f28c28'
+                    color: p.properties.color || '#f28c28',
+                    labelMinZoom: labelMinZoom(featureLengthKm(p))
                 },
                 geometry: { type: 'Point', coordinates: c }
             };
@@ -288,7 +321,7 @@ function initializeMap(token) {
             id: 'project-labels',
             type: 'symbol',
             source: 'project-labels',
-            minzoom: 5,
+            minzoom: 3.2,
             layout: {
                 'text-field': ['get', 'name'],
                 'text-font': ['DIN Pro Medium', 'Arial Unicode MS Regular'],
@@ -307,7 +340,15 @@ function initializeMap(token) {
             paint: {
                 'text-color': '#111111',
                 'text-halo-color': '#ffffff',
-                'text-halo-width': 1.4
+                'text-halo-width': 1.4,
+                'text-opacity': [
+                    'step', ['zoom'],
+                    0,
+                    3.2, ['case', ['<=', ['get', 'labelMinZoom'], 3.2], 1, 0],
+                    4, ['case', ['<=', ['get', 'labelMinZoom'], 4], 1, 0],
+                    4.8, ['case', ['<=', ['get', 'labelMinZoom'], 4.8], 1, 0],
+                    5.6, 1
+                ]
             }
         });
 
