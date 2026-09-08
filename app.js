@@ -11,6 +11,8 @@ const projectLink = document.getElementById('project-link');
 const closeDetailBtn = document.getElementById('close-detail');
 const clearSelectionBtn = document.getElementById('clear-selection');
 const statusChips = document.getElementById('status-chips');
+const searchToggle = document.getElementById('search-toggle');
+const searchContainer = document.querySelector('.masthead-search');
 const projectSearch = document.getElementById('project-search');
 const loadingBanner = document.getElementById('loading');
 const hoverCard = document.getElementById('hover-card');
@@ -640,6 +642,23 @@ function flyToProject(project) {
 projectSearch.addEventListener('input', () => {
     searchQuery = projectSearch.value;
     applyFilters({ fit: false });
+});
+
+function setSearchOpen(isOpen) {
+    searchContainer.classList.toggle('is-open', isOpen);
+    searchToggle.setAttribute('aria-expanded', String(isOpen));
+    if (isOpen) projectSearch.focus();
+}
+
+searchToggle.addEventListener('click', () => {
+    setSearchOpen(searchToggle.getAttribute('aria-expanded') !== 'true');
+});
+
+projectSearch.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+        setSearchOpen(false);
+        searchToggle.focus();
+    }
 });
 
 closeDetailBtn.addEventListener('click', closeDetail);

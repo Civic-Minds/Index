@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **Mobile search**: Collapsed the project search into a compact button so the map header has more room on small screens.
 - **Map credits**: Restyled the Mapbox and OpenStreetMap attribution so required map credits fit the Index interface cleanly.
 - **Loading resilience**: Failed project-data requests now show a clear load error instead of attempting to parse an error response.
 - **Status filters**: Added a Design status so every published project appears in a lifecycle filter.

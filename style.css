@@ -157,6 +157,10 @@ html {
     max-width: 280px;
 }
 
+.search-toggle {
+    display: none;
+}
+
 #project-search {
     width: 100%;
     box-sizing: border-box;
@@ -655,13 +659,49 @@ html {
     }
 
     .masthead-tools {
+        position: relative;
         gap: 8px;
     }
 
     .masthead-search {
-        flex: 1 1 auto;
+        display: none;
+        position: absolute;
+        top: calc(100% + 8px);
+        right: 0;
+        width: min(250px, calc(100vw - 24px));
         max-width: none;
         min-width: 0;
+        z-index: 1;
+    }
+
+    .masthead-search.is-open {
+        display: block;
+    }
+
+    .search-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        padding: 0;
+        border: 1px solid #000;
+        background: #fff;
+        color: #000;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1.1rem;
+        line-height: 1;
+        cursor: pointer;
+    }
+
+    .search-toggle:hover,
+    .search-toggle:focus {
+        background: var(--st-gray);
+    }
+
+    .search-toggle:focus-visible {
+        outline: 2px solid #000;
+        outline-offset: 2px;
     }
 
     .hud {
