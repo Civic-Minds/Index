@@ -206,7 +206,8 @@ function initializeMap(token) {
         style: 'mapbox://styles/mapbox/light-v11',
         center: OVERVIEW.center,
         zoom: OVERVIEW.zoom,
-        attributionControl: false
+        attributionControl: false,
+        logoPosition: 'bottom-right'
     });
 
     map.addControl(new mapboxgl.AttributionControl({ compact: false }), 'bottom-right');

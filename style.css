@@ -61,6 +61,9 @@ html {
 }
 
 .mapboxgl-ctrl-bottom-right {
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
     right: 12px;
     bottom: 12px;
 }
@@ -152,13 +155,40 @@ html {
 }
 
 .masthead-search {
+    display: none;
     flex: 0 1 240px;
     min-width: 120px;
     max-width: 280px;
 }
 
+.masthead-search.is-open {
+    display: block;
+}
+
 .search-toggle {
-    display: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.1rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.search-toggle:hover,
+.search-toggle:focus {
+    background: var(--st-gray);
+}
+
+.search-toggle:focus-visible {
+    outline: 2px solid #000;
+    outline-offset: 2px;
 }
 
 #project-search {
@@ -698,7 +728,6 @@ html {
     }
 
     .masthead-search {
-        display: none;
         position: absolute;
         top: calc(100% + 8px);
         right: 0;
@@ -713,29 +742,7 @@ html {
     }
 
     .search-toggle {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 32px;
-        height: 32px;
-        padding: 0;
-        border: 1px solid #000;
-        background: #fff;
-        color: #000;
-        font-family: 'IBM Plex Mono', monospace;
-        font-size: 1.1rem;
-        line-height: 1;
-        cursor: pointer;
-    }
-
-    .search-toggle:hover,
-    .search-toggle:focus {
-        background: var(--st-gray);
-    }
-
-    .search-toggle:focus-visible {
-        outline: 2px solid #000;
-        outline-offset: 2px;
+        flex: 0 0 auto;
     }
 
     .hud {
