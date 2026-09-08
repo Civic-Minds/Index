@@ -598,6 +598,40 @@ html {
     font-weight: 800;
 }
 
+.project-sources {
+    padding-top: 2px;
+    border-top: 1px solid #ddd;
+}
+
+.project-sources-list {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin: 0;
+    padding-left: 18px;
+}
+
+.project-sources-list li {
+    padding-left: 2px;
+    font-size: 0.75rem;
+    line-height: 1.35;
+}
+
+.project-sources-list a {
+    color: #000;
+    overflow-wrap: anywhere;
+}
+
+.project-source-meta {
+    display: block;
+    margin-top: 2px;
+    color: var(--st-text-muted);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.52rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
 .button-group {
     display: flex;
     flex-direction: column;

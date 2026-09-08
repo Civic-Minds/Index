@@ -19,6 +19,15 @@
           "Phased construction supports two-way, all-day Kitchener service"
         ],
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/kitchener-line-go-expansion/what-were-building/kitchener-extension",
+        "sources": [
+          {
+            "url": "https://www.metrolinx.com/en/projects-and-programs/kitchener-line-go-expansion/what-were-building/kitchener-extension",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -91,6 +100,15 @@
           "Current service and station records reviewed"
         ],
         "source_url": "https://www.gotransit.com/en/see-schedules/pdf-schedules",
+        "sources": [
+          {
+            "url": "https://www.gotransit.com/en/see-schedules/pdf-schedules",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -143,6 +161,15 @@
           "Future service enhancements remain part of Niagara Extension planning"
         ],
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/lakeshore-west-line-go-expansion/what-were-building/niagara-extension",
+        "sources": [
+          {
+            "url": "https://www.metrolinx.com/en/projects-and-programs/lakeshore-west-line-go-expansion/what-were-building/niagara-extension",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -183,6 +210,15 @@
           "Supports two-way, all-day Barrie Line service"
         ],
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/barrie-line-go-expansion/resources/barrie-rail-corridor-expansion-tpap",
+        "sources": [
+          {
+            "url": "https://www.metrolinx.com/en/projects-and-programs/barrie-line-go-expansion/resources/barrie-rail-corridor-expansion-tpap",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -287,6 +323,15 @@
           "Future service enhancements remain subject to planning"
         ],
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/lakeshore-west-line-go-expansion/what-were-building/niagara-extension",
+        "sources": [
+          {
+            "url": "https://www.metrolinx.com/en/projects-and-programs/lakeshore-west-line-go-expansion/what-were-building/niagara-extension",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -355,6 +400,15 @@
           "Niagara Extension service now serves the station"
         ],
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/lakeshore-west-line-go-expansion/what-were-building/confederation",
+        "sources": [
+          {
+            "url": "https://www.metrolinx.com/en/projects-and-programs/lakeshore-west-line-go-expansion/what-were-building/confederation",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -391,6 +445,15 @@
           "Station locations not yet mapped as point features"
         ],
         "source_url": "https://www.calgary.ca/green-line/about.html",
+        "sources": [
+          {
+            "url": "https://www.calgary.ca/green-line/about.html",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -601,6 +664,15 @@
           "Station locations not yet mapped as point features"
         ],
         "source_url": "https://www.calgary.ca/green-line/faqs-and-resources.html",
+        "sources": [
+          {
+            "url": "https://www.calgary.ca/green-line/faqs-and-resources.html",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -923,6 +995,15 @@
           "18 stations and stops represented"
         ],
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/finch-west-lrt/what-were-building",
+        "sources": [
+          {
+            "url": "https://www.metrolinx.com/en/projects-and-programs/finch-west-lrt/what-were-building",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -1017,6 +1098,15 @@
           "19 stops represented"
         ],
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/hazel-mccallion-lrt",
+        "sources": [
+          {
+            "url": "https://www.metrolinx.com/en/projects-and-programs/hazel-mccallion-lrt",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -1151,6 +1241,15 @@
           "17 stops represented"
         ],
         "source_url": "https://www.hamilton.ca/city-council/plans-strategies/light-rail-transit-lrt/lrt-enabling-works",
+        "sources": [
+          {
+            "url": "https://www.hamilton.ca/city-council/plans-strategies/light-rail-transit-lrt/lrt-enabling-works",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -1353,6 +1452,15 @@
           "15 stations represented"
         ],
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/ontario-line",
+        "sources": [
+          {
+            "url": "https://www.metrolinx.com/en/projects-and-programs/ontario-line",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -1521,6 +1629,15 @@
           "3 new stations represented"
         ],
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/scarborough-subway-extension/what-were-building",
+        "sources": [
+          {
+            "url": "https://www.metrolinx.com/en/projects-and-programs/scarborough-subway-extension/what-were-building",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -1679,6 +1796,15 @@
           "5 new stations represented"
         ],
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/yonge-north-subway-extension/what-were-building",
+        "sources": [
+          {
+            "url": "https://www.metrolinx.com/en/projects-and-programs/yonge-north-subway-extension/what-were-building",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -1806,6 +1932,15 @@
           "Pearson link marked as potential"
         ],
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/eglinton-crosstown-west-extension",
+        "sources": [
+          {
+            "url": "https://www.metrolinx.com/en/projects-and-programs/eglinton-crosstown-west-extension",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -2353,6 +2488,15 @@
           "Station locations not finalized"
         ],
         "source_url": "https://www.regionofwaterloo.ca/programs-and-services/roads-and-transportation/transit-and-transportation/stage-2-ion/",
+        "sources": [
+          {
+            "url": "https://www.regionofwaterloo.ca/programs-and-services/roads-and-transportation/transit-and-transportation/stage-2-ion/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -2628,6 +2772,15 @@
           "49 proposed stops not mapped as point features"
         ],
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/durham-scarborough-brt",
+        "sources": [
+          {
+            "url": "https://www.metrolinx.com/en/projects-and-programs/durham-scarborough-brt",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -2866,6 +3019,15 @@
           "25 stations and stops represented"
         ],
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/line5",
+        "sources": [
+          {
+            "url": "https://www.metrolinx.com/en/projects-and-programs/line5",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -3001,6 +3163,15 @@
           "Station locations not yet mapped"
         ],
         "source_url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+        "sources": [
+          {
+            "url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -3368,6 +3539,15 @@
           "Station locations not yet mapped"
         ],
         "source_url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+        "sources": [
+          {
+            "url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -3435,6 +3615,15 @@
           "Station locations not yet mapped"
         ],
         "source_url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+        "sources": [
+          {
+            "url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -4338,6 +4527,15 @@
           "Station locations not yet mapped"
         ],
         "source_url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+        "sources": [
+          {
+            "url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -4485,6 +4683,15 @@
           "Station locations not yet mapped"
         ],
         "source_url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+        "sources": [
+          {
+            "url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -4632,6 +4839,15 @@
           "Station locations not yet mapped"
         ],
         "source_url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+        "sources": [
+          {
+            "url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -4719,6 +4935,15 @@
           "Station locations not yet mapped"
         ],
         "source_url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+        "sources": [
+          {
+            "url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -5094,6 +5319,15 @@
           "Station locations not yet mapped"
         ],
         "source_url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+        "sources": [
+          {
+            "url": "https://assets.metrolinx.com/raw/upload/v1693928524/Documents/Metrolinx/Open%20Data/September%205%2C%202023%20-%20FRTN/GIS_Data_-_Future_Transit_Network_-_2023-05-12.zip",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -5229,6 +5463,15 @@
           "Station locations not yet mapped"
         ],
         "source_url": "https://www.nfta.com/about/capital-improvement",
+        "sources": [
+          {
+            "url": "https://www.nfta.com/about/capital-improvement",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -5356,6 +5599,15 @@
           "LRT and BRT alternatives under study"
         ],
         "source_url": "https://www.nftametrotransitexpansion.com/about/alternatives.aspx",
+        "sources": [
+          {
+            "url": "https://www.nftametrotransitexpansion.com/about/alternatives.aspx",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -5699,6 +5951,15 @@
           "Downtown-to-Fanshawe corridor represented"
         ],
         "source_url": "https://london.ca/rapidtransit",
+        "sources": [
+          {
+            "url": "https://london.ca/rapidtransit",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -5842,6 +6103,15 @@
           "Downtown-to-Wellington Commons corridor represented"
         ],
         "source_url": "https://getinvolved.london.ca/wellingtongateway",
+        "sources": [
+          {
+            "url": "https://getinvolved.london.ca/wellingtongateway",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -5957,6 +6227,15 @@
           "Lines 1 and 3 west extension"
         ],
         "source_url": "https://maps.ottawa.ca/arcgis/rest/services/Rail_Implementation_Office/MapServer/33",
+        "sources": [
+          {
+            "url": "https://maps.ottawa.ca/arcgis/rest/services/Rail_Implementation_Office/MapServer/33",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -6261,6 +6540,15 @@
           "Opening planned for 2026"
         ],
         "source_url": "https://www.octranspo.com/en/o-train-extension/ride/o-train-line-1-east-extension/",
+        "sources": [
+          {
+            "url": "https://www.octranspo.com/en/o-train-extension/ride/o-train-line-1-east-extension/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -6433,6 +6721,15 @@
           "Station locations represented from City of Ottawa Stage 2 open data"
         ],
         "source_url": "https://www.octranspo.com/en/o-train-extension",
+        "sources": [
+          {
+            "url": "https://www.octranspo.com/en/o-train-extension",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -6521,6 +6818,15 @@
           "Opened July 2023"
         ],
         "source_url": "https://rem.info/en/travelling/stations",
+        "sources": [
+          {
+            "url": "https://rem.info/en/travelling/stations",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -6569,6 +6875,15 @@
           "Opened November 2025"
         ],
         "source_url": "https://rem.info/en/travelling/stations",
+        "sources": [
+          {
+            "url": "https://rem.info/en/travelling/stations",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -6657,6 +6972,15 @@
           "Opened May 2026"
         ],
         "source_url": "https://rem.info/en/travelling/stations",
+        "sources": [
+          {
+            "url": "https://rem.info/en/travelling/stations",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -6705,6 +7029,15 @@
           "Not yet in passenger service"
         ],
         "source_url": "https://rem.info/en/travelling/stations",
+        "sources": [
+          {
+            "url": "https://rem.info/en/travelling/stations",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -6744,6 +7077,15 @@
           "Saint-Michel-to-Anjou corridor represented"
         ],
         "source_url": "https://www.artm.quebec/grands-projets/projets-dinfrastructure/prolongement-de-la-ligne-bleue-du-metro/",
+        "sources": [
+          {
+            "url": "https://www.artm.quebec/grands-projets/projets-dinfrastructure/prolongement-de-la-ligne-bleue-du-metro/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -6795,6 +7137,15 @@
           "29 planned stations"
         ],
         "source_url": "https://www.ville.quebec.qc.ca/citoyens/mobilite/transport-collectif/tramcite.aspx",
+        "sources": [
+          {
+            "url": "https://www.ville.quebec.qc.ca/citoyens/mobilite/transport-collectif/tramcite.aspx",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -7194,6 +7545,15 @@
           "Six underground stations represented"
         ],
         "source_url": "https://www.broadwaysubway.ca/about/stations/",
+        "sources": [
+          {
+            "url": "https://www.broadwaysubway.ca/about/stations/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -7250,6 +7610,15 @@
           "Anticipated in-service late 2029"
         ],
         "source_url": "https://surreylangleyskytrain.gov.bc.ca/",
+        "sources": [
+          {
+            "url": "https://surreylangleyskytrain.gov.bc.ca/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -7314,6 +7683,15 @@
           "Opening targeted for winter 2027"
         ],
         "source_url": "https://www.purplelinemd.com/overview",
+        "sources": [
+          {
+            "url": "https://www.purplelinemd.com/overview",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -7426,6 +7804,15 @@
           "Construction complete targeted for 2028, then commissioning"
         ],
         "source_url": "https://www.edmonton.ca/projects_plans/transit/valley-line-west",
+        "sources": [
+          {
+            "url": "https://www.edmonton.ca/projects_plans/transit/valley-line-west",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -7714,6 +8101,15 @@
           "Phase 1 under construction"
         ],
         "source_url": "https://www.edmonton.ca/projects_plans/transit/capital-line-south",
+        "sources": [
+          {
+            "url": "https://www.edmonton.ca/projects_plans/transit/capital-line-south",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -7754,6 +8150,15 @@
           "Opened December 2025"
         ],
         "source_url": "https://www.soundtransit.org/system-expansion/federal-way-link-extension",
+        "sources": [
+          {
+            "url": "https://www.soundtransit.org/system-expansion/federal-way-link-extension",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -7798,6 +8203,15 @@
           "Opened August 2024"
         ],
         "source_url": "https://www.soundtransit.org/system-expansion/lynnwood-link-extension",
+        "sources": [
+          {
+            "url": "https://www.soundtransit.org/system-expansion/lynnwood-link-extension",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -7846,6 +8260,15 @@
           "Cross-lake 2 Line in passenger service"
         ],
         "source_url": "https://www.soundtransit.org/system-expansion/east-link-extension",
+        "sources": [
+          {
+            "url": "https://www.soundtransit.org/system-expansion/east-link-extension",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -7926,6 +8349,15 @@
           "Final design / early site work; Avalon removed in ST3 update"
         ],
         "source_url": "https://www.soundtransit.org/system-expansion/west-seattle-link-extension",
+        "sources": [
+          {
+            "url": "https://www.soundtransit.org/system-expansion/west-seattle-link-extension",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -7982,6 +8414,15 @@
           "Opened May 2026"
         ],
         "source_url": "https://www.metro.net/projects/westside/",
+        "sources": [
+          {
+            "url": "https://www.metro.net/projects/westside/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8026,6 +8467,15 @@
           "Under construction west of Section 1"
         ],
         "source_url": "https://www.metro.net/projects/westside/",
+        "sources": [
+          {
+            "url": "https://www.metro.net/projects/westside/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8066,6 +8516,15 @@
           "Under construction as the final planned section"
         ],
         "source_url": "https://www.metro.net/projects/westside/",
+        "sources": [
+          {
+            "url": "https://www.metro.net/projects/westside/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8106,6 +8565,15 @@
           "Opened September 2025"
         ],
         "source_url": "https://foothillgoldline.org/construction_phases/glendora-to-montclair/",
+        "sources": [
+          {
+            "url": "https://foothillgoldline.org/construction_phases/glendora-to-montclair/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8154,6 +8622,15 @@
           "Opening targeted ~2031"
         ],
         "source_url": "https://www.metro.net/projects/east-sfv/",
+        "sources": [
+          {
+            "url": "https://www.metro.net/projects/east-sfv/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8210,6 +8687,15 @@
           "Construction essentially complete; testing toward 2026 opening"
         ],
         "source_url": "https://www.lawa.org/transforminglax/projects/skylink",
+        "sources": [
+          {
+            "url": "https://www.lawa.org/transforminglax/projects/skylink",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8262,6 +8748,15 @@
           "Advanced works / early construction underway; design continuing"
         ],
         "source_url": "https://www.metro.net/projects/southeastgateway/",
+        "sources": [
+          {
+            "url": "https://www.metro.net/projects/southeastgateway/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8322,6 +8817,15 @@
           "Environmental review and project planning continue"
         ],
         "source_url": "https://www.metro.net/projects/sepulvedacorridor/",
+        "sources": [
+          {
+            "url": "https://www.metro.net/projects/sepulvedacorridor/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8374,6 +8878,15 @@
           "Opening planned for 2027"
         ],
         "source_url": "https://metrocouncil.org/Transportation/Projects/Light-Rail-Projects/METRO-Green-Line-Extension.aspx",
+        "sources": [
+          {
+            "url": "https://metrocouncil.org/Transportation/Projects/Light-Rail-Projects/METRO-Green-Line-Extension.aspx",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8470,6 +8983,15 @@
           "Eight stations represented"
         ],
         "source_url": "https://www.valleymetro.org/project/south-central-extension-downtown-hub",
+        "sources": [
+          {
+            "url": "https://www.valleymetro.org/project/south-central-extension-downtown-hub",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8525,6 +9047,15 @@
         "description": "The planned extension would continue from Marina Heights and Rio Salado Parkway through Tempe and Mesa along Dobson Road to Main Street. The project has federal RAISE funding for design and environmental work.",
         "color": "#ea580c",
         "source_url": "https://redestreetcar.com/archive.html",
+        "sources": [
+          {
+            "url": "https://redestreetcar.com/archive.html",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Study corridor; stop locations and final alignment remain under evaluation.",
         "region": "North America",
         "published": true
@@ -8573,6 +9104,15 @@
           "Opened October 2025"
         ],
         "source_url": "https://www.dart.org/guide/transit-and-use/rail/rail-line-details/silver-line",
+        "sources": [
+          {
+            "url": "https://www.dart.org/guide/transit-and-use/rail/rail-line-details/silver-line",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8641,6 +9181,15 @@
           "Construction through ~2030"
         ],
         "source_url": "https://www.transitchicago.com/rle/",
+        "sources": [
+          {
+            "url": "https://www.transitchicago.com/rle/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8689,6 +9238,15 @@
           "Opened March 2025"
         ],
         "source_url": "https://www.mass.gov/south-coast-rail",
+        "sources": [
+          {
+            "url": "https://www.mass.gov/south-coast-rail",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8773,6 +9331,15 @@
           "Opened March 2025"
         ],
         "source_url": "https://www.mass.gov/south-coast-rail",
+        "sources": [
+          {
+            "url": "https://www.mass.gov/south-coast-rail",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8813,6 +9380,15 @@
           "Under construction"
         ],
         "source_url": "https://new.mta.info/project/second-avenue-subway",
+        "sources": [
+          {
+            "url": "https://new.mta.info/project/second-avenue-subway",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8857,6 +9433,15 @@
           "Under construction toward late-2020s service"
         ],
         "source_url": "https://new.mta.info/project/penn-station-access",
+        "sources": [
+          {
+            "url": "https://new.mta.info/project/penn-station-access",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8901,6 +9486,15 @@
           "Seven of ten construction packages in progress or completed"
         ],
         "source_url": "https://www.gatewayprogram.org/",
+        "sources": [
+          {
+            "url": "https://www.gatewayprogram.org/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -8965,6 +9559,15 @@
           "Design and engineering phase active (draft EIS expected fall 2026)"
         ],
         "source_url": "https://www.mta.info/project/interborough-express",
+        "sources": [
+          {
+            "url": "https://www.mta.info/project/interborough-express",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -9045,6 +9648,15 @@
           "Planning and engineering phase"
         ],
         "source_url": "https://www.vta.org/projects/bart-sv/phase-ii",
+        "sources": [
+          {
+            "url": "https://www.vta.org/projects/bart-sv/phase-ii",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -9093,6 +9705,15 @@
           "Opened March 2026"
         ],
         "source_url": "https://www.mysouthshoreline.com/about/projects/west-lake-corridor/",
+        "sources": [
+          {
+            "url": "https://www.mysouthshoreline.com/about/projects/west-lake-corridor/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -9141,6 +9762,15 @@
           "Opened October 2025"
         ],
         "source_url": "https://kcstreetcar.org/",
+        "sources": [
+          {
+            "url": "https://kcstreetcar.org/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -9193,6 +9823,15 @@
           "Opened May 2026"
         ],
         "source_url": "https://kcstreetcar.org/",
+        "sources": [
+          {
+            "url": "https://kcstreetcar.org/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -9233,6 +9872,15 @@
           "Phase One opened April 2026"
         ],
         "source_url": "https://itsmarta.com/summerhill.aspx",
+        "sources": [
+          {
+            "url": "https://itsmarta.com/summerhill.aspx",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -9285,6 +9933,15 @@
           "LPA approved; design-build and funding advancing"
         ],
         "source_url": "https://www.atptx.org/light-rail/",
+        "sources": [
+          {
+            "url": "https://www.atptx.org/light-rail/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -9379,6 +10036,15 @@
           "Opened April 2026"
         ],
         "source_url": "https://www.rideuta.com/Current-Projects/Midvalley-Express",
+        "sources": [
+          {
+            "url": "https://www.rideuta.com/Current-Projects/Midvalley-Express",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -9435,6 +10101,15 @@
           "Construction progressing toward fall 2026 completion"
         ],
         "source_url": "https://www.rtcsnv.com/maryland-parkway/",
+        "sources": [
+          {
+            "url": "https://www.rtcsnv.com/maryland-parkway/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -9503,6 +10178,15 @@
           "Passenger service scheduled for 2031"
         ],
         "source_url": "https://honolulutransit.org/construction/",
+        "sources": [
+          {
+            "url": "https://honolulutransit.org/construction/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "region": "North America",
         "geometry_note": "Carried forward from the legacy Index dataset; corridor geometry is schematic.",
         "published": true
@@ -9551,6 +10235,15 @@
         "color": "#2563eb",
         "federal_stage": "CCPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate existing Red Line corridor; this record does not imply a new station alignment.",
         "region": "North America",
         "published": true
@@ -9583,6 +10276,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -9615,6 +10317,15 @@
         "color": "#9333ea",
         "federal_stage": "NSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; final alignment and station geometry require the local project record.",
         "region": "North America",
         "published": true
@@ -9647,6 +10358,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -9679,6 +10399,15 @@
         "color": "#2563eb",
         "federal_stage": "NSE",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate downtown corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -9711,6 +10440,15 @@
         "color": "#ea580c",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -9743,6 +10481,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -9775,6 +10522,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -9807,6 +10563,15 @@
         "color": "#2563eb",
         "federal_stage": "NSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -9839,6 +10604,15 @@
         "color": "#2563eb",
         "federal_stage": "NSE",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -9871,6 +10645,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -9903,6 +10686,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -9935,6 +10727,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -9967,6 +10768,15 @@
         "color": "#16a34a",
         "federal_stage": "CCPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate existing Green Line corridor; this record does not imply a new station alignment.",
         "region": "North America",
         "published": true
@@ -9999,6 +10809,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10031,6 +10850,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10063,6 +10891,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10095,6 +10932,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10127,6 +10973,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10159,6 +11014,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10191,6 +11055,15 @@
         "color": "#ea580c",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10223,6 +11096,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10255,6 +11137,15 @@
         "color": "#0f766e",
         "federal_stage": "NSE",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10287,6 +11178,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10319,6 +11219,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10351,6 +11260,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10383,6 +11301,15 @@
         "color": "#2563eb",
         "federal_stage": "NSE",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Existing FrontRunner corridor shown approximately; this record does not imply a new station alignment.",
         "region": "North America",
         "published": true
@@ -10415,6 +11342,15 @@
         "color": "#0f766e",
         "federal_stage": "NSE",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10447,6 +11383,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10479,6 +11424,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10511,6 +11465,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10543,6 +11506,15 @@
         "color": "#0f766e",
         "federal_stage": "SSPD",
         "source_url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+        "sources": [
+          {
+            "url": "https://www.transit.dot.gov/funding/grant-programs/capital-investments/current-capital-investment-grant-cig-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor; no station geometry added from the federal roster.",
         "region": "North America",
         "published": true
@@ -10574,6 +11546,15 @@
         "description": "A new passenger rail route connecting Mexico City and Pachuca, part of the Mexican government's national passenger-rail program.",
         "color": "#dc2626",
         "source_url": "https://www.gob.mx/sict/prensa/avanza-construccion-de-nuevas-rutas-ferroviarias-para-pasajeros-sict",
+        "sources": [
+          {
+            "url": "https://www.gob.mx/sict/prensa/avanza-construccion-de-nuevas-rutas-ferroviarias-para-pasajeros-sict",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate intercity corridor; station points omitted pending a published authoritative GIS layer.",
         "region": "North America",
         "published": true
@@ -10605,6 +11586,15 @@
         "description": "A new passenger rail route connecting Mexico City and Querétaro, part of the Mexican government's national passenger-rail program.",
         "color": "#dc2626",
         "source_url": "https://www.gob.mx/sict/prensa/proyectos-ferroviarios-de-pasajeros-conectaran-a-mas-de-49-millones-de-personas",
+        "sources": [
+          {
+            "url": "https://www.gob.mx/sict/prensa/proyectos-ferroviarios-de-pasajeros-conectaran-a-mas-de-49-millones-de-personas",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate intercity corridor; station points omitted pending a published authoritative GIS layer.",
         "region": "North America",
         "published": true
@@ -10636,6 +11626,15 @@
         "description": "A new passenger rail route connecting Querétaro and Irapuato, part of Mexico's national passenger-rail program.",
         "color": "#dc2626",
         "source_url": "https://www.gob.mx/sict/prensa/avanzan-en-su-proceso-de-licitacion-y-construccion-trenes-queretaro-irapuato-y-saltillo-nuevo-laredo",
+        "sources": [
+          {
+            "url": "https://www.gob.mx/sict/prensa/avanzan-en-su-proceso-de-licitacion-y-construccion-trenes-queretaro-irapuato-y-saltillo-nuevo-laredo",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate intercity corridor; station points omitted pending a published authoritative GIS layer.",
         "region": "North America",
         "published": true
@@ -10667,6 +11666,15 @@
         "description": "A new passenger rail route connecting Saltillo, Monterrey, and Nuevo Laredo, part of Mexico's national passenger-rail program.",
         "color": "#dc2626",
         "source_url": "https://www.gob.mx/sict/prensa/avanzan-en-su-proceso-de-licitacion-y-construccion-trenes-queretaro-irapuato-y-saltillo-nuevo-laredo",
+        "sources": [
+          {
+            "url": "https://www.gob.mx/sict/prensa/avanzan-en-su-proceso-de-licitacion-y-construccion-trenes-queretaro-irapuato-y-saltillo-nuevo-laredo",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate intercity corridor; station points omitted pending a published authoritative GIS layer.",
         "region": "North America",
         "published": true
@@ -10702,6 +11710,15 @@
         "description": "An extension of Mexico City's suburban rail network connecting Buenavista and Lechería with Felipe Ángeles International Airport.",
         "color": "#dc2626",
         "source_url": "https://www.gob.mx/sict/prensa/otorga-sict-titulo-de-asignacion-del-tren-lecheria-aifa-a-banobras",
+        "sources": [
+          {
+            "url": "https://www.gob.mx/sict/prensa/otorga-sict-titulo-de-asignacion-del-tren-lecheria-aifa-a-banobras",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate branch corridor; station points omitted pending a published authoritative GIS layer.",
         "region": "North America",
         "published": true
@@ -10737,6 +11754,15 @@
         "description": "A planned high-speed passenger rail corridor connecting Toronto, Peterborough, Ottawa, Montréal, Laval, Trois-Rivières, and Québec City.",
         "color": "#1d4ed8",
         "source_url": "https://tc.canada.ca/en/corporate-services/transparency/briefing-documents-transport-canada/2026-dm/transport-canada-structure-portfolio/tc-groups/major-projects",
+        "sources": [
+          {
+            "url": "https://tc.canada.ca/en/corporate-services/transparency/briefing-documents-transport-canada/2026-dm/transport-canada-structure-portfolio/tc-groups/major-projects",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Toronto–Québec City corridor; final alignment and station geometry are not yet fixed.",
         "region": "North America",
         "published": true
@@ -10784,6 +11810,15 @@
         "description": "The Bowmanville Extension adds 18.7 kilometres of track, bridges, signals, and crossing upgrades to bring two-way GO rail service farther into Durham Region.",
         "color": "#2563eb",
         "source_url": "https://www.metrolinx.com/en/projects-and-programs/lakeshore-east-line-go-expansion/what-were-building/bowmanville-extension",
+        "sources": [
+          {
+            "url": "https://www.metrolinx.com/en/projects-and-programs/lakeshore-east-line-go-expansion/what-were-building/bowmanville-extension",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Corridor geometry is approximate; authoritative station points were not added from the project page.",
         "region": "North America",
         "published": true
@@ -10815,6 +11850,15 @@
         "description": "The Ballard Link Extension would connect SODO, downtown Seattle, Interbay, and Ballard through a new downtown light rail tunnel and regional extension.",
         "color": "#7c3aed",
         "source_url": "https://www.soundtransit.org/system-expansion/ballard-link-extension/news-updates",
+        "sources": [
+          {
+            "url": "https://www.soundtransit.org/system-expansion/ballard-link-extension/news-updates",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate preferred-corridor concept; station points were not added from the current project page.",
         "region": "North America",
         "published": true
@@ -10854,6 +11898,15 @@
         "description": "A planned high-capacity transit corridor along Indian School Road serving West Phoenix and the Maryvale area.",
         "color": "#7c3aed",
         "source_url": "https://www.phoenix.gov/newsroom/public-transit-news/capex-light-rail-extension-vote-result.html",
+        "sources": [
+          {
+            "url": "https://www.phoenix.gov/newsroom/public-transit-news/capex-light-rail-extension-vote-result.html",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Planning corridor; mode, alignment, and stations remain subject to project development.",
         "region": "North America",
         "published": true
@@ -10885,6 +11938,15 @@
         "description": "A planned express intercity passenger train connecting Front Range communities from Fort Collins through Denver to Pueblo, using existing rail corridors.",
         "color": "#1d4ed8",
         "source_url": "https://coloradoconnector.com/",
+        "sources": [
+          {
+            "url": "https://coloradoconnector.com/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Front Range corridor; final station and operating details remain in delivery planning.",
         "region": "North America",
         "published": true
@@ -10920,6 +11982,15 @@
         "description": "The first funded segment restores approximately 7.3 miles of passenger rail service in western New Jersey along the Lackawanna Cut-Off.",
         "color": "#2563eb",
         "source_url": "https://www.njtransit.com/capital-projects/stations-and-terminals/lackawanna-cut",
+        "sources": [
+          {
+            "url": "https://www.njtransit.com/capital-projects/stations-and-terminals/lackawanna-cut",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Initial Port Morris–Andover segment shown; the longer Scranton extension is not included because it remains uncommitted.",
         "region": "North America",
         "published": true
@@ -10951,6 +12022,15 @@
         "description": "The project upgrades rail infrastructure and the Christiansburg station to restore passenger service to the New River Valley.",
         "color": "#1d4ed8",
         "source_url": "https://media.amtrak.com/2025/04/governor-glenn-youngkin-breaks-ground-on-new-river-valley-project/",
+        "sources": [
+          {
+            "url": "https://media.amtrak.com/2025/04/governor-glenn-youngkin-breaks-ground-on-new-river-valley-project/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Roanoke–Christiansburg corridor; station points were not added from the project announcement.",
         "region": "North America",
         "published": true
@@ -10989,6 +12069,15 @@
           "Delivery remains subject to funding and approvals"
         ],
         "source_url": "https://tfl.gov.uk/corporate/about-tfl/how-we-work/planning-for-the-future",
+        "sources": [
+          {
+            "url": "https://tfl.gov.uk/corporate/about-tfl/how-we-work/planning-for-the-future",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Waterloo–Lewisham corridor; the future alignment and station geometry remain subject to funding and approvals.",
         "published": true
       },
@@ -11043,6 +12132,15 @@
           "Opening planned for 2027"
         ],
         "source_url": "https://www.grandparisexpress.fr/ligne-15-sud",
+        "sources": [
+          {
+            "url": "https://www.grandparisexpress.fr/ligne-15-sud",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate corridor based on the official station sequence; authoritative station points are not included in this first batch.",
         "published": true
       },
@@ -11133,6 +12231,15 @@
           "16 stations planned"
         ],
         "source_url": "https://roapplication.metrolink.ie/en/",
+        "sources": [
+          {
+            "url": "https://roapplication.metrolink.ie/en/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate route based on the official preferred alignment; station points are not included in this first batch.",
         "published": true
       },
@@ -11211,6 +12318,15 @@
           "Opening planned for 2029"
         ],
         "source_url": "https://www.oslo.kommune.no/english/the-fornebu-line/",
+        "sources": [
+          {
+            "url": "https://www.oslo.kommune.no/english/the-fornebu-line/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Majorstuen–Fornebu corridor; station points are not included in this first batch.",
         "published": true
       },
@@ -11269,6 +12385,15 @@
           "Works scheduled to finish in 2027"
         ],
         "source_url": "https://www.comunidad.madrid/infraestructuras/ampliacion-linea-11",
+        "sources": [
+          {
+            "url": "https://www.comunidad.madrid/infraestructuras/ampliacion-linea-11",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Plaza Elíptica–Conde de Casal corridor; station points are not included in this batch.",
         "published": true
       },
@@ -11323,6 +12448,15 @@
           "Final tram connection remains in project development"
         ],
         "source_url": "https://ajuntament.barcelona.cat/lescorts/ca/noticia/enllestit-el-projecte-de-reurbanitzacio-de-la-segona-fase-de-la-connexio-del-tramvia_1425442",
+        "sources": [
+          {
+            "url": "https://ajuntament.barcelona.cat/lescorts/ca/noticia/enllestit-el-projecte-de-reurbanitzacio-de-la-segona-fase-de-la-connexio-del-tramvia_1425442",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Francesc Macià–Glòries corridor; the final construction alignment and station points are not included in this batch.",
         "published": true
       },
@@ -11377,6 +12511,15 @@
           "Realization planned for 2026–2029"
         ],
         "source_url": "https://bauprojekte.deutschebahn.com/p/siemensbahn-reaktivierung",
+        "sources": [
+          {
+            "url": "https://bauprojekte.deutschebahn.com/p/siemensbahn-reaktivierung",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Jungfernheide–Gartenfeld corridor; the reactivated station and track geometry is represented schematically.",
         "published": true
       },
@@ -11423,6 +12566,15 @@
           "First phase planned to open in 2036"
         ],
         "source_url": "https://metroselskabet.dk/da/projekter-og-udvikling/igangvaerende-projekter/m5/",
+        "sources": [
+          {
+            "url": "https://metroselskabet.dk/da/projekter-og-udvikling/igangvaerende-projekter/m5/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate M5 corridor based on the current station sequence; phase-two alignment and station forms remain subject to later decisions.",
         "published": true
       },
@@ -11485,6 +12637,15 @@
           "Traffic start planned for 2030"
         ],
         "source_url": "https://nyatunnelbanan.se/nacka-soderort/",
+        "sources": [
+          {
+            "url": "https://nyatunnelbanan.se/nacka-soderort/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate branched corridor based on the official station sequence; station points are not included in this batch.",
         "published": true
       },
@@ -11559,6 +12720,15 @@
           "Clodio–Mazzini and Farnesina extensions in development"
         ],
         "source_url": "https://metrocspa.it/2026/02/18/metro-c-al-via-i-lavori-per-il-prolungamento-della-linea/",
+        "sources": [
+          {
+            "url": "https://metrocspa.it/2026/02/18/metro-c-al-via-i-lavori-per-il-prolungamento-della-linea/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Colosseo–Venezia–Clodio/Farnesina corridor; the future alignment and station geometry remain subject to project development.",
         "published": true
       },
@@ -11609,6 +12779,15 @@
           "Preferred alternative planned for 2026"
         ],
         "source_url": "https://www.amsterdam.nl/projecten/amsterdam-haarlemmermeer/",
+        "sources": [
+          {
+            "url": "https://www.amsterdam.nl/projecten/amsterdam-haarlemmermeer/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Amsterdam Zuid–Schiphol–Hoofddorp study corridor; the mode and final alignment have not been selected.",
         "published": true
       },
@@ -11655,6 +12834,15 @@
           "Eight new stations included in the northern extension"
         ],
         "source_url": "https://www.brussel.be/metro3",
+        "sources": [
+          {
+            "url": "https://www.brussel.be/metro3",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Albert–Bordet corridor; the line combines existing premetro infrastructure with a new tunnel and station works.",
         "published": true
       },
@@ -11705,6 +12893,15 @@
           "Service planned for 2027"
         ],
         "source_url": "https://kaupunkiliikenne.fi/uutisartikkelit/kruunusillat-raitiotien-kayttoonottovaiheen-valmistelut-on-aloitettu/",
+        "sources": [
+          {
+            "url": "https://kaupunkiliikenne.fi/uutisartikkelit/kruunusillat-raitiotien-kayttoonottovaiheen-valmistelut-on-aloitettu/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Hakaniemi–Kalasatama–Korkeasaari–Laajasalo corridor; bridge and station geometry is represented schematically.",
         "published": true
       },
@@ -11751,6 +12948,15 @@
           "Pirkkala and Linnainmaa branches in delivery"
         ],
         "source_url": "https://www.tampereenratikka.fi/pirkkala-linnainmaa-raitiotien-rakentaminen-vauhdissa-kevaan-ja-kesan-aikana/",
+        "sources": [
+          {
+            "url": "https://www.tampereenratikka.fi/pirkkala-linnainmaa-raitiotien-rakentaminen-vauhdissa-kevaan-ja-kesan-aikana/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate branched corridor from central Tampere; the route and stop geometry is schematic and not a survey dataset.",
         "published": true
       },
@@ -11825,6 +13031,15 @@
           "Later U5 and U2 stages rescheduled for 2028 and 2030 starts"
         ],
         "source_url": "https://museum.wienerlinien.at/web/guest/news/update-oeffi-ausbau-u2xu5",
+        "sources": [
+          {
+            "url": "https://museum.wienerlinien.at/web/guest/news/update-oeffi-ausbau-u2xu5",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate branched U2/U5 corridor based on the current staged program; station and tunnel geometry is schematic.",
         "published": true
       },
@@ -11911,6 +13126,15 @@
           "Five-station Pankrác–Nové Dvory service expected in 2032"
         ],
         "source_url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3368-zacala-stavba-dalsiho-useku-metra-d-od-stanice-olbrachtova-na-nove-dvory",
+        "sources": [
+          {
+            "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3368-zacala-stavba-dalsiho-useku-metra-d-od-stanice-olbrachtova-na-nove-dvory",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Pankrác–Nové Dvory–Písnice corridor; the route and station geometry is schematic.",
         "published": true
       },
@@ -11969,6 +13193,15 @@
           "Casa da Música–Santo Ovídio corridor in delivery"
         ],
         "source_url": "https://www.metrodoporto.pt/pages/321",
+        "sources": [
+          {
+            "url": "https://www.metrodoporto.pt/pages/321",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Casa da Música–Santo Ovídio corridor; the bridge, station, and approach geometry is schematic.",
         "published": true
       },
@@ -12023,6 +13256,15 @@
           "Financing structure awaits European Investment Bank approval"
         ],
         "source_url": "https://projetos.metrolisboa.pt/expansao/linha-vermelha/",
+        "sources": [
+          {
+            "url": "https://projetos.metrolisboa.pt/expansao/linha-vermelha/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate São Sebastião–Alcântara corridor; the final construction and station geometry is represented schematically.",
         "published": true
       },
@@ -12073,6 +13315,15 @@
           "Rolling stock and automation packages scheduled in 2026"
         ],
         "source_url": "https://www.metrorex.ro/storage/documents/1768206500PAAS%202026%20vers.%201.pdf",
+        "sources": [
+          {
+            "url": "https://www.metrorex.ro/storage/documents/1768206500PAAS%202026%20vers.%201.pdf",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate 1 Mai–Băneasa–Henri Coandă corridor; station and airport approach geometry is schematic.",
         "published": true
       },
@@ -12135,6 +13386,15 @@
           "Line 3 extended toward Levski neighbourhoods"
         ],
         "source_url": "https://www.metrosofia.com/bg/article/trite-novi-stantsii-na-liniya-3-shte-priemat-patnitsi-oshte-ot-14-avgust-sled-1200-ch",
+        "sources": [
+          {
+            "url": "https://www.metrosofia.com/bg/article/trite-novi-stantsii-na-liniya-3-shte-priemat-patnitsi-oshte-ot-14-avgust-sled-1200-ch",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Hadzhi Dimitar–Levski corridor; station locations and final track geometry are represented schematically.",
         "published": true
       },
@@ -12181,6 +13441,15 @@
           "Tunnel launch sites prepared at Makiš and Karaburma"
         ],
         "source_url": "https://www.beograd.rs/lat/beoinfo-vesti/a115198/Beogradski-metro-ulazi-u-novu-fazu-krtice-krecu-ka-Srbiji.html",
+        "sources": [
+          {
+            "url": "https://www.beograd.rs/lat/beoinfo-vesti/a115198/Beogradski-metro-ulazi-u-novu-fazu-krtice-krecu-ka-Srbiji.html",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate first-line phase corridor and TBM launch segments; final alignment and station geometry are not represented authoritatively here.",
         "published": true
       },
@@ -12247,6 +13516,15 @@
           "Temporary transit changes issued for works"
         ],
         "source_url": "https://gras.ba/izmjena-rezima-saobracaja-od-02-02-2026-do-07-03-2026-izvodjenje-radova-na-izgradnji-tramvajske-pruge-hrasnica-ilidza/",
+        "sources": [
+          {
+            "url": "https://gras.ba/izmjena-rezima-saobracaja-od-02-02-2026-do-07-03-2026-izvodjenje-radova-na-izgradnji-tramvajske-pruge-hrasnica-ilidza/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Ilidža–Hrasnica corridor; the extension’s final track and stop geometry is schematic.",
         "published": true
       },
@@ -12293,6 +13571,15 @@
           "Construction works reported in 2026"
         ],
         "source_url": "https://metro.waw.pl/metro-warszawskie/linia-m2/dziennik-budowy-odcinek-zachodni/marzec-2026/",
+        "sources": [
+          {
+            "url": "https://metro.waw.pl/metro-warszawskie/linia-m2/dziennik-budowy-odcinek-zachodni/marzec-2026/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Bemowo–Lazurowa–Chrzanów–Karolin corridor; station and depot geometry is schematic, and adjacent intermodal works remain separately approved.",
         "published": true
       },
@@ -12339,6 +13626,15 @@
           "Mistrzejowice connection in final delivery phase"
         ],
         "source_url": "https://zdmk.pl/dzialania/budowa-kst-etap-iv-w-modelu-ppp/",
+        "sources": [
+          {
+            "url": "https://zdmk.pl/dzialania/budowa-kst-etap-iv-w-modelu-ppp/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Lema–Meissnera–Mistrzejowice tram corridor; final track, stop, and roadway geometry is schematic.",
         "published": true
       },
@@ -12385,6 +13681,15 @@
           "12.8 km and 15 stations in Section A"
         ],
         "source_url": "https://www.emetro.gr/?p=35799",
+        "sources": [
+          {
+            "url": "https://www.emetro.gr/?p=35799",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Alsos Veikou–Goudi corridor; station and tunnel geometry is schematic.",
         "published": true
       },
@@ -12439,6 +13744,15 @@
           "Passenger service began on 27 August 2026"
         ],
         "source_url": "https://www.emetro.gr/?p=36058",
+        "sources": [
+          {
+            "url": "https://www.emetro.gr/?p=36058",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate 25is Martiou–Mikra corridor; station locations and final track geometry are schematic.",
         "published": true
       },
@@ -12493,6 +13807,15 @@
           "Procurement procedure being re-tendered"
         ],
         "source_url": "https://projetos.metrolisboa.pt/expansao/linha-violeta/",
+        "sources": [
+          {
+            "url": "https://projetos.metrolisboa.pt/expansao/linha-violeta/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Hospital Beatriz Ângelo–Odivelas–Loures corridor; final alignment and station geometry remain subject to procurement.",
         "published": true
       },
@@ -12539,6 +13862,15 @@
           "Central Porto street and shaft works continuing"
         ],
         "source_url": "https://novaslinhas.metrodoporto.pt/linha-rosa/",
+        "sources": [
+          {
+            "url": "https://novaslinhas.metrodoporto.pt/linha-rosa/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Casa da Música–Galiza–São Bento corridor; the underground route and station geometry is schematic.",
         "published": true
       },
@@ -12585,6 +13917,15 @@
           "Construction sites planned for autumn 2026"
         ],
         "source_url": "https://www.comune.torino.it/schede-informative/linea-2-della-metropolitana-torino-un-nuovo-asse-strategico-per-mobilita-urbana",
+        "sources": [
+          {
+            "url": "https://www.comune.torino.it/schede-informative/linea-2-della-metropolitana-torino-un-nuovo-asse-strategico-per-mobilita-urbana",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Rebaudengo–Porta Nuova first-lot corridor; the wider Y-shaped network and final station geometry remain subject to delivery stages.",
         "published": true
       },
@@ -12631,6 +13972,15 @@
           "Opening expected in autumn 2026"
         ],
         "source_url": "https://www.zagreb.hr/en/zamjenici-gradonacelnika-zagreba-obisli-gradiliste/221623",
+        "sources": [
+          {
+            "url": "https://www.zagreb.hr/en/zamjenici-gradonacelnika-zagreba-obisli-gradiliste/221623",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Avenija Dubrovnik–Sarajevska–Ranžirni kolodvor corridor; final track and stop geometry is schematic.",
         "published": true
       },
@@ -12677,6 +14027,15 @@
           "Environmental and social assessment remains in preparation"
         ],
         "source_url": "https://skopje.gov.mk/media/6813/esap-brt-mkd.pdf",
+        "sources": [
+          {
+            "url": "https://skopje.gov.mk/media/6813/esap-brt-mkd.pdf",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate city BRT corridors; final route and stop geometry is not authoritative.",
         "published": true
       },
@@ -12735,6 +14094,15 @@
           "Completion targeted for 2027"
         ],
         "source_url": "https://www.metropolitan.bg/aktualno/slatina-25-07-2025",
+        "sources": [
+          {
+            "url": "https://www.metropolitan.bg/aktualno/slatina-25-07-2025",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Shipka–Geo Milev–Slatina–Tsarigradsko Shose corridor; station and track geometry is schematic.",
         "published": true
       },
@@ -12785,6 +14153,15 @@
           "First passenger service planned for 2026"
         ],
         "source_url": "https://www.grandparisexpress.fr/ligne-18",
+        "sources": [
+          {
+            "url": "https://www.grandparisexpress.fr/ligne-18",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Orly–Massy–Saclay–Versailles corridor; the mixed tunnel and viaduct alignment is schematic.",
         "published": true
       },
@@ -12843,6 +14220,15 @@
           "First passenger service planned for 2027"
         ],
         "source_url": "https://www.grandparisexpress.fr/ligne-16",
+        "sources": [
+          {
+            "url": "https://www.grandparisexpress.fr/ligne-16",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Saint-Denis–Pleyel–Chelles–Noisy–Champs corridor; station and tunnel geometry is schematic.",
         "published": true
       },
@@ -12901,6 +14287,15 @@
           "Full 28 km line now in passenger service"
         ],
         "source_url": "https://www.letbane.dk/nyheder/00688/",
+        "sources": [
+          {
+            "url": "https://www.letbane.dk/nyheder/00688/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Ishøj–Ring 3–Lundtofte corridor; station locations and local street alignment are schematic.",
         "published": true
       },
@@ -12955,6 +14350,15 @@
           "Completion program runs through 2028"
         ],
         "source_url": "https://static-www.comune.napoli.it/wp-content/uploads/2026/01/DELIBERAZIONE-DI-CONSIGLIO-COMUNALE-N.-1-DEL-29-GENNAIO-2026.pdf",
+        "sources": [
+          {
+            "url": "https://static-www.comune.napoli.it/wp-content/uploads/2026/01/DELIBERAZIONE-DI-CONSIGLIO-COMUNALE-N.-1-DEL-29-GENNAIO-2026.pdf",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Centro Direzionale–Poggioreale–Capodichino corridor; underground alignment and station geometry is schematic.",
         "published": true
       },
@@ -13005,6 +14409,15 @@
           "Pasing works progressing in 2026"
         ],
         "source_url": "https://stadt.muenchen.de/news/260210_mobilitaet.html",
+        "sources": [
+          {
+            "url": "https://stadt.muenchen.de/news/260210_mobilitaet.html",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Laimer Platz–Am Knie–Pasing corridor; station and tunnel geometry is schematic.",
         "published": true
       },
@@ -13051,6 +14464,15 @@
           "Construction scheduled for 2026–2029"
         ],
         "source_url": "https://www.gdansk.pl/itd/Gdansk-Poludnie-Wrzeszcz%2Cr%2C9",
+        "sources": [
+          {
+            "url": "https://www.gdansk.pl/itd/Gdansk-Poludnie-Wrzeszcz%2Cr%2C9",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Piecki-Migowo–Wrzeszcz corridor; tunnel, stops, and street integration are schematic pending construction.",
         "published": true
       },
@@ -13097,6 +14519,15 @@
           "Tram delivery targeted for 2029"
         ],
         "source_url": "https://www.wroclaw.pl/dla-mieszkanca/tramwaj-na-jagodno-tory-kolejowe-przecinajace-bardzka-ida-do-gory",
+        "sources": [
+          {
+            "url": "https://www.wroclaw.pl/dla-mieszkanca/tramwaj-na-jagodno-tory-kolejowe-przecinajace-bardzka-ida-do-gory",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Gaj–Bardzka–Jagodno corridor; final tram track and stop geometry remains in design.",
         "published": true
       },
@@ -13143,6 +14574,15 @@
           "Passenger service planned for 2028"
         ],
         "source_url": "https://projetsmetro.tisseo.fr/presentation-du-projet",
+        "sources": [
+          {
+            "url": "https://projetsmetro.tisseo.fr/presentation-du-projet",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Colomiers–Toulouse–Labège corridor; station and tunnel geometry is schematic.",
         "published": true
       },
@@ -13193,6 +14633,15 @@
           "Planning proposal targeted for autumn 2026"
         ],
         "source_url": "https://www.bergen.kommune.no/omkommunen/arealplaner/offentlige-planer-under-arbeid/bybanens-reguleringsplaner",
+        "sources": [
+          {
+            "url": "https://www.bergen.kommune.no/omkommunen/arealplaner/offentlige-planer-under-arbeid/bybanens-reguleringsplaner",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Bergen–Sandviken–Åsane corridor; the central tunnel and station alignment remains subject to regulatory planning.",
         "published": true
       },
@@ -13243,6 +14692,15 @@
           "Latvian mainline construction active south of Riga"
         ],
         "source_url": "https://www.railbaltica.org/lv/jaunumi/new-riga-central-station-transits-to-power-on-mode/",
+        "sources": [
+          {
+            "url": "https://www.railbaltica.org/lv/jaunumi/new-riga-central-station-transits-to-power-on-mode/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Riga Central Station–airport/southern node corridor; the full Rail Baltica alignment and station works are represented schematically.",
         "published": true
       },
@@ -13289,6 +14747,15 @@
           "11 stations planned for 2031 service"
         ],
         "source_url": "https://www.grandparisexpress.fr/ligne-15-ouest",
+        "sources": [
+          {
+            "url": "https://www.grandparisexpress.fr/ligne-15-ouest",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Pont de Sèvres–La Défense–Saint-Denis–Pleyel corridor; the tunnel and station geometry is schematic.",
         "published": true
       },
@@ -13343,6 +14810,15 @@
           "First section planned to open in 2027"
         ],
         "source_url": "https://www.grandparisexpress.fr/ligne-17",
+        "sources": [
+          {
+            "url": "https://www.grandparisexpress.fr/ligne-17",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Saint-Denis–Le Bourget–Parc des Expositions–airport corridor; the mixed underground and elevated alignment is schematic.",
         "published": true
       },
@@ -13397,6 +14873,15 @@
           "Vénissieux and Saint-Fons works continue"
         ],
         "source_url": "https://mairie7.lyon.fr/actualite/cadre-de-vie/infos-travaux",
+        "sources": [
+          {
+            "url": "https://mairie7.lyon.fr/actualite/cadre-de-vie/infos-travaux",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Vénissieux–Saint-Fons–Gerland corridor; final track and stop geometry is schematic.",
         "published": true
       },
@@ -13447,6 +14932,15 @@
           "Works coordinated with Line C and active in 2026"
         ],
         "source_url": "https://projetsmetro.tisseo.fr/le-projet-ligne-b",
+        "sources": [
+          {
+            "url": "https://projetsmetro.tisseo.fr/le-projet-ligne-b",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Ramonville–Parc du Canal–Labège corridor; final alignment and station geometry is schematic.",
         "published": true
       },
@@ -13493,6 +14987,15 @@
           "Further sections in design and approval planning"
         ],
         "source_url": "https://www.hochbahn.de/de/presse/pressemitteilungen/u5-entscheidende-bauphase-an-der-sengelmannstrasse--119190",
+        "sources": [
+          {
+            "url": "https://www.hochbahn.de/de/presse/pressemitteilungen/u5-entscheidende-bauphase-an-der-sengelmannstrasse--119190",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Bramfeld–City Nord–central Hamburg–western arenas corridor; final station and tunnel geometry is schematic.",
         "published": true
       },
@@ -13547,6 +15050,15 @@
           "Operation targeted for 2029"
         ],
         "source_url": "https://www.stadt-koeln.de/politik-und-verwaltung/presseservice/nord-sued-stadtbahn-arbeiten-auf-der-bonner-strasse-schreiten-voran",
+        "sources": [
+          {
+            "url": "https://www.stadt-koeln.de/politik-und-verwaltung/presseservice/nord-sued-stadtbahn-arbeiten-auf-der-bonner-strasse-schreiten-voran",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Innenstadt–Bayenthal–Marienburg corridor; construction-stage track and stop geometry is schematic.",
         "published": true
       },
@@ -13597,6 +15109,15 @@
           "Europaviertel connected beyond the main station"
         ],
         "source_url": "https://frankfurt.de/aktuelle-meldung/Meldungen/Verlaengerung-U5-ins-Europaviertel/",
+        "sources": [
+          {
+            "url": "https://frankfurt.de/aktuelle-meldung/Meldungen/Verlaengerung-U5-ins-Europaviertel/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Hauptbahnhof–Europaviertel corridor; underground alignment and station geometry is schematic.",
         "published": true
       },
@@ -13643,6 +15164,15 @@
           "International construction tender prepared"
         ],
         "source_url": "https://www.comune.milano.it/en/w/opere-pubbliche.-m5-approvato-il-nuovo-quadro-economico-per-il-prolungamento-a-monza",
+        "sources": [
+          {
+            "url": "https://www.comune.milano.it/en/w/opere-pubbliche.-m5-approvato-il-nuovo-quadro-economico-per-il-prolungamento-a-monza",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Bignami–Cinisello–Monza corridor; final alignment and station geometry remain subject to procurement.",
         "published": true
       },
@@ -13697,6 +15227,15 @@
           "Paullese corridor selected for further development"
         ],
         "source_url": "https://www.comune.milano.it/w/mobilit%C3%A0.-approvato-il-pfte-per-il-prolungamento-della-m3-verso-paullo",
+        "sources": [
+          {
+            "url": "https://www.comune.milano.it/w/mobilit%C3%A0.-approvato-il-pfte-per-il-prolungamento-della-m3-verso-paullo",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate San Donato–Paullese–Paullo corridor; mode, alignment, and station geometry remain subject to further design.",
         "published": true
       },
@@ -13747,6 +15286,15 @@
           "Commissioning follows the construction phase"
         ],
         "source_url": "https://www.comune.bologna.it/novita/comunicati-stampa/tram-linea-rossa-rimosse-le-reti-di-cantiere-saffi-e-emilia-ponente",
+        "sources": [
+          {
+            "url": "https://www.comune.bologna.it/novita/comunicati-stampa/tram-linea-rossa-rimosse-le-reti-di-cantiere-saffi-e-emilia-ponente",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Borgo Panigale–city centre–San Donato/Fiera corridor; final track and stop geometry is schematic.",
         "published": true
       },
@@ -13801,6 +15349,15 @@
           "Line planned as the second connected tram corridor"
         ],
         "source_url": "https://atti9.comune.bologna.it/webpub/wpub_ordtraf.nsf/dettaglio.xsp?action=openDocument&documentId=B8078DF531B8B5BBC1258E050035708A",
+        "sources": [
+          {
+            "url": "https://atti9.comune.bologna.it/webpub/wpub_ordtraf.nsf/dettaglio.xsp?action=openDocument&documentId=B8078DF531B8B5BBC1258E050035708A",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate northern Bologna–Corticella corridor; final route and stop geometry is schematic.",
         "published": true
       },
@@ -13851,6 +15408,15 @@
           "Construction sites and traffic changes active in 2026"
         ],
         "source_url": "https://mobilita.comune.fi.it/tramvia/sistema_tramviario/linea3.2.1.html",
+        "sources": [
+          {
+            "url": "https://mobilita.comune.fi.it/tramvia/sistema_tramviario/linea3.2.1.html",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Piazza della Libertà–Arno–Bagno a Ripoli corridor; final track and stop geometry is schematic.",
         "published": true
       },
@@ -13905,6 +15471,15 @@
           "Executive design and works delivery being arranged"
         ],
         "source_url": "https://mobilita.comune.fi.it/tramvia/sistema_tramviario/sistema.html",
+        "sources": [
+          {
+            "url": "https://mobilita.comune.fi.it/tramvia/sistema_tramviario/sistema.html",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Piazza della Libertà–Rovezzano corridor; final alignment and stop geometry remain subject to detailed design.",
         "published": true
       },
@@ -13955,6 +15530,15 @@
           "Utility crossings and tunnel works active in 2026"
         ],
         "source_url": "https://www.juntadeandalucia.es/organismos/aopja/servicios/actualidad/noticias/detalle/670618.html",
+        "sources": [
+          {
+            "url": "https://www.juntadeandalucia.es/organismos/aopja/servicios/actualidad/noticias/detalle/670618.html",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Pino Montano–San Lázaro–Macarena–Prado corridor; the underground alignment and station geometry is schematic.",
         "published": true
       },
@@ -14005,6 +15589,15 @@
           "2026 program continues construction toward Hospital Civil"
         ],
         "source_url": "https://www.juntadeandalucia.es/organismos/avra/servicios/actualidad/noticias/detalle/623326.html",
+        "sources": [
+          {
+            "url": "https://www.juntadeandalucia.es/organismos/avra/servicios/actualidad/noticias/detalle/623326.html",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Guadalmedina–Hospital Civil corridor; underground alignment and station geometry is schematic.",
         "published": true
       },
@@ -14051,6 +15644,15 @@
           "2026 works focus on completion and commissioning"
         ],
         "source_url": "https://www.juntadeandalucia.es/organismos/avra/servicios/actualidad/noticias/detalle/623326.html",
+        "sources": [
+          {
+            "url": "https://www.juntadeandalucia.es/organismos/avra/servicios/actualidad/noticias/detalle/623326.html",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Granada centre–Armilla–Churriana de la Vega corridor; final track and stop geometry is schematic.",
         "published": true
       },
@@ -14097,6 +15699,15 @@
           "Depot and workshop commissioning included"
         ],
         "source_url": "https://www.juntadeandalucia.es/export/proy_presup2026/presentacion/presentacion-4-11.pdf",
+        "sources": [
+          {
+            "url": "https://www.juntadeandalucia.es/export/proy_presup2026/presentacion/presentacion-4-11.pdf",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Pablo de Olavide–Alcalá de Guadaíra corridor; final track and stop geometry is schematic.",
         "published": true
       },
@@ -14143,6 +15754,15 @@
           "Construction powers and funding not yet authorized"
         ],
         "source_url": "https://tfl.gov.uk/corporate/about-tfl/how-we-work/planning-for-the-future/crossrail-2",
+        "sources": [
+          {
+            "url": "https://tfl.gov.uk/corporate/about-tfl/how-we-work/planning-for-the-future/crossrail-2",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Wimbledon–central London–Tottenham Hale/New Southgate corridor; the safeguarded route remains subject to future revision.",
         "published": true
       },
@@ -14197,6 +15817,15 @@
           "Application planned for early 2027"
         ],
         "source_url": "https://tfl.gov.uk/corporate/about-tfl/how-we-work/planning-for-the-future/dlr-extension",
+        "sources": [
+          {
+            "url": "https://tfl.gov.uk/corporate/about-tfl/how-we-work/planning-for-the-future/dlr-extension",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Gallions Reach–Beckton Riverside–Thamesmead corridor; river crossing and station geometry remain subject to consent.",
         "published": true
       },
@@ -14247,6 +15876,15 @@
           "Part of the program expanding the DART network beyond 150 km"
         ],
         "source_url": "https://www.dartplus.ie/en-ie/projects/dart-west",
+        "sources": [
+          {
+            "url": "https://www.dartplus.ie/en-ie/projects/dart-west",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Dublin city centre–Maynooth/M3 Parkway corridor; track, station, and electrification works are schematic.",
         "published": true
       },
@@ -14297,6 +15935,15 @@
           "Part of the wider DART+ network program"
         ],
         "source_url": "https://www.dartplus.ie/en-ie/projects/dart-south-west",
+        "sources": [
+          {
+            "url": "https://www.dartplus.ie/en-ie/projects/dart-south-west",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Hazelhatch–Celbridge–Dublin corridor; final station, track, and electrification geometry is schematic.",
         "published": true
       },
@@ -14347,6 +15994,15 @@
           "Frequent modern service planned for coastal communities"
         ],
         "source_url": "https://www.dartplus.ie/en-ie/projects/dart-coastal-north",
+        "sources": [
+          {
+            "url": "https://www.dartplus.ie/en-ie/projects/dart-coastal-north",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Dublin–Malahide–Balbriggan–Drogheda corridor; final track and station geometry is schematic.",
         "published": true
       },
@@ -14397,6 +16053,15 @@
           "Cork signalling and communications upgrade included"
         ],
         "source_url": "https://www.transportforireland.ie/news/official-opening-of-new-platform-6-at-kent-station-cork-by-taoiseach-eu-commissioner-and-transport-minister-obrien/",
+        "sources": [
+          {
+            "url": "https://www.transportforireland.ie/news/official-opening-of-new-platform-6-at-kent-station-cork-by-taoiseach-eu-commissioner-and-transport-minister-obrien/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Cork Kent–Glounthaune–Midleton commuter corridor; phase-one rail works are represented schematically.",
         "published": true
       },
@@ -14443,6 +16108,15 @@
           "Public reaction and formal decision process continuing in 2026"
         ],
         "source_url": "https://www.utrecht.nl/wonen-en-leven/verkeer/openbaar-vervoer/investeren-in-bereikbaarheid",
+        "sources": [
+          {
+            "url": "https://www.utrecht.nl/wonen-en-leven/verkeer/openbaar-vervoer/investeren-in-bereikbaarheid",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Utrecht Centraal–Merwedekanaalzone–Westraven/Nieuwegein corridor; mode, route, and stop geometry remain subject to decision.",
         "published": true
       },
@@ -14493,6 +16167,15 @@
           "Passenger service planned for late 2027"
         ],
         "source_url": "https://bystrc.brno.cz/w/prodlouzeni-tt-kamechy-aktualni-informace",
+        "sources": [
+          {
+            "url": "https://bystrc.brno.cz/w/prodlouzeni-tt-kamechy-aktualni-informace",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Bystrc–Ečerova–Kamechy corridor; final track and stop geometry is schematic.",
         "published": true
       },
@@ -14539,6 +16222,15 @@
           "Further western/eastern extensions remain under study"
         ],
         "source_url": "https://www.denhaag.nl/nl/verkeer-en-vervoer/ov-next-openbaar-vervoer-van-de-toekomst/",
+        "sources": [
+          {
+            "url": "https://www.denhaag.nl/nl/verkeer-en-vervoer/ov-next-openbaar-vervoer-van-de-toekomst/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Scheveningen–Den Haag Centraal–Binckhorst–Voorburg corridor; mode and final alignment remain under study.",
         "published": true
       },
@@ -14589,6 +16281,15 @@
           "Electrical and signaling works scheduled in 2026"
         ],
         "source_url": "https://presse.ch.letec.be/metro-5--les-travaux-avancent-a-grands-pas-mise-en-service-prevue-en-2027",
+        "sources": [
+          {
+            "url": "https://presse.ch.letec.be/metro-5--les-travaux-avancent-a-grands-pas-mise-en-service-prevue-en-2027",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Charleroi central network–Gilly–Les Viviers corridor; the reused and extended infrastructure is schematic.",
         "published": true
       },
@@ -14635,6 +16336,15 @@
           "Northern Blécherette connection remains the core objective"
         ],
         "source_url": "https://www.lausanne.ch/apps/actualites/Next/serve.php?id=10116",
+        "sources": [
+          {
+            "url": "https://www.lausanne.ch/apps/actualites/Next/serve.php?id=10116",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Lausanne station–Chauderon–Blécherette corridor; station configuration and final alignment remain under design.",
         "published": true
       },
@@ -14685,6 +16395,15 @@
           "Service planned for 2031"
         ],
         "source_url": "https://www.grandparisexpress.fr/ligne-15-est/gare-drancy-bobigny",
+        "sources": [
+          {
+            "url": "https://www.grandparisexpress.fr/ligne-15-est/gare-drancy-bobigny",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Saint-Denis Pleyel–Drancy–Bobigny–Champigny corridor; the station and tunnel alignment is schematic.",
         "published": true
       },
@@ -14735,6 +16454,15 @@
           "Delivery planned for late 2027"
         ],
         "source_url": "https://metropole.nantes.fr/ma-ville-ma-metropole/les-grands-projets/de-nouvelles-lignes-de-transport-pour-mieux-se-deplacer",
+        "sources": [
+          {
+            "url": "https://metropole.nantes.fr/ma-ville-ma-metropole/les-grands-projets/de-nouvelles-lignes-de-transport-pour-mieux-se-deplacer",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Rezé–Île de Nantes–Nantes–Babinière corridor; new track and stop locations are schematic.",
         "published": true
       },
@@ -14789,6 +16517,15 @@
           "Delivery planned for late 2027"
         ],
         "source_url": "https://metropole.nantes.fr/ma-ville-ma-metropole/les-grands-projets/de-nouvelles-lignes-de-transport-pour-mieux-se-deplacer",
+        "sources": [
+          {
+            "url": "https://metropole.nantes.fr/ma-ville-ma-metropole/les-grands-projets/de-nouvelles-lignes-de-transport-pour-mieux-se-deplacer",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Rezé–Île de Nantes–François Mitterrand corridor; new track and stop locations are schematic.",
         "published": true
       },
@@ -14843,6 +16580,15 @@
           "Service planned for September 2027"
         ],
         "source_url": "https://metropole.nantes.fr/ma-ville-ma-metropole/les-grands-projets/de-nouvelles-lignes-de-transport-pour-mieux-se-deplacer",
+        "sources": [
+          {
+            "url": "https://metropole.nantes.fr/ma-ville-ma-metropole/les-grands-projets/de-nouvelles-lignes-de-transport-pour-mieux-se-deplacer",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Bouguenais–Nantes–Thouaré-sur-Loire corridor; dedicated lanes and stop locations are schematic.",
         "published": true
       },
@@ -14893,6 +16639,15 @@
           "Final systems and finishing works continuing in 2026"
         ],
         "source_url": "https://projetos.metrolisboa.pt/siga-os-trabalhos-das-obras-de-expansao-da-linha-circular/",
+        "sources": [
+          {
+            "url": "https://projetos.metrolisboa.pt/siga-os-trabalhos-das-obras-de-expansao-da-linha-circular/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Rato–Estrela–Santos–Cais do Sodré alignment; tunnel and station geometry is schematic.",
         "published": true
       },
@@ -14943,6 +16698,15 @@
           "Service targeted for 2026"
         ],
         "source_url": "https://www.tcl.fr/se-deplacer/travaux-en-cours-sur-le-reseau-tcl/travaux-prolongement-t6-t9-et-t10",
+        "sources": [
+          {
+            "url": "https://www.tcl.fr/se-deplacer/travaux-en-cours-sur-le-reseau-tcl/travaux-prolongement-t6-t9-et-t10",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate La Soie–Vaulx-en-Velin–Villeurbanne–Charpennes corridor; new track and bridge alignment is schematic.",
         "published": true
       },
@@ -14993,6 +16757,15 @@
           "Passenger service began 14 February 2026"
         ],
         "source_url": "https://www.grandlyon.com/actualite/le-tramway-t6-pousse-jusqua-la-doua",
+        "sources": [
+          {
+            "url": "https://www.grandlyon.com/actualite/le-tramway-t6-pousse-jusqua-la-doua",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Hôpitaux Est–Grandclément–Gratte-Ciel–La Doua corridor; the opened extension is represented schematically.",
         "published": true
       },
@@ -15043,6 +16816,15 @@
           "Seven pairs of accessible stops planned"
         ],
         "source_url": "https://bkk.hu/hirek/2026/07/meg-az-osszel-elkezdodhet-a-budai-fonodo-villamoshalozat-masodik-utemenek-megvalositasa.16941/",
+        "sources": [
+          {
+            "url": "https://bkk.hu/hirek/2026/07/meg-az-osszel-elkezdodhet-a-budai-fonodo-villamoshalozat-masodik-utemenek-megvalositasa.16941/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Szent Gellért tér–Műegyetem rakpart–Kopaszi-gát corridor; final track and stop geometry is schematic.",
         "published": true
       },
@@ -15093,6 +16875,15 @@
           "Public and professional consultation continuing"
         ],
         "source_url": "https://bkk.hu/hirek/2026/05/engedelyezesi-tervek-szakaszaban-a-pesti-fonodo-villamos-ulesezik-a-mobilitasi-temacsoport.16674/",
+        "sources": [
+          {
+            "url": "https://bkk.hu/hirek/2026/05/engedelyezesi-tervek-szakaszaban-a-pesti-fonodo-villamos-ulesezik-a-mobilitasi-temacsoport.16674/",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Lehel tér–Bajcsy-Zsilinszky út–Deák Ferenc tér corridor; route and stop design remain subject to permitting.",
         "published": true
       },
@@ -15143,6 +16934,15 @@
           "Final alignment and delivery remain subject to the project process"
         ],
         "source_url": "https://mairie1-7.marseille.fr/actualites/enquete-publique-sur-le-projet-dextension-du-tramway-catalans",
+        "sources": [
+          {
+            "url": "https://mairie1-7.marseille.fr/actualites/enquete-publique-sur-le-projet-dextension-du-tramway-catalans",
+            "language": "unknown",
+            "supports": [
+              "project"
+            ]
+          }
+        ],
         "geometry_note": "Approximate Rue de Rome–Catalans–Place du 4-Septembre corridor; final alignment and stop locations remain subject to approval.",
         "published": true
       },

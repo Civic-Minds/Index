@@ -7,6 +7,8 @@ const projectTimeline = document.getElementById('project-timeline');
 const projectMeta = document.getElementById('project-meta');
 const projectStationsField = document.getElementById('project-stations-field');
 const projectStationsCount = document.getElementById('project-stations-count');
+const projectSources = document.getElementById('project-sources');
+const projectSourcesList = document.getElementById('project-sources-list');
 const projectLink = document.getElementById('project-link');
 const closeDetailBtn = document.getElementById('close-detail');
 const clearSelectionBtn = document.getElementById('clear-selection');
@@ -96,6 +98,51 @@ function stationCountFor(projectId, projectName) {
     return allStationFeatures.filter(f =>
         f.properties.project_id === projectId || f.properties.project_name === projectName
     ).length;
+}
+
+function projectSourceRecords(props) {
+    if (Array.isArray(props.sources)) return props.sources;
+    if (props.source_url) return [{ url: props.source_url }];
+    return [];
+}
+
+function sourceLabel(source) {
+    if (source.title) return source.title;
+    try {
+        return new URL(source.url).hostname.replace(/^www\./, '');
+    } catch {
+        return source.url;
+    }
+}
+
+function renderProjectSources(props) {
+    projectSourcesList.replaceChildren();
+    projectSourceRecords(props).forEach(source => {
+        if (!source?.url) return;
+
+        const item = document.createElement('li');
+        const link = document.createElement('a');
+        link.href = source.url;
+        link.target = '_blank';
+        link.rel = 'noopener';
+        link.textContent = sourceLabel(source);
+        item.appendChild(link);
+
+        const metadata = [source.publisher, source.language && source.language !== 'unknown' ? source.language.toUpperCase() : ''];
+        if (source.accessed_at) metadata.push(`Checked ${source.accessed_at}`);
+        const supports = Array.isArray(source.supports) ? source.supports.filter(value => value !== 'project') : [];
+        if (supports.length) metadata.push(`Supports ${supports.join(', ')}`);
+        const metadataText = metadata.filter(Boolean).join(' · ');
+        if (metadataText) {
+            const meta = document.createElement('span');
+            meta.className = 'project-source-meta';
+            meta.textContent = metadataText;
+            item.appendChild(meta);
+        }
+
+        projectSourcesList.appendChild(item);
+    });
+    projectSources.hidden = projectSourcesList.children.length === 0;
 }
 
 function buildLabelCollection(projects) {
@@ -593,8 +640,10 @@ function showProjectDetails(props) {
         }
     }
 
-    if (props.source_url) {
-        projectLink.href = props.source_url;
+    renderProjectSources(props);
+    const primarySource = projectSourceRecords(props)[0];
+    if (primarySource?.url) {
+        projectLink.href = primarySource.url;
         projectLink.classList.remove('hidden');
     } else {
         projectLink.classList.add('hidden');
