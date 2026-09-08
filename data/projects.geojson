@@ -12234,9 +12234,38 @@
         "sources": [
           {
             "url": "https://roapplication.metrolink.ie/en/",
-            "language": "unknown",
+            "language": "en",
             "supports": [
-              "project"
+              "project",
+              "status",
+              "timeline"
+            ],
+            "title": "MetroLink Railway Order",
+            "publisher": "Transport Infrastructure Ireland",
+            "accessed_at": "2026-09-08"
+          },
+          {
+            "url": "https://www.metrolink.ie/en/about/metrolink",
+            "title": "About - MetroLink",
+            "publisher": "Transport Infrastructure Ireland",
+            "language": "en",
+            "accessed_at": "2026-09-08",
+            "supports": [
+              "project",
+              "description",
+              "geometry",
+              "stations"
+            ]
+          },
+          {
+            "url": "https://www.metrolink.ie/en/about/faqs",
+            "title": "FAQs - MetroLink",
+            "publisher": "Transport Infrastructure Ireland",
+            "language": "en",
+            "accessed_at": "2026-09-08",
+            "supports": [
+              "description",
+              "stations"
             ]
           }
         ],
@@ -12321,9 +12350,37 @@
         "sources": [
           {
             "url": "https://www.oslo.kommune.no/english/the-fornebu-line/",
-            "language": "unknown",
+            "language": "en",
             "supports": [
-              "project"
+              "project",
+              "description"
+            ],
+            "title": "The Fornebu Line",
+            "publisher": "Oslo kommune",
+            "accessed_at": "2026-09-08"
+          },
+          {
+            "url": "https://www.oslo.kommune.no/slik-bygger-vi-oslo/fornebubanen",
+            "title": "Fornebubanen",
+            "publisher": "Oslo kommune",
+            "language": "no",
+            "accessed_at": "2026-09-08",
+            "supports": [
+              "project",
+              "timeline",
+              "geometry",
+              "stations"
+            ]
+          },
+          {
+            "url": "https://www.oslo.kommune.no/slik-bygger-vi-oslo/kunst/",
+            "title": "Kunst på Fornebubanen",
+            "publisher": "Oslo kommune",
+            "language": "no",
+            "accessed_at": "2026-09-08",
+            "supports": [
+              "description",
+              "stations"
             ]
           }
         ],
@@ -12936,9 +12993,26 @@
         "sources": [
           {
             "url": "https://www.brussel.be/metro3",
-            "language": "unknown",
+            "language": "nl",
             "supports": [
-              "project"
+              "project",
+              "status"
+            ],
+            "title": "Metro 3",
+            "publisher": "Stad Brussel",
+            "accessed_at": "2026-09-08"
+          },
+          {
+            "url": "https://www.stib-mivb.be/voyager/chantiers-et-projets/chantiers-en-cours/ligne-de-metro-3",
+            "title": "Ligne de Métro 3",
+            "publisher": "STIB-MIVB",
+            "language": "fr",
+            "accessed_at": "2026-09-08",
+            "supports": [
+              "project",
+              "status",
+              "geometry",
+              "stations"
             ]
           }
         ],
@@ -13829,9 +13903,37 @@
         "sources": [
           {
             "url": "https://www.emetro.gr/?p=35799",
-            "language": "unknown",
+            "language": "el",
             "supports": [
-              "project"
+              "project",
+              "status",
+              "timeline"
+            ],
+            "title": "ΓΡΑΜΜΗ 4",
+            "publisher": "ΕΛΛΗΝΙΚΟ ΜΕΤΡΟ Α.Ε.",
+            "accessed_at": "2026-09-08"
+          },
+          {
+            "url": "https://www.emetro.gr/?lang=en&p=35304",
+            "title": "“Athena” Tunnel Boring Machine on Metro Line 4 has completed its journey.",
+            "publisher": "Elliniko Metro S.A.",
+            "language": "en",
+            "accessed_at": "2026-09-08",
+            "supports": [
+              "status",
+              "timeline"
+            ]
+          },
+          {
+            "url": "https://www.emetro.gr/?p=2584",
+            "title": "ΜΕΤΡΟ ΑΘΗΝΑΣ – Νέα Γραμμή 4 του Μετρό της Αθήνας τμήμα «Α» Άλσος Βεΐκου – Γουδή",
+            "publisher": "ΕΛΛΗΝΙΚΟ ΜΕΤΡΟ Α.Ε.",
+            "language": "el",
+            "accessed_at": "2026-09-08",
+            "supports": [
+              "project",
+              "geometry",
+              "stations"
             ]
           }
         ],
