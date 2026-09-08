@@ -28,6 +28,7 @@ validateCollection(stations, 'stations.geojson');
 
 const projectIds = new Set();
 const projectNames = new Set();
+const allowedStatuses = new Set(['planning', 'design', 'approved', 'construction', 'opened', 'delayed']);
 for (const [index, feature] of projects.features.entries()) {
     const label = `projects.geojson feature ${index + 1}`;
     if (!['LineString', 'MultiLineString'].includes(feature.geometry?.type)) {
@@ -35,6 +36,9 @@ for (const [index, feature] of projects.features.entries()) {
     }
     for (const property of ['id', 'name', 'region', 'status', 'source_url', 'geometry_note']) {
         requireProperty(feature, property, label);
+    }
+    if (!allowedStatuses.has(feature.properties.status)) {
+        throw new Error(`${label} has unsupported status ${feature.properties.status}`);
     }
     if (typeof feature.properties.published !== 'boolean') {
         throw new Error(`${label} must have boolean properties.published`);

@@ -9,6 +9,7 @@
     --header-height: 80px;
 
     --status-planning: #4CAF50;
+    --status-design: #8b5cf6;
     --status-approved: #2196F3;
     --status-construction: #FF9800;
     --status-opened: #ef3e42;
@@ -441,6 +442,7 @@ html {
 .status-construction.status-badge { border-left-color: var(--status-construction); }
 .status-approved.status-badge { border-left-color: var(--status-approved); }
 .status-planning.status-badge { border-left-color: var(--status-planning); }
+.status-design.status-badge { border-left-color: var(--status-design); }
 .status-delayed.status-badge { border-left-color: var(--status-delayed); }
 
 .status-opened::before,
@@ -451,6 +453,8 @@ html {
 .status-approved-dot { background: var(--status-approved); }
 .status-planning::before,
 .status-planning-dot { background: var(--status-planning); }
+.status-design::before,
+.status-design-dot { background: var(--status-design); }
 .status-delayed::before,
 .status-delayed-dot { background: var(--status-delayed); }
 
@@ -458,6 +462,7 @@ html {
 .hover-card-status.status-construction::before { background: var(--status-construction); }
 .hover-card-status.status-approved::before { background: var(--status-approved); }
 .hover-card-status.status-planning::before { background: var(--status-planning); }
+.hover-card-status.status-design::before { background: var(--status-design); }
 .hover-card-status.status-delayed::before { background: var(--status-delayed); }
 
 .detail-meta {
@@ -655,5 +660,4 @@ html {
         margin: 10px auto 0;
     }
 }
-
 

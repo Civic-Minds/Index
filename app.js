@@ -20,9 +20,10 @@ const mapHint = document.getElementById('map-hint');
 const statTotal = document.getElementById('stat-total');
 
 const PUBLIC_MAPBOX_TOKEN = 'pk.eyJ1Ijoicnlhbmhhbm5hIiwiYSI6ImNtbXk3MTkyYTM5ZHQyb3EzOWZnczV2NWUifQ.1ipGd2Oc07tCfLY7I_Fb1w';
-const STATUS_ORDER = ['planning', 'approved', 'construction', 'opened', 'delayed'];
+const STATUS_ORDER = ['planning', 'design', 'approved', 'construction', 'opened', 'delayed'];
 const STATUS_LABELS = {
     planning: 'Plan',
+    design: 'Design',
     approved: 'Approved',
     construction: 'Build',
     opened: 'Open',
@@ -30,6 +31,7 @@ const STATUS_LABELS = {
 };
 const STATUS_LABELS_FULL = {
     planning: 'Planning',
+    design: 'Design',
     approved: 'Approved',
     construction: 'Construction',
     opened: 'Recently opened',
