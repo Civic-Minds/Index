@@ -54,6 +54,57 @@ html {
     background: var(--frame-bg);
 }
 
+/* Keep map credits visible without letting the vendor controls set the visual tone. */
+.mapboxgl-ctrl-bottom-left {
+    left: 12px;
+    bottom: 12px;
+}
+
+.mapboxgl-ctrl-bottom-right {
+    right: 12px;
+    bottom: 12px;
+}
+
+.mapboxgl-ctrl-bottom-left .mapboxgl-ctrl,
+.mapboxgl-ctrl-bottom-right .mapboxgl-ctrl {
+    margin: 0;
+}
+
+.mapboxgl-ctrl-logo {
+    width: 88px;
+    height: 23px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.94);
+    border: 1px solid #000;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+.mapboxgl-ctrl-attrib {
+    padding: 5px 8px !important;
+    border: 1px solid #000;
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.94) !important;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.12);
+    color: var(--st-text-muted);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.56rem;
+    line-height: 1.2;
+}
+
+.mapboxgl-ctrl-attrib a {
+    color: var(--st-text);
+}
+
+.mapboxgl-ctrl-attrib a:hover,
+.mapboxgl-ctrl-attrib a:focus {
+    color: var(--st-text);
+}
+
+.mapboxgl-ctrl-attrib-button {
+    display: none;
+}
+
 /* Masthead */
 .masthead {
     position: absolute;
@@ -660,4 +711,3 @@ html {
         margin: 10px auto 0;
     }
 }
-

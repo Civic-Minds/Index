@@ -160,6 +160,8 @@ function initializeMap(token) {
         attributionControl: false
     });
 
+    map.addControl(new mapboxgl.AttributionControl({ compact: false }), 'bottom-right');
+
     map.dragRotate.disable();
 
     map.on('load', () => {
