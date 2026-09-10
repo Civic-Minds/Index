@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **Map provider**: Replaced Mapbox with MapLibre and OpenFreeMap so the map no longer carries Mapbox branding while retaining source attribution.
 - **Map labels**: Show labels for longer corridors at wider zoom levels while keeping smaller projects uncluttered until closer in.
 - **Status labels**: Changed the visible `Plan` and `Build` labels to `Planning` and `Construction` for clearer grammar.
 - **Search header**: Collapsed project search behind the same compact toggle on desktop and mobile, leaving more room for the index header.

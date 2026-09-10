@@ -55,12 +55,12 @@ html {
 }
 
 /* Keep map credits visible without letting the vendor controls set the visual tone. */
-.mapboxgl-ctrl-bottom-left {
+.maplibregl-ctrl-bottom-left {
     left: 12px;
     bottom: 12px;
 }
 
-.mapboxgl-ctrl-bottom-right {
+.maplibregl-ctrl-bottom-right {
     display: flex;
     align-items: flex-end;
     gap: 6px;
@@ -68,22 +68,12 @@ html {
     bottom: 12px;
 }
 
-.mapboxgl-ctrl-bottom-left .mapboxgl-ctrl,
-.mapboxgl-ctrl-bottom-right .mapboxgl-ctrl {
+.maplibregl-ctrl-bottom-left .maplibregl-ctrl,
+.maplibregl-ctrl-bottom-right .maplibregl-ctrl {
     margin: 0;
 }
 
-.mapboxgl-ctrl-logo {
-    width: 88px;
-    height: 23px;
-    margin: 0;
-    background-color: rgba(255, 255, 255, 0.94);
-    border: 1px solid #000;
-    box-sizing: border-box;
-    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.12);
-}
-
-.mapboxgl-ctrl-attrib {
+.maplibregl-ctrl-attrib {
     padding: 5px 8px !important;
     border: 1px solid #000;
     border-radius: 0;
@@ -95,16 +85,16 @@ html {
     line-height: 1.2;
 }
 
-.mapboxgl-ctrl-attrib a {
+.maplibregl-ctrl-attrib a {
     color: var(--st-text);
 }
 
-.mapboxgl-ctrl-attrib a:hover,
-.mapboxgl-ctrl-attrib a:focus {
+.maplibregl-ctrl-attrib a:hover,
+.maplibregl-ctrl-attrib a:focus {
     color: var(--st-text);
 }
 
-.mapboxgl-ctrl-attrib-button {
+.maplibregl-ctrl-attrib-button {
     display: none;
 }
 

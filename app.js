@@ -23,7 +23,6 @@ const viewportCards = document.getElementById('viewport-cards');
 const mapHint = document.getElementById('map-hint');
 const statTotal = document.getElementById('stat-total');
 
-const PUBLIC_MAPBOX_TOKEN = 'pk.eyJ1Ijoicnlhbmhhbm5hIiwiYSI6ImNtbXk3MTkyYTM5ZHQyb3EzOWZnczV2NWUifQ.1ipGd2Oc07tCfLY7I_Fb1w';
 const STATUS_ORDER = ['planning', 'design', 'approved', 'construction', 'opened', 'delayed'];
 const STATUS_LABELS = {
     planning: 'Planning',
@@ -198,7 +197,7 @@ function buildLabelCollection(projects) {
     };
 }
 
-initializeMap(PUBLIC_MAPBOX_TOKEN);
+initializeMap();
 
 async function fetchProjects() {
     loadingBanner.classList.remove('hidden');
@@ -231,19 +230,16 @@ async function fetchProjects() {
     }
 }
 
-function initializeMap(token) {
-    mapboxgl.accessToken = token;
-
-    map = new mapboxgl.Map({
+function initializeMap() {
+    map = new maplibregl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/light-v11',
+        style: 'https://tiles.openfreemap.org/styles/positron',
         center: OVERVIEW.center,
         zoom: OVERVIEW.zoom,
-        attributionControl: false,
-        logoPosition: 'bottom-right'
+        attributionControl: false
     });
 
-    map.addControl(new mapboxgl.AttributionControl({ compact: false }), 'bottom-right');
+    map.addControl(new maplibregl.AttributionControl({ compact: false }), 'bottom-right');
 
     map.dragRotate.disable();
 
@@ -501,7 +497,7 @@ function applyFilters({ fit = false } = {}) {
 
 function fitMapToData(data) {
     if (!map || !data?.features?.length) return;
-    const bounds = new mapboxgl.LngLatBounds();
+    const bounds = new maplibregl.LngLatBounds();
     let hasCoords = false;
     data.features.forEach(feature => {
         if (!feature.geometry || feature.properties?.feature_type === 'station') return;
@@ -716,13 +712,13 @@ function closeDetail() {
 function flyToProject(project) {
     if (!map || !project.geometry) return;
     if (project.geometry.type === 'LineString') {
-        const bounds = new mapboxgl.LngLatBounds();
+        const bounds = new maplibregl.LngLatBounds();
         project.geometry.coordinates.forEach(coord => bounds.extend(coord));
         map.fitBounds(bounds, { padding: { top: 100, bottom: 220, left: 40, right: 40 }, maxZoom: 12 });
         return;
     }
     if (project.geometry.type === 'MultiLineString') {
-        const bounds = new mapboxgl.LngLatBounds();
+        const bounds = new maplibregl.LngLatBounds();
         project.geometry.coordinates.forEach(line => line.forEach(coord => bounds.extend(coord)));
         map.fitBounds(bounds, { padding: { top: 100, bottom: 220, left: 40, right: 40 }, maxZoom: 12 });
         return;
