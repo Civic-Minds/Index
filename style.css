@@ -74,16 +74,15 @@ html {
 }
 
 .maplibregl-ctrl-attrib {
-    padding: 8px 14px !important;
+    padding: 5px 8px !important;
     border: 1px solid #000;
     border-radius: 0;
-    background: rgba(255, 255, 255, 0.92) !important;
-    box-shadow: none;
+    background: rgba(255, 255, 255, 0.94) !important;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.12);
     color: var(--st-text-muted);
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.65rem;
-    letter-spacing: 0.04em;
-    line-height: normal;
+    font-size: 0.56rem;
+    line-height: 1.2;
 }
 
 .maplibregl-ctrl-attrib a {
@@ -432,12 +431,13 @@ html {
     transform: translateX(-50%);
     z-index: 510;
     margin: 0;
-    padding: 8px 14px;
-    background: rgba(255, 255, 255, 0.92);
+    padding: 5px 8px;
+    background: rgba(255, 255, 255, 0.94);
     border: 1px solid #000;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.12);
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 0.65rem;
-    letter-spacing: 0.04em;
+    font-size: 0.56rem;
+    line-height: 1.2;
     color: var(--st-text-muted);
     pointer-events: none;
     white-space: nowrap;
