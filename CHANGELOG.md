@@ -13,7 +13,7 @@ All notable changes to this project will be documented in this file.
 - **Source enrichment**: Added additional official English and local-language references for seven European projects so status, geometry, timeline, and station claims can be checked against the records.
 - **Source provenance**: Added auditable project source records with language and claim metadata, and exposed them in project details.
 - **Mobile search**: Collapsed the project search into a compact button so the map header has more room on small screens.
-- **Map credits**: Restyled the Mapbox and OpenStreetMap attribution so required map credits sit together in the Index interface cleanly.
+- **Map credits**: Matched the source credit box to the map hint so the bottom overlays share one visual language.
 - **Loading resilience**: Failed project-data requests now show a clear load error instead of attempting to parse an error response.
 - **Status filters**: Added a Design status so every published project appears in a lifecycle filter.
 - **Data storage**: Consolidated published projects and stations into canonical GeoJSON files and removed the JavaScript name allowlist, so new records are data-only.
