@@ -236,6 +236,7 @@ function initializeMap() {
         style: 'https://tiles.openfreemap.org/styles/positron',
         center: OVERVIEW.center,
         zoom: OVERVIEW.zoom,
+        projection: { type: 'globe' },
         attributionControl: false
     });
 
@@ -256,6 +257,23 @@ function initializeMap() {
         });
 
         map.addLayer({
+            id: 'transit-lines-overview',
+            type: 'line',
+            source: 'transit-projects',
+            maxzoom: 4.2,
+            layout: { 'line-join': 'round', 'line-cap': 'round' },
+            paint: {
+                'line-color': ['coalesce', ['get', 'color'], '#f28c28'],
+                'line-width': [
+                    'interpolate', ['linear'], ['zoom'],
+                    0, 1,
+                    4.2, 2
+                ],
+                'line-opacity': 0.8
+            }
+        });
+
+        map.addLayer({
             id: 'transit-lines-dim',
             type: 'line',
             source: 'transit-projects',
@@ -273,6 +291,7 @@ function initializeMap() {
             id: 'transit-lines',
             type: 'line',
             source: 'transit-projects',
+            minzoom: 4.2,
             layout: { 'line-join': 'round', 'line-cap': 'round' },
             paint: {
                 'line-color': ['coalesce', ['get', 'color'], '#f28c28'],
@@ -524,9 +543,11 @@ function applyMapFilters() {
     // Search already filtered source data; status still applied for safety
     if (activeProjectName) {
         map.setFilter('transit-lines', ['all', statusExpression, ['==', 'name', activeProjectName]]);
+        map.setFilter('transit-lines-overview', ['all', statusExpression, ['==', 'name', activeProjectName]]);
         map.setFilter('transit-lines-dim', ['all', statusExpression, ['!=', 'name', activeProjectName]]);
     } else {
         map.setFilter('transit-lines', statusExpression);
+        map.setFilter('transit-lines-overview', statusExpression);
         map.setFilter('transit-lines-dim', ['==', 'name', '']);
     }
 
