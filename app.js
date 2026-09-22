@@ -233,7 +233,7 @@ async function fetchProjects() {
 function initializeMap() {
     map = new maplibregl.Map({
         container: 'map',
-        style: 'https://tiles.openfreemap.org/styles/positron',
+        style: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
         center: OVERVIEW.center,
         zoom: OVERVIEW.zoom,
         projection: { type: 'globe' },

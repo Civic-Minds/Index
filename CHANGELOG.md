@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Changed
+- **Basemap styling**: Restored the paper-like light map background while keeping the MapLibre setup.
+- **Map loading**: Fixed the library reference so the interactive map renders on localhost and production.
 - **Map overview**: Use thin solid corridor lines at wide zoom levels so the continental view reads cleanly instead of breaking into scattered dashes.
 - **Map overview**: Used a globe projection at wide zoom levels so the continental overview reads more naturally.
 - **Map provider**: Replaced Mapbox with MapLibre and OpenFreeMap so the map no longer carries Mapbox branding while retaining source attribution.

@@ -427,16 +427,16 @@ html {
 .map-hint {
     position: absolute;
     left: 50%;
-    bottom: 12px;
+    bottom: 22px;
     transform: translateX(-50%);
     z-index: 510;
     margin: 0;
     padding: 5px 8px;
-    background: rgba(255, 255, 255, 0.94);
+    background: rgba(255, 255, 255, 0.92);
     border: 1px solid #000;
-    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.12);
     font-family: 'IBM Plex Mono', monospace;
     font-size: 0.56rem;
+    letter-spacing: 0.04em;
     line-height: 1.2;
     color: var(--st-text-muted);
     pointer-events: none;
